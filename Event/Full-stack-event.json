@@ -1,0 +1,123 @@
+{
+  "metaInfo": {
+    "title": "Full stack course Event",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "block chain course, online blockchain course, block chain course with placement",
+    "canonical": "https://skillslash.com/Event/Full-stack-event"
+  },
+  "mainData": {
+    "title": " Learn How to crack interview at FAANG companies?",
+    "eventDate": "Aug 20, 2022",
+    "tag": "Fullstack",
+    "eventStart": "Aug 20,2022 20:00:00",
+    "eventEnd": "Aug 20,2022 22:30:00",
+    "eventTime": "8:00 pm- 10:30 pm",
+    "Duration": "120min",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Crack-interview-at-FAANG-event.tab-header.webp",
+    "register": "976"
+  },
+  "header": {
+    "title": " How to crack interview",
+    "titleSpan": "at FAANG Companies?",
+    "spanStyle": {
+      "background": "transparent"
+    },
+
+    "desc": "For SDEs with 1+ years working Exp",
+    "eventDate": "22nd June 2022",
+    "eventTime": "8:00 pm- 10:30 pm",
+    "desc1": "",
+    "img1Src": "",
+    "redirectZoom": false,
+    "reverseImg": true,
+    "profileImgH": "98",
+    "profileImgW": "400",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "976",
+    "link": "https://us06web.zoom.us/meeting/register/tZcuc--tpz8rGtCgE-W-snLTK3JvOOKSuUcn",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Event_page header_image_2.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Data_science_.webp",
+    "dark": false,
+    "lightNew": false
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "800+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": " This is a technology-powered world, and Full Stack development is nothing short of magic. Getting placed in FAANG companies is  a dream of almost all developers. However, the FAANG companies have a different interview process that's keeping many job  seekers from getting the jobs. But,No worries!",
+    "desc1": " Join Dhaval Dave in his Masterclass on June 11, Saturday, at 8 PM and learn",
+    "strong": "how to crack FAANG Companies’ interviews ",
+    "desc2": "and  become a part of this fast-paced world of IT."
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "Shareable certification",
+    "p3": "Attend the training and get acknowledged certification.",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval_Dave.webp",
+    "desc": "Software Engineer II at Microsoft",
+    "pName": "Dhaval Dave",
+    "link": "https://www.linkedin.com/in/davedhaval87",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
+    "list1": "9+ years of experience in Backend",
+    "list2": "2 Open-source contribution",
+    "list3": " Alumnus of National Institute of Technology Warangal.",
+    "list4": "  Problem Solving, Designing, Optimize solution for performance enhancement.",
+    "list5": "  Research paper selected and Presented in IEEE- ICACCI & TrustCom.",
+    "workAt": "Previously worked at",
+    "cIcon1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Amazon_r.webp",
+    "cIcon2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Flipkart_r.webp",
+    "cIcon3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Oracle_r.webp",
+    "width": "30",
+    "width1": "40",
+    "width3": "30",
+    "height": "30",
+    "height1": "40",
+    "height3": "30"
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": " Know tips and tricks of Full Stack Development",
+    "l2": " Crafting a kick-ass resume based on your skills",
+    "l3": " Career transition to Product based companies",
+    "l4": " The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "metaInfo": {
+    "title": "How to Prepare for MAANG interviews in 9 Months?",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+
+    "canonical": "https://skillslash.com/Event/prepare-for-maang-interview"
+  },
+  "mainData": {
+    "title": "How to Prepare for MAANG interviews in 9 Months?",
+    "eventDate": "November 24, 2022",
+    "eventStart": "November 24, 2022 20:00:00",
+    "eventTime": "08:00 pm- 9:30 pm",
+    "tag": "Fullstack",
+    "eventEnd": "December 2, 2022 21:30:00",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MAANG-interviews-by-abhishek-sharma-24-nov-2022.webp",
+    "Duration": "1.30 Hours",
+    "register": "4189"
+  },
+  "header": {
+    "title": "",
+    "titleSpan": "How to Prepare for",
+    "titleText": "Interviews in 9 Months?",
+    "reverseImg": false,
+    "spanStyle": {
+      "background": "transparent",
+      "display": "flex",
+      "alignItem": "center",
+
+      "color": "#ffffff"
+    },
+    "tag": false,
+    "desc1": "",
+    "desc": "For SDEs with 1+ years working Exp",
+    "eventDate": "24th Nov 2022, Thu",
+    "redirectZoom": false,
+    "eventTime": "8.00 pm - 09.30 pm",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "4189",
+    "img1Src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/eicon-event.svg",
+    "link": "https://us06web.zoom.us/meeting/register/tZwtfu6uqT0uGtT_BLRqe_5bB1vVoPcuq1yi",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/How-to-prepare-for-maang-by-abhishek-sharam-24-nov-2022.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MAANG+interviews+MOBILE_3.png",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/abhishek-sharma-yellow-name.webp",
+    "profileImgH": "181",
+    "profileImgW": "706",
+
+    "dark": true,
+    "lightNew": false
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "4189+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": " This is a technology-powered world, and Full Stack development is nothing short of magic. Getting placed in MAANG companies is  a dream of almost all developers. However, the MAANG companies have a different interview process that's keeping many job  seekers from getting the jobs. But,No worries!",
+    "desc1": " Join  Abhishek Sharma in his Masterclass on 24th Nov, Thursday, at 8 PM and learn",
+    "strong": "How to Prepare for interviews at  MAANG companies ",
+    "desc2": "and  become a part of this fast-paced world of IT."
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Abhishek-sharma.webp",
+    "desc": "Software Engineer at Google",
+    "pName": "Abhishek Sharma",
+    "link": "https://www.linkedin.com/in/abhisheksharma8496/",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/google-logo.webp",
+    "list1": "",
+    "list2": "",
+    "list3": "Alumni of KIIT University, Bhubaneswar",
+    "list4": "  Have 100+ hours of mentorship experience.",
+    "list5": "   Have worked in Google, Mfine, Highradius.",
+    "workAt": "",
+    "cIcon1": "",
+    "cIcon2": "",
+    "cIcon3": "",
+    "width": "",
+    "width1": "",
+    "width3": "",
+    "height": "",
+    "height1": "",
+    "height3": ""
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": " Know tips and tricks of Full Stack Development",
+    "l2": " Crafting a kick-ass resume based on your skills",
+    "l3": " Career transition to Product based companies",
+    "l4": " The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

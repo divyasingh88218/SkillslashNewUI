@@ -1,0 +1,126 @@
+{
+  "metaInfo": {
+    "title": "Create Netflix clone using react Js",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+
+    "canonical": "https://skillslash.com/Event/create-netflix-clone-react-js"
+  },
+  "mainData": {
+    "title": " Learn How to Build Clone Of Netflix Using React.JS",
+    "eventDate": "September 10, 2022",
+    "eventTime": "10:00 am- 1:00 pm",
+    "eventStart": "September 10, 2022 10:00:00",
+    "eventEnd": "September 10, 2022 13:00:00",
+    "tag": "Fullstack",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/create-netflix-clone-header-image-event.webp",
+    "Duration": "6 Hours",
+    "register": "1489"
+  },
+  "header": {
+    "title": "Learn How to Build Clone Of",
+    "titleSpan": "Netflix Using React.JS",
+    "spanStyle": {
+      "background": "#ffffff"
+    },
+    "redirectZoom": false,
+    "desc1": "",
+    "desc": "For SDEs with 1+ years working Exp",
+    "eventDate": "10th & 11th Sep 2022",
+    "eventTime": "10:00 am- 1:00 pm",
+    "reverseImg": true,
+    "img1Src": "",
+    "profileImgH": "98",
+    "profileImgW": "400",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "1489",
+    "link": "https://us06web.zoom.us/meeting/register/tZcuc--tpz8rGtCgE-W-snLTK3JvOOKSuUcn",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/create-netflix-clone-header-image.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/create-netflix-clone-in-react-js-10sept-mobile-header.webp",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/netflix-clone-uday-jain-head-profile.webp",
+    "dark": true,
+    "lightNew": false
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "800+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": "The Web as envisaged, we have not seen it yet. The future is still so much bigger than the past and Full Stack development is the way ahead. Building a Netflix clone using React. JS is a rocky and fun adventure for any web developer. Building user interfaces for applications like Netflix becomes comfortable with React and React.JS adds up to the fancy for completing the page. This makes it a very in demand field to be studied and pursued upon. And here we are!",
+    "desc1": " Join Udai Kiran in his Masterclass on September 10 and 11, Saturday and Sunday respectively, at 10 AM to 1 PM and learn",
+    "strong": "how to Build a Netflix Clone Using React.JS",
+    "desc2": "and stay hyped up as you not only watch the technologies develop but also be a part of it."
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Uday-kiran.webp",
+    "desc": "Software Engineer",
+    "pName": "Uday Kiran",
+    "link": "https://www.linkedin.com/in/udaykiran1420/",
+    "mIcon": "",
+    "list1": "10+ years experience ",
+    "list2": "Full Stack corporate Trainer",
+    "list3": "Full Stack corporate Trainer with 10+ years experience .",
+    "list4": "  Worked on various technologies like Python, JavaScript, Java, Ruby and it's related libraries and frameworks.",
+    "list5": "  Clients Handled: Infosys, Sony, Deloitte, L&T, and many more",
+    "workAt": "Previously worked at",
+    "cIcon1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Deloiett.webp",
+    "cIcon2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/LandT.webp",
+    "cIcon3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/sony.webp",
+    "width": "95.5",
+    "width1": "27.5",
+    "width3": "20",
+    "height": "20",
+    "height1": "20",
+    "height3": "20"
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": "  Learn to build clone of Netflix using React.JS as front-end and Firebase as back-end    ",
+    "l2": " Create Home page, sign-in and sign-up page, browse page and movie player",
+    "l3": " Work on HTML, CSS, JavaScript, and React.JS in a real-time scenario",
+    "l4": " Gain hands-on project experience in React.Js"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

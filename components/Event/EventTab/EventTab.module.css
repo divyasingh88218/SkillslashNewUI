@@ -1,0 +1,271 @@
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listPanel .mPanel {
+  display: none;
+}
+
+.courses {
+  background: #ffffff;
+  width: 100%;
+  margin-top: 30px;
+}
+.listPanel {
+  display: flex;
+  width: 100%;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 18px -3px rgba(242, 135, 5, 0.2);
+  border-radius: 8px;
+}
+.middlePanel {
+  height: max-content;
+}
+.span {
+  padding: 20px;
+  width: max-content;
+  font-weight: 500;
+  cursor: pointer;
+
+  justify-content: start;
+}
+.ActiveSpan {
+  padding: 20px;
+  width: max-content;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 5px solid #f28705;
+  justify-content: start;
+}
+
+.gridPanel {
+  display: grid;
+  height: max-content;
+  width: 100%;
+  grid-template-columns: 49% 49%;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 0px 20px;
+
+  position: relative;
+}
+.Course h5 {
+  font-size: 24px;
+  margin: 0;
+  height: max-content;
+  padding: 10px 60px;
+}
+.leftSide {
+  padding: 0px;
+  background-color: transparent;
+  max-height: max-content;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
+}
+.headImg {
+  border-radius: 7px;
+}
+.expire {
+  font-size: 14px;
+  padding: 5px;
+  border: 2px solid #0077b5;
+  color: #0077b5;
+  border-radius: 4px;
+}
+.contentBox {
+  width: 100%;
+  margin-top: 20px;
+
+  margin-left: 0px;
+  box-shadow: -1px 0px 10px 2px rgba(4, 135, 217, 0.1);
+  border-radius: 19px;
+  height: max-content;
+
+  background-color: white;
+}
+.contentI {
+  padding: 20px;
+}
+.line {
+  height: 1px;
+  width: 97%;
+  left: 10px;
+  top: 86.8%;
+  position: absolute;
+
+  border-bottom: 1px solid rgba(120, 120, 120, 0.227);
+}
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer button {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  font-size: 26px;
+  margin: 0;
+  max-width: max-content;
+
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(120, 120, 120, 0.227);
+}
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: flex;
+  margin: 0;
+  gap: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+.eIcon {
+  color: #f28705;
+  font-size: 20px;
+}
+
+@media (max-width: 961px) {
+  .Course {
+    padding: 0px 30px;
+  }
+  .leftSide h6 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 801px) {
+  .Course {
+    padding: 0px 10px;
+  }
+  .gridPanel {
+    padding: 0;
+  }
+  .line {
+    top: 84%;
+  }
+  .footer button {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 641px) {
+  .Course {
+    padding: 0px;
+  }
+  .gridPanel {
+    flex-flow: column;
+  }
+  .leftSide {
+    width: 100%;
+  }
+  .leftSide h6 {
+    font-size: 20px;
+  }
+
+  .line {
+    top: 85%;
+  }
+  .footer button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 481px) {
+  .Course {
+    padding: 0 0px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .middlePanel {
+    display: none;
+  }
+  .listPanel {
+    box-shadow: none;
+  }
+  .span {
+    font-size: 16px;
+    padding: 20px;
+    width: max-content;
+    font-weight: 400;
+    cursor: pointer;
+
+    justify-content: start;
+  }
+
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+  }
+  .ActiveSpan {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 3px solid #f28705;
+    justify-content: start;
+  }
+
+  .courses {
+    padding: 0px;
+    box-shadow: none;
+  }
+  .gridPanel {
+    gap: 0px;
+    display: flex;
+    flex-flow: column;
+  }
+  .listPanel .mPanel {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+  }
+  .listPanel {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 100%;
+    height: max-content;
+  }
+
+  .gridPanel {
+    padding: 0;
+    height: max-content;
+    margin-top: 0px;
+  }
+
+  .leftSide {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+  }
+
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin-right: 0;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .Course h5 {
+    padding: 10px;
+  }
+
+  .contentI {
+    padding: 10px;
+  }
+}

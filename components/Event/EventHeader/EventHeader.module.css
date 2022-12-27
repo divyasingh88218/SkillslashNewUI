@@ -1,0 +1,345 @@
+.Wrapper {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  grid-template-columns: 60% 40%;
+  height: max-content;
+}
+.left {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.surprise {
+  font-size: 20px;
+  color: #fbbc05;
+  font-weight: bold;
+}
+.head {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: italic;
+  margin: 0;
+
+  margin-top: 5px;
+}
+.darkH1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  line-height: 48px;
+  margin-top: 0px;
+}
+.ParaI {
+  font-size: 20px;
+  color: #fbbc05;
+}
+.darkP {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.head span {
+  font-size: 62px;
+  font-weight: 800;
+}
+.darkH1 span {
+  font-size: 31px;
+  display: flex;
+
+  text-transform: uppercase;
+  color: black;
+  border-radius: 4px;
+
+  font-weight: 800;
+}
+.gIcon {
+  margin-top: 7px;
+  font-size: 30px;
+}
+.gSpan {
+  background-color: white;
+  padding: 0px 5px;
+  margin-left: 10px;
+}
+.TrainerInfo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.TrainerInfo .right p {
+  font-size: 20px;
+  font-weight: 400px;
+}
+/* google g icon*/
+
+/* google g icon end*/
+.eIcon {
+  color: #f28705;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.EventInfo,
+.EventInfos {
+  display: grid;
+  grid-template-columns: 40% 2% 40%;
+  gap: 3px;
+}
+.EventInfo {
+  margin-top: 5px;
+  display: flex;
+}
+.profile {
+  margin-top: 10px;
+  margin-left: -5px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.EventInfo .lefts,
+.EventInfo .rights {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: center;
+
+  margin-right: 0px;
+}
+.EventInfos {
+  margin-top: 0px;
+}
+.EventInfos .lefts,
+.EventInfos .rights {
+  display: flex;
+  justify-content: center;
+
+  width: max-content;
+  align-items: center;
+  padding: 0px 10px;
+}
+.EventInfos .lefts {
+  padding-right: 10px;
+}
+.line {
+  border-right: 3px solid #f28705;
+  margin-top: 20px;
+  height: 20px;
+}
+.EventInfos .eIcon {
+  color: #f28705;
+  font-size: 22px;
+  margin-top: -5px;
+}
+.EventInfos p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.skewP {
+  background-color: #e2693c;
+  width: max-content;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  transform: skewX(-20deg);
+  padding: 5px 35px;
+}
+.EventInfo p {
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+}
+.img {
+  margin-top: 20px;
+}
+@media (max-width: 1281px) {
+  .darkH1,
+  .head {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .darkH1 span,
+  .head span {
+    font-size: 34px;
+  }
+  .EventInfos p {
+    font-size: 16px;
+  }
+  .EventInfos {
+    margin-top: 20px;
+  }
+  .EventInfos .eIcon {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1025px) {
+  .darkH1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .darkH1 span {
+    font-size: 30px;
+  }
+  .EventInfos {
+    display: flex;
+    flex-flow: column;
+  }
+  .EventInfos p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .EventInfos .lefts {
+    padding-right: 0px;
+    border: 0;
+  }
+  .EventInfos .eIcon {
+    font-size: 20px;
+  }
+}
+/* @media (min-width: 1025px) {
+  .head {
+    margin-top: 0px;
+  }
+} */
+@media (max-width: 481px) {
+  .left {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .gIcon {
+    margin-top: 5px;
+    font-size: 22px;
+  }
+  .head {
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: -80px;
+    text-align: center;
+  }
+  .skewP {
+    padding: 5px 20px;
+  }
+  .darkH1 {
+    font-size: 24px;
+    margin-top: 0;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .darkP {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .skewP {
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+  .head span {
+    font-size: 38px;
+    margin-left: 60px;
+  }
+  .darkH1 span {
+    font-size: 19px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .EventInfo {
+    margin-top: -3px;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .EventInfos {
+    margin-top: 0;
+    flex-flow: row;
+    gap: 10px;
+  }
+  .Wrapper {
+    padding-bottom: 200px;
+    display: flex;
+    padding-top: 10px;
+  }
+  .EventInfos .lefts,
+  .EventInfos .rights,
+  .EventInfo .lefts,
+  .EventInfo .rights {
+    padding: 0px;
+    flex-basis: 220px;
+  }
+  .darkP {
+    gap: 5px;
+  }
+  .line {
+    height: 20px;
+    position: unset;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-right: 20px;
+    flex-basis: 20px;
+  }
+  .surprise {
+    color: #f28705;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .EventInfo,
+  .EventInfos {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-between;
+  }
+  .EventInfo p,
+  .EventInfos p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .EventInfos .eIcon {
+    font-size: 22px;
+    margin-right: 0px;
+  }
+
+  .p {
+    margin-top: 5px;
+    text-align: center;
+  }
+  .EventInfo .lefts {
+    padding-right: 0px;
+  }
+  .EventInfos .lefts {
+    padding-right: 0px;
+  }
+  .eIcon {
+    font-size: 32px;
+  }
+  .EventInfo .lefts,
+  .EventInfo .rights {
+    width: max-content;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .img {
+    margin-top: 30px;
+  }
+}

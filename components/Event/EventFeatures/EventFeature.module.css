@@ -1,0 +1,100 @@
+.eFeature {
+  display: flex;
+  flex-flow: column;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.eFeature h2 {
+  font-size: 36px;
+}
+.bodyContent {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+}
+
+.eLeft,
+.eMiddle,
+.eRight {
+  position: relative;
+  padding: 15px;
+  -webkit-box-shadow: -20px 0px 18px 0px rgba(227, 227, 227, 0.3);
+  -moz-box-shadow: -20px 0px 18px 0px rgba(227, 227, 227, 0.3);
+  box-shadow: -20px 0px 18px 0px rgba(227, 227, 227, 0.3);
+}
+
+.eLeft h6,
+.eMiddle h6,
+.eRight h6 {
+  font-size: 18px;
+  margin: 0;
+
+  margin-top: 70px;
+  margin-bottom: 5px;
+  z-index: 1;
+}
+.eLeft p,
+.eMiddle p,
+.eRight p {
+  margin: 0;
+  color: rgb(80, 80, 80);
+  z-index: 1;
+  padding-right: 60px;
+}
+.eFIcon {
+  font-size: 48px;
+  color: #f14d5d;
+}
+@media (max-width: 1281px) {
+  .eFeature {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .eFeature h2 {
+    font-size: 27px;
+  }
+  .bodyContent {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+  }
+  .eLeft p,
+  .eMiddle p,
+  .eRight p {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 1025px) {
+  .bodyContent {
+    display: flex;
+    flex-flow: column;
+  }
+}
+@media (max-width: 480px) {
+  .eFeature h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .eLeft,
+  .eMiddle,
+  .eRight {
+    padding-left: 100px;
+    height: max-content;
+    width: 90%;
+  }
+
+  .eLeft h6,
+  .eMiddle h6,
+  .eRight h6 {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  .eLeft p,
+  .eMiddle p,
+  .eRight p {
+    padding-right: 0px;
+    font-size: 14px;
+  }
+}

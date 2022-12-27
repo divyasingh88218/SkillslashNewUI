@@ -1,0 +1,203 @@
+.FirstWrap {
+  margin-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  height: max-content;
+  background-color: #f8f6ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 70px;
+  border-bottom: 0px solid rgba(217, 217, 217, 0.782);
+  box-shadow: 0px 4px 8px 0px rgba(177, 177, 177, 0.5);
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(174, 232, 255, 0.5);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(174, 232, 255, 0.5);
+}
+.pBot {
+  font-size: 20px;
+}
+.leftFirst {
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  padding-top: 100px;
+}
+.headerLine {
+  position: absolute;
+  width: 300px;
+  top: 130px;
+  left: 315px;
+}
+
+.FirstWrap h1 {
+  font-size: 47px;
+  margin: 0;
+  line-height: 64px;
+  margin-bottom: 0px;
+}
+.FirstWrap h1 span {
+  display: inline;
+  font-size: 43px;
+  margin: 0;
+  color: black;
+}
+
+.leftFirst span {
+  font-size: 28px;
+  color: #4f419a;
+  font-weight: 700;
+  width: 100%;
+}
+.check {
+  border: 1px solid #4f419a;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.btnWrapper {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+ 
+}
+.btnWrapper button {
+  font-size: 17px;
+  padding: 15px;
+  background-color: transparent;
+  margin-right: 40px;
+  position: relative;
+  color: #4f419a;
+  transition: 1s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.border{
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 0; 
+  width: 100%; 
+}
+.btnWrapper .border rect{
+    border-radius: 8px;
+    fill: none;
+    stroke: #4f419a;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  
+}
+/* .btnWrapper button:hover{
+ 
+} */
+.btnWrapper button:hover rect{
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btnWrapper button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.playIcon {
+  font-size: 50px;
+  border: 3px solid #4f419a;
+  border-radius: 50%;
+  color: #4f419a;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+.playIcon:hover {
+  font-size: 50px;
+  border: 3px solid #F18350;
+  border-radius: 50%;
+  color: #F18350;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+.btnWrapper p:hover{
+  color: #F18350;
+}
+.rightFirst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1281px) {
+  .FirstWrap {
+    padding-left: 40px;
+    padding-right: 40px;
+    grid-template-columns: 48% 52%;
+  }
+  .FirstWrap h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .leftFirst span {
+    font-size: 21px;
+  }
+  .leftFirst {
+    justify-content: center;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 961px) {
+  .FirstWrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .FirstWrap h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 801px) {
+  .FirstWrap {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 481px) {
+  .FirstWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    margin-top: 70px;
+    flex-flow: column;
+    padding-bottom: 40px;
+  }
+  .leftFirst {
+    padding-top: 10px;
+  }
+  .FirstWrap h1 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .FirstWrap h1 span {
+    font-size: 32px;
+  }
+  .btnWrapper button {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #4f419a;
+    margin-right: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .rightFirst {
+    margin-top: 30px;
+  }
+}

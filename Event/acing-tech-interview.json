@@ -1,0 +1,130 @@
+{
+  "metaInfo": {
+    "title": "Acing tech interview with Dhaval Dhave",
+    "desc": "Enroll in the Free webinar and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "tech interview, online interview preparation, tech webinar",
+    "canonical": "https://skillslash.com/Event/Full-stack-event"
+  },
+  "mainData": {
+    "title": "Acing tech interview",
+    "eventDate": "November 2, 2022",
+    "tag": "Fullstack",
+    "eventStart": "November 2,2022 20:00:00",
+    "eventEnd": "November 2,2022 22:00:00",
+    "eventTime": "8:00 pm- 10:00 pm",
+    "Duration": "120min",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval-dahve-acing-tech-interview-tab-header.webp",
+    "register": "1276"
+  },
+  "header": {
+    "title": "ACING TECH",
+    "titleSpan": "INTERVIEWS",
+    "spanStyle": {
+      "background": "transparent",
+      "fontStyle": "italic",
+      "paddingLeft": "45px",
+      "color": "#E2693C"
+    },
+    "tag": "true",
+    "desc": "For SDEs with 1+ years working Exp",
+    "eventDate": "2nd Nov, Wed",
+    "eventTime": "8pm - 10pm",
+    "desc1": "",
+    "img1Src": "",
+    "redirectZoom": true,
+    "reverseImg": true,
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/dhaval-dhave-profile-header-intero-withline.webp",
+    "profileImgH": "104",
+    "profileImgW": "336",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "976",
+    "link": "https://us06web.zoom.us/meeting/register/tZYrceiqqjgpE9Kunb57XuaSXsjbFfQCcQqF",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval-dahve-acing-tech-interview.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval-dahve-acing-tech-interview-mobile-header.webp",
+    "dark": false,
+    "lightNew": true
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "1276+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": " Want to learn how to ace tech interviews? Join the free masterclass by Mr. Dhaval Dave on 'Acing Tech Interviews'. Know how to make easy career transitions from service-based to product-based companies. Win the brownie points in competitive interviews with expert training.",
+    "desc1": " Get to know how to build an outstanding resume that can get you hired easily. Study the fundamentals of Full Stack Development and its job potential.",
+    "strong": "",
+    "desc2": ""
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "Shareable certification",
+    "p3": "Attend the training and get acknowledged certification.",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval_Dave.webp",
+    "desc": "Software Engineer II at Microsoft",
+    "pName": "Dhaval Dave",
+    "link": "https://www.linkedin.com/in/davedhaval87",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
+    "list1": "9+ years of experience in Backend",
+    "list2": "2 Open-source contribution",
+    "list3": " Alumnus of National Institute of Technology Warangal.",
+    "list4": "  Problem Solving, Designing, Optimize solution for performance enhancement.",
+    "list5": "  Research paper selected and Presented in IEEE- ICACCI & TrustCom.",
+    "workAt": "Previously worked at",
+    "cIcon1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Amazon_r.webp",
+    "cIcon2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Flipkart_r.webp",
+    "cIcon3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Oracle_r.webp",
+    "width": "30",
+    "width1": "40",
+    "width3": "30",
+    "height": "30",
+    "height1": "40",
+    "height3": "30"
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": "Know tips and tricks of cracking tech interviews",
+    "l2": "Crafting a kick-ass resume based on your skills",
+    "l3": "Career transition to Product based companies",
+    "l4": "The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}
