@@ -162,8 +162,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -206,8 +206,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -227,11 +227,10 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I am
-                      today.
+                      Although a new startup but training quality scientist I 
                       {readMore[2].open ? (
                         <span>
-                          There are tons of differences between studying data
+                          am today. There are tons of differences between studying data
                           science and working as a data scientist.
                         </span>
                       ) : (
@@ -251,8 +250,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -296,8 +295,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -392,8 +391,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -436,8 +435,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -481,8 +480,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -526,8 +525,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -578,8 +577,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PANKAJ_CHOWDHURY.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="PANKAJ_CHOWDHURY"
                         loading="lazy"
                       />
@@ -624,8 +623,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Manisha_singh.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Manisha_singh"
                       />
                     </div>
@@ -669,8 +668,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Muralikrishna_Alichetty.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Muralikrishna_Alichetty"
                         loading="lazy"
                       />
@@ -715,8 +714,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/GIRISH_BALLAMPALLI.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="GIRISH_BALLAMPALLI"
                         loading="lazy"
                       />
@@ -761,8 +760,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anukalp_Desai.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Anukalp_Desai"
                       />
                     </div>
@@ -803,8 +802,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anurag_Sinha.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Anurag_Sinha"
                         loading="lazy"
                       />
@@ -849,8 +848,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Ankur_Singh.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Ankur_Singh"
                         loading="lazy"
                       />
@@ -945,8 +944,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -989,8 +988,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1010,11 +1009,10 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I am
-                      today.
+                      Although a new startup but training quality scientist I 
                       {readMore[2].open ? (
                         <span>
-                          There are tons of differences between studying data
+                          am today. There are tons of differences between studying data
                           science and working as a data scientist.
                         </span>
                       ) : (
@@ -1034,8 +1032,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1079,8 +1077,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1125,8 +1123,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PANKAJ_CHOWDHURY.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="PANKAJ_CHOWDHURY"
                         loading="lazy"
                       />
@@ -1171,8 +1169,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Manisha_singh.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Manisha_singh"
                       />
                     </div>
@@ -1216,8 +1214,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Muralikrishna_Alichetty.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Muralikrishna_Alichetty"
                         loading="lazy"
                       />
@@ -1262,8 +1260,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/GIRISH_BALLAMPALLI.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="GIRISH_BALLAMPALLI"
                         loading="lazy"
                       />
@@ -1308,8 +1306,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anukalp_Desai.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Anukalp_Desai"
                       />
                     </div>
@@ -1350,8 +1348,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anurag_Sinha.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Anurag_Sinha"
                         loading="lazy"
                       />
@@ -1396,8 +1394,8 @@ const Reviews = ({
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Ankur_Singh.webp"
                         layout="intrinsic"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Ankur_Singh"
                         loading="lazy"
                       />
@@ -1492,8 +1490,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -1536,8 +1534,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1557,11 +1555,10 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I am
-                      today.
+                      Although a new startup but training quality scientist I 
                       {readMore[2].open ? (
                         <span>
-                          There are tons of differences between studying data
+                          am today. There are tons of differences between studying data
                           science and working as a data scientist.
                         </span>
                       ) : (
@@ -1581,8 +1578,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1626,8 +1623,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1722,8 +1719,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -1766,8 +1763,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1787,11 +1784,10 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I am
-                      today.
+                      Although a new startup but training quality scientist I 
                       {readMore[2].open ? (
                         <span>
-                          There are tons of differences between studying data
+                          am today. There are tons of differences between studying data
                           science and working as a data scientist.
                         </span>
                       ) : (
@@ -1811,8 +1807,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1856,8 +1852,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -1952,8 +1948,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mirnal_sahay_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Mirnal_sahay_review"
                         loading="lazy"
                         layout="intrinsic"
@@ -1996,8 +1992,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gautum_skillslash_review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Gautum_Skillslash_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2017,11 +2013,10 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I am
-                      today.
+                      Although a new startup but training quality scientist I 
                       {readMore[2].open ? (
                         <span>
-                          There are tons of differences between studying data
+                          am today. There are tons of differences between studying data
                           science and working as a data scientist.
                         </span>
                       ) : (
@@ -2041,8 +2036,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/sameer-ahemed-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2086,8 +2081,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tilak-rao-skillslash-review.webp"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Tilak_rao_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2137,8 +2132,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/satya agravarapu-web-development-review.png"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="satya_agravarapu_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2184,8 +2179,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/SHASHIKANT SAI-web-development-review.png"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="SHASHIKANT SAI-web-development-review"
                         loading="lazy"
                         layout="intrinsic"
@@ -2230,8 +2225,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/spoorti-v-web-development-review.png"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="spoorti-v-web-development-review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2260,8 +2255,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Pravin-Kumar-web-development-review.png"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Sameer-ahemed_review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2307,8 +2302,8 @@ const Reviews = ({
                     <div className={styles.profileWrapper}>
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Brijisha-Doshi-webdevelopment-review.png"
-                        width="100"
-                        height="100"
+                        width="80"
+                        height="80"
                         alt="Brijisha-Doshi-webdevelopment-review"
                         layout="intrinsic"
                         loading="lazy"
@@ -2346,8 +2341,8 @@ const Reviews = ({
                 >
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Harshal-Chougule-web-development-review.png"
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     alt="Harshal-Chougule-web-development-review"
                     layout="intrinsic"
                     loading="lazy"
@@ -2383,8 +2378,8 @@ const Reviews = ({
                 >
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Merlin Thomas-web-development-review.png"
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     alt="Merlin Thomas-web-development-review"
                     layout="intrinsic"
                     loading="lazy"
@@ -2420,8 +2415,8 @@ const Reviews = ({
                 >
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Prarthana-Thokal-web-development-review.png"
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     alt="Prarthana-Thokal-web-development-review"
                     layout="intrinsic"
                     loading="lazy"

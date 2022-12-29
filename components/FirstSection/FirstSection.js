@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BsArrowRightShort, BsPlayFill } from "react-icons/bs";
 import TextAnimation from "../Animation/TextAnimation";
 import VideoPopup from "../VideoPopup/VideoPopup";
+import TopHeaderAnimation from "../Animation/Text/TopHeaderAnimation";
 
 const FirstSection = () => {
   const [mobile, setMobile] = useState(false);
@@ -27,9 +28,11 @@ const FirstSection = () => {
       <div className={styles.leftFirst}>
         <p className="pTop">Get Trained From</p>
         <h1>
-          India's Best Project Based <span>Experiential Learning Platform</span>
+          India's Best Project Based  <span className={styles.btnShine} >
+        Experiential Learning Platform
+      </span>
         </h1>
-
+        
         <p className={styles.pBot}>
           Get real-work experience and certifications. Learn from industry
           experts and get placed in top product companies!
@@ -40,7 +43,7 @@ const FirstSection = () => {
         <div className={styles.btnWrapper}>
           <a href="#explore">
             <button>
-              Explore Courses<BsArrowRightShort className="bIcon" />   <svg className={styles.border}>
+              Explore Courses<BsArrowRightShort className="bIconS" />   <svg className={styles.border}>
         <rect x="0" y="0" fill="none" width="100%" height="100%"/>
       </svg>
             </button>

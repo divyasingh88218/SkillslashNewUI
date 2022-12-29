@@ -20,12 +20,10 @@
   color: white;
   border-radius: 34px;
   padding-top: 20px;
-  box-shadow: rgba(79, 65, 154, 0.5) 0px 2px 4px 0px inset;
+
   justify-content: center;
 }
-.contentGrid div:nth-child(3){
-  box-shadow: rgba(79, 65, 154, 0.8) 0px 2px 4px 0px inset;
-}
+
 .contentGrid div h5 {
   color: white;
   font-size: 20px;

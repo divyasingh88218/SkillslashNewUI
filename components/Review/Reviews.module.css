@@ -51,7 +51,7 @@
 .ReviewBox1,
 .ReviewBox2 {
   display: grid;
-  grid-template-columns: 25% 69%;
+  grid-template-columns: 20% 73%;
   gap: 10px;
   max-height: max-content;
   background: #ffffff;
@@ -121,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 60px;
+  left: 40px;
   top: 20px;
 }
 
