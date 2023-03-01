@@ -22,7 +22,9 @@ const BoxAnimation = () => {
       <div className={styles.contentGrid}>
         <div className={styles.first}>
           <ul className={styles.iconWrap}>
-            <li><RiNumber1 className={styles.number} /></li>
+            <li>
+              <RiNumber1 className={styles.number} />
+            </li>
           </ul>
           <h5>Acquire Expertise</h5>
           <p>
@@ -32,7 +34,9 @@ const BoxAnimation = () => {
         </div>
         <div className={styles.second}>
           <ul className={styles.iconWrap}>
-            <li><RiNumber2 className={styles.number} /></li>
+            <li>
+              <RiNumber2 className={styles.number} />
+            </li>
           </ul>
           <h5>Build Relevant Experience</h5>
           <p>
@@ -42,7 +46,9 @@ const BoxAnimation = () => {
         </div>
         <div className={styles.third}>
           <ul className={styles.iconWrap}>
-            <li><RiNumber3 className={styles.number} /></li>
+            <li>
+              <RiNumber3 className={styles.number} />
+            </li>
           </ul>
           <h5> Get Hired</h5>
           <p>

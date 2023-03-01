@@ -3,6 +3,7 @@ import style from "./NewCTA.module.css";
 import Image from "next/image";
 import { TiTick } from "react-icons/ti";
 import { BsFillTriangleFill } from "react-icons/bs";
+import { IoMdCall } from "react-icons/io";
 
 function NewCTA() {
   return (
@@ -141,8 +142,9 @@ function NewCTA() {
           <h6>(7AM -12 AM)</h6>
           <p>For Working Professionals & Freshers</p>
           <button>
-            <img src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/callIcon.png" />
+            <IoMdCall />
             8391-911-911
+            <span></span>
           </button>
         </div>
       </div>

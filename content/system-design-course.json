@@ -1,8 +1,8 @@
 {
   "metaInfo": {
-    "title": "Best System Design Course | Skillslash ",
+    "title": "System Design Course | Skillslash ",
     "desc": "Enroll in the Best System Design Course and Get certified.",
-    "keyword": "best system design course, data structures course, data structures and algorithms course, best data structures and algorithms course, System Design Certification, data structures and algorithms course with system design",
+    "keyword": "best system design course, System Design Certification, system design course",
     "canonical": "https://skillslash.com/system-design-course",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -26,22 +26,24 @@
     "blockchain": false,
     "DataEngineering": false,
     "BusinessAnalytics": false,
-    "FullStack": false,
-    "dsa": true
+    "FullStack": true,
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
 
   "FirstSection": {
     "deskTopPara": "Project Based Certification Platform For Professionals ",
     "mTopPara": "Project Based Certification Platform For Professionals",
-    "title": "Best System Design Course",
-    "spanTitleText": "| Skillslash",
+    "title": "An Intensive Full Stack Developer Course",
+    "spanTitleText": "with System Design Course",
     "desc": "Enroll in the best system design course and study from expert-tutors. Learn in 100% live classes and get real work experience.",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Data-Structures-and-Algorithms-System-Design-header.webp",
     "width": "580",
     "height": "487"
   },
   "ProgramInfo": {
-    "BatchDate": "20 November 2022",
+    "BatchDate": "22 January 2023",
     "BatchDuration": "8 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -59,7 +61,7 @@
   "TopCTA": {
     "title": "A golden chance to get enrolled in India’s best dsa course!",
     "BeforeBR": " Talk to our expert and know in detail ",
-    "AfterBR": " about our data structures online course"
+    "AfterBR": " about our system design course"
   },
   "Benefits": {
     "desc": " Learn Data Science with multiple domain specialization and become a Data Scientist with our Guaranteed job referral program.",
@@ -68,7 +70,7 @@
     "CertificateT": " Get Real Work Experience From Companies",
     "CertificateD": "Work as a Data Scientist on live projects directly with companies to gain real work experience.",
     "JobT": "Guaranteed job referral",
-    "JobD": " Recieve unlimited job referrals and crack top-tier interviews head-on!"
+    "JobD": " Receive unlimited job referrals and crack top-tier interviews head-on!"
   },
   "Certificate": {
     "popupHead": "Download Best System Design Course Brochure",
@@ -77,7 +79,7 @@
     "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-DSA-course.webp"
   },
   "RealWork": {
-    "desc": "Our Full Stack course in Ahmedabad follows an application-based learning approach, Further, it focuses on helping learners build relevant experience in the technologies they upskill to demonstrate expertise."
+    "desc": "Our System Design Course  follows an application-based learning approach, Further, it focuses on helping learners build relevant experience in the technologies they upskill to demonstrate expertise."
   },
   "syllabusDesc": "We have the best system design course in python with an extensive curriculum. The syllabus of our System Design Course is industry-specific and gives focus to practical training.   ",
   "popupHead": "Download System Design Course Brochure",
@@ -85,18 +87,24 @@
   "syllabus": [
     {
       "Module0": {
-        "title": "Module 0 - Foundation & Prep Session (2 weeks)",
+        "title": "Module 0 - Foundation Of Programming",
         "desc": "",
         "content": [
           {
             "chap": {
               "title": "Chapter 1: Programming Fundamentals(2 week )",
               "desc": [
-                "Programming Basics, Variables, Conditional Statements",
+                "Programming Basics, Variables, Conditional statements",
                 "Strings, Lists, Loops and Functions",
                 "Pointers in C, Revision of C/C++/Java/Javascript and Python Syntax",
                 "Basic Mathematics for Programming."
               ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -106,7 +114,7 @@
     },
     {
       "Module0": {
-        "title": "Module 1 - Data Structures and Algorithms ( 12 Weeks )",
+        "title": " Module 1 - Data Structures and Algorithms ",
         "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
         "content": [
           {
@@ -128,14 +136,11 @@
               ]
             }
           },
+
           {
             "chap": {
-              "title": "Note",
-              "desc": [
-                "Programming Language Used: C/C++, Java",
-                "Total Number of problems to be solved in live class: 120+",
-                "Total coding problems in assignment: 100"
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -145,7 +150,7 @@
     },
     {
       "Module0": {
-        "title": "Module 2 - System Design in Depth (6 weeks )",
+        "title": "Module 2 - System Design in Depth",
         "desc": "",
         "content": [
           {
@@ -195,12 +200,11 @@
               ]
             }
           },
+
           {
             "chap": {
-              "title": "Note",
-              "desc": [
-                "For more end to end Real industry Projects on system design & Full stack , Refer Project Section."
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -210,7 +214,7 @@
     },
     {
       "Module0": {
-        "title": "Module 3 - Advance Data Structures & Algorithms (4 Weeks )",
+        "title": "Module 3 - Advance Data Structures & Algorithms",
         "desc": "",
         "content": [
           {
@@ -224,38 +228,137 @@
                 "Solve 30+ hard level coding interview questions from FAANG companies."
               ]
             }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
+            }
           }
         ],
         "id": 3,
         "open": false
       }
     },
+
     {
       "Module0": {
-        "title": "Module 4 - Coding Interview Prep ( 3 week )",
+        "title": "Module 4 - Electives & Specialization",
         "desc": "",
         "content": [
           {
             "chap": {
+              "title": "Module 4 - A : Full Stack",
+              "desc": [""]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 1: Frontend Development ",
+              "desc": [
+                "Web development basics - HTML and CSS",
+                "Bootstrap Basics",
+                "Introduction to Javascript"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Backend Development",
+              "desc": [
+                "Introduction to MVC",
+                "Learning Node.js",
+                "Mongodb for Developers",
+                "Learning express.js"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Module 4 B: Data Engineering Specialization",
+              "desc": [""]
+            }
+          },
+          {
+            "chap": {
               "title": "",
               "desc": [
-                "Build Resume/Linkedin profile to get shortlisted in top tech companies",
-                "Learn Strategy to defend every single skill in your CV",
-                "Understand Hiring process for FAANG and product based MNCs",
-                "Sessions on Company wise interview.",
-                "Company wise Mock interview from industry expert.",
-                "Salary negotiations & strategy.",
-                "Meet your personal mentor and career coach for guidance."
+                "Introduction of Data Engineering",
+                "Advance SQL, NOSQL Database using Mongodb",
+                "Hadoop Basics"
               ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Module 4 C : Advance AI & ML Specialization",
+              "desc": [""]
+            }
+          },
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Probability theory",
+                "Statistics foundation",
+                "Exploratory Data Analysis",
+                "Intro to Machine learning"
+              ]
+            }
+          },
+
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
         "id": 4,
         "open": false
       }
+    },
+    {
+      "Module0": {
+        "title": "Module 5 : Work on End to End Projects in Partnership With Startups",
+        "desc": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Projects",
+              "desc": [
+                "Authentication",
+                "CRUD",
+                "Video Conferencing Application",
+                "API Integration",
+                "Travel Booking Application",
+                "Payment Gateway",
+                "Workout Application",
+                "Home Service Application",
+                "Blog Site",
+                "VR Based Application",
+                "Food Delivery Application",
+                "Chatting Application",
+                "Buying Second Hand Products",
+                "To-Do List Application",
+                "Stock investment app",
+                "Buying Second Hand Products",
+                "Online Code Editor"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
+            }
+          }
+        ],
+        "id": 5,
+        "open": false
+      }
     }
   ],
-
   "Review": {
     "title": "What our students have to say",
     "desc": " Skillslash’s Best System Design Course are designed for creative minds and made for everyone."
@@ -263,17 +366,18 @@
 
   "Fee": {
     "FullStack": false,
-    "desc": " The Full Stack program in Ahmedabad costs INR 95,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your artificial intelligence and machine learning course fees in Ahmedabad.",
-    "ProPrice": "₹ 95,000 + GST",
-    "ProDesc": " Get Full Stack training in Ahmedabad with real work Experience",
+    "desc": " The System Design Course costs INR 99,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
+    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your System Design Course fees.",
+    "ProPrice": "₹ 99,000 + GST",
+    "emi": "₹5,416/month",
+    "ProDesc": " Get System Design Course with real work Experience",
     "ProMaxPrice": "₹ 1,35,000 + GST",
-    "ProMaxDesc": " Get Full Stack training in Ahmedabad with Guaranteed job referral"
+    "ProMaxDesc": " Get System Design Course with Guaranteed job referral"
   },
   "BatchDates": [
     {
-      "batchDate": "13",
-      "batchMonth": "NOV",
+      "batchDate": "11",
+      "batchMonth": "DEC",
       "batchStatus": "Filled",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
@@ -282,17 +386,29 @@
       "batchMsg": "Seats are filled",
       "activeBatch": false
     },
+
     {
-      "batchDate": "20",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
+      "batchDate": "18",
+      "batchMonth": "DEC",
+      "batchStatus": "new",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
+      "batchDesc": "2 seats are available",
       "batchDescSpan": "Hurry!",
       "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are almost filled",
       "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "Filled",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "02:00 to 05:00",
+      "batchDesc": "Enrollment has been closed",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are filled",
+      "activeBatch": false
     }
   ],
   "FAQ": {
@@ -303,7 +419,7 @@
       "id": 0,
       "ques": "Under the system design course, what learning options are offered?      ",
 
-      "ans": "Skillslash offers the best system design course with project certification. The fact that we provide offline and online learning options for our data structures and algorithms course with real-world experience is a focal point.   In addition, we provide a blended learning curriculum created especially for professionals. Additionally, as part of our data structures online course, you can take part in live classes that use a hybrid learning approach. Also, you will be doing some practical work at the industrial project site. However, because of the epidemic, we can only provide fully online courses through live sessions. This implies that you can communicate with your instructor in real time, just as you would during a typical face-to-face session. Additionally, at this time, cloud-based services will be used for all practical sessions of our data structures course.      ",
+      "ans": "Skillslash offers the best system design course with project certification. The fact that we provide offline and online learning options for our system design course with real-world experience is a focal point.   In addition, we provide a blended learning curriculum created especially for professionals. Additionally, as part of our system design course, you can take part in live classes that use a hybrid learning approach. Also, you will be doing some practical work at the industrial project site. However, because of the epidemic, we can only provide fully online courses through live sessions. This implies that you can communicate with your instructor in real time, just as you would during a typical face-to-face session. Additionally, at this time, cloud-based services will be used for all practical sessions of our system design course.      ",
       "open": false
     },
     {
@@ -325,7 +441,7 @@
       "id": 4,
       "ques": "What is Skillslash’s system design course scholarship program?      ",
 
-      "ans": "Primarily, under the system design certification scholarship program, every candidate will have to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 10 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. Thus, opening the doors to sign up for the best course for data structures and algorithms. ",
+      "ans": "Primarily, under the system design certification scholarship program, every candidate will have to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 10 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. Thus, opening the doors to sign up for the best system design course. ",
       "open": false
     },
     {

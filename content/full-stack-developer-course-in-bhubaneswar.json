@@ -1,6 +1,6 @@
 {
   "metaInfo": {
-    "title": "Full Stack Developer course in Bhubaneswar with 100% Placement-Skillslash",
+    "title": "Full Stack Developer course in Bhubaneswar - Skillslash",
     "desc": "Enroll in the Full Stack Developer course in bhubaneswar and get certified. Learn core programming with industry exposure.",
     "keyword": "full stack developer course in bhubaneswar, full stack development course in bhubaneswar, full stack training in bhubaneswar, , full stack developer course fee",
     "canonical": "https://skillslash.com/full-stack-developer-course-in-bhubaneswar"
@@ -11,52 +11,54 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": true,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Project Based Certification Platform For Professionals ",
     "mTopPara": "Project Based Certification Platform For Professionals",
-    "title": "Full Stack Developer Course in bhubaneswar ",
-    "spanTitleText": "with Job Referral",
-    "desc": "Learn from experts in live-interactive classes under our full stack developer course in bhubaneswar. In addition, get the chance to customize your learning tracks and build relevant work experience by working with top AI companies and startups.",
+    "title": "Full Stack Developer Course in Bhubaneswar ",
+    "spanTitleText": "to crack interview at FAANG",
+    "desc": "Learn from experts in live-interactive classes under our full stack developer course in bhubaneswar. In addition, get the chance to customize your learning tracks and build relevant work experience by working with top product based companies and startups.",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Full-stack-header-image-new.webp",
     "width": "450",
     "height": "576"
   },
   "ProgramInfo": {
-    "BatchDate": "20 November 2022",
+    "BatchDate": "22 January 2023",
     "BatchDuration": "11 Months",
     "Placement": "Guaranteed job referral"
   },
   "BoxShape": {
     "title": "Why Join this Program?",
     "Box1h5": "Real Work Experience",
-    "box1desc": "Don’t just learn, apply your learning. Under our Full Stack course in Bhubaneswar, work directly with companies and build relevant industry experience.",
+    "box1desc": "Don’t just learn, apply your learning. Under our Full Stack course in Mumbai, work directly with companies and build relevant industry experience.",
     "Box2h5": "Build Your Own Course",
-    "box2desc": " Design personalized learning tracks with Full Stack courses in bhubaneswar. Cater your professional background and career goals under a counselor's supervision.",
+    "box2desc": " Design personalized learning tracks with Full Stack courses in Mumbai. Cater your professional background and career goals under a counselor's supervision.",
     "Box3h5": "Guaranteed job referral",
     "box3desc": " Get Guaranteed job referral in top companies and startups. Also, receive guidance on resume building and interview preparation.",
     "Box4h5": "Eligibility Criteria",
-    "box4desc": "This Full Stack course in bhubaneswar is recommended for professionals with 1 year of work experience. No prior programming experience is required."
+    "box4desc": "This Full Stack course in Mumbai is recommended for professionals with 1 year of work experience. No prior programming experience is required."
   },
   "TopCTA": {
     "title": "Having Doubts? Talk with our Experts",
     "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " For career transition in data science."
+    "AfterBR": " For career transition in Full stack."
   },
   "Benefits": {
-    "desc": " Learn Data Science with multiple domain specialization and become a Data Scientist with our Guaranteed job referral program.",
-    "InterviewT": "Become Data Scientist With Top Companies",
+    "desc": " Learn Full stack development with multiple domain specialization and become a Full stack developer with our Guaranteed job referral program.",
+    "InterviewT": "Become Full stack developer With Top Companies",
     "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
     "CertificateT": " Get Real Work Experience From Companies",
-    "CertificateD": "Work as a Data Scientist on live projects directly with companies to gain real work experience.",
+    "CertificateD": "Work as a Full stack developer on live projects directly with companies to gain real work experience.",
     "JobT": "Guaranteed job referral",
-    "JobD": " Recieve unlimited job referrals and crack top-tier interviews head-on!"
+    "JobD": " Receive unlimited job referrals and crack top-tier interviews head-on!"
   },
   "Certificate": {
-    "popupHead": "Download Data Science Brochure",
-    "title": "Get Certificate Directly From AI Companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Data Science institute in India and crack interviews with confidence.",
+    "popupHead": "Download Full Stack Brochure",
+    "title": "Get Certificate directly from product based companies",
+    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Full Stack institute in India and crack interviews with confidence.",
     "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-(Full-stack).webp"
   },
   "RealWork": {
@@ -89,7 +91,7 @@
     },
     {
       "Module0": {
-        "title": "Module 1 - Data Structures and Algorithms ( 12 Weeks )",
+        "title": " Module 1 - Data Structures and Algorithms ",
         "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
         "content": [
           {
@@ -128,7 +130,7 @@
     },
     {
       "Module0": {
-        "title": "Module 2 - System Design in Depth (6 weeks )",
+        "title": "Module 2 - System Design in Depth",
         "desc": "",
         "content": [
           {
@@ -193,7 +195,7 @@
     },
     {
       "Module0": {
-        "title": "Module 3 - Advance Data Structures & Algorithms (4 Weeks )",
+        "title": "Module 3 - Advance Data Structures & Algorithms",
         "desc": "",
         "content": [
           {
@@ -400,15 +402,16 @@
     "FullStack": false,
     "desc": " The Full Stack program in bhubaneswar costs INR 95,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
     "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your artificial intelligence and machine learning course fees in bhubaneswar.",
-    "ProPrice": "₹ 95,000 + GST",
+    "ProPrice": "₹ 99,000 + GST",
+    "emi": "₹ 5,664/month",
     "ProDesc": " Get Full Stack training in bhubaneswar with real work Experience",
     "ProMaxPrice": "₹ 1,35,000 + GST",
     "ProMaxDesc": " Get Full Stack training in bhubaneswar with Guaranteed job referral"
   },
   "BatchDates": [
     {
-      "batchDate": "13",
-      "batchMonth": "NOV",
+      "batchDate": "11",
+      "batchMonth": "DEC",
       "batchStatus": "Filled",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
@@ -417,17 +420,29 @@
       "batchMsg": "Seats are filled",
       "activeBatch": false
     },
+
     {
-      "batchDate": "20",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
+      "batchDate": "18",
+      "batchMonth": "DEC",
+      "batchStatus": "new",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
+      "batchDesc": "2 seats are available",
       "batchDescSpan": "Hurry!",
       "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are almost filled",
       "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "Filled",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "02:00 to 05:00",
+      "batchDesc": "Enrollment has been closed",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are filled",
+      "activeBatch": false
     }
   ],
   "FAQ": {

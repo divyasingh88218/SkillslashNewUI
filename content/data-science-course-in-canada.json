@@ -1,6 +1,6 @@
 {
   "metaInfo": {
-    "title": "Data Science Course In Canada with Job Referral| Skillslash",
+    "title": "Data Science Course In Canada | Skillslash",
     "desc": "Best Data science course in Canada at budget-friendly prices at Skillslash. Enroll in our data science course with placement support.",
     "keyword": "data science courses in Canada, data science course in Canada, data science training in Canada, best data science courses in Canada, data science institute in Canada, data scientist course in Canada, data science course fees in Canada, data science course in Canada with placement, Data Science course with placement guarantee, Data Science course, Data analyst course in Canada",
     "canonical": "https://skillslash.com/data-science-course-in-Canada",
@@ -14,10 +14,10 @@
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "9.6",
+        "ratingValue": "9.8",
         "bestRating": "10",
         "worstRating": "1",
-        "ratingCount": "22657"
+        "ratingCount": "24896"
       }
     }
   },
@@ -27,20 +27,22 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Master Data Science With Expert Help",
     "mTopPara": "Master Data Science With Expert Help",
     "title": "Data Science Course in Canada",
-    "spanTitleText": "With Guaranteed job referral",
-    "desc": "Experience 100% live training with industry experts. Sign up in Skillslash’s Data Science course training in Canada, work in real-time projects and gain globally acknowledged certifications.",
+    "spanTitleText": "",
+    "desc": "Experience 100% live training with industry experts. Sign up in Skillslash’s Data Science training in Canada, work in real-time projects and gain globally acknowledged certifications.",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
     "width": "563",
     "height": "568"
   },
   "ProgramInfo": {
-    "BatchDate": "21 August 2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -71,9 +73,9 @@
   },
   "Certificate": {
     "popupHead": "Download Data Science Brochure",
-    "title": "Get Certificate directly from AI companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Data Science institute i and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022.webp"
+    "title": "Get Certificate directly from empanelled Startups and MNCs",
+    "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
   },
   "RealWork": {
     "desc": "Sign up in India’s best Data Science course with Guaranteed job referral. The Data Science courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
@@ -1192,28 +1194,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],
@@ -1224,7 +1223,7 @@
     {
       "id": 0,
       "ques": " What does Skillslash guarantee a job in the Data Science field? ",
-      "ans": "Skillslash’s Data Science course is fully aligned to meet students’ success. Starting from the curriculum of the Data Science programs, attention is given to ensure the meeting of industry standards. The Artificial Intelligence and Data Science Syllabus is extensive, giving particular emphasis to real-time project training. Besides, by enrolling in Skillslash’s Data Science course in Canada, students can earn real-work experience and direct project certifications from top Startups. This can undoubtedly boost their portfolios to get weightage in interviews.Under Skillslash’s flagship Guaranteed job referral program, special focus is given to resume/portfolio building assistance, career mentorship, and counseling. Moreover, to top it all, we set up interviews for our students. And also, give them mock interview trials and unlimited job referrals. So as to assure a sure placement in top Data Science firms.",
+      "ans": "Skillslash’s Data Science course is fully aligned to meet students’ success. Starting from the curriculum of the Data Science course, attention is given to ensure the meeting of industry standards. The Artificial Intelligence and Data Science Syllabus is extensive, giving particular emphasis to real-time project training. Besides, by enrolling in Skillslash’s Data Science course in Canada, students can earn real-work experience and direct project certifications from top Startups. This can undoubtedly boost their portfolios to get weightage in interviews.Under Skillslash’s flagship Guaranteed job referral program, special focus is given to resume/portfolio building assistance, career mentorship, and counseling. Moreover, to top it all, we set up interviews for our students. And also, give them mock interview trials and unlimited job referrals. So as to assure a sure placement in top Data Science firms.",
       "open": false
     },
     {

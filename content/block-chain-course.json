@@ -27,7 +27,9 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Get industrial training",
@@ -40,7 +42,7 @@
     "height": "454"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December,2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -58,10 +60,10 @@
   "TopCTA": {
     "title": "Having Doubts? Talk with our Experts",
     "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " for career transition in data science."
+    "AfterBR": " for career transition in Block chain."
   },
   "Benefits": {
-    "desc": " Learn Data science with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
+    "desc": " Learn Block chain with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
     "InterviewT": "Become data scientist with top Companies",
     "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
     "CertificateT": " Get real work experience from companies",
@@ -76,7 +78,7 @@
     "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-(Blockchain certification).webp"
   },
   "RealWork": {
-    "desc": "Sign up in India’s best Block Chain course with Guaranteed job referral. The Data Science courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
+    "desc": "Sign up in India’s best Block Chain course with Guaranteed job referral. The Block chain courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Block chain Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
   },
   "popupHead": "Download Blockchain course Brochure",
   "syllabusDesc": "Skillslash’s Blockchain course in Bangalore is curated by leading faculties and industry leaders. This helps provide a practical learning experience with live interactive classes and projects.",
@@ -291,28 +293,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],

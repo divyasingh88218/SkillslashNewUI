@@ -15,23 +15,23 @@
   -moz-box-shadow: 0px 4px 8px 0px rgba(174, 232, 255, 0.5);
 }
 .btnShine {
-  position: absolute;
+  /* position: absolute;
   top: 0%;
   left: 0%;
-  transform: translate(-50%, -50%);
-  padding: 12px 0px;
-  color: #ffffff;
-  background: linear-gradient(to right, #F0824F 0, #4F419A 10%, #F0824F 20%);
+  transform: translate(-50%, -50%); */
+  padding: 0px 0px;
+  /* color: #000;
+  background: linear-gradient(to right, #000 0, #4f419a 10%, #000 20%);
   background-position: 0;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 6s infinite linear;
-  animation-fill-mode: backwards;
-  -webkit-text-size-adjust: none;
+  -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* animation: shine 6s infinite linear;
+  animation-fill-mode: backwards; */
+  /* -webkit-text-size-adjust: none;
   font-weight: 600;
-  font-size: 16px;
-  text-decoration: none;
-  white-space: nowrap;
+  font-size: 16px; */
+  /* text-decoration: none;
+  white-space: nowrap; */
 }
 @keyframes shine {
   0% {
@@ -44,12 +44,11 @@
 
   99% {
     background-position: 490px;
-   
   }
-  100%{
-  color: #ffffff;
+  100% {
+    color: #ffffff;
 
-  background-position: 0;
+    background-position: 0;
   }
 }
 
@@ -99,7 +98,6 @@
   display: flex;
   margin-top: 30px;
   align-items: center;
- 
 }
 .btnWrapper button {
   font-size: 17px;
@@ -112,27 +110,25 @@
   transition: 1s ease-in-out;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.border{
+.border {
   height: 50px;
   left: 0;
   border-radius: 8px;
   position: absolute;
-  top: 0; 
-  width: 100%; 
+  top: 0;
+  width: 100%;
 }
-.btnWrapper .border rect{
-   
-    fill: none;
-    stroke: white;
-    stroke-width: 2;
-    stroke-dasharray: 422, 0;
-    transition: all 0.35s linear;
-  
+.btnWrapper .border rect {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 0.35s linear;
 }
 /* .btnWrapper button:hover{
  
 } */
-.btnWrapper button:hover rect{
+.btnWrapper button:hover rect {
   stroke-width: 5;
   stroke-dasharray: 15, 310;
   stroke-dashoffset: 48;
@@ -142,8 +138,6 @@
 .btnWrapper button:hover {
   transform: scale(1.1);
 }
-
-
 
 .playIcon {
   font-size: 50px;
@@ -159,9 +153,9 @@
 }
 .playIcon:hover {
   font-size: 50px;
-  border: 3px solid #F18350;
+  border: 3px solid #f18350;
   border-radius: 50%;
-  color: #F18350;
+  color: #f18350;
   padding: 5px;
   cursor: pointer;
   position: relative;
@@ -169,8 +163,8 @@
   box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
     rgba(22, 71, 98, 0.149) 0px 8px 32px;
 }
-.btnWrapper p:hover{
-  color: #F18350;
+.btnWrapper p:hover {
+  color: #f18350;
 }
 .rightFirst {
   display: flex;
