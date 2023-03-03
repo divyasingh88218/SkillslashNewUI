@@ -24,6 +24,7 @@ const Form = ({
   redirectDe,
   redirectBa,
   redirectBl,
+  redirectWd,
   redirectDSA,
 }) => {
   const router = useRouter();
@@ -33,7 +34,7 @@ const Form = ({
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-  const [loading, setLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
@@ -67,10 +68,11 @@ const Form = ({
   }
 
   // Form Submit function
-  const formSubmit = (e) => {
-    console.log("submit");
-    setLoading(true);
+  const formSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
+
+    console.log("submit");
 
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
@@ -80,7 +82,7 @@ const Form = ({
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
+    }).then(() => {
       setQuery({
         name: "",
         email: "",
@@ -88,9 +90,12 @@ const Form = ({
         workExperience: "",
         dateTime: "",
         url: "",
-      })
-    );
-    setLoading(false);
+      });
+      setValue();
+      setStartDate();
+      setIsLoading(false);
+    });
+
     if (popup) {
       const off = () => {
         setTrigger(false);
@@ -122,11 +127,16 @@ const Form = ({
       router.push("/Thankyou/blockchain");
       return;
     }
+    if (redirectWd) {
+      router.push("/Thankyou/blockchain");
+      return;
+    }
 
     if (event) {
       router.push(link);
     }
   };
+
   const isWeekday = (date) => {
     const day = getDay(date);
     return day !== 0;
@@ -292,8 +302,12 @@ const Form = ({
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
-        {loading ? (
-          <spin className={styles.loading}>Loading...</spin>
+        {isLoading ? (
+          <div className="three-body">
+            <div className="three-body__dot"></div>
+            <div className="three-body__dot"></div>
+            <div className="three-body__dot"></div>
+          </div>
         ) : (
           <button type="submit" className={styles.button}>
             {downloadBrochure ? "Download Now" : btnText}{" "}

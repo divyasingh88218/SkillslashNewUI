@@ -21,6 +21,7 @@ const BoxShape = ({
   redirectBa,
   redirectDSA,
   redirectBl,
+  redirectWd,
   dataScience,
 }) => {
   return (
@@ -117,6 +118,7 @@ const BoxShape = ({
                 redirectBl={redirectBl}
                 redirectDe={redirectDe}
                 redirectDSA={redirectDSA}
+                redirectWd={redirectWd}
               />
             </div>
           </div>

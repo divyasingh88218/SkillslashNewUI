@@ -13,15 +13,15 @@ import FAQ from "../components/Course/FAQ/FAQ";
 import Fee from "../components/Course/Fee/Fee";
 import styles from "../styles/Home.module.css";
 import BoxShape from "../components/Course/Boxshape/BoxShape";
-import RealWork from "../components/Course/ReaWork/RealWork";
-import Project from "../components/Course/Project/Project";
+import MGetHired from "../components/Course/MGetHired/MGetHired";
+import TrainerSlider from "../components/Course/TrainerSlider/TrainerSlider";
 import Reviews from "../components/Review/Reviews";
 import Footer from "../components/Footer/Footer";
 import React, { useState, useEffect } from "react";
 import Popup from "../components/Popup/Popup";
 import Form from "../components/Form/Form";
 import BottomBar from "../components/Course/BottomBar/BottomBar";
-
+import Image from "next/image";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { getAllPostIds, getPostData } from "../lib/page";
 import DataScienceSyllabus from "../components/Course/Syllabus/DataScienceSyllabs";
@@ -238,6 +238,29 @@ export default function Home({ DataScienceCourseData }) {
             Placement={DataScienceCourseData.data.ProgramInfo.Placement}
           />
         </div>
+        <MGetHired
+          heading1={DataScienceCourseData.data.GetHired.heading1}
+          heading={DataScienceCourseData.data.GetHired.heading}
+          dataScience={false}
+          redirectDs={DataScienceCourseData.data.form.dataScience}
+          redirectFs={DataScienceCourseData.data.form.FullStack}
+          redirectDe={DataScienceCourseData.data.form.DataEngineering}
+          redirectBl={DataScienceCourseData.data.form.blockchain}
+          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+          redirectDSA={DataScienceCourseData.data.form.dsa}
+          redirectAI={DataScienceCourseData.data.form.ai}
+        />
+
+        <TrainerSlider
+          dataScience={false}
+          redirectDs={DataScienceCourseData.data.form.dataScience}
+          redirectFs={DataScienceCourseData.data.form.FullStack}
+          redirectDe={DataScienceCourseData.data.form.DataEngineering}
+          redirectBl={DataScienceCourseData.data.form.blockchain}
+          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+          redirectDSA={DataScienceCourseData.data.form.dsa}
+          redirectAI={DataScienceCourseData.data.form.ai}
+        />
         <div className="Feature" id="Feature">
           <BoxShape
             dataScience={false}
@@ -247,6 +270,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWd={DataScienceCourseData.data.form.webDevelopment}
             title={DataScienceCourseData.data.BoxShape.title}
             Box1h5={DataScienceCourseData.data.BoxShape.Box1h5}
             box1desc={DataScienceCourseData.data.BoxShape.box1desc}
@@ -258,44 +282,42 @@ export default function Home({ DataScienceCourseData }) {
             box4desc={DataScienceCourseData.data.BoxShape.box4desc}
           />
         </div>
-        <div className={styles.cta}>
-          <div className={styles.left}></div>
-          <div className={styles.middle}>
-            <h6>{DataScienceCourseData.data.TopCTA.title}</h6>
-            <p>
-              {DataScienceCourseData.data.TopCTA.BeforeBR}
-
-              {DataScienceCourseData.data.TopCTA.AfterBR}
-            </p>
+        <div className={styles.ctaWrap}>
+          <div className="bgWrap">
+            <Image
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/New-cta-background-section.webp"
+              layout="fill"
+              loading="lazy"
+            />
           </div>
-          <div className={styles.right}>
-            <button onClick={popupShow}>
-              Enquire Now <BsFillArrowRightCircleFill />
-            </button>
+          <div className={styles.cta}>
+            <div></div>
+            <div className={styles.left}>
+              <Image
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cta-girl-standing-third-section.webp"
+                layout="intrinsic"
+                width={341}
+                height={366}
+                loading="lazy"
+              />
+            </div>
+            <div className={styles.right}>
+              <h5>
+                Having Doubts? <br />
+                Talk with our Experts
+              </h5>
+              <p>
+                Enroll in our software development course to cope with the
+                advancements in Web Development training. If you are
+                concentrating on a career transition, check your eligibility.
+              </p>
+              <button onClick={popupShow}>
+                Enquire Now <BsFillArrowRightCircleFill />
+              </button>
+            </div>
           </div>
         </div>
-        {DataScienceCourseData.data.form.dsa ? (
-          ""
-        ) : (
-          <Benefits
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBl={DataScienceCourseData.data.form.blockchain}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            desc={DataScienceCourseData.data.Benefits.desc}
-            InterviewT={DataScienceCourseData.data.Benefits.InterviewT}
-            InterviewD={DataScienceCourseData.data.Benefits.InterviewD}
-            CertificateT={DataScienceCourseData.data.Benefits.CertificateT}
-            CertificateD={DataScienceCourseData.data.Benefits.CertificateD}
-            JobT={DataScienceCourseData.data.Benefits.JobT}
-            JobD={DataScienceCourseData.data.Benefits.JobD}
-          />
-        )}
 
-        <GetHired />
         <Certificate
           dataScience={false}
           redirectDs={DataScienceCourseData.data.form.dataScience}
@@ -309,28 +331,6 @@ export default function Home({ DataScienceCourseData }) {
           desc={DataScienceCourseData.data.Certificate.desc}
           src={DataScienceCourseData.data.Certificate.src}
         />
-        <div className={styles.ExpertWrapper}>
-          <div className={styles.expert}>
-            <h5>Our experts are from:</h5>
-          </div>
-          <div className={styles.expertBody}>
-            <OurExpert />
-          </div>
-        </div>
-        {DataScienceCourseData.data.form.dsa ? (
-          ""
-        ) : (
-          <RealWork
-            dataScience={false}
-            desc={DataScienceCourseData.data.RealWork.desc}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBl={DataScienceCourseData.data.form.blockchain}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-          />
-        )}
 
         <DataScienceSyllabus
           dataScience={false}
@@ -345,9 +345,7 @@ export default function Home({ DataScienceCourseData }) {
           popupHead={DataScienceCourseData.data.popupHead}
         />
         {DataScienceCourseData.data.form.FullStack ? <ToolsCovered /> : ""}
-        <div className={styles.ProjectWrapper} id="project">
-          <Project ChangeProject={fullStackProject} />
-        </div>
+
         <div className="review" id="review">
           <Reviews
             title={DataScienceCourseData.data.Review.title}
@@ -414,7 +412,6 @@ export default function Home({ DataScienceCourseData }) {
           />
         </div>
 
-     
         <BottomBar changeBottom={true} />
 
         <Footer />
