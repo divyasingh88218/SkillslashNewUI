@@ -76,12 +76,7 @@ const FirstSection = ({
           />
         </div>
       </Popup>
-      {/* <Image
-        src={backgroundImg}
-        alt="data-science"
-        layout="fill"
-        className={styles.backImg}
-      /> */}
+
       <div className={styles.left}>
         {mobile ? (
           <p className="pTop">{mTopPara}</p>
@@ -101,187 +96,22 @@ const FirstSection = ({
           </button>
           <BsPlayFill className={styles.playIcon} onClick={videoSHow} />
           <p onClick={videoSHow}>Intro Video</p>
-          {/* <div className={styles.mobileDivWrapper}>
-            <div className={styles.first}>
-              <h5>500+</h5>
-              <p>Hiring Partners</p>
-            </div>
-            <div className={styles.second}>
-              <h5>150%</h5>
-              <p>{redirectDSA ? "avg. salary hike" : "Salary hike"}</p>
-            </div>
-            <div className={styles.third}>
-              <h5>{redirectDSA ? "300%" : "15 lac"}</h5>
-              <p>{redirectDSA ? "highest hike" : " Avg CTC*"}</p>
-            </div>
-          </div> */}
         </div>
-        {/* <p className={styles.hPara}>Our Hiring Partner</p> */}
-        {/* <div className={styles.bottom}>
-          <Swiper
-            spaceBetween={mobile ? 30 : spaceBetween}
-            centeredSlides={true}
-            slidesPerView={mobile ? 3 : slidesPerView}
-            slidesPerGroup={1}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
-            }}
-            grabCursor={true}
-            modules={[Autoplay]}
-            className="mySwiper"
-          >
-            {mobile ? (
-              <>
-                {" "}
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp"
-                    alt="Google"
-                    width={mobile ? "90" : "150"}
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Amazon.png"
-                    alt="Google"
-                    width="120"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Microsoft.png"
-                    alt="Google"
-                    width="120"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Flipkart.png"
-                    alt="Flipkart"
-                    width="120"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PAYTM_logo.png"
-                    alt="Paytm"
-                    width="80"
-                    height="28"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/facebook.png"
-                    alt="Facebook Logo"
-                    objectFit="contain"
-                    width="120"
-                    height="80"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/TCS.png"
-                    alt="TCS"
-                    width="120"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-              </>
-            ) : (
-              <>
-                {" "}
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp"
-                    alt="Google"
-                    width="80"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Amazon.png"
-                    alt="Google"
-                    width="120"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Microsoft.png"
-                    alt="Google"
-                    width="150"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/facebook.png"
-                    alt="facebook"
-                    width="150"
-                    height="40"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PAYTM_logo.png"
-                    alt="Paytm"
-                    width="140"
-                    height="44"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Zoho.png"
-                    alt="Zoho"
-                    width="140"
-                    height="48"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/TCS.png"
-                    alt="TCS"
-                    width="150"
-                    height="60"
-                    loading="lazy"
-                  />
-                </SwiperSlide>
-              </>
-            )}
-          </Swiper>
-        </div> */}
       </div>
       <div className={styles.right}>
         {redirectBa || redirectBl || redirectFs ? (
-          <img src={mainHeaderImg} alt="business-analytics-course" />
+          <img
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstsecRimg.webp"
+            alt="business-analytics-course"
+          />
         ) : (
           <Image
-            src={mainHeaderImg}
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstsecRimg.webp"
             alt="data-science-course"
-            width={width}
-            height={height}
             layout="intrinsic"
+            objectFit="contain"
+            width={900}
+            height={607}
           />
         )}
       </div>

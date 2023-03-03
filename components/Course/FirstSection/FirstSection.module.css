@@ -26,7 +26,7 @@ background-size: contain;
     display: flex;
   }
   .left h1 {
-    font-size: 45px;
+    font-size: 40px;
     margin: 0;
     margin-top: 10px;
     font-weight: bold;
@@ -35,9 +35,14 @@ background-size: contain;
     color: #FFFFFF;
   }
   .pBot {
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    font-size: 16px;
     color: #E0E0E0;
+  }
+
+   .pTop{
+    margin-bottom: 10px !important; 
   }
   .left h1 span {
     color: #FFFFFF;
@@ -46,7 +51,6 @@ background-size: contain;
   .btnWrapper {
     display: flex;
     align-items: center;
-
     font-weight: 500;
   }
 
@@ -176,7 +180,7 @@ background-size: contain;
   background-repeat: no-repeat;
 background-size: cover;  
     grid-template-columns: 49% 49%;
-    padding: 70px 20px 0px 20px;
+    padding: 70px 20px 14px 20px;
   }
   .left {
     padding: 0px 0px 0px 0px;
@@ -184,7 +188,7 @@ background-size: cover;
   }
 
   .left h1 {
-    font-size: 40px;
+    font-size: 36px;
     margin: 0;
     font-weight: bold;
     padding: 0;
@@ -202,10 +206,15 @@ background-size: cover;
     align-items: center;
   }
     .pBot {
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    font-size: 16px;
     color: #E0E0E0;
   }
+  .pTop{
+    margin-bottom: 10px !important;
+  }
+
   .playIcon {
   font-size: 50px;
   border: 3px solid #C4BBFF;

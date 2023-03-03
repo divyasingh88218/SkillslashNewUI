@@ -109,69 +109,68 @@ function Syllabus({ dataScience }) {
           interactive classes and projects.
         </p>
 
-        <div className={styles.QOuter}>
-          <div className={styles.QInner}>
-            <div className={styles.line}>
-              <BsFillCircleFill className={styles.bIcons} />
-            </div>
-            <div
-              className={styles.FaqWrapper}
-              onClick={() => {
-                let id = 0;
-                handleChange(id);
-              }}
-            >
-              {state[0].open ? (
-                <div className={styles.quesO}>
-                  <h2>Module 0 (4 weeks )</h2>
+        <div className={styles.QInner}>
+          <div className={styles.line}>
+            <BsFillCircleFill className={styles.bIcons} />
+          </div>
+          <div
+            className={styles.FaqWrapper}
+            onClick={() => {
+              let id = 0;
+              handleChange(id);
+            }}
+          >
+            {state[0].open ? (
+              <div className={styles.quesO}>
+                <h2>Module 0 (4 weeks )</h2>
 
-                  <span>
-                    {state[0].open ? (
-                      <MdKeyboardArrowUp className="icon" />
-                    ) : (
-                      <MdKeyboardArrowDown className="icon" />
-                    )}
-                  </span>
-                </div>
-              ) : (
-                <div className={styles.ques}>
-                  <h2>Module 0 (4 weeks )</h2>
-                  <span>
-                    {state[0].open ? (
-                      <MdKeyboardArrowUp className="icon" />
-                    ) : (
-                      <MdKeyboardArrowDown className="icon" />
-                    )}
-                  </span>
-                </div>
-              )}
+                <span>
+                  {state[0].open ? (
+                    <MdKeyboardArrowUp className="icon" />
+                  ) : (
+                    <MdKeyboardArrowDown className="icon" />
+                  )}
+                </span>
+              </div>
+            ) : (
+              <div className={styles.ques}>
+                <h2>Module 0 (4 weeks )</h2>
+                <span>
+                  {state[0].open ? (
+                    <MdKeyboardArrowUp className="icon" />
+                  ) : (
+                    <MdKeyboardArrowDown className="icon" />
+                  )}
+                </span>
+              </div>
+            )}
 
-              {state[0].open ? (
-                <div className={styles.ans}>
-                  <h5>Programming Fundamentals(2 week )</h5>
-                  <li>Programming Basics, Variables, Conditional statements</li>
-                  <li>Strings, Lists, Loops and Functions</li>
-                  <li>
-                    Pointers in C, Revision of C/C++/Java/Javascript and Python
-                    Syntax
-                  </li>
-                  <li>Basic Mathematics for Programming.</li>
-                  <h5 style={{ marginTop: "20px" }}>
-                    Software Development Essentials (2 week )
-                  </h5>
-                  <li>Introduction to HTTP, Rest API</li>
-                  <li>Basic Linux</li>
-                  <li>Version Control - GIT , Github</li>
-                  <li>Operating System Basics</li>
-                  <li>Database Fundamentals, SQL & No SQL introduction.</li>
-                  <li>Networking Basics.</li>
-                </div>
-              ) : (
-                ""
-              )}
-            </div>
+            {state[0].open ? (
+              <div className={styles.ans}>
+                <h5>Programming Fundamentals(2 week )</h5>
+                <li>Programming Basics, Variables, Conditional statements</li>
+                <li>Strings, Lists, Loops and Functions</li>
+                <li>
+                  Pointers in C, Revision of C/C++/Java/Javascript and Python
+                  Syntax
+                </li>
+                <li>Basic Mathematics for Programming.</li>
+                <h5 style={{ marginTop: "20px" }}>
+                  Software Development Essentials (2 week )
+                </h5>
+                <li>Introduction to HTTP, Rest API</li>
+                <li>Basic Linux</li>
+                <li>Version Control - GIT , Github</li>
+                <li>Operating System Basics</li>
+                <li>Database Fundamentals, SQL & No SQL introduction.</li>
+                <li>Networking Basics.</li>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
+
         <div className={styles.QOuter}>
           <div className={styles.QInner}>
             <div className={styles.line}>

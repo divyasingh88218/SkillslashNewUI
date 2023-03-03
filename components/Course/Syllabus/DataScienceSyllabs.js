@@ -94,71 +94,69 @@ function DataScienceSyllabus({
           const { Module0 } = syllabusData;
 
           return (
-            <div key={Module0.title} className={styles.container}>
-              <div
-                className={styles.FaqWrapper}
-                onClick={() => {
-                  let id = i;
-                  handleChange(id);
-                }}
-                key={Module0.title}
-              >
-                {Module0.open ? (
-                  <div className={styles.quesO}>
-                    <h2>{Module0.title}</h2>
+            <div
+              className={styles.FaqWrapper}
+              onClick={() => {
+                let id = i;
+                handleChange(id);
+              }}
+              key={Module0.title}
+            >
+              {Module0.open ? (
+                <div className={styles.quesO}>
+                  <h2>{Module0.title}</h2>
 
-                    <span>
-                      {Module0.open ? (
-                        <MdKeyboardArrowUp className="icon" />
-                      ) : (
-                        <MdKeyboardArrowDown className="icon" />
-                      )}
-                    </span>
-                  </div>
-                ) : (
-                  <div className={styles.ques}>
-                    <h2>{Module0.title}</h2>
-                    <span>
-                      {Module0.open ? (
-                        <MdKeyboardArrowUp className="icon" />
-                      ) : (
-                        <MdKeyboardArrowDown className="icon" />
-                      )}
-                    </span>
-                  </div>
-                )}
-                {Module0.content.length === 0 ? (
-                  ""
-                ) : (
-                  <>
+                  <span>
                     {Module0.open ? (
-                      <div className={styles.ans}>
-                        <p>{Module0.desc}</p>
-                        {Module0.content.map((content, i) => {
-                          return (
-                            <div key={content.chap.title}>
-                              <h5>{content.chap.title}</h5>
-                              {content.chap.desc.map((desc, i) => {
-                                return (
-                                  <div key={desc}>
-                                    {desc === "" ? (
-                                      ""
-                                    ) : (
-                                      <li key={desc}>{desc}</li>
-                                    )}
-                                  </div>
-                                );
-                              })}
-                            </div>
-                          );
-                        })}
-                      </div>
+                      <MdKeyboardArrowUp className="icon" />
                     ) : (
-                      ""
+                      <MdKeyboardArrowDown className="icon" />
                     )}
-                  </>
-                )}
-              </div>
+                  </span>
+                </div>
+              ) : (
+                <div className={styles.ques}>
+                  <h2>{Module0.title}</h2>
+                  <span>
+                    {Module0.open ? (
+                      <MdKeyboardArrowUp className="icon" />
+                    ) : (
+                      <MdKeyboardArrowDown className="icon" />
+                    )}
+                  </span>
+                </div>
+              )}
+              {Module0.content.length === 0 ? (
+                ""
+              ) : (
+                <>
+                  {Module0.open ? (
+                    <div className={styles.ans}>
+                      <p>{Module0.desc}</p>
+                      {Module0.content.map((content, i) => {
+                        return (
+                          <div key={content.chap.title}>
+                            <h5>{content.chap.title}</h5>
+                            {content.chap.desc.map((desc, i) => {
+                              return (
+                                <div key={desc}>
+                                  {desc === "" ? (
+                                    ""
+                                  ) : (
+                                    <li key={desc}>{desc}</li>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </>
+              )}
             </div>
           );
         })}

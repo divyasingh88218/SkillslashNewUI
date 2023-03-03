@@ -7,13 +7,26 @@
 .MHeading {
   margin-bottom: 20px;
 }
-.batchDateWrap,
+.batchDateWrap
+{
+  display: grid;
+  grid-template-columns: 10% 34% 19% 19%;
+  gap: 15px;
+  margin-bottom: 10px;
+  background-color: #F9F8FF;
+  justify-content: space-between;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 8px;
+  padding: 5px;
+  color: #4F419A;
+}
 .batchDateWrapActive {
   display: grid;
   grid-template-columns: 10% 34% 19% 19%;
   gap: 15px;
   margin-bottom: 10px;
-
+  background-color: #4F419A;
   justify-content: space-between;
   height: max-content;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -34,7 +47,7 @@
   justify-content: center;
 }
 .dateActive {
-  background-color: #4F419A;
+  background-color: #FFFFFF;
   padding: 10px 35px;
   display: flex;
   border-radius: 8px;
@@ -51,7 +64,7 @@
   font-weight: 500;
 }
 .dateActive .month {
-  color: white;
+  color: #4F419A;
 }
 .date p {
   margin: 0;
@@ -64,7 +77,7 @@
   margin: 0;
   line-height: 60px;
   font-size: 50px;
-  color: white;
+  color: #4F419A;
   font-weight: bold;
 }
 .batchDetailsWrap,
@@ -72,15 +85,18 @@
 .enrollWrap {
   display: flex;
   align-items: center;
+  color: #4F419A;
 }
 .batchDetails h5 {
   font-size: 22px;
   margin: 0;
   line-height: 35px;
+  color: white;
 }
 
 .batchDetails p {
   margin: 0;
+  color: #FFFFFF;
 }
 .tag {
   background-color: #f28705;
@@ -95,8 +111,8 @@
   font-size: 12px;
 }
 .dateActive .tag {
-  background: white;
-  color: #f28705;
+  background: #4F419A;
+  color: white;
 }
 .batchInfo {
   flex-flow: column;
@@ -163,9 +179,9 @@
 
 .activeButton {
   font-size: 12px;
-  color: white;
+  color: #4F419A;
   font-weight: 600;
-  background-color: #4F419A;
+  background-color: white ;
   padding: 15px 35px;
   margin-right: 30px;
 }
