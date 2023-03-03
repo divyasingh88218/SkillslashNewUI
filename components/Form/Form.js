@@ -24,6 +24,7 @@ const Form = ({
   redirectDe,
   redirectBa,
   redirectBl,
+  redirectWd,
   redirectDSA,
 }) => {
   const router = useRouter();
@@ -33,7 +34,7 @@ const Form = ({
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-  const [loading, setLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
@@ -67,10 +68,11 @@ const Form = ({
   }
 
   // Form Submit function
-  const formSubmit = (e) => {
-    console.log("submit");
-    setLoading(true);
+  const formSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
+
+    console.log("submit");
 
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
@@ -80,7 +82,7 @@ const Form = ({
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
+    }).then(() => {
       setQuery({
         name: "",
         email: "",
@@ -88,9 +90,12 @@ const Form = ({
         workExperience: "",
         dateTime: "",
         url: "",
-      })
-    );
-    setLoading(false);
+      });
+      setValue();
+      setStartDate();
+      setIsLoading(false);
+    });
+
     if (popup) {
       const off = () => {
         setTrigger(false);
@@ -122,11 +127,16 @@ const Form = ({
       router.push("/Thankyou/blockchain");
       return;
     }
+    if (redirectWd) {
+      router.push("/Thankyou/blockchain");
+      return;
+    }
 
     if (event) {
       router.push(link);
     }
   };
+
   const isWeekday = (date) => {
     const day = getDay(date);
     return day !== 0;
@@ -148,95 +158,93 @@ const Form = ({
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <input
-            type="text"
-            name="name"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            required
-            placeholder="Enter your Full Name*"
-            value={query.name}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
+          <fieldset>
+            <legend>Full Name*</legend>
+            <input
+              type="text"
+              name="name"
+              className={popup ? styles.NameInputs : styles.NameInput}
+              required
+              value={query.name}
+              onChange={handleParam()}
+            />
+          </fieldset>
         </div>
         <div
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <input
-            type="email"
-            name="email"
-            required
-            placeholder="Enter Your Email*"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
-            value={query.email}
-            onChange={handleParam()}
-          />
+          <fieldset>
+            <legend>Email*</legend>
+            <input
+              type="email"
+              name="email"
+              required
+              className={popup ? styles.EmailInputs : styles.EmailInput}
+              value={query.email}
+              onChange={handleParam()}
+            />
+          </fieldset>
         </div>
         <div
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <PhoneInput
-            style={
-              popup
-                ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
-                : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
-            }
-            name="phone"
-            rules={{ required: true }}
-            defaultCountry="IN"
-            placeholder="Enter Phone Number*"
-            className={popup ? styles.Phones : styles.Phone}
-            value={value}
-            required
-            onChange={setValue}
-          />
+          <fieldset>
+            <legend>Phone Number*</legend>
+            <PhoneInput
+              style={
+                popup
+                  ? {
+                      height: "35px",
+                      borderRadius: "8px",
+
+                      padding: "10px",
+                    }
+                  : {
+                      border: "0",
+                      height: "35px",
+                      borderRadius: "3px",
+                    }
+              }
+              name="phone"
+              rules={{ required: true }}
+              defaultCountry="IN"
+              className={popup ? styles.Phones : styles.Phone}
+              value={value}
+              required
+              onChange={setValue}
+            />
+          </fieldset>
         </div>
         <div
           className={popup ? styles.formWrappers : styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-            <option className={styles.option} value="">
-              Select Your Work Experience*
-            </option>
-            {event ? (
-              ""
-            ) : (
-              <option value="College Students">College Students</option>
-            )}
-            {event ? (
-              <>
-                <option value="Not working">Not working</option>
-                <option value="less than 1 year">less than 1 year</option>
-              </>
-            ) : (
+          <fieldset>
+            <legend>Work Experience*</legend>
+            <select
+              name="workExperience"
+              required
+              value={query.workExperience}
+              onChange={handleParam()}
+            >
+              <option value=""></option>
+              {event ? (
+                ""
+              ) : (
+                <option value="College Students">College Students</option>
+              )}
+
               <option value="Fresher ( less than 1 year)">
                 Fresher ( less than 1 year)
               </option>
-            )}
-
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
-          </select>
+              <option value="1 to 3 year">1 to 3 year</option>
+              <option value="3 to 7 year">3 to 7 year</option>
+              <option value="7 to 12 year">7 to 12 year</option>
+              <option value="12+ year">12+ year</option>
+            </select>
+          </fieldset>
         </div>
         <input type="hidden" id="url" name="url" value={router.asPath}></input>
         {downloadBrochure || event ? (
@@ -244,29 +252,48 @@ const Form = ({
         ) : (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <div className={styles.inner}>
-              <DatePicker
-                selected={startDate}
-                name="dateTime"
-                id="dateTime"
-                onChange={(date) => setStartDate(date)}
-                showTimeSelect
-                timeIntervals={15}
-                includeDateIntervals={[
-                  {
-                    start: subDays(new Date(), 1),
-                    end: addDays(new Date(), 5),
-                  },
-                ]}
-                filterDate={isWeekday}
-                filterTime={filterPassedTime}
-                wrapperClassName={styles.date}
-                className={styles.datePicker}
-                placeholderText="Select Date and Time"
-                dateFormat="MMMM d, yyyy h:mm aa"
-                required
-                minTime={setHours(setMinutes(new Date(), 0), 10)}
-                maxTime={setHours(setMinutes(new Date(), 0), 20)}
-              />
+              <fieldset>
+                <legend>Schedule Date & Time*</legend>
+                <DatePicker
+                  selected={startDate}
+                  name="dateTime"
+                  id="dateTime"
+                  onChange={(date) => setStartDate(date)}
+                  showTimeSelect
+                  timeIntervals={15}
+                  includeDateIntervals={[
+                    {
+                      start: subDays(new Date(), 1),
+                      end: addDays(new Date(), 5),
+                    },
+                  ]}
+                  filterDate={isWeekday}
+                  filterTime={filterPassedTime}
+                  wrapperClassName={styles.date}
+                  className={styles.datePicker}
+                  dateFormat="MMMM d, yyyy h:mm aa"
+                  required
+                  popperPlacement="top"
+                  popperModifiers={[
+                    {
+                      name: "offset",
+                      options: {
+                        offset: [5, 10],
+                      },
+                    },
+                    {
+                      name: "preventOverflow",
+                      options: {
+                        rootBoundary: "viewport",
+                        tether: false,
+                        altAxis: true,
+                      },
+                    },
+                  ]}
+                  minTime={setHours(setMinutes(new Date(), 0), 10)}
+                  maxTime={setHours(setMinutes(new Date(), 0), 20)}
+                />
+              </fieldset>
             </div>
           </div>
         )}
@@ -275,18 +302,11 @@ const Form = ({
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
-        {loading ? (
-          <div className="center">
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
+        {isLoading ? (
+          <div className="three-body">
+            <div className="three-body__dot"></div>
+            <div className="three-body__dot"></div>
+            <div className="three-body__dot"></div>
           </div>
         ) : (
           <button type="submit" className={styles.button}>

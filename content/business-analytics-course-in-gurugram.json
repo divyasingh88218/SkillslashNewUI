@@ -27,7 +27,9 @@
     "DataEngineering": false,
     "BusinessAnalytics": true,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Get industry exposure and get yourself placed",
@@ -40,7 +42,7 @@
     "height": "767"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December,2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -58,22 +60,22 @@
   "TopCTA": {
     "title": "Having Doubts? Talk with our Experts",
     "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " for career transition in data science."
+    "AfterBR": " for career transition in business analytics."
   },
   "Benefits": {
-    "desc": " Learn Data science with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
-    "InterviewT": "Become data scientist with top Companies",
+    "desc": " Learn business analytics with multiple domain specialization and become a business analyst with our Guaranteed job referral program.",
+    "InterviewT": "Become business analyst with top Companies",
     "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
     "CertificateT": " Get real work experience from companies",
-    "CertificateD": "Work as a data scientist on live projects directly with companies to gain real work experience.",
+    "CertificateD": "Work as a business analyst on live projects directly with companies to gain real work experience.",
     "JobT": "Guaranteed job referral",
     "JobD": " Our program give assured job referrals that can help you get placed in MNC's"
   },
   "Certificate": {
-    "popupHead": "Download Data science Brochure",
-    "title": "Get Certificate directly from AI companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Business-analytics-course-certificate-26th-October-2022.webp"
+    "popupHead": "Download business analytics Brochure",
+    "title": "Get Certificate directly from empanelled Startups and MNCs",
+    "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Business-analytics-course-certificate-26th-October-2022-new.webp"
   },
   "RealWork": {
     "desc": "Basically, most courses only teach students the fundamentals. However, under Skillslash’s business analytics course in Gurugram, we focus on the actual work experience. Because, work experience can be useful in several ways. Some of which are given below:"
@@ -972,28 +974,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],

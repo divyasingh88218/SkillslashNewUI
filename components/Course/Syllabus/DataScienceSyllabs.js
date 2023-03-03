@@ -12,7 +12,6 @@ import {
 } from "react-icons/ai";
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
-
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
@@ -84,9 +83,7 @@ function DataScienceSyllabus({
             <h4>Syllabus</h4>
           </div>
           <div>
-            <button className={styles.Button} onClick={popupShow}>
-              {" "}
-              <AiOutlineDownload className="bIcons" />
+            <button className={styles.buttonDownload} onClick={popupShow}>
               Download Brochure
             </button>
           </div>

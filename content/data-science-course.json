@@ -27,7 +27,9 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Master Data Science With Expert Help",
@@ -40,7 +42,7 @@
     "height": "568"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December 2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -71,9 +73,9 @@
   },
   "Certificate": {
     "popupHead": "Download Data Science Brochure",
-    "title": "Get Certificate directly from AI companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Data Science institute and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022.webp"
+    "title": "Get Certificate directly from empanelled Startups and MNCs",
+    "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
   },
   "RealWork": {
     "desc": "Sign up in India’s best Data Science course with Guaranteed job referral. The Data Science courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
@@ -1192,28 +1194,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],

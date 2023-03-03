@@ -1,6 +1,6 @@
 {
   "metaInfo": {
-    "title": "Data Science Course In Vadodra with Job Referral| Skillslash",
+    "title": "Data Science Course In Vadodra | Skillslash",
     "desc": "Best Data science course in Vadodra at budget-friendly prices at Skillslash. Enrol in our data science course with placement support.",
     "keyword": "data analyst course in Vadodra, Data Science training, Data Science certification, Data Science course, Data Science institute, Data Science institute in Vadodra, Data science courses in Vadodra, Data science courses, Data science course in Vadodra, Data scientist course, Data scientist course in Vadodra, Best data science course in Vadodra, Best institute for data science in Vadodra, Data science training in Vadodra",
     "canonical": "https://skillslash.com/data-science-course-in-vadodra",
@@ -27,20 +27,22 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Gain Industry Experience Certificate",
     "mTopPara": " Gain Industry Experience",
     "title": "Data Science Course in Vadodra",
-    "spanTitleText": "With Guaranteed job referral ",
+    "spanTitleText": "",
     "desc": "Enroll in our Data Science Course in Vadodra to learn the principles of Data Science. Acquire experience working on projects with top-tier industry collaborators.Learn from professionals in live-interactive sessions with a Guaranteed job referral.",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
     "width": "563",
     "height": "568"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December 2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -71,9 +73,9 @@
   },
   "Certificate": {
     "popupHead": "Download Data science Brochure",
-    "title": "Get Certificate directly from AI companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Data Science institute in Vadodra and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022.webp"
+    "title": "Get Certificate directly from empanelled Startups and MNCs",
+    "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
   },
 
   "syllabusDesc": "Skillslash’s best Data Science course in Vadodra comes with a Guaranteed job referral. Besides, the Data Analyst course in Vadodra are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
@@ -1193,28 +1195,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],

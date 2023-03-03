@@ -1,8 +1,8 @@
 {
   "metaInfo": {
-    "title": "Data Science Course In Kanpur with Job Referral| Skillslash",
+    "title": "Data Science Course In Kanpur | Skillslash",
     "desc": "Best Data science course in Kanpur at budget-friendly prices at Skillslash. Enrol in our data science course with placement support.",
-    "keyword": "data science course in Kanpur, data science courses in Kanpur, data scientist course in Kanpur, data science training in Kanpur, data science institute in Kanpur, best data science institute in Kanpur, best data science course in Kanpur, data science",
+    "keyword": "Data Science training, Data Science certification, Data Science course, Data Science institute, Data Science institute in Kanpur, data science courses in Kanpur, data science courses, data science course in Kanpur, data scientist course, data scientist course in Kanpur",
     "canonical": "https://skillslash.com/data-science-course-in-kanpur",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -14,10 +14,10 @@
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "9.3",
+        "ratingValue": "9.9",
         "bestRating": "10",
         "worstRating": "1",
-        "ratingCount": "22657"
+        "ratingCount": "25987"
       }
     }
   },
@@ -27,61 +27,61 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": true
   },
   "FirstSection": {
-    "deskTopPara": "Gain Idustry Experience",
-    "mTopPara": " Gain Industry Experience ",
-    "title": " Data Science Course in Kanpur ",
-    "spanTitleText": "With Guaranteed job referral Program",
-    "desc": "Enroll in our best Data Science Course in Kanpur to learn the principles of Data Science. Acquire experience working on projects with top-tier industry collaborators.Learn from professionals in live-interactive sessions with a Guaranteed job referral.",
+    "deskTopPara": "Gain Industry Experience",
+    "mTopPara": "Gain Industry Experience",
+    "title": "Data Science Course in Kanpur",
+    "spanTitleText": "",
+    "desc": "Enroll in our Data Science Course in Kanpur to learn the principles of Data Science.Acquire experience working on projects with top-tier industry collaborators.Learn from professionals in live-interactive sessions with a Guaranteed job referral",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
     "width": "563",
     "height": "568"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December 2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
   "BoxShape": {
-    "title": "Why Join this Program?",
-    "Box1h5": "Real Work Experience",
-    "box1desc": "Only learning isn't the key, putting what you've learned into practice is the key to greater achievements. The best Data Science Course in Kanpur are endowed with this feature, which later helps to boost career prospects.",
+    "title": "Why Join this Data Science Program?",
+    "Box1h5": "Real Work Experience In Data Science",
+    "box1desc": "Don’t just learn data science, apply your learning. Work directly with companies to build relevant industry experience.",
     "Box2h5": "Build Your Own Course",
-    "box2desc": " Under the supervision of a counselor, create customized learning tracks according to your professional experience and career aspirations under our Data Science Certification Course in Kanpur.",
-    "Box3h5": "Guaranteed job referral",
+    "box2desc": " Under the supervision of your counsellor, create customized learning tracks according to your professional experience and career aspirations under data science course.",
+    "Box3h5": "Guaranteed job referral in Data Science Course",
     "box3desc": " Get a job at a top company or startup with a Guaranteed job referral. Learn from professionals in live-interactive sessions and get tips on how to create a resume and also prepare for an interview.",
-    "Box4h5": "Eligibility Criteria",
-    "box4desc": "The course is only open to professionals with at least one year of experience.The best Data Science Course in Kanpur with placement opportunities is a credible career heads-up."
+    "Box4h5": "Eligibility Criteria in Data Science Course",
+    "box4desc": "The data science course is only open to professionals with at least one year of experience.The Data Science Course with job referals opportunities is a credible career heads-up."
   },
   "TopCTA": {
-    "title": "Having Doubts? Talk with our Experts",
-    "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " for career transition in Data Science."
+    "title": "Having Doubts In Data Science Course? Talk with our Experts",
+    "BeforeBR": " Talk to our expert counsellor to know more about data science course, if your profile is suitable",
+    "AfterBR": " For Career transition in Data Science."
   },
   "Benefits": {
-    "desc": " Learn Data Scientist course in Kanpur with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
-    "InterviewT": "Become Data Scientist With Top companies",
+    "desc": " Learn Data Science with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
+    "InterviewT": "Become data scientist with top Companies",
     "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    "CertificateT": " Get Real Work Experience From Companies",
-    "CertificateD": "Work as a Data Scientist on live projects directly with companies to gain real work experience.",
-    "JobT": "Guaranteed job referral",
-    "JobD": " Get assured job referrals that can help you get placed in MNC's."
+    "CertificateT": " Get real work experience in data science from companies",
+    "CertificateD": "Work as a data scientist on live projects directly with companies to gain real work experience.",
+    "JobT": "Guaranteed job referral in Data Science ",
+    "JobD": " Get assured job referrals after data science completion that can help you get placed in MNC's."
   },
   "Certificate": {
-    "popupHead": "Download Data science Brochure",
+    "popupHead": "Download Data Science Brochure",
     "title": "Get Certificate directly from AI companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Data Science institute in Kanpur and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022.webp"
+    "desc": "Get Guaranteed job referral after data science completion and real-work experience by learning from the best Data Science institute in Kanpur and crack interviews with confidence.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
   },
-
   "RealWork": {
-    "desc": "The application-based learning strategy is used in the Data Science and AI course with a Guaranteed job referral. It also focuses on assisting learners in gaining meaningful experience in the technology they are upgrading in order to demonstrate competency."
+    "desc": "The application-based learning strategy is used in the Data Science course with a Guaranteed job referral. It also focuses on assisting learners in gaining meaningful experience in the technology they are upgrading in order to demonstrate competency."
   },
-
-  "syllabusDesc": "Skillslash’s best Data Science course in Kanpur comes with a Guaranteed job referral. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
-  "popupHead": "Download Data Science Course Brochure",
+  "syllabusDesc": "Skillslash’s best Data Science training institute in Kanpur comes with a Guaranteed job referral. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
+  "popupHead": "/Certificate-(Advance data science).webp",
 
   "syllabus": [
     {
@@ -1179,15 +1179,15 @@
     }
   ],
   "Review": {
-    "title": "Why should you enroll in our Data Science course?",
-    "desc": " With real-world experience, Skillslash provides the best online Data Science training in Kanpur. Furthermore, our Data Science courses in Kanpur are created for both creative and non-creative brains. So, enroll in our Artificial Intelligence and Data Science course in Kanpur and immerse yourself in a new era of learning!"
+    "title": "Why should you enrol in our Data Science course?",
+    "desc": " The  Data Science course from Skillslash includes real-world experience and is tailored for creative minds. Experience the future age of education by enrolling in our Data Science training institutes in Kanpur."
   },
   "Fee": {
     "FullStack": true,
-    "desc": " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-    "desc1": "Skillslash's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
+    "desc": " The Data science course fees in Kanpur start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
+    "desc1": "Skillslash's data science training in Kanpur are designed giving importance to affordability. The Data Science course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
     "BasicPrice": "₹ 59,999 + GST",
-    "BasicDesc": "3% cashback on creditcard payment",
+    "BasicDesc": "3% cashback on credit card payment",
     "ProPrice": "₹ 109,999 + GST",
     "ProDesc": "5% cashback on credit card payment",
     "ProMaxPrice": "₹ 1,49,999 + GST",
@@ -1195,78 +1195,133 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],
+  "AboutCourseHeading": {
+    "heading": "About Data Science",
+    "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth."
+  },
+  "AboutCourse": [
+    {
+      "data": {
+        "heading": "What is Data Science? And, who is a Data Scientist?",
+        "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth. Enrolling in our Data Science Course Training in Kanpur is the perfect first step towards a career in data science. Our program is designed to provide you with a comprehensive understanding of the principles of data science, as well as the hands-on experience you'll need to succeed in the field. During the data science course, you'll learn from industry professionals in live-interactive sessions, giving you the opportunity to ask questions and get personalized feedback. This will allow you to fully understand the concepts and techniques you're learning and to apply them to real-world problems.",
+        "list": [],
+        "para1": "Additionally, our data science program includes a unique opportunity to work on projects with top-tier industry collaborators. This will give you the chance to gain valuable experience working on real-world projects, which will be highly beneficial when applying for jobs. And, to top it off, we guarantee a job referral to all our successful graduates, giving you the best Data Science training institute in Kanpur.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "How does Skillslash offer the best Data Science training institute in Kanpur?  ",
+        "para": "If you're looking for top-notch Data Science training institutes in Kanpur, Skillslash is an excellent choice.One of the biggest advantages of choosing Skillslash’s data science course is that all of our classes are 100% live and interactive. This means that you'll be able to get your doubts cleared in real-time by industry experts who are mentoring you through the data science course, having more than a decade of experience. These mentors come from top companies like Google, Microsoft, TCS, Amazon, Flipkart, Myntra and Capegemini and have proven their mettle in their respective fields. Another advantage of choosing Skillslash’s data science course is that you'll have the opportunity to work with AI companies as an intern. This will give you real-world experience by working on 8+ industry-specific projects. And upon completion of the data science program, you'll even receive project certification from the company to boost your CV.",
+        "list": [],
+        "para1": "Skillslash also makes it easy and affordable for you to finance your education. We offer easy financing options including an EMI system, so you don't have to worry about the financial burden of the data science course. Finally, our team provides resume preparation training and mock interviews, and we also provide job referrals to help you get placed in a top company after completing the data science course. We offer a comprehensive, industry-relevant training program that will give you the skills and experience you need to excel in the field of data science. With live interactive classes, industry expert mentors, real-world experience, easy financing options, and job placement assistance, Skillslash is an excellent choice for anyone looking to start a career in data science.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why One Should Take The Data Science Course? Is Data Science certification being worth pursuing as a career?",
+        "para": "Data science is a highly valuable and in-demand field, and taking a Data science Course can help individuals gain the skills and knowledge needed to pursue a career in this field. The course would provide an introduction to the key concepts and tools used in data science, such as programming languages, statistical analysis, and machine learning, as well as hands-on experience working with data. The course could also help individuals understand the business applications of data science and how data can be used to inform decision making.",
+        "list": [],
+        "para1": "Regarding Data Science certification online training in Kanpur, it depends on the individual's career goals and the specific certification program. Generally, a data science certification can demonstrate that an individual has a certain level of knowledge and skills in the field, which can be helpful for job applicants or those looking to advance their careers. However, it's important to note that a certification alone may not guarantee a job or a promotion, and employers will also look at an individual's experience and portfolio of work. Therefore, it's worth pursuing a data science certification if it aligns with your career goals and you are willing to put in the time and effort to earn it.",
+        "listActive": false,
+        "extraPara": true
+      }
+    }
+  ],
   "FAQ": {
-    "desc": "Learn more about our Data Science courses in Kanpur by reading the FAQs. Find out more about our Data Science course costs, project certifications, and other Data Science and AI course information."
+    "desc": "Go through the FAQ’s to know more about our Data Science course in Kanpur with unlimited job referrals, course fees and project details."
   },
   "FaqDATA": [
     {
       "id": 0,
-      "ques": " What are the different learning alternatives available for Data Science and AI?",
+      "ques": " What are the different learning alternatives available for Data Science course ? ",
 
-      "ans": "Most crucially, for the   Data Science and AI course with real-world experience, we provide both offline and online learning options. Aside from that, they provide a blended learning curriculum tailored to the needs of working professionals. In addition, as part of their Data Science  course in Kanpur, you may engage in live online sessions in hybrid learning mode. On top of that, you'll be doing some hands-on work on the industrial project site.Due to the epidemic, they can only provide completely online education via live sessions. This means you can communicate with your instructor in real time, just as you would in a regular face-to-face class. In addition, all practical sessions of their artificial intelligence and machine learning course will be held utilising cloud-based technologies at this time.",
-      "open": false
-    },
-    {
-      "id": 1,
-      "ques": "If I have to miss a lesson due to an emergency, would there be a make-up class available?",
-
-      "ans": "For starters, their best",
-      "linkText": "Data Science course in Bangalore",
-      "ansAfter": "includes live online sessions. Additionally, all of their students have access to video recordings of those classes. Furthermore, they provide you with unrestricted access to these recorded sessions so that you may refer to them anytime you need theoretical assistance in your AI and ML career. As a consequence, you won't be disappointed if you miss any of our artificial intelligence and machine learning training's live sessions. They do, however, strongly suggest you attend all live sessions.",
-      "linkURL": "https://skillslash.com/data-science-course-in-bangalore",
+      "ans": "Most crucially, for the",
+      "linkText": "Data Science course in Jaipur",
+      "ansAfter": "One of the most important features of our data science course is the emphasis on real-world experience. We provide a live interactive learning option including blended learning curriculum tailored to the needs of working professionals. In addition, the data science course includes live online sessions in hybrid learning mode and hands-on work on industrial projects. This allows for real-time communication with instructors, as well as practical sessions in data science, artificial intelligence, and machine learning.",
+      "linkURL": "https://skillslash.com/data-science-course-in-jaipur",
       "link": true,
       "open": false
     },
     {
-      "id": 2,
-      "ques": "What is the Data Science and AI Scholarship Program at Skillslash?",
+      "id": 1,
+      "ques": "If I have to miss a lesson in data science training due to an emergency, would there be a make-up class available to cover our data science syllabus?",
 
-      "ans": "First and foremost, each candidate will have the chance to complete a 20-minute online aptitude test. If a candidate has a score of more than 65 percent on the aptitude exam, he or she will be entitled for a 10% reduction on the course costs. Furthermore, applicants who lost their employment as a result of the COVID scenario, as well as moms who wish to start a profession, may be eligible for a scholarship of up to 100% based on their exam score.",
+      "ans": "For starters, their Data Science course in Kanpur includes live online sessions. Additionally, all of their students have access to video recordings of those classes. Furthermore, they provide you with unrestricted access to these recorded sessions so that you may refer to them anytime you need theoretical assistance in your AI and ML career. As a consequence, you won't be disappointed if you miss any of our artificial intelligence and machine learning training's live sessions. They do, however, strongly suggest you attend all live sessions.",
+      "open": false
+    },
+    {
+      "id": 2,
+      "ques": " What is the Data Science Course Scholarship Program at Skillslash?",
+
+      "ans": "In",
+      "linkText": "Data Science",
+      "ansAfter": "Course Scholarship Program at Skillslash offers students the opportunity to earn a reduced course fee. Each candidate will have the chance to complete a 20-minute online aptitude test. If a candidate scores more than 65 percent on the aptitude exam, they will be eligible for a 10% reduction in data science course costs. Furthermore, applicants who lost their employment as a result of the COVID scenario, as well as mothers who wish to start a profession, may be eligible for a scholarship of up to 100% based on their exam score. This  data science program is designed to make our Data Science course more accessible and affordable for a diverse range of students.",
+      "linkURL": "https://en.wikipedia.org/wiki/Data_science",
+      "link": true,
       "open": false
     },
     {
       "id": 3,
-      "ques": "What is Skillslash’s Data Science scholarship program in Kanpur?",
+      "ques": "Will the data scientist certification in Kanpur take place online or in a classroom?",
 
-      "ans": "First of all, every candidate will be given the opportunity to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 30 percent discount on the data science course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score.",
+      "ans": "At present, Skillslash offering online data science certification programs with 100% live interactive sessions to make your learning journey truly unforgettable. Our live sessions provide real-time doubt clearance, so you won't miss out on the benefits of a physical setting where you can communicate and get your questions answered quickly.",
       "open": false
     },
     {
       "id": 4,
-      "ques": " Are there any fee discounts available for Data Science course in Kanpur?",
-      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 30% on your fees for Data Science course in Kanpur. Moreover, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation.",
+      "ques": "What is Skillslash’s Data Science scholarship program in Kanpur?",
+
+      "ans": "Skillslash's Data Science scholarship program in Kanpur is designed to provide financial assistance for students who want to take our Data Science course but may face financial barriers. Candidates who pass the aptitude test with a score of more than 65 percent will be eligible for a 30 percent discount on the data science course fees. Additionally, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. This data science program is an excellent opportunity for students who are looking to gain knowledge and skills in the field of Data Science.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does the best Data Science course in Kanpur provide ?",
-
-      "ans": "The hitch is that if you take the best Data Science course in Kanpur you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certification.",
+      "ques": " Are there any fee discounts available for Data Science training in Kanpur?",
+      "ans": "Yes, we offer fee discounts for our Data Science training in Kanpur. Eligible students can save up to 30% on their data science course fees. Additionally, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation. These discounts and scholarships are designed to make our data science course more accessible and affordable for a diverse range of students.",
+      "open": false
+    },
+    {
+      "id": 6,
+      "ques": "How much can I expect to earn as a data scientist?",
+      "ans": "The sky is the limit when it comes to earning potential as a data scientist. Being said that, your experience is a major factor in the package you'll receive - so make sure it counts! Leverage your expertise to get the best offer possible. But here are some figures that show what is the average salary for data science professionals as per their experience level: Entry level - Up to 5 Lakhs, Intermediate, Level - Up to 8 Lakhs, Experienced Level - Up to 12.5 Lakhs, Advanced Level - Up to 18 Lakhs, Expert Level - More than 25 Lakhs",
+      "open": false
+    },
+    {
+      "id": 7,
+      "ques": "Are your data science course training sessions live or pre-recorded?",
+      "ans": "All of our data science course training sessions are conducted live, in real-time, with an experienced instructor leading the way. These data science sessions are designed to be interactive, allowing participants to engage with the material and ask questions as they arise.You'll log in at a specific time and join a virtual classroom where you'll be able to connect with other participants and our data science trainers. This allows for a collaborative learning environment where everyone can share their experiences and insights.And don't worry if you miss a data science session or need to review the material again, we understand that everyone learns at a different pace. That's why we record all of our data sience sessions and make them available to you after the fact. This way, you'll have the opportunity to revisit the material, reinforce your understanding, and make sure you're keeping up with the rest of the data science class. So, whether you're a visual, auditory, or kinesthetic learner, we've got you covered.",
+      "open": false
+    },
+    {
+      "id": 8,
+      "ques": " What kind of certification does the Data Science course in Kanpur provide?",
+      "ans": "The Data Science course in Kanpur provides a globally recognized project management certification. Upon completion of the data science course, students will not only gain a solid understanding of data science, artificial intelligence, and machine learning but also receive a globally recognized project management certificate. Furthermore, the company with which you completed your industrial project can also give you direct certification, which is a valuable asset in the job market. This certification is a testament to the quality of our course and the skills and knowledge that students will gain during the course.",
       "open": false
     }
   ]

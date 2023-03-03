@@ -2,24 +2,46 @@
   display: grid;
   align-items: center;
   grid-template-columns: 49% 49%;
-  margin: 40px 0px 30px 0px;
+  margin: 70px 0px 70px 0px;
   background-color: #f2f8fd;
   padding: 0px 160px;
   border-radius: 15px;
 }
 .left {
-  padding: 0px 50px 0px 30px;
+  padding: 20px 50px 20px 30px;
 }
-
+.left h5 {
+  font-size: 32px;
+  margin: 0;
+}
+.pTop {
+  font-size: 14px;
+  color: #49419a;
+  font-weight: 500;
+  margin: 0;
+}
 .left span {
   color: #fff;
   padding: 8px 15px;
   font-size: 20px;
+
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 5px;
   background-color: #6294d6;
 }
-
+.left button {
+  padding: 10px 20px;
+  font-weight: 400;
+}
+.imgWrap {
+  width: max-content;
+  height: max-content;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  position: absolute;
+  top: -23px;
+  border-radius: 6px;
+}
 .pBotC {
   font-size: 16px;
   line-height: 24px;
@@ -31,12 +53,90 @@
 }
 .Certifcate .right {
   width: 100%;
-  margin-left: 50px;
-  margin-bottom: -5px;
+  height: 100%;
+  position: relative;
 }
 
 .right img {
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.buttonDownload {
+  display: inline-block;
+  position: relative;
+  padding: 10px 25px;
+  background-color: #49419a;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  text-indent: 15px;
+  border: none;
+}
+.buttonDownload:hover {
+  background-color: transparent;
+  border: 1px solid #49419a;
+  color: #49419a;
+}
+.buttonDownload:before,
+.buttonDownload:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 52%;
+}
+
+.buttonDownload:before {
+  width: 10px;
+  height: 2px;
+  border-style: solid;
+  border-width: 0 2px 2px;
+}
+
+.buttonDownload:after {
+  width: 0;
+  height: 0;
+  margin-left: 2.5px;
+  margin-top: -7px;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: transparent;
+  border-top-color: inherit;
+  animation: downloadArrow 1s linear infinite;
+  animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+  border-color: #49419a;
+}
+
+.buttonDownload:hover:after {
+  border-top-color: #49419a;
+  animation-play-state: running;
+}
+
+@keyframes downloadArrow {
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0.4;
+  }
 }
 @media (max-width: 1281px) {
   .Certifcate {

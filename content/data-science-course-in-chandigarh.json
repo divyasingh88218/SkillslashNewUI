@@ -27,20 +27,22 @@
     "DataEngineering": false,
     "BusinessAnalytics": false,
     "FullStack": false,
-    "dsa": false
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": false
   },
   "FirstSection": {
     "deskTopPara": "Gain Industry Experience",
     "mTopPara": "Gain Industry Experience",
     "title": "Data Science Course in Chandigarh",
-    "spanTitleText": "| Skillslash",
+    "spanTitleText": "",
     "desc": "Enroll in our Data Science Course in Chandigarh to learn the principles of Data Science.Acquire experience working on projects with top-tier industry collaborators.Learn from professionals in live-interactive sessions with a Guaranteed job referral",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
     "width": "563",
     "height": "568"
   },
   "ProgramInfo": {
-    "BatchDate": "16 December 2022",
+    "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
@@ -73,7 +75,7 @@
     "popupHead": "Download Data Science Brochure",
     "title": "Get Certificate directly from AI companies",
     "desc": "Get Guaranteed job referral after data science completion and real-work experience by learning from the best Data Science institute in Chandigarh and crack interviews with confidence.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022.webp"
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
   },
   "RealWork": {
     "desc": "The application-based learning strategy is used in the Data Science course in Chandigarh with a Guaranteed job referral. It also focuses on assisting learners in gaining meaningful experience in the technology they are upgrading in order to demonstrate competency."
@@ -1193,28 +1195,25 @@
   },
   "BatchDates": [
     {
-      "batchDate": "27",
-      "batchMonth": "NOV",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are partially filled",
-      "activeBatch": true
-    },
-
-    {
       "batchDate": "16",
       "batchMonth": "DEC",
       "batchStatus": "New",
-      "batchType": "Evening Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Limited seats are available",
-      "batchDescSpan": "Hurry!",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
       "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are partially filled",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
       "activeBatch": true
     }
   ],

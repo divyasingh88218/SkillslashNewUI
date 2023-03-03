@@ -53,30 +53,32 @@ const Certificate = ({
           />
         </div>
       </Popup>
+
+      <div className={styles.right}>
+        <div className={styles.imgWrap}>
+          <Image
+            className="shadow"
+            src={src}
+            alt="Certificate of FUllstack Course"
+            quality={100}
+            layout="intrinsic"
+            width={291}
+            loading="lazy"
+            height={402}
+          />
+        </div>
+      </div>
       <div className={styles.left}>
-        <p className="pTop"> Certificate from companies</p>
-        <h4>{title}</h4>
+        <p className={styles.pTop}> Certificate from companies</p>
+        <h5>{title}</h5>
 
         <p className={styles.pBotC}>{desc}</p>
 
         <div className={styles.btnWrapper}>
-          <button onClick={popupShow}>
-            <BiDownload className="bIcons" />
+          <button onClick={popupShow} className={styles.buttonDownload}>
             Download Brochure
           </button>
         </div>
-      </div>
-      <div className={styles.right}>
-        <Image
-          className="shadow"
-          src={src}
-          alt="Certificate of FUllstack Course"
-          quality={100}
-          layout="intrinsic"
-          width="530px"
-          loading="lazy"
-          height="380"
-        />
       </div>
     </section>
   );

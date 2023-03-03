@@ -80,10 +80,10 @@ export default function Home() {
         <div className={styles.advantage}>
           <NewCTA />
         </div>
+
         <div className={styles.advantage}>
           <Hiring />
         </div>
-
         <BoxAnimation />
         <Reviews
           home={true}
