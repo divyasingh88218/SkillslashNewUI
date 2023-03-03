@@ -109,7 +109,7 @@ const Navbar = ({
               height="60px"
             />
           </a>
-          <button
+          {/* <button
             onMouseEnter={() => setIcon(true)}
             onMouseOver={() => setIcon(true)}
             onClick={() => {
@@ -124,7 +124,7 @@ const Navbar = ({
             ) : (
               <MdKeyboardArrowDown className={styles.bIcon} />
             )}
-          </button>
+          </button> */}
           {icon ? (
             <div
               className="megaMenu"

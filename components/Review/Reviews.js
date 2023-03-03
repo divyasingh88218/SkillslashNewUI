@@ -227,11 +227,11 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I 
+                      Although a new startup but training quality scientist I
                       {readMore[2].open ? (
                         <span>
-                          am today. There are tons of differences between studying data
-                          science and working as a data scientist.
+                          am today. There are tons of differences between
+                          studying data science and working as a data scientist.
                         </span>
                       ) : (
                         ""
@@ -1009,11 +1009,11 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I 
+                      Although a new startup but training quality scientist I
                       {readMore[2].open ? (
                         <span>
-                          am today. There are tons of differences between studying data
-                          science and working as a data scientist.
+                          am today. There are tons of differences between
+                          studying data science and working as a data scientist.
                         </span>
                       ) : (
                         ""
@@ -1555,11 +1555,11 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I 
+                      Although a new startup but training quality scientist I
                       {readMore[2].open ? (
                         <span>
-                          am today. There are tons of differences between studying data
-                          science and working as a data scientist.
+                          am today. There are tons of differences between
+                          studying data science and working as a data scientist.
                         </span>
                       ) : (
                         ""
@@ -1784,11 +1784,11 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I 
+                      Although a new startup but training quality scientist I
                       {readMore[2].open ? (
                         <span>
-                          am today. There are tons of differences between studying data
-                          science and working as a data scientist.
+                          am today. There are tons of differences between
+                          studying data science and working as a data scientist.
                         </span>
                       ) : (
                         ""
@@ -2013,11 +2013,11 @@ const Reviews = ({
 
                     <p>
                       One of the best platform for working professionals.
-                      Although a new startup but training quality scientist I 
+                      Although a new startup but training quality scientist I
                       {readMore[2].open ? (
                         <span>
-                          am today. There are tons of differences between studying data
-                          science and working as a data scientist.
+                          am today. There are tons of differences between
+                          studying data science and working as a data scientist.
                         </span>
                       ) : (
                         ""

@@ -113,9 +113,10 @@ export default function Home() {
           title={DataScienceCourseData[0].FirstSection.title}
           spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
           desc={DataScienceCourseData[0].FirstSection.desc}
-          mainHeaderImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp"
-          width="563"
-          height="568"
+          backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp"
+          mainHeaderImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBanner.webp"
+          width="917"
+          height="660"
         />
         <div className={styles.program}>
           <ProgramInfo

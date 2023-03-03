@@ -3,9 +3,17 @@
     display: grid;
     align-items: center;
     gap: 20px;
+    position: relative;
     grid-template-columns: 49% 49%;
-    margin: 70px 100px 90px 100px;
+    padding: 80px 100px 90px 100px;
     height: max-content;
+    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
+    background-position: center center;
+  background-repeat: no-repeat;
+background-size: contain;  
+}
+  .backImg{
+    z-index: 0;
   }
   .left {
     display: flex;
@@ -24,13 +32,15 @@
     font-weight: bold;
     padding: 0;
     margin-bottom: 10px;
+    color: #FFFFFF;
   }
   .pBot {
     margin-bottom: 30px;
     font-size: 18px;
+    color: #E0E0E0;
   }
   .left h1 span {
-    color: #f28705;
+    color: #FFFFFF;
   }
 
   .btnWrapper {
@@ -52,69 +62,38 @@
     margin-right: 20px;
   }
   .btnWrapper button:hover {
-    background-color: #f28705;
+    background-color: #C4BBFF;
   }
-  .first {
-    -webkit-box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    -moz-box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    width: 115px;
-    border-radius: 9px;
+  .playIcon {
+  font-size: 50px;
+  border: 3px solid #C4BBFF;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+.playIcon:hover {
+  font-size: 50px;
+  border: 3px solid #C4BBFF;
+  border-radius: 50%;
+  color: #C4BBFF;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+ 
 
-    padding: 5px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    margin-right: 10px;
-  }
-  .second {
-    -webkit-box-shadow: -9px 0px 14px 0px rgba(242, 135, 5, 0.2);
-    -moz-box-shadow: -9px 0px 14px 0px rgba(242, 135, 5, 0.2);
-    box-shadow: -9px 0px 14px 0px rgba(242, 135, 5, 0.2);
-    border-radius: 9px;
-    padding: 5px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    width: 115px;
-    margin-right: 10px;
-  }
-  .third {
-    -webkit-box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    -moz-box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    box-shadow: -9px 0px 14px 0px rgba(4, 135, 217, 0.2);
-    border-radius: 9px;
-    width: 120px;
-    padding: 5px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    margin-right: 5px;
-  }
-  .first h5,
-  .second h5,
-  .third h5 {
-    margin: 0;
-  }
-  .first p,
-  .second p,
-  .third p {
-    margin: 0;
-  }
-  .btnWrapper h5 {
-    color: rgb(82, 82, 82);
-    font-weight: 600;
-    font-size: 22px;
-    margin: 0;
-    margin-top: 10px;
-  }
   .btnWrapper p {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
-    color: rgb(145, 145, 145);
+    color: #C4BBFF;;
   }
   .hPara {
     font-weight: 600;
@@ -128,7 +107,7 @@
     z-index: 0;
     align-items: center;
     justify-content: center;
-
+    margin-top: 10px;
     width: 100%;
   }
   .bottom {
@@ -192,98 +171,89 @@
     display: grid;
     align-items: center;
     gap: 10px;
+     background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
+    background-position: center center;
+  background-repeat: no-repeat;
+background-size: cover;  
     grid-template-columns: 49% 49%;
-    margin: 70px 20px 0px 20px;
+    padding: 70px 20px 0px 20px;
   }
   .left {
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     z-index: 1;
   }
+
   .left h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
     font-weight: bold;
     padding: 0;
+    display: flex;
+    flex-flow: column;
     margin-bottom: 10px;
+    color: #FFFFFF;
   }
   .left h1 span {
-    color: #4F419A;
+    color: #FFFFFF;
   }
   .btnWrapper {
     display: flex;
     margin-top: 10px;
     align-items: center;
   }
-
-  .first p,
-  .second p,
-  .third p {
-    margin: 0;
+    .pBot {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #E0E0E0;
   }
-  .mobileDivWrapper {
-    display: flex;
-  }
+  .playIcon {
+  font-size: 50px;
+  border: 3px solid #C4BBFF;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+.playIcon:hover {
+  font-size: 50px;
+  border: 3px solid #C4BBFF;
+  border-radius: 50%;
+  color: #C4BBFF;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+    rgba(22, 71, 98, 0.149) 0px 8px 32px;
+}
+ 
   .btnWrapper button {
     font-size: 14px;
     font-weight: 600;
     width: max-content;
     display: flex;
     padding: 15px;
+    color: #4F419A;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-
+    border-radius: 5px;
+    background-color: white;
     margin-right: 10px;
   }
   .btnWrapper button:hover {
-    background-color: #f28705;
+    background-color: #C4BBFF;
   }
-  .first {
-    -webkit-box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    -moz-box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    border-radius: 9px;
 
-    padding: 5px 10px;
-    display: flex;
-
-    flex-flow: column;
-    margin-right: 10px;
-  }
-  .second {
-    -webkit-box-shadow: -9px 0px 10px 0px rgba(242, 135, 5, 0.2);
-    -moz-box-shadow: -9px 0px 10px 0px rgba(242, 135, 5, 0.2);
-    box-shadow: -9px 0px 10px 0px rgba(242, 135, 5, 0.2);
-    border-radius: 9px;
-    padding: 5px 10px;
-    display: flex;
-
-    flex-flow: column;
-    margin-right: 10px;
-  }
-  .third {
-    -webkit-box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    -moz-box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    box-shadow: -9px 0px 10px 0px rgba(4, 135, 217, 0.2);
-    border-radius: 9px;
-
-    padding: 5px 10px;
-    display: flex;
-
-    flex-flow: column;
-    margin-right: 5px;
-  }
-  .btnWrapper h5 {
-    color: rgb(82, 82, 82);
-    font-weight: 600;
-    font-size: 16px;
-    margin: 0;
-    margin-top: 10px;
-  }
+  
+ 
   .btnWrapper p {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
-    color: rgb(145, 145, 145);
+    color: #C4BBFF;
   }
   .hPara {
     font-weight: 600;
@@ -295,6 +265,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 20px;
     z-index: 0;
   }
   .bottom {

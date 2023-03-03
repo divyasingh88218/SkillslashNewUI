@@ -21,6 +21,7 @@
   border-radius: 6px;
 }
 
+
 .ques {
   display: flex;
   justify-content: space-between;
@@ -68,9 +69,10 @@
 
 .QInner {
   display: grid;
-  grid-template-columns: 3% 97%;
+  grid-template-columns: 100%;
   z-index: 2;
   background-color: #fff;
+  list-style: none;
 }
 
 .bIcons {
@@ -91,7 +93,7 @@
 }
 
 .FaqWrapper {
-  border-left: 2px solid #4F419A !important;
+  /* border-left: 2px solid #4F419A !important; */
   margin-top: 22px;
   margin-left: 7px;
   padding-top: 2px;

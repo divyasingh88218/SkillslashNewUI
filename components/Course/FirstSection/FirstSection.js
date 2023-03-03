@@ -7,7 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-import { BsArrowRightCircleFill } from "react-icons/bs";
+import { BsArrowRightCircleFill, BsPlayFill } from "react-icons/bs";
+import TextAnimation from "../../Animation/TextAnimation";
 
 const FirstSection = ({
   deskTopPara,
@@ -25,15 +26,20 @@ const FirstSection = ({
   width,
   height,
   mainHeaderImg,
+  backgroundImg,
 }) => {
   const [mobile, setMobile] = useState(false);
 
   const [popups, setPopups] = useState(false);
   const [slidesPerView, setSlidesPerView] = useState(5);
   const [spaceBetween, setSpaceBetween] = useState(70);
-
+  const [video, setVideo] = useState(false);
   const popupShow = () => {
     setPopups(true);
+  };
+
+  const videoSHow = () => {
+    setVideo(true);
   };
 
   useEffect(() => {
@@ -70,6 +76,12 @@ const FirstSection = ({
           />
         </div>
       </Popup>
+      {/* <Image
+        src={backgroundImg}
+        alt="data-science"
+        layout="fill"
+        className={styles.backImg}
+      /> */}
       <div className={styles.left}>
         {mobile ? (
           <p className="pTop">{mTopPara}</p>
@@ -82,11 +94,14 @@ const FirstSection = ({
           <span> {spanTitleText}</span>
         </h1>
         <p className={styles.pBot}>{desc}</p>
+        <TextAnimation />
         <div className={styles.btnWrapper}>
           <button onClick={popupShow}>
             Apply for Counselling <BsArrowRightCircleFill />
           </button>
-          <div className={styles.mobileDivWrapper}>
+          <BsPlayFill className={styles.playIcon} onClick={videoSHow} />
+          <p onClick={videoSHow}>Intro Video</p>
+          {/* <div className={styles.mobileDivWrapper}>
             <div className={styles.first}>
               <h5>500+</h5>
               <p>Hiring Partners</p>
@@ -99,10 +114,10 @@ const FirstSection = ({
               <h5>{redirectDSA ? "300%" : "15 lac"}</h5>
               <p>{redirectDSA ? "highest hike" : " Avg CTC*"}</p>
             </div>
-          </div>
+          </div> */}
         </div>
-        <p className={styles.hPara}>Our Hiring Partner</p>
-        <div className={styles.bottom}>
+        {/* <p className={styles.hPara}>Our Hiring Partner</p> */}
+        {/* <div className={styles.bottom}>
           <Swiper
             spaceBetween={mobile ? 30 : spaceBetween}
             centeredSlides={true}
@@ -255,7 +270,7 @@ const FirstSection = ({
               </>
             )}
           </Swiper>
-        </div>
+        </div> */}
       </div>
       <div className={styles.right}>
         {redirectBa || redirectBl || redirectFs ? (
