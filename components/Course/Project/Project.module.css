@@ -1,0 +1,56 @@
+.projectWrap {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 40px 100px;
+  margin: 70px 0;
+}
+.projectHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftWrap p {
+  color: #4f419a;
+  margin: 0;
+}
+.leftWrap h4 {
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.rightWrap {
+  display: flex;
+  gap: 20px;
+}
+.iconBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 170px;
+  background-color: #4f419a;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0px 20px;
+  justify-content: center;
+  border-radius: 8px;
+}
+.iconBox p {
+  display: flex;
+  flex-flow: column;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.iconBox p span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.headIcon {
+  background-color: #e3dfff;
+  font-size: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  color: #4f419a;
+}

@@ -29,6 +29,7 @@ import Navbar from "../components/Navbar/Navbar";
 import OfferPopup from "../components/Course/OfferPopup/OfferPopup";
 import Emi from "../components/Course/EMI/Emi";
 import BatchDates from "../components/Batch/BatchDates";
+import ProjectSlider from "../components/Course/Project/ProjectSlider";
 
 export default function Home({ DataScienceCourseData }) {
   const [popups, setPopups] = useState(false);
@@ -345,7 +346,7 @@ export default function Home({ DataScienceCourseData }) {
           popupHead={DataScienceCourseData.data.popupHead}
         />
         {DataScienceCourseData.data.form.FullStack ? <ToolsCovered /> : ""}
-
+        <ProjectSlider />
         <div className="review" id="review">
           <Reviews
             title={DataScienceCourseData.data.Review.title}
@@ -357,15 +358,23 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           />
         </div>
 
-        {DataScienceCourseData.data.form.dsa ? (
-          DataScienceCourseData.data.Fee.fee ? (
-            ""
-          ) : (
-            <Emi />
-          )
+        {DataScienceCourseData.data.form.webDevelopment || redirectFs ? (
+          <Emi
+            web={DataScienceCourseData.data.form.webDevelopment}
+            price={DataScienceCourseData.data.Fee.ProPrice}
+            emi={DataScienceCourseData.data.Fee.emi}
+            redirectDs={DataScienceCourseData.data.form.dataScience}
+            redirectFs={DataScienceCourseData.data.form.FullStack}
+            redirectDe={DataScienceCourseData.data.form.DataEngineering}
+            redirectBl={DataScienceCourseData.data.form.blockchain}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+            redirectDSA={DataScienceCourseData.data.form.dsa}
+          />
         ) : (
           <Fee
             dataScience={false}
@@ -375,6 +384,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
             changeFee={DataScienceCourseData.data.Fee.FullStack}
             desc={DataScienceCourseData.data.Fee.desc}
             desc1={DataScienceCourseData.data.Fee.desc1}

@@ -28,7 +28,6 @@ const BoxShape = ({
     <div className={styles.boxWrapper}>
       <div className={styles.BoxDiv}>
         <div className={styles.left}>
-          <p className="pTop">Key Program Features</p>
           <h2>{title}</h2>
           <p className="pBot">
             With the curated Web Development syllabus, we assist our learners to

@@ -4,16 +4,33 @@
   padding: 30px 100px 0px 100px;
   gap: 30px;
 }
-
+.ReviewSlider h4 {
+  margin-bottom: 0;
+}
+.readMore {
+  color: #253ab9;
+}
+.headings p {
+  color: #4f419a;
+  font-weight: 600;
+  margin: 0;
+}
+.headings h4 span {
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.headings {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
 .ReviewRight {
   padding-right: 110px;
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
-.ReviewSlider h4 {
-  margin-bottom: 25px;
-}
+
 .ReviewRight h4 {
   margin-bottom: 10px;
   margin-right: 90px;
@@ -27,104 +44,95 @@
 }
 
 .pIcon {
-  font-size: 60px;
-  color: #4f419a;
-  position: absolute;
-  top: 40%;
+  font-size: 40px;
+  color: #0487d9;
+
   cursor: pointer;
 
-  left: 41%;
   border-radius: 50%;
   background-color: white;
-  z-index: 99;
 }
 .leftPoints p {
   font-size: 18px;
 }
 .ReviewSlider {
-  padding: 40px 100px;
+  background-color: white;
+  padding: 70px 100px;
+  position: relative;
 }
 .rating {
-  width: 35%;
-}
-.ReviewBox,
-.ReviewBox1,
-.ReviewBox2 {
-  display: grid;
-  grid-template-columns: 20% 73%;
-  gap: 10px;
-  max-height: max-content;
-  background: #ffffff;
-  position: relative;
-  padding-right: 25px;
-  box-shadow: 12px 12px 24px -1px rgba(4, 135, 217, 0.1);
-  border-radius: 25px;
-}
-.ReviewBox .leftDiv,
-.ReviewBox1 .leftDiv,
-.ReviewBox2 .leftDiv {
   width: 100%;
-  z-index: 1;
-  border-radius: 25px 0px 0px 25px;
-  height: 100%;
-}
-.ReviewBox .leftDiv {
-  background-color: #00aa50;
-}
-.ReviewBox1 .leftDiv {
-  background-color: #f18350;
-}
-.ReviewBox2 .leftDiv {
-  background-color: #705ded;
-}
-.ReviewBox .rightSide,
-.ReviewBox1 .rightSide,
-.ReviewBox2 .rightSide {
   display: flex;
-  z-index: 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.star {
+  color: #4f419a;
+  font-size: 18px;
+}
+
+.ReviewBox {
+  display: flex;
   flex-flow: column;
+  padding: 20px;
+  gap: 10px;
+  overflow: hidden;
+  max-height: 750px;
+  margin-bottom: 37px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border-radius: 8px;
 }
-.careerWrap {
-  margin-left: -70px;
+.ReviewBox:hover {
+  background-color: #4f419a;
 }
-.ReviewBox .rightSide h5,
-.ReviewBox1 .rightSide h5,
-.ReviewBox2 .rightSide h5 {
-  font-size: 24px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+
+.nameWrap {
+  width: 100%;
+  display: flex;
+
+  text-align: left;
+  justify-content: flex-start;
+  padding: 10px 0px;
 }
-.ReviewBox .rightSide h5 {
-  color: #00aa50;
-}
-.ReviewBox1 .rightSide h5 {
-  color: #f18350;
-}
-.ReviewBox2 .rightSide h5 {
-  color: #705ded;
-}
-.ReviewBox .rightSide p,
-.ReviewBox1 .rightSide p,
-.ReviewBox2 .rightSide p {
+.ReviewBox p {
+  margin-right: 0px;
   text-align: left;
 }
-.readMore {
-  color: #4f419a;
-  cursor: pointer;
+.ReviewBox:hover p {
+  color: white;
 }
 .profileWrapper {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
   background-color: white;
-  border-radius: 100%;
-  position: relative;
-  width: 90px;
-  height: 90px;
+  border-radius: 50%;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 40px;
-  top: 20px;
 }
 
+.ReviewBox h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  color: #253ab9;
+  text-align: center;
+}
+
+.ReviewBox:hover h5 {
+  color: white;
+}
+.ReviewBox:hover .readMore {
+  color: #e3dfff;
+}
+.ReviewBox:hover .star {
+  color: white;
+}
 .points p {
   display: flex;
   align-items: center;
@@ -132,7 +140,7 @@
 }
 @media (max-width: 1281px) {
   .ReviewSlider {
-    padding: 0px 20px;
+    padding: 100px 20px;
     margin-top: 40px;
   }
   .ReviewTop {
@@ -172,9 +180,13 @@
 
 @media (max-width: 481px) {
   .ReviewSlider {
-    padding: 20px 10px;
-    margin-top: 30px;
+    padding: 50px 10px;
+    margin-top: 0px;
   }
+  .ReviewBox {
+    padding: 20px 10px;
+  }
+
   .ReviewTop {
     padding: 20px 10px;
     display: flex;
@@ -188,9 +200,39 @@
   }
   .ReviewRight h4 {
     margin-right: 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .ReviewBox h5 {
+    font-size: 15px;
+  }
+  .ReviewRight p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
   }
   .leftPoints p {
     gap: 5px;
     font-size: 16px;
+  }
+  .star {
+    color: #ffd203;
+    font-size: 16px;
+  }
+  .ReviewBox p {
+    margin-right: 30px;
+  }
+  .profileWrapper {
+    right: 0;
+  }
+  .nameWrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 50px;
+    border: 1px solid gray;
+    margin-left: -170px;
+    border-radius: 0px 40px 40px 0px;
   }
 }
