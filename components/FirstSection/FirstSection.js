@@ -25,14 +25,16 @@ const FirstSection = () => {
   return (
     <div className={styles.FirstWrap}>
       <VideoPopup triggers={video} setTriggers={setVideo} ids="512xWUs9uXs" />
+
       <div className={styles.leftFirst}>
         <p className="pTop">Get Trained From</p>
         <h1>
-          India's Best Project Based  <span className={styles.btnShine} >
-        Experiential Learning Platform
-      </span>
+          India's Best Project Based{" "}
+          <span className={styles.btnShine}>
+            Experiential Learning Platform
+          </span>
         </h1>
-        
+
         <p className={styles.pBot}>
           Get real-work experience and certifications. Learn from industry
           experts and get placed in top product companies!
@@ -43,9 +45,11 @@ const FirstSection = () => {
         <div className={styles.btnWrapper}>
           <a href="#explore">
             <button>
-              Explore Courses<BsArrowRightShort className="bIconS" />   <svg className={styles.border}>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
+              Explore Courses
+              <BsArrowRightShort className="bIconS" />{" "}
+              <svg className={styles.border}>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+              </svg>
             </button>
           </a>
           <BsPlayFill className={styles.playIcon} onClick={videoSHow} />

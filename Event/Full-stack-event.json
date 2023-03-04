@@ -54,10 +54,10 @@
   "aboutUs": {
     "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
     "title": "About the Masterclass",
-    "desc": " This is a technology-powered world, and Full Stack development is nothing short of magic. Getting placed in FAANG companies is  a dream of almost all developers. However, the FAANG companies have a different interview process that's keeping many job  seekers from getting the jobs. But,No worries!",
-    "desc1": " Join Dhaval Dave in his Masterclass on June 11, Saturday, at 8 PM and learn",
-    "strong": "how to crack FAANG Companies’ interviews ",
-    "desc2": "and  become a part of this fast-paced world of IT."
+    "desc": " Are you looking to get ahead in the era of technology? Learn how to design an OTT platform that stands out. ",
+    "desc1": "Join us for this free masterclass hosted by Vishwanath Pratap Singh who is currently a SDE at Disney+Hotstar. ",
+    "strong": "",
+    "desc2": "At this workshop, you will gain hands-on insights on designing effective OTT platforms and apps, keeping user experience and Interface at forefront. This masterclass helps working professionals who is seeking for carrer transition from service based companies to Product based companies such as Netflix, Disney + Hotstar and  Amazon prime while freshers get career guidance to land on their dream job. "
   },
   "feature": {
     "title": "Full Stack Masterclass Features",
@@ -72,20 +72,20 @@
     "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp"
   },
   "profile": {
-    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Dhaval_Dave.webp",
-    "desc": "Software Engineer II at Microsoft",
-    "pName": "Dhaval Dave",
-    "link": "https://www.linkedin.com/in/davedhaval87",
-    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
-    "list1": "9+ years of experience in Backend",
-    "list2": "2 Open-source contribution",
-    "list3": " Alumnus of National Institute of Technology Warangal.",
-    "list4": "  Problem Solving, Designing, Optimize solution for performance enhancement.",
-    "list5": "  Research paper selected and Presented in IEEE- ICACCI & TrustCom.",
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/visvanth-pratap-singh.png",
+    "desc": "Software Engineer II at Disney + Hotstar",
+    "pName": "Vishwanath Pratap Singh",
+    "link": "https://www.linkedin.com/in/vishvnath",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/hotstarDisney.png",
+    "list1": "11+ years of experience",
+    "list2": "",
+    "list3": " Worked on Hotstarx project for Android app and AndroidTV.",
+    "list4": " Worked with Samsung, Panasonic, and MakeMyTrip.",
+    "list5": " Worked on architecture, development, and unit testing for Android.",
     "workAt": "Previously worked at",
-    "cIcon1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Amazon_r.webp",
-    "cIcon2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Flipkart_r.webp",
-    "cIcon3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Oracle_r.webp",
+    "cIcon1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/hotstarDisney.png",
+    "cIcon2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/makemytrip.png",
+    "cIcon3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/samsung.webp",
     "width": "30",
     "width1": "40",
     "width3": "30",
@@ -95,10 +95,10 @@
   },
   "whyUs": {
     "title": "What will you Learn?",
-    "l1": " Know tips and tricks of Full Stack Development",
-    "l2": " Crafting a kick-ass resume based on your skills",
-    "l3": " Career transition to Product based companies",
-    "l4": " The dos and don'ts of a whiteboard interview"
+    "l1": " Get insights on databases, caches, load balancers, etc.",
+    "l2": " Learn the architecture of OTT platforms.",
+    "l3": " Career transition to Product based companies.",
+    "l4": " Technique to approach System Design interview questions."
   },
   "whoCan": {
     "title": "This masterclass is for",
