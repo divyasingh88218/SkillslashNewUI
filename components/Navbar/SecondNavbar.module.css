@@ -1,0 +1,11 @@
+.navWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}

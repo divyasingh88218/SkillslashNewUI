@@ -5,14 +5,14 @@
     gap: 20px;
     position: relative;
     grid-template-columns: 49% 49%;
-    padding: 80px 100px 90px 100px;
+    padding: 20px 100px;
     height: max-content;
     background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
     background-position: center center;
-  background-repeat: no-repeat;
-background-size: contain;  
-}
-  .backImg{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .backImg {
     z-index: 0;
   }
   .left {
@@ -20,7 +20,7 @@ background-size: contain;
     position: relative;
     z-index: 1;
     flex-flow: column;
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .mobileDivWrapper {
     display: flex;
@@ -32,26 +32,27 @@ background-size: contain;
     font-weight: bold;
     padding: 0;
     margin-bottom: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .pBot {
     margin-bottom: 22px;
     margin-top: 0px;
     font-size: 16px;
-    color: #E0E0E0;
+    color: #e0e0e0;
   }
 
-   .pTop{
-    margin-bottom: 10px !important; 
+  .pTop {
+    margin-bottom: 10px !important;
   }
   .left h1 span {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .btnWrapper {
     display: flex;
     align-items: center;
     font-weight: 500;
+    margin-top: 30px;
   }
 
   .btnWrapper button {
@@ -60,44 +61,45 @@ background-size: contain;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #4f419a;
+    background-color: white;
     border-radius: 6px;
     padding: 18px 25px;
     width: max-content;
     margin-right: 20px;
   }
   .btnWrapper button:hover {
-    background-color: #C4BBFF;
+    background-color: #c4bbff;
   }
   .playIcon {
-  font-size: 50px;
-  border: 3px solid #C4BBFF;
-  border-radius: 50%;
-  color: white;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
-.playIcon:hover {
-  font-size: 50px;
-  border: 3px solid #C4BBFF;
-  border-radius: 50%;
-  color: #C4BBFF;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
- 
+    font-size: 50px;
+    border: 3px solid #c4bbff;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
+  .playIcon:hover {
+    font-size: 50px;
+    border: 3px solid #c4bbff;
+    border-radius: 50%;
+    color: #c4bbff;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
 
   .btnWrapper p {
     font-size: 16px;
     font-weight: 600;
-    color: #C4BBFF;;
+    color: #c4bbff;
   }
   .hPara {
     font-weight: 600;
@@ -175,10 +177,10 @@ background-size: contain;
     display: grid;
     align-items: center;
     gap: 10px;
-     background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
+    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
     background-position: center center;
-  background-repeat: no-repeat;
-background-size: cover;  
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-template-columns: 49% 49%;
     padding: 70px 20px 14px 20px;
   }
@@ -195,58 +197,58 @@ background-size: cover;
     display: flex;
     flex-flow: column;
     margin-bottom: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .left h1 span {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .btnWrapper {
     display: flex;
     margin-top: 10px;
     align-items: center;
   }
-    .pBot {
+  .pBot {
     margin-top: 0px;
     margin-bottom: 17px;
     font-size: 16px;
-    color: #E0E0E0;
+    color: #e0e0e0;
   }
-  .pTop{
+  .pTop {
     margin-bottom: 10px !important;
   }
 
   .playIcon {
-  font-size: 50px;
-  border: 3px solid #C4BBFF;
-  border-radius: 50%;
-  color: white;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
-.playIcon:hover {
-  font-size: 50px;
-  border: 3px solid #C4BBFF;
-  border-radius: 50%;
-  color: #C4BBFF;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
- 
+    font-size: 50px;
+    border: 3px solid #c4bbff;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
+  .playIcon:hover {
+    font-size: 50px;
+    border: 3px solid #c4bbff;
+    border-radius: 50%;
+    color: #c4bbff;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
+
   .btnWrapper button {
     font-size: 14px;
     font-weight: 600;
     width: max-content;
     display: flex;
     padding: 15px;
-    color: #4F419A;
+    color: #4f419a;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -254,15 +256,13 @@ background-size: cover;
     margin-right: 10px;
   }
   .btnWrapper button:hover {
-    background-color: #C4BBFF;
+    background-color: #c4bbff;
   }
 
-  
- 
   .btnWrapper p {
     font-size: 16px;
     font-weight: 600;
-    color: #C4BBFF;
+    color: #c4bbff;
   }
   .hPara {
     font-weight: 600;
@@ -429,7 +429,7 @@ background-size: cover;
     padding: 0;
   }
   .left h1 span {
-    color: #4F419A;
+    color: #4f419a;
     margin: 0;
   }
   .left p {

@@ -5,6 +5,7 @@ import { MdPlayCircleFilled } from "react-icons/md";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsFillStarFill } from "react-icons/bs";
 import { AiFillCheckCircle } from "react-icons/ai";
+import { FaStarHalf } from "react-icons/fa";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -1176,7 +1177,6 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
                   </div>
 
                   <p>
@@ -1215,7 +1215,7 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
+                    <FaStarHalf className={styles.star} />
                   </div>
 
                   <p>
@@ -1697,7 +1697,7 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
+                    <FaStarHalf className={styles.star} />
                   </div>
 
                   <p>
@@ -1737,7 +1737,6 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
                   </div>
 
                   <p>
@@ -1773,7 +1772,7 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
+                    <FaStarHalf className={styles.star} />
                   </div>
 
                   <p>
@@ -1813,7 +1812,7 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
+                    <FaStarHalf className={styles.star} />
                   </div>
 
                   <p>
@@ -1837,7 +1836,6 @@ const Reviews = ({
                     <h5>Harshal Chougule</h5>
                   </div>
                   <div className={styles.rating}>
-                    <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
@@ -1881,7 +1879,7 @@ const Reviews = ({
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
-                    <BsFillStarFill className={styles.star} />
+                    <FaStarHalf className={styles.star} />
                   </div>
 
                   <p>
@@ -1917,7 +1915,6 @@ const Reviews = ({
                     <h5>Prarthana Thokal</h5>
                   </div>
                   <div className={styles.rating}>
-                    <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />
                     <BsFillStarFill className={styles.star} />

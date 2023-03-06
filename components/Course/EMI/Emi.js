@@ -88,7 +88,9 @@ const Emi = () => {
         </div>
       </div>
       <div className={styles.rightEmi}>
-        <h5 className={styles.EmiHeading}>Program Fees</h5>
+        <h5 className={styles.EmiHeading}>
+          Prog<span>ram Fees</span>
+        </h5>
         <p className={styles.pBot}>
           We are driven by the idea of program affordability. So, we give you
           several financial options to manage and budget the expenses of your

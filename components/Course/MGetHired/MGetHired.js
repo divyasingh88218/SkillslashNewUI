@@ -81,7 +81,7 @@ const MGetHired = ({
             modules={[Autoplay]}
             className="mySwiper"
           >
-            <SwiperSlide className={style.ReviewBox}>
+            <SwiperSlide className={style.ReviewBox} id="1">
               <div className={style.profile}>
                 <Image
                   src={
@@ -113,7 +113,7 @@ const MGetHired = ({
                 />
               </div>
             </SwiperSlide>
-            <SwiperSlide className={style.ReviewBox}>
+            <SwiperSlide className={style.ReviewBox} id="2">
               <div className={style.profile}>
                 <Image
                   src={
@@ -145,7 +145,7 @@ const MGetHired = ({
                 />
               </div>
             </SwiperSlide>
-            <SwiperSlide className={style.ReviewBox}>
+            <SwiperSlide className={style.ReviewBox} id="3">
               <div className={style.profile}>
                 <Image
                   src={
@@ -177,7 +177,7 @@ const MGetHired = ({
                 />
               </div>
             </SwiperSlide>
-            <SwiperSlide className={style.ReviewBox}>
+            <SwiperSlide className={style.ReviewBox} id="4">
               <div className={style.profile}>
                 <Image
                   src={

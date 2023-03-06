@@ -68,7 +68,11 @@ const BatchDates = ({
               </div>
             </div>
             <div className={styles.batchDetailsWrap}>
-              <div className={styles.batchDetails}>
+              <div
+                className={
+                  data.activeBatch ? styles.batchDetails : styles.batchDetailsI
+                }
+              >
                 <h5>
                   {data.batchType}
                   {data.batchTime}
@@ -104,7 +108,15 @@ const BatchDates = ({
                     }
                   />
 
-                  <p className={styles.batchTypeName}>{data.batchWeek}</p>
+                  <p
+                    className={
+                      data.activeBatch
+                        ? styles.batchTypeName
+                        : styles.batchTypeNameI
+                    }
+                  >
+                    {data.batchWeek}
+                  </p>
                 </span>
               </div>
               <div className={styles.batchStatus}>
@@ -118,7 +130,13 @@ const BatchDates = ({
                       data.activeBatch ? styles.spanIconA : styles.spanIcon
                     }
                   />
-                  <p className={styles.status}>{data.batchMsg}</p>
+                  <p
+                    className={
+                      data.activeBatch ? styles.status : styles.statusI
+                    }
+                  >
+                    {data.batchMsg}
+                  </p>
                 </span>
               </div>
             </div>

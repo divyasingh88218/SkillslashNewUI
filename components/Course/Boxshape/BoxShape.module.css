@@ -17,18 +17,24 @@
 .left {
   display: flex;
   flex-flow: column;
-
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+}
+.boxWrap {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
 }
 .box {
   margin-top: 0px;
   width: 100%;
   display: flex;
   align-items: center;
-
   gap: 15px;
   margin-right: 5px;
 }
+
 .box h5 {
   font-size: 17px;
   font-weight: 600;

@@ -11,7 +11,7 @@ import {
   AiOutlineFieldTime,
 } from "react-icons/ai";
 import Form from "../../Form/Form";
-import { BsFillCircleFill } from "react-icons/bs";
+import { BiCheck } from "react-icons/bi";
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
@@ -103,8 +103,16 @@ function DataScienceSyllabus({
               key={Module0.title}
             >
               {Module0.open ? (
-                <div className={styles.quesO}>
-                  <h2>{Module0.title}</h2>
+                <div className={styles.ques} style={{ borderBottom: "0" }}>
+                  <h2
+                    style={{
+                      paddingBottom: "25px",
+                      paddingTop: "25px",
+                      borderBottom: "4px solid #4f419a",
+                    }}
+                  >
+                    {Module0.title}
+                  </h2>
 
                   <span>
                     {Module0.open ? (
@@ -143,7 +151,11 @@ function DataScienceSyllabus({
                                   {desc === "" ? (
                                     ""
                                   ) : (
-                                    <li key={desc}>{desc}</li>
+                                    <p key={desc} className={styles.points}>
+                                      {" "}
+                                      <BiCheck className={styles.check} />{" "}
+                                      {desc}
+                                    </p>
                                   )}
                                 </div>
                               );
@@ -160,13 +172,12 @@ function DataScienceSyllabus({
             </div>
           );
         })}
-        <div className={styles.white} />
       </div>
       <div>
         <div className={styles.syllabusRight}>
           <div className={styles.PProgrammain}>
             <div className={styles.PProgram}>
-              <p>Program Highlights</p>
+              <p className={styles.highlight}>Program Highlights</p>
             </div>
             <div className={styles.PProgramInner}>
               <p>
@@ -191,12 +202,13 @@ function DataScienceSyllabus({
               )}
             </div>
           </div>
-          <div className={styles.PProgrammain} style={{ marginTop: "20px" }}>
+          <div className={styles.PProgramMain} style={{ marginTop: "20px" }}>
             <div className={styles.PProgram}>
               <p>Request More Information</p>
             </div>
-            <div className={styles.PProgramInner}>
+            <div className={styles.PProgramInnerS}>
               <Form
+                syllabus={true}
                 dataScience={dataScience}
                 redirectDs={redirectDs}
                 redirectFs={redirectFs}

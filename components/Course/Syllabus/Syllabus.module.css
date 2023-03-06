@@ -3,7 +3,7 @@
   grid-template-columns: 70% 30%;
   margin: 120px 100px 70px 100px;
 }
-.container{
+.container {
   background-color: antiquewhite;
 }
 .syllabusLeft {
@@ -17,6 +17,7 @@
 .syllabusLeft p {
   font-size: 18px;
 }
+
 .Syllabusbutton {
   display: flex;
   justify-content: space-between;
@@ -99,45 +100,50 @@
   }
 }
 
-
 .ques {
   display: flex;
   justify-content: space-between;
-  
   background-color: transparent;
   padding: 15px 20px 10px 20px;
   align-items: center;
   cursor: pointer;
-
   height: 60px;
-
-  margin-bottom: 23px;
 }
-.ques span{
-  color: #6555BE;
+.ques span {
+  color: #6555be;
 }
-.FaqWrapper:nth-child(odd) .ques{
-  background: #F9F8FF;
+.FaqWrapper:nth-child(odd) .ques {
+  background: #f9f8ff;
   border-bottom: 1px solid #4f419a;
+}
+
+.FaqWrapper:nth-child(odd) .ques0 {
+  background: #f9f8ff;
+  font-size: 45px;
+}
+.FaqWrapper:nth-child(even) .ques0 {
+  background: white;
 }
 
 .quesO {
   display: flex;
   justify-content: space-between;
- 
-  background-color: #f7f9fb;
-  padding: 15px 20px 10px 20px;
+  padding: 15px 20px 0px 20px;
   align-items: center;
-  
-  border-bottom: 1px solid #4f419a;
-
+  background: #f9f8ff;
   cursor: pointer;
 }
+
 .ques h2,
 .quesO h2 {
   font-size: 16px;
   font-weight: 400;
+
   color: rgb(28, 28, 28);
+}
+.quesO h2 {
+  padding-bottom: 25px;
+  border-bottom: 4px solid #4f419a;
 }
 .ans {
   margin-bottom: 5px;
@@ -146,8 +152,11 @@
   padding: 5px 20px 10px 20px;
   color: rgb(90, 90, 90);
   margin-bottom: 15px;
-  background-color: #f7f9fb;
+  background-color: #f8f7ff;
   border-radius: 0px 0px 8px 8px;
+}
+.FaqWrapper:nth-child(even) .ans {
+  background: white !important;
 }
 .ansV {
   display: none;
@@ -180,22 +189,11 @@
 
 .FaqWrapper {
   margin-top: 22px;
-  margin-left: 7px;
+  margin-left: 0px;
   padding-top: 2px;
-  padding-left: 22px;
+  padding-left: 0px;
   margin-bottom: -23px;
   z-index: 0;
-}
-
-.white {
-  z-index: 1;
-  position: absolute;
-  background-color: rgb(255, 255, 255);
-  width: 10px;
-  bottom: -30px;
-  left: 33px;
-  height: 51px;
-  margin-top: -30px;
 }
 
 .syllabusRight {
@@ -225,6 +223,33 @@
 .PProgrammain {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.check {
+  color: green;
+  font-size: 22px;
+}
+.points {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px !important;
+  margin: 0;
+}
+.PProgramMain {
+  background-color: #4f419a;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+.highlight {
+  color: #4f419a !important;
+  text-align: left !important;
+}
+.PProgram P {
+  color: white;
+  font-size: 23px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .PProgramInner p {
   display: flex;

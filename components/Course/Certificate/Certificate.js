@@ -62,9 +62,9 @@ const Certificate = ({
             alt="Certificate of FUllstack Course"
             quality={100}
             layout="intrinsic"
-            width={291}
+            width={327}
             loading="lazy"
-            height={402}
+            height={451}
           />
         </div>
       </div>

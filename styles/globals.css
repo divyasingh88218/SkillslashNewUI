@@ -17,7 +17,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
-  
+
   color: #646464;
 }
 h4 {
@@ -94,9 +94,9 @@ button {
   width: max-content;
   border-radius: 3px;
   padding: 3px 7px;
-  background-color: #DED9FF;
+  background-color: #ded9ff;
   margin-bottom: 10px;
-  color: #4F419A;
+  color: #4f419a;
 }
 
 .pBot {
@@ -105,7 +105,7 @@ button {
   margin: 0;
   margin-bottom: 15px;
   line-height: 26px;
-  color: #E0E0E0;
+  color: #676767;
 }
 .pBotS {
   font-weight: 400;

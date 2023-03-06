@@ -25,6 +25,7 @@ const Form = ({
   redirectBa,
   redirectBl,
   redirectWd,
+  syllabus,
   redirectDSA,
 }) => {
   const router = useRouter();
@@ -158,12 +159,13 @@ const Form = ({
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <fieldset>
+          <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Full Name*</legend>
             <input
               type="text"
               name="name"
               className={popup ? styles.NameInputs : styles.NameInput}
+              style={syllabus ? { color: "white" } : { color: "black" }}
               required
               value={query.name}
               onChange={handleParam()}
@@ -174,12 +176,13 @@ const Form = ({
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <fieldset>
+          <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Email*</legend>
             <input
               type="email"
               name="email"
               required
+              style={syllabus ? { color: "white" } : { color: "black" }}
               className={popup ? styles.EmailInputs : styles.EmailInput}
               value={query.email}
               onChange={handleParam()}
@@ -190,7 +193,7 @@ const Form = ({
           className={styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <fieldset>
+          <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Phone Number*</legend>
             <PhoneInput
               style={
@@ -198,19 +201,26 @@ const Form = ({
                   ? {
                       height: "35px",
                       borderRadius: "8px",
-
+                      color: "#646464",
                       padding: "10px",
                     }
                   : {
                       border: "0",
                       height: "35px",
+
                       borderRadius: "3px",
                     }
               }
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
-              className={popup ? styles.Phones : styles.Phone}
+              className={
+                popup
+                  ? styles.Phones
+                  : syllabus
+                  ? styles.syllabusPhone
+                  : styles.Phone
+              }
               value={value}
               required
               onChange={setValue}
@@ -221,11 +231,12 @@ const Form = ({
           className={popup ? styles.formWrappers : styles.formWrapper}
           style={event ? { width: "100%" } : { width: "80%" }}
         >
-          <fieldset>
+          <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Work Experience*</legend>
             <select
               name="workExperience"
               required
+              style={syllabus ? { color: "white" } : { color: "black" }}
               value={query.workExperience}
               onChange={handleParam()}
             >
@@ -252,7 +263,9 @@ const Form = ({
         ) : (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <div className={styles.inner}>
-              <fieldset>
+              <fieldset
+                style={syllabus ? { color: "white" } : { color: "black" }}
+              >
                 <legend>Schedule Date & Time*</legend>
                 <DatePicker
                   selected={startDate}
@@ -269,7 +282,7 @@ const Form = ({
                   ]}
                   filterDate={isWeekday}
                   filterTime={filterPassedTime}
-                  wrapperClassName={styles.date}
+                  wrapperClassName={syllabus ? styles.dateS : styles.date}
                   className={styles.datePicker}
                   dateFormat="MMMM d, yyyy h:mm aa"
                   required
@@ -298,7 +311,10 @@ const Form = ({
           </div>
         )}
 
-        <p className={styles.FormText} style={{ fontSize: "10px" }}>
+        <p
+          className={syllabus ? styles.FormTextS : styles.FormText}
+          style={{ fontSize: "10px" }}
+        >
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
@@ -309,7 +325,10 @@ const Form = ({
             <div className="three-body__dot"></div>
           </div>
         ) : (
-          <button type="submit" className={styles.button}>
+          <button
+            type="submit"
+            className={syllabus ? styles.buttonS : styles.button}
+          >
             {downloadBrochure ? "Download Now" : btnText}{" "}
             <BsArrowRightCircleFill />
           </button>

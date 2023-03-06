@@ -105,7 +105,7 @@ const Navbar = ({
               alt="Skillslash"
               quality={100}
               objectFit="contain"
-              width={mobile ? "140px" : "230px"}
+              width={mobile ? "140px" : "190px"}
               height="60px"
             />
           </a>
@@ -166,9 +166,7 @@ const Navbar = ({
               <span>
                 <a href="https://blog.skillslash.com/">Blog</a>
               </span>
-              <button onClick={popupShow}>
-                Apply Now <MdOutlineArrowForward />
-              </button>
+              <button onClick={popupShow}>Apply Now</button>
             </>
           )}
         </div>
