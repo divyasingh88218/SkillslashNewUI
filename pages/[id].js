@@ -31,6 +31,7 @@ import Emi from "../components/Course/EMI/Emi";
 import BatchDates from "../components/Batch/BatchDates";
 import ProjectSlider from "../components/Course/Project/ProjectSlider";
 import SecondNavbar from "../components/Navbar/SecondNavbar";
+import CTA from "../components/CTA/CTA";
 
 export default function Home({ DataScienceCourseData }) {
   const [popups, setPopups] = useState(false);
@@ -296,6 +297,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
             redirectAI={DataScienceCourseData.data.form.ai}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           />
         </div>
         <div className="Feature" id="Feature" ref={benefits}>
@@ -462,6 +464,10 @@ export default function Home({ DataScienceCourseData }) {
         </div>
 
         <BottomBar changeBottom={true} />
+
+        <div className={styles.CWrap}>
+          <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
+        </div>
 
         <Footer />
       </div>

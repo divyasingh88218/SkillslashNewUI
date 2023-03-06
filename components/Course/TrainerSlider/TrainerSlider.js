@@ -78,7 +78,7 @@ const TrainerSlider = ({
             modules={[Autoplay]}
             className="mySwiper"
           >
-            {redirectFs ? (
+            {redirectFs || redirectWeb ? (
               <>
                 <SwiperSlide className={style.ReviewBox}>
                   <div className={style.profile}>
@@ -428,7 +428,7 @@ const TrainerSlider = ({
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Prathap-ds-desktop.webp"
-                        alt="akarsh-srivastava"
+                        alt="Prathap"
                         layout="intrinsic"
                         objectFit="contain"
                         width={262}
@@ -462,7 +462,7 @@ const TrainerSlider = ({
                         src={
                           "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/deepak-kumar-singh-mobile.webp"
                         }
-                        alt="akarsh-srivastava"
+                        alt="deepak-kumar-singh"
                         layout="fill"
                         loading="lazy"
                       />
@@ -471,7 +471,7 @@ const TrainerSlider = ({
                         src={
                           "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/deepak-kumar-singh.webp"
                         }
-                        alt="akarsh-srivastava"
+                        alt="deepak-kumar-singh"
                         layout="intrinsic"
                         objectFit="contain"
                         width={262}
@@ -485,9 +485,9 @@ const TrainerSlider = ({
                     <p>Senior Data Scientist</p>
                     <Image
                       src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Logo-1-icon.webp"
-                      width="30"
+                      width="60"
                       height="29"
-                      alt="trueblue"
+                      alt="inmobi"
                       layout="intrinsic"
                       objectFit="contain"
                       loading="lazy"
@@ -499,14 +499,14 @@ const TrainerSlider = ({
                     {mobile ? (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/kpmg-mentor.webp"
-                        alt="akarsh-srivastava"
+                        alt="rohan-aher"
                         layout="fill"
                         loading="lazy"
                       />
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rohan-aher-desktop.webp"
-                        alt="akarsh-srivastava"
+                        alt="rohanaher"
                         layout="intrinsic"
                         objectFit="contain"
                         width={262}
@@ -538,14 +538,14 @@ const TrainerSlider = ({
                     {mobile ? (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Lekha-Janardhan-logo.webp"
-                        alt="akarsh-srivastava"
+                        alt="Lekha Janardhan"
                         layout="fill"
                         loading="lazy"
                       />
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Lekha-Janardhan-logo-big.webp"
-                        alt="akarsh-srivastava"
+                        alt="Lekha Janardhan"
                         layout="intrinsic"
                         objectFit="contain"
                         width={262}
@@ -578,14 +578,14 @@ const TrainerSlider = ({
                     {mobile ? (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/maytronics-trainer.webp"
-                        alt="akarsh-srivastava"
+                        alt="aravind-reddy"
                         layout="fill"
                         loading="lazy"
                       />
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/aravind-reddy.webp"
-                        alt="akarsh-srivastava"
+                        alt="aravind-reddy"
                         layout="intrinsic"
                         objectFit="contain"
                         width={262}
@@ -623,7 +623,7 @@ const TrainerSlider = ({
                       />
                     ) : (
                       <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ajay-kumar-gupta.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Parikshit.webp"
                         alt="akarsh-srivastava"
                         layout="intrinsic"
                         objectFit="contain"
@@ -644,6 +644,33 @@ const TrainerSlider = ({
                       }
                       width={mobile ? 99 : 80}
                       height={mobile ? 20 : 21}
+                      alt="trueblue"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide className={style.ReviewBox}>
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ajay-kumar-gupta.webp"
+                      alt="Ajay Kumar Gupta"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      width={262}
+                      height={257}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <h5>Ajay Kumar Gupta</h5>
+                    <p>R&D Engineer and Data Scientist</p>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/synopsis-logo.webp"
+                      width={80}
+                      height={21}
                       alt="trueblue"
                       layout="intrinsic"
                       objectFit="contain"

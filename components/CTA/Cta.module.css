@@ -1,16 +1,14 @@
 .CtaWrapper {
-  background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Cta_Skillslash.webp");
-  background-position: center center;
-  background-size: cover;
-  padding: 90px 130px;
+  background-color: #4F419A;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 10% 44% 33%;
+  position: relative;
 }
 .leftCta {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin-top: 25px;
+  padding-left: 50px;
 }
 
 .leftCta button {
@@ -20,23 +18,25 @@
   font-size: 18px;
   align-items: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   margin-top: 15px;
 }
 .leftCta button:hover {
-  background-color: #f28705;
+  background-color: #d7d2f1;
+  color: #4F419A;
 }
 .leftCta h4 {
-  color: #f28705;
+  color: #FFFFFF;
   margin: 0;
   font-weight: 700;
 }
 .pTop {
-  color: #646464;
+  color: #FFFFFF;
   margin: 0;
   font-weight: 600;
 }
 .smallCTA {
   margin: 0;
-  color: #646464;
+  color: #FFFFFF;
   font-size: 14px;
 }
 .desc {
@@ -44,11 +44,15 @@
   color: #646464;
   font-weight: 500;
 }
+.imgwrap{
+  position: absolute;
+  bottom: 0px;
+}
+
 @media (max-width: 1281px) {
   .CtaWrapper {
-    padding: 70px 90px;
-    border-radius: 5px;
-    grid-template-columns: 70% 30%;
+     grid-template-columns: 20% 40% 23%;
+     position: relative;
   }
   .leftCta h4 {
     font-size: 30px;
@@ -60,6 +64,8 @@
   .leftCta button {
     gap: 10px;
     font-size: 14px;
+    color: #4F419A;
+    background-color: #FFFFFF;
   }
 }
 @media (max-width: 961px) {

@@ -283,7 +283,7 @@
   .advantage,
   .stepsWrapper,
   .CWrap {
-    padding: 30px 40px;
+    padding: 30px 0px;
   }
   .cta {
     grid-template-columns: 20% 60% 20%;
