@@ -45,6 +45,11 @@
 .transition p {
   font-size: 14px;
 }
+@media(max-width: 1281px){
+  .wrapper {
+  padding: 20px 40px;
+}
+}
 @media (max-width: 481px) {
   .heading {
     text-align: center;

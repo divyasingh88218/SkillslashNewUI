@@ -3,7 +3,7 @@
   flex-flow: column;
   width: 100%;
 
-  margin: 0px 0;
+  margin: 30px 0;
 }
 .projectHeader {
   display: flex;
@@ -140,4 +140,13 @@
   font-size: 33px;
   border-radius: 4px;
   padding: 5px;
+}
+
+@media (max-width: 1281px) {
+  .projectHeader {
+  padding: 40px 40px;
+}
+.sliderWrap {
+  padding: 15px 40px;
+}
 }

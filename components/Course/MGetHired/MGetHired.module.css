@@ -38,6 +38,11 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1281px) {
+.wrapper {
+  padding: 17px 40px;
+}
+}
 @media (max-width: 481px) {
   .wrapper h4 {
     text-align: center;
