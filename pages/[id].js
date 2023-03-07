@@ -43,6 +43,18 @@ export default function Home({ DataScienceCourseData }) {
     startDate: "",
     endDate: "",
   });
+  const [activeState, setActiveState] = useState({
+    alumni: false,
+    trainer: false,
+    benefits: false,
+    certificate: false,
+    syllabus: false,
+    project: false,
+    review: false,
+    fee: false,
+    batchDate: false,
+    faq: false,
+  });
   const [secondNavbar, setSecondNavbar] = useState(false);
   const getHired = useRef();
   const trainer = useRef();
@@ -54,8 +66,9 @@ export default function Home({ DataScienceCourseData }) {
   const fee = useRef();
   const batchDate = useRef();
   const faq = useRef();
+  const cta = useRef();
   const today = new Date();
-
+  //active navbar state useEffect
   useEffect(() => {
     const handleScroll = (e) => {
       if (window.scrollY >= 0 && window.scrollY <= window.innerHeight / 2) {
@@ -65,8 +78,198 @@ export default function Home({ DataScienceCourseData }) {
         trainer.current.offsetTop - window.scrollY >= window.innerHeight / 2
       ) {
         setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: true,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
         // For the about section
+      } else if (
+        trainer.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        benefits.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: true,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        benefits.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        certificate.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: true,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        certificate.current.offsetTop - window.scrollY <
+          window.innerHeight / 2 &&
+        syllabus.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: true,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        syllabus.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        project.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: true,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        project.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        review.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: true,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        review.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        fee.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: true,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        fee.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        batchDate.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: true,
+          batchDate: false,
+          faq: false,
+        });
+      } else if (
+        batchDate.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        faq.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: true,
+          faq: false,
+        });
+      } else if (
+        faq.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
+        cta.current.offsetTop - window.scrollY >= window.innerHeight / 2
+      ) {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: true,
+        });
       } else {
+        setSecondNavbar(true);
+        setActiveState({
+          ...activeState,
+          alumni: false,
+          trainer: false,
+          benefits: false,
+          certificate: false,
+          syllabus: false,
+          project: false,
+          review: false,
+          fee: false,
+          batchDate: false,
+          faq: false,
+        });
         // Etc...
       }
     };
@@ -170,16 +373,19 @@ export default function Home({ DataScienceCourseData }) {
 
   return (
     <>
-      <Navbar
-        course={true}
-        dataScience={false}
-        redirectDs={redirectDs}
-        redirectFs={redirectFs}
-        redirectDe={DataScienceCourseData.data.form.DataEngineering}
-        redirectBl={DataScienceCourseData.data.form.blockchain}
-        redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-      />
-      {secondNavbar ? <SecondNavbar /> : ""}
+      {secondNavbar ? (
+        <SecondNavbar activeData={activeState} />
+      ) : (
+        <Navbar
+          course={true}
+          dataScience={false}
+          redirectDs={redirectDs}
+          redirectFs={redirectFs}
+          redirectDe={DataScienceCourseData.data.form.DataEngineering}
+          redirectBl={DataScienceCourseData.data.form.blockchain}
+          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+        />
+      )}
       {popupData != [] ? (
         today >= popupDate.startDate && today <= popupDate.endDate ? (
           <OfferPopup popupData={popupData} />
@@ -464,11 +670,9 @@ export default function Home({ DataScienceCourseData }) {
         </div>
 
         <BottomBar changeBottom={true} />
-
-        <div className={styles.CWrap}>
+        <div className="cta" id="cta" ref={cta}>
           <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
         </div>
-
         <Footer />
       </div>
     </>

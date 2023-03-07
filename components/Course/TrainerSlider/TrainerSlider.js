@@ -3,7 +3,8 @@ import style from "./TrainSlider.module.css";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay } from "swiper";
+import "swiper/css/pagination";
+import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsDownload } from "react-icons/bs";
 import Popup from "../../Popup/Popup";
@@ -69,13 +70,13 @@ const TrainerSlider = ({
             slidesPerView={mobile ? 1.6 : slidesPerView}
             loop={true}
             loopFillGroupWithBlank={true}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
+            pagination={{
+              dynamicBullets: true,
+              clickable: true,
             }}
             style={{ width: "100%" }}
             grabCursor={true}
-            modules={[Autoplay]}
+            modules={[Pagination, Navigation]}
             className="mySwiper"
           >
             {redirectFs || redirectWeb ? (
