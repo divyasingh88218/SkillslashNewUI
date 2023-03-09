@@ -63,7 +63,7 @@ const MGetHired = ({
           />
         </div>
       </Popup>
-      <h4>Our Alumni Working @</h4>
+      <h4>Our Alumni Placed @</h4>
       <div className={style.innerWrap}>
         <div className={style.slider}>
           <Swiper
@@ -89,8 +89,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava-big.webp"
                   }
-                  width={mobile ? 60 : 90}
-                  height={mobile ? 60 : 90}
+                  width={mobile ? 60 : 120}
+                  height={mobile ? 60 : 120}
                   alt="akarsh-srivastava"
                   layout="intrinsic"
                   loading="lazy"
@@ -121,8 +121,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon-big.webp"
                   }
-                  width={mobile ? 60 : 90}
-                  height={mobile ? 60 : 90}
+                  width={mobile ? 60 : 120}
+                  height={mobile ? 60 : 120}
                   alt="rishabh-jaiswal"
                   layout="intrinsic"
                   loading="lazy"
@@ -153,8 +153,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana.webp"
                   }
-                  width={mobile ? 60 : 90}
-                  height={mobile ? 60 : 90}
+                  width={mobile ? 60 : 120}
+                  height={mobile ? 60 : 120}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"
@@ -185,8 +185,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Pragyan_Prakash.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
                   }
-                  width={mobile ? 60 : 90}
-                  height={mobile ? 60 : 90}
+                  width={mobile ? 60 : 120}
+                  height={mobile ? 60 : 120}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"

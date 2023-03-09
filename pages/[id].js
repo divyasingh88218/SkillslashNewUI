@@ -43,19 +43,7 @@ export default function Home({ DataScienceCourseData }) {
     startDate: "",
     endDate: "",
   });
-  const [activeState, setActiveState] = useState({
-    alumni: false,
-    trainer: false,
-    benefits: false,
-    certificate: false,
-    syllabus: false,
-    project: false,
-    review: false,
-    fee: false,
-    batchDate: false,
-    faq: false,
-  });
-  const [secondNavbar, setSecondNavbar] = useState(false);
+
   const getHired = useRef();
   const trainer = useRef();
   const benefits = useRef();
@@ -69,216 +57,7 @@ export default function Home({ DataScienceCourseData }) {
   const cta = useRef();
   const today = new Date();
   //active navbar state useEffect
-  useEffect(() => {
-    const handleScroll = (e) => {
-      if (window.scrollY >= 0 && window.scrollY <= window.innerHeight / 2) {
-        setSecondNavbar(false);
-      } else if (
-        getHired.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        trainer.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: true,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-        // For the about section
-      } else if (
-        trainer.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        benefits.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: true,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        benefits.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        certificate.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: true,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        certificate.current.offsetTop - window.scrollY <
-          window.innerHeight / 2 &&
-        syllabus.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: true,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        syllabus.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        project.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: true,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        project.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        review.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: true,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        review.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        fee.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: true,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        fee.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        batchDate.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: true,
-          batchDate: false,
-          faq: false,
-        });
-      } else if (
-        batchDate.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        faq.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: true,
-          faq: false,
-        });
-      } else if (
-        faq.current.offsetTop - window.scrollY < window.innerHeight / 2 &&
-        cta.current.offsetTop - window.scrollY >= window.innerHeight / 2
-      ) {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: true,
-        });
-      } else {
-        setSecondNavbar(true);
-        setActiveState({
-          ...activeState,
-          alumni: false,
-          trainer: false,
-          benefits: false,
-          certificate: false,
-          syllabus: false,
-          project: false,
-          review: false,
-          fee: false,
-          batchDate: false,
-          faq: false,
-        });
-        // Etc...
-      }
-    };
-    document.addEventListener("scroll", handleScroll);
-    return () => {
-      document.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+  console.log("this Home Page");
   useEffect(() => {
     const fetchPopup = async () => {
       const data = await fetch("/api/v1/fetchPopup", {
@@ -373,19 +152,28 @@ export default function Home({ DataScienceCourseData }) {
 
   return (
     <>
-      {secondNavbar ? (
-        <SecondNavbar activeData={activeState} />
-      ) : (
-        <Navbar
-          course={true}
-          dataScience={false}
-          redirectDs={redirectDs}
-          redirectFs={redirectFs}
-          redirectDe={DataScienceCourseData.data.form.DataEngineering}
-          redirectBl={DataScienceCourseData.data.form.blockchain}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-        />
-      )}
+      <Navbar
+        course={true}
+        dataScience={false}
+        redirectDs={redirectDs}
+        redirectFs={redirectFs}
+        redirectDe={DataScienceCourseData.data.form.DataEngineering}
+        redirectBl={DataScienceCourseData.data.form.blockchain}
+        redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+      />
+      <SecondNavbar
+        getHired={getHired}
+        trainer={trainer}
+        benefits={benefits}
+        certificate={certificate}
+        syllabus={syllabus}
+        project={project}
+        review={review}
+        fee={fee}
+        batchDate={batchDate}
+        faq={faq}
+        cta={cta}
+      />
       {popupData != [] ? (
         today >= popupDate.startDate && today <= popupDate.endDate ? (
           <OfferPopup popupData={popupData} />
