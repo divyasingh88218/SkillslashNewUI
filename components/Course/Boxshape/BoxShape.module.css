@@ -85,7 +85,7 @@
   align-items: center;
   flex-flow: column;
   justify-content: center;
-  padding: 10px 10px 20px 10px;
+  padding:10px;
   width: 100%;
   height: 100%;
   border-radius: 12px;
@@ -125,7 +125,7 @@
   }
   .boxWrapper h2 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .BoxDiv {
     grid-template-columns: 55% 42%;

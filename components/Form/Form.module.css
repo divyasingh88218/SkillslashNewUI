@@ -130,7 +130,9 @@
   color: grey;
   font-size: 8px;
   margin: 0;
+  width: 80%;
   text-align: left;
+  line-height: 16px;
 }
 .FormTextS {
   color: white;
@@ -138,6 +140,7 @@
   font-size: 8px;
   margin: 0;
   text-align: left;
+    line-height: 16px;
 }
 .formWrapper select::placeholder {
   color: rgb(167, 167, 167);
@@ -351,6 +354,17 @@
   grid-template-columns: 100%;
   gap: 10px;
 }
+@media (max-width: 1281px) {
+  .FormText {
+  text-align: center;
+}
+.FormTextS {
+  text-align: center;
+}
+.button{
+  margin-top: 10px;
+}
+}
 @media (max-width: 481px) {
   .EmailInput,
   .NameInput,
@@ -377,6 +391,7 @@
   }
   .FormText {
     margin: 0;
+  
     text-align: left;
     line-height: 16px;
   }

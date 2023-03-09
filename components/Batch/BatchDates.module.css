@@ -111,7 +111,7 @@
   color: #4f419a;
   border-radius: 4px;
   display: flex;
-  width: 100%;
+  width: max-content;
 
   align-items: center;
   justify-content: center;
@@ -208,6 +208,25 @@
     margin: 40px 40px;
   }
 }
+@media (max-width: 1239px) {
+  .batchDateWrap {grid-template-columns: 12% 34% 21% 19%;}
+  .batchDateWrapActive {
+      display: grid;
+  grid-template-columns: 12% 34% 21% 19%;
+  gap: 0px;
+ 
+  }
+    .batchDetails h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .batchDetailsI h5 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #4f419a;
+  }
+}
+
 @media (max-width: 1025px) {
   .BatchDates {
     margin: 40px 30px;

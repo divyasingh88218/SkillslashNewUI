@@ -116,12 +116,22 @@
 @media (max-width: 1281px) {
   .EmiWrapper {
     display: grid;
-    grid-template-columns: 25% 59%;
+    grid-template-columns: 28% 59%;
     align-items: center;
-    gap: 25px;
+    gap: 28px;
     margin: 30px 60px;
   }
+  .rightEmi h5 {
+  font-size: 27px;
+  }
 }
+@media (max-width: 1239px) {
+  .EmiWrapper {
+    grid-template-columns: 37% 59%;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 1025px) {
   .EmiWrapper {
     display: grid;

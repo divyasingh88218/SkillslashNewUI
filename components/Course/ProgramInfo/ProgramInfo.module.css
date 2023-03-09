@@ -48,7 +48,6 @@
 
     width: 100%;
     background-color: transparent;
-    margin-top: 20px;
   }
   .feature .container {
     display: grid;
@@ -60,10 +59,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 40px;
+  
+    gap: 20px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     border-radius: 7px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .feature .container p {
     font-size: 14px;
@@ -82,10 +83,10 @@
   }
   .feature .container div {
     display: flex;
-    flex-flow: column;
-    gap: 0px;
+    gap: 20px;
     padding: 10px;
     align-items: center;
+    justify-content: center;
   }
   
 }
