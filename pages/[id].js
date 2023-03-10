@@ -327,10 +327,10 @@ export default function Home({ DataScienceCourseData }) {
             <div></div>
             <div className={styles.left}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cta-girl-standing-third-section.webp"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/CTAimg.webp"
                 layout="intrinsic"
-                width={341}
-                height={366}
+                width={410}
+                height={333}
                 loading="lazy"
               />
             </div>
