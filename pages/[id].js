@@ -57,7 +57,7 @@ export default function Home({ DataScienceCourseData }) {
   const cta = useRef();
   const today = new Date();
   //active navbar state useEffect
-  console.log("this Home Page");
+
   useEffect(() => {
     const fetchPopup = async () => {
       const data = await fetch("/api/v1/fetchPopup", {

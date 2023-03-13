@@ -22,7 +22,7 @@ const FirstSection = () => {
       setMobile(false);
     }
   });
-  console.log("first section");
+
   return (
     <div className={styles.FirstWrap}>
       <VideoPopup triggers={video} setTriggers={setVideo} ids="512xWUs9uXs" />

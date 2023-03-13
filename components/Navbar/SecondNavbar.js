@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./SecondNavbar.module.css";
 import { FiDownload } from "react-icons/fi";
 
@@ -29,6 +29,11 @@ const SecondNavbar = ({
     faq: false,
   });
 
+  const first = useRef();
+  const second = useRef();
+  const third = useRef();
+  const parent = useRef();
+
   const handleScrollToElement = (ref) => {
     window.scrollTo({
       top: ref.offsetTop - 80,
@@ -36,6 +41,23 @@ const SecondNavbar = ({
       behavior: "smooth",
     });
   };
+
+  // useEffect(() => {
+  //   const scrollHandler = () => {
+  //     if (activeState.certificate) {
+  //       parent.current.style.transform = `translateX(${-140}px)`;
+  //     }
+  //     if (activeState.syllabus) {
+  //       console.log(parent.current.getBoundingClientRect());
+  //       parent.current.style.transform = `translateX(${-150}px)`;
+  //     }
+  //     if (activeState.project) {
+  //       console.log(parent.current.getBoundingClientRect());
+  //       parent.current.style.transform = `translateX(${-170}px)`;
+  //     }
+  //   };
+  //   scrollHandler();
+  // }, [activeState]);
 
   useEffect(() => {
     const handleScroll = (e) => {
@@ -249,22 +271,25 @@ const SecondNavbar = ({
   return secondNavbar ? (
     <div className={styles.navWrap}>
       <nav>
-        <div className={styles.left}>
+        <div className={styles.left} ref={parent}>
           <div
             className={activeState.alumni ? styles.activeDiv : styles.div}
             onClick={() => handleScrollToElement(getHired.current)}
+            ref={first}
           >
             <p> Alumni</p>
           </div>
           <div
             className={activeState.trainer ? styles.activeDiv : styles.div}
             onClick={() => handleScrollToElement(trainer.current)}
+            ref={second}
           >
             <p> Trainer</p>
           </div>
           <div
             className={activeState.benefits ? styles.activeDiv : styles.div}
             onClick={() => handleScrollToElement(benefits.current)}
+            ref={third}
           >
             <p> Benefits</p>
           </div>
