@@ -101,6 +101,7 @@
 .header h5 {
   font-size: 27px;
   margin: 0;
+  text-align: left;
   color: #4f419a;
 }
 .desc {
@@ -144,18 +145,18 @@
 
 @media (max-width: 1281px) {
   .projectHeader {
-  padding: 40px 40px;
-}
-.header h5 {
-  font-size: 23px;
-}
-.sliderWrap {
-  padding: 15px 40px;
-}
+    padding: 40px 40px;
+  }
+  .header h5 {
+    font-size: 23px;
+  }
+  .sliderWrap {
+    padding: 15px 40px;
+  }
 }
 
 @media (max-width: 1239px) {
-  .desc p{
+  .desc p {
     width: 95%;
   }
 }

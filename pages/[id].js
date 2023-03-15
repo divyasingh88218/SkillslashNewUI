@@ -32,6 +32,7 @@ import BatchDates from "../components/Batch/BatchDates";
 import ProjectSlider from "../components/Course/Project/ProjectSlider";
 import SecondNavbar from "../components/Navbar/SecondNavbar";
 import CTA from "../components/CTA/CTA";
+import FloatIcon from "../components/Floticon/FloatIcon";
 
 export default function Home({ DataScienceCourseData }) {
   const [popups, setPopups] = useState(false);
@@ -360,6 +361,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWd={DataScienceCourseData.data.form.webDevelopment}
             popupHead={DataScienceCourseData.data.Certificate.popupHead}
             title={DataScienceCourseData.data.Certificate.title}
             desc={DataScienceCourseData.data.Certificate.desc}
@@ -375,6 +377,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWd={DataScienceCourseData.data.form.webDevelopment}
             syllabus={DataScienceCourseData.data.syllabus}
             syllabusDesc={DataScienceCourseData.data.syllabusDesc}
             popupHead={DataScienceCourseData.data.popupHead}
@@ -382,7 +385,15 @@ export default function Home({ DataScienceCourseData }) {
         </div>
         {DataScienceCourseData.data.form.FullStack ? <ToolsCovered /> : ""}
         <div id="project" ref={project}>
-          <ProjectSlider />
+          <ProjectSlider
+            redirectDs={DataScienceCourseData.data.form.dataScience}
+            redirectFs={DataScienceCourseData.data.form.FullStack}
+            redirectDe={DataScienceCourseData.data.form.DataEngineering}
+            redirectBl={DataScienceCourseData.data.form.blockchain}
+            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+            redirectDSA={DataScienceCourseData.data.form.dsa}
+            redirectWd={DataScienceCourseData.data.form.webDevelopment}
+          />
         </div>
         <div className="review" id="review" ref={review}>
           <Reviews
@@ -456,7 +467,7 @@ export default function Home({ DataScienceCourseData }) {
             desc={DataScienceCourseData.data.FAQ.desc}
           />
         </div>
-
+        <FloatIcon />
         <BottomBar changeBottom={true} />
         <div className="cta" id="cta" ref={cta}>
           <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
