@@ -326,13 +326,6 @@ const ProjectSlider = ({
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
                   <h5>Visualizing and Forecasting Stocks</h5>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
-                    layout="intrinsic"
-                    width={200}
-                    height={34}
-                    loading="lazy"
-                  />
                 </div>
                 <div className={styles.desc}>
                   <p>
@@ -412,10 +405,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Authentication</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cisco.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={220}
+                    height={37}
                     loading="lazy"
                   />
                 </div>
@@ -439,10 +432,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>CRUD</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/sql.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={194}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
@@ -490,7 +483,7 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>API Integration</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/webfx.webp"
                     layout="intrinsic"
                     width={200}
                     height={34}
@@ -516,7 +509,7 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Travel Booking Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/accuweather.webp"
                     layout="intrinsic"
                     width={200}
                     height={34}
