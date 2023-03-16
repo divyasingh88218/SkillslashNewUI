@@ -19,7 +19,7 @@
       border: 2px solid white;
     }
     .popupInner {
-      background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popup_backGround.webp");
+      background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popupbg-img.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -73,7 +73,7 @@
       }
     }
     .popupInners {
-      background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popup_backGround.webp");
+       background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popupbg-img.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -118,13 +118,13 @@
     align-items: center;
     z-index: 9999;
     .outerLine {
-      max-width: 90%;
+      max-width: 80%;
       border-radius: 12px;
       padding: 3px;
-      border: 2px solid white;
+    
     }
     .popupInner {
-      background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popup_backGround.webp");
+       background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Popupbg-img.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -132,10 +132,9 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      padding: 30px 60px;
+      padding: 30px 20px;
       width: 100%;
       border-radius: 12px;
-      border: 4px solid white;
 
       background-color: white;
 
@@ -157,10 +156,9 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      padding: 30px 60px;
+      padding: 30px 20px;
       width: 100%;
       border-radius: 12px;
-      border: 4px solid white;
 
       background-color: white;
 
