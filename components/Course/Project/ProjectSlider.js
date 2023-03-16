@@ -825,7 +825,7 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Google Mobility data</h5>
+                  <h5>Google Mobility data </h5>
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp"
                     layout="intrinsic"
