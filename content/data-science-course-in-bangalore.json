@@ -1,31 +1,23 @@
 {
   "metaInfo": {
-    "title": "Data Science Course in Bangalore with Certification - Skillslash",
-    "desc": "Learn data science course training in Bangalore from top data science trainers and experts, and become certified by the best data science academy—Skillslash.",
-    "keyword": "Data Science training, Data Science certification, Data Science course, Data Science institute, Data Science institute in Bangalore, data science courses in Bangalore, data science courses, data science course in bangalore, data scientist course, data scientist course in bangalore",
-    "canonical": "https://skillslash.com/data-science-course-in-bangalore",
+    "title": "Skillslash - Data Science Course in Bangalore",
+    "desc": "Work on industry-related projects for real work experience. Become a certified professional in Advanced Data Science and AI.",
+    "keyword": "data science course in bangalore",
+    "canonical": "https://program.skillslash.com/ds/data-science-course-in-bangalore-m",
     "ReviewSchema": {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Data Science Course in Bangalore with Certification ",
+      "name": "Data Science course",
       "brand": {
         "@type": "Brand",
         "name": "Skillslash"
       },
-      "offers": {
-        "@type": "AggregateOffer",
-        "url": "https://skillslash.com/data-science-course-in-bangalore",
-        "priceCurrency": "INR",
-        "lowPrice": "59,999",
-        "highPrice": "109,999",
-        "offerCount": "1"
-      },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "9.9",
+        "ratingValue": "9.6",
         "bestRating": "10",
         "worstRating": "1",
-        "ratingCount": "25987"
+        "ratingCount": "22657"
       }
     }
   },
@@ -36,96 +28,124 @@
     "BusinessAnalytics": false,
     "FullStack": false,
     "dsa": false,
+    "thankyou": false,
+    "AboutCourse": true,
     "webDevelopment": false,
-    "AboutCourse": true
+    "ai": false
   },
   "FirstSection": {
-    "deskTopPara": "Boost Your professional career",
-    "mTopPara": "Boost Your professional career",
-    "title": "Data Science Course in Bangalore",
-    "spanTitleText": "With certification",
-    "desc": "Enroll in our Data Science Course in Bangalore to learn the principles of Data Science.Acquire experience working on projects with top-tier industry collaborators.Learn from professionals in live-interactive sessions with a Guaranteed job referral",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
-    "width": "563",
-    "height": "568"
+    "deskTopPara": "Build your career skills",
+    "mTopPara": "Build your career skills",
+    "title": "Full stack Web Development ",
+    "spanTitleText": "Course with Real Work Experience",
+    "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
+    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-course-background.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
+    "width": "398",
+    "height": "391"
+  },
+  "MFirstSection": {
+    "heading": "India’s 1st",
+    "spanHeading": "live project based learning program Partnered with Tech companies",
+    "desc": "Data Science Course",
+    "usp1": " Live Interactive ",
+    "usp2": " Direct Company ",
+    "usp3": " EMI @",
+    "usp4": " 100% Interview",
+    "usp1Span": "Classroom",
+    "usp2Span": "Exp Certifications",
+    "usp3Span": "4899/month",
+    "usp4Span": "Guarantee"
+  },
+  "MRealWorkExp": {
+    "desc": "While doing this data science course, you will get the opportunity to work with a tech company on their live data science project. For which you will receive project experience letter directly from that tech- company. Now when you go for interview recruiters won’t treat you as a fresher in Data science which in turn will help you to get your dream job.",
+    "sDesc1": " relevant skills",
+    "sDesc2": " live project experience",
+    "sDesc3": "  industry demands",
+    "sDesc1Span": "Learn",
+    "sDesc2Span": "Gain",
+    "sDesc3Span": "Understand"
   },
   "ProgramInfo": {
-    "BatchDate": "29 January 2023",
-    "BatchDuration": "09 Months",
-    "Placement": "Guaranteed job referral"
+    "BatchDate": "29th January, 2023",
+    "BatchDuration": "9 Months",
+    "Placement": "100% Job Assistance"
   },
   "BoxShape": {
-    "title": "Why Join this Data Science Program?",
-    "Box1h5": "Real Work Experience In Data Science",
-    "box1desc": "Don’t just learn data science, apply your learning. Work directly with companies to build relevant industry experience.",
-    "Box2h5": "Build Your Own Course",
-    "box2desc": " Under the supervision of your counsellor, create customized learning tracks according to your professional experience and career aspirations under data science course.",
-    "Box3h5": "Guaranteed job referral in Data Science Course",
-    "box3desc": " Get a job at a top company or startup with a Guaranteed job referral. Learn from professionals in live-interactive sessions and get tips on how to create a resume and also prepare for an interview.",
-    "Box4h5": "Eligibility Criteria in Data Science Course",
-    "box4desc": "The data science course is only open to professionals with at least one year of experience.The Data Science Course with job referals opportunities is a credible career heads-up."
+    "stitle": "Key highlights",
+    "title": "Why Skillslash? ",
+    "Box1h5": "Real work experience",
+    "box1desc": "Gain practical knowledge while working in real-time live projects",
+    "Box2h5": "Ace interviews at F(M)AANG",
+    "box2desc": "Obtain expert advice and switch from service-based to product-based firms",
+    "Box3h5": "100% Job assistance",
+    "box3desc": "Get unlimited job offers with resume-building guidance as well. ",
+    "Box4h5": "Designed for Professionals",
+    "box4desc": "Aiming to upskill professional knowledge for software developers"
   },
   "TopCTA": {
-    "title": "Having Doubts In Data Science Course? Talk with our Experts",
-    "BeforeBR": " Talk to our expert counsellor to know more about data science course, if your profile is suitable",
-    "AfterBR": " For Career transition in Data Science."
+    "title": "Having Doubts? Talk with our Experts",
+    "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
+    "AfterBR": "for career transition in Data Science."
   },
   "Benefits": {
-    "desc": " Learn Data Science with multiple domain specialization and become a data scientist with our Guaranteed job referral program.",
-    "InterviewT": "Become data scientist with top Companies",
-    "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    "CertificateT": " Get real work experience in data science from companies",
-    "CertificateD": "Work as a data scientist on live projects directly with companies to gain real work experience.",
-    "JobT": "Guaranteed job referral in Data Science ",
-    "JobD": " Get assured job referrals after data science completion that can help you get placed in MNC's."
+    "subheading": "Career development ",
+    "heading": "Start with Skillslash",
+    "desc": "Our Data Science course is mentored by highly experienced professionals from top-tier business firms. You can customize the Data Science course as per your preference of study - for beginners and professionals. ",
+    "InterviewT": "Acquire Renowned Certifications",
+    "InterviewD": "Gain industry-valued certifications for your live projects with a course completion certificate",
+    "CertificateT": "BYOP & BYOC",
+    "CertificateD": " Featuring Bring Your Own Project(BYOP) & Build Your Own Course(BYOC) exclusively",
+    "JobT": "10+yrs Experienced Mentors",
+    "JobD": "For professional guidance, resume-building factor, and unlimited mock interviews and more"
+  },
+  "GetHired": {
+    "heading1": "Get Hired",
+    "heading": "Work on live projects to get hired at:"
   },
   "Certificate": {
-    "popupHead": "Download Data Science Brochure",
-    "title": "Get Certificate directly from empanelled Startups and MNCs",
-    "desc": "Work directly with AI companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will get Data science training certificate as Data Analyst before you start attending interviews by us.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp"
+    "subheading": "certificate from one of the tech companies",
+    "popupHead": "Download Data science Brochure",
+    "title": "Get certified directly from tech companies ",
+    "desc": "Enrolling in the best data science course with job assistance allows you to work on real-world industry projects while also receiving a certification. We help you acquire practical technical skills.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Business-analytics-course-certificate-26th-October-2022-new.webp"
   },
   "RealWork": {
-    "desc": "The application-based learning strategy is used in the Data Science course with a Guaranteed job referral. It also focuses on assisting learners in gaining meaningful experience in the technology they are upgrading in order to demonstrate competency."
+    "subtitle": "What makes Skillslash stand out?",
+    "titlt": "Real Work Experience",
+    "desc": "With a project-based learning technique, Skillslash strives to provide the Data Science course - with industry-specific requirements and demands. Also, building relevant knowledge and experience in the Data Science course will help you stand unique concerning industry standards."
   },
-  "syllabusDesc": "Skillslash’s best Data Science training institute in Bangalore comes with a Guaranteed job referral. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
-  "popupHead": "/Certificate-(Advance data science).webp",
+  "syllabusDesc": "This program will cover all concepts of data science from basic to advance through live-interactive classes. Get a chance to learn data science concepts in your current professional domain like Banking, IT, Mechanical, manufacturing, HR, sales, marketing and many more as a part of Domain Specialisation. From enrolment till placement you will be under the guidance of Trainers & Mentors who all are working as Sr. Data Scientist in top MNCs",
 
   "syllabus": [
     {
       "Module0": {
-        "title": "Module 0 Introduction",
+        "title": "Module 0 - Introduction",
         "content": [
           {
             "chap": {
-              "title": "Chapter 1: Introduction to Programming ( 3 hrs )",
+              "title": "Chapter 1: Introduction to Programming",
               "desc": [
-                "Source code Vs bytecode Vs machine code, Compiler Vs Interpreter, C/C++, Java Vs Python."
+                "Source code Vs Bytecode Vs Machine code",
+                "Compiler Vs Interpreter",
+                "C/C++, Java Vs Python"
               ]
             }
           },
           {
             "chap": {
-              "title": "Chapter 2: code editors basics (1 hrs)",
+              "title": "Chapter 2: Code Editors Basics",
               "desc": [
-                "Different type of code editors in python, Introduction to Anaconda and IDEs"
+                "Different type of code editors in python",
+                "Introduction to Anaconda and IDEs"
               ]
             }
           },
           {
             "chap": {
-              "title": "Chapter 3: python basics (1 hrs)",
-              "desc": [
-                "Variable Vs Identifiers, Strings Operators Vs Operand, Procedure oriented Vs Modular programming."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: statistics basics & probability (1 hrs)",
-              "desc": [
-                "Measures of Central Tendency & dispersion, Inferential statistics and Sampling theory."
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -139,9 +159,9 @@
         "content": [
           {
             "chap": {
-              "title": "Chapter 1:PROGRAMMING INTRODUCTION ( 3 hrs )",
+              "title": "Chapter 1: Programming Introduction",
               "desc": [
-                "Different types of Programming Language.",
+                "What are the different types of programming languages?",
                 "What is Compiler?",
                 "What is an Interpreter?"
               ]
@@ -149,9 +169,9 @@
           },
           {
             "chap": {
-              "title": "Chapter 2: PYTHON INTRODUCTION (1 hrs)",
+              "title": "Chapter 2: Python Introduction",
               "desc": [
-                "How a Python Program runs on our system?",
+                "How does a Python Program runs on our system?",
                 "Features of Python Memory Management in Python,",
                 "Different Implementations of Python."
               ]
@@ -159,126 +179,8 @@
           },
           {
             "chap": {
-              "title": "Chapter 3: CONDITIONAL AND LOOPS (1 hrs)",
-              "desc": ["Conditional Statement", "Loop Statement."]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: PYTHON PROGRAMMING COMPONENTS",
-              "desc": [
-                "Linting",
-                "Formatting",
-                "Understanding Python code",
-                "Command Line Arguments",
-                "Python Operators"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 5: FUNCTION",
-              "desc": [
-                "Working with functions",
-                "Parameters vs Arguments",
-                "Namespace vs Scope",
-                "Function call vs Function referencing"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 6: EXPECTION HANDELING",
-              "desc": [
-                "Introduction to Exception Handling",
-                "Type of Errors",
-                "Nestedtry-except block & Default except for block."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 7: MODULES IN PYTHON",
-              "desc": [
-                "Introduction to Modular Programming",
-                "Importing Modules and different import statement",
-                "Types of Modules."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 8: FILE HANDELING",
-              "desc": [
-                "Use of File Handling?",
-                "Type of Files",
-                "File Operation",
-                "What is File Handling?",
-                "Why do we need File Handling?",
-                "Type of Files",
-                "File Operation"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 9: REGULAR EXPRESSION",
-              "desc": [
-                "Intro & use of Regular Expression?",
-                "Regex module & important methods,",
-                "Regex pattern and it’s interpretation."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 10: NUMPY IN PYTHON",
-              "desc": [
-                "Intro & use of numpy, What is an array?",
-                "Array Operations using Numpy",
-                "Numpy and Scipy,",
-                "Numpy and Pandas"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 11: PANDAS IN PYTHON",
-              "desc": [
-                "Numpy vs Pandas",
-                "Exporting Dataframe to CSV and Excel",
-                "EDA using Pandas."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 12: MatplotLib",
-              "desc": [
-                "Lines & markers",
-                "Figures",
-                "Watermark",
-                "Shapes",
-                "Polygons and arrows Color maps",
-                "Autocorrelation study"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 13: Seaborn",
-              "desc": [
-                "Working with seaborn on titanic dataset",
-                "Introduction & installation",
-                "Controlling figure asthetics",
-                "Different plots in seaborn"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 14: Other visualisation libraries",
-              "desc": ["Plotly", "Pygal", "Geopltlib etc."]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -292,7 +194,7 @@
         "content": [
           {
             "chap": {
-              "title": "Chapter 1:- Probability theory and Statistical Inferences ( 4 hrs )",
+              "title": "Chapter 1: Probability Theory and Statistical Inferences  ",
               "desc": [
                 "Introduction to Probability Principles",
                 "Random Variables and Probability principles",
@@ -306,7 +208,7 @@
           },
           {
             "chap": {
-              "title": "Chapter 2: Statistics Foundations (1 hrs)",
+              "title": "Chapter 2: Statistics Foundations ",
               "desc": [
                 "Elements of Descriptive Statistics",
                 "Measures of Central tendency and Dispersion",
@@ -318,25 +220,8 @@
           },
           {
             "chap": {
-              "title": "Chapter 3: Hypothesis Testing and its Applications (1 hrs)",
-              "desc": [
-                "Basic Concepts - Formulation of Hypothesis, Making a decision",
-                "Advanced Concepts - Choice of Test - t test vs z test",
-                "Evaluation of Test - P value and Critical Value approach",
-                "Confidence Intervals, Type 1 and 2 errors"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: Exploratory Data Analysis and the Art of Storytelling (1 hrs)",
-              "desc": [
-                "Ingest data",
-                "Data cleaning",
-                "Outlier detection and treatment",
-                "Missing value imputation",
-                "Capstone project for Business Analysis"
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -350,9 +235,9 @@
         "content": [
           {
             "chap": {
-              "title": "Chapter 1:A primer on Machine Learning ( 3 hrs )",
+              "title": "Chapter 1: A primer on Machine Learning",
               "desc": [
-                "Types of Learning - Supervised, Unsupervised and Reinforcement",
+                "Types of Learning - Supervised, Unsupervised, and Reinforcement",
                 "Statistics vs Machine Learning",
                 "Types of Analysis - Descriptive, Predictive, and Prescriptive",
                 "Bias Variance Tradeoff - Overfitting vs Underfitting"
@@ -374,96 +259,8 @@
           },
           {
             "chap": {
-              "title": "Chapter 3: Classification",
-              "desc": [
-                "Introduction to Classification problems",
-                "Logistic Regression for Binary problems",
-                "Maximum Likelihood estimation",
-                "Data Imbalance and redressal methodology",
-                "Up sampling, Down sampling and SMOTE"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: Clustering-K means",
-              "desc": [
-                "Introduction to Unsupervised Learning",
-                "Hierarchical and Non-Hierarchical techniques",
-                "K Means Algorithms - Partition based model for clustering",
-                "Model Evaluation metrics – Clustering"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 5: KNN",
-              "desc": [
-                "Introduction to KNNs",
-                "KNNs as a classifier",
-                "Non-Parametric algorithms and Lazy learning ideology",
-                "Applications in Missing value imputes and Balancing datasets"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 6: Advance Regression Model",
-              "desc": [
-                "Introduction to regularization",
-                "Understanding ridge regression",
-                "Working with Lasso regression",
-                "Tackling multicollinearitywith regression"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 7: Decision Trees",
-              "desc": [
-                "Nonlinear models for classification",
-                "Intro to decision trees",
-                "Why are they called Greedy Algorithms?",
-                "Information Theory - Measures of Impurity"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 8: Ensemble Techniques",
-              "desc": [
-                "Introduction to Bagging as an Ensemble technique",
-                "Bootstrap Aggregation and Out of Bag error",
-                "Random Forests and its Applications in Feature selection",
-                "How Bagging overcomes the overfitting problem?",
-                "Scent and Boosting",
-                "How Boosting overcomes the Bias - Variance Tradeoff",
-                "Gradient Boosting and Xgboost as regularised boosting"
-              ]
-            }
-          },
-
-          {
-            "chap": {
-              "title": "Chapter 11: Time-series Analysis",
-              "desc": [
-                "Intro to Time series",
-                "Autocorrelation and ACF/PACF plots",
-                "The Random Walk model and Stationarity of Time Series",
-                "Tests for Stationarity - ADF and Dickey- Fuller test, AR, MA, ARIMA, SARIMA models",
-                "A regression approach to time series forecasting."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 12: Machine Learning Pipeline & auto ML",
-              "desc": [
-                "Feature engineering & selection techniques",
-                "Principal Component Analysis",
-                "Linear Discriminant Analysis",
-                "Serving the model via Rest API & Keras."
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -471,9 +268,10 @@
         "open": false
       }
     },
+
     {
       "Module0": {
-        "title": "Module 4 - Deep Learning ",
+        "title": "Module 4 - Deep Learning (Only in Pro Max)",
         "content": [
           {
             "chap": {
@@ -499,43 +297,8 @@
           },
           {
             "chap": {
-              "title": "Chapter 3: Deep Neural Networks",
-              "desc": [
-                "Designing a deep neural network",
-                "Optimal choice of Loss Function",
-                "Tools for deep learning models - Tflearn and Pytorch",
-                "The problem of Exploding and Vanishing gradients"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: Convolutional Neural networks",
-              "desc": [
-                "Architecture and design of a Convolutional network,",
-                "Deep convolutional models & image augmentation"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 5: Recurrent Neural networks and LSTMs.",
-              "desc": [
-                "RN N & LSTM structure, Bidirectional RNNs and Applications on Sequential data",
-                "Advanced Time series forecasting using RNNs with LSTMs",
-                "LSTMs vs GRUs."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 6: Restricted Boltzmann Machines and Autoencoders.",
-              "desc": [
-                "Intro to RBMs, Autoencoders",
-                "Application of RBMs in Collaborative filtering",
-                "Autoencoders for Anomaly detection",
-                "Capstone Project -Self-driving cars, Facial recognization."
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -545,51 +308,34 @@
     },
     {
       "Module0": {
-        "title": "Module 5 - NLP ",
+        "title": "Module 5 - NLP (Only In Pro Max)",
         "content": [
           {
             "chap": {
-              "title": "Chapter 1:- Language modelling",
+              "title": "Chapter 1: Language Modelling",
               "desc": [
                 "Intro to the NLTK library",
                 "N-gram Language models: Perplexity and Smoothing",
                 "Introduction to Hidden Markov models, Viterbi algorithms",
-                "MEMMs and CRFs for named entity recognition",
-                "Neural Language models",
-                "Application of LSTMs to predict the next word."
+                "MEMMs and CRFs for named entity recognition.",
+                "Neural Language models.",
+                "Application of LSTMs to predict the next word"
               ]
             }
           },
           {
             "chap": {
-              "title": "Chapter 2: Vector space models ",
+              "title": "Chapter 2: Vector Space Models",
               "desc": [
                 "Explicit and Implicit matrix factorization",
-                "Word2vec and Doc2vec models."
+                "Word2vec and Doc2vec models"
               ]
             }
           },
           {
             "chap": {
-              "title": "Chapter 3: Sequence to Sequence tasks",
-              "desc": [
-                "Introduction to Machine translation",
-                "Natural language processing",
-                "NLP with machine translation for text analysis",
-                "Word Alignment models",
-                "Encoder-Decoder Architecture",
-                "How to implement a conversational Chatbot"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: Capstone Project",
-              "desc": [
-                "Fully functional chatbot",
-                " Front end",
-                "backend and  deployment process for chatbot"
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -599,20 +345,24 @@
     },
     {
       "Module0": {
-        "title": "Module 6- Reinforcement Learning (only in Pro Max)",
+        "title": "Module 6 - Reinforcement Learning (Only in Pro Max)",
         "content": [
           {
             "chap": {
-              "title": "",
+              "title": "Chapter 1: Excel Fundamentals",
               "desc": [
-                "What is RL? – High-level overview",
-                "The multi-armed bandit problem and the explore-exploit dilemma",
+                "What is RL? - High-level overview ",
+                "Multi-armed bandit problem and explore-exploit dilemma",
                 "Markov Decision Processes (MDPs)",
                 "Dynamic Programming",
-                "Monte Carlo Control",
-                "Temporal Difference (TD) Learning (Q-Learning and SARSA)",
-                "Approximation Methods (i.e., how to plug in a deep neural network or other differentiable model into your RL algorithm)"
+                "Monte Carlo Control"
               ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -622,19 +372,22 @@
     },
     {
       "Module0": {
-        "title": "Module 7- Computer Vision (only in Pro Max)",
+        "title": "Module 7 - Computer Vision (Only in Pro Max)",
         "content": [
           {
             "chap": {
-              "title": "",
+              "title": "Chapter 1: Introduction to TABLEAU",
               "desc": [
                 "Mathematics for Computer",
                 "Vision Intro to Transfer Learning",
-                "R-CNN and RetinaNet models for Object detection using Tensorflow",
-                "FCN architecture for Image segmentation",
-                "IoU and Dice score for model evaluation",
-                "Face detection with OpenCV"
+                "R-CNN and RetinaNet models for Object Detection using Tensorflow"
               ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -642,69 +395,61 @@
         "open": false
       }
     },
+
     {
       "Module0": {
-        "title": "Module 8 - Data Structures and Algorithms ( 12 Weeks ) (only in Pro Max)",
-        "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
+        "title": "Module 8 - Data Structures & Algorithms",
+        "desc": "In our Artificial Intelligence course in Bangalore, to help learners grasp algorithms and data structures for interviews with top product-based MNCs and F(M)AANG, this module specifically intends to offer AI training in Bangalore. Our mentors, who work at prestigious firms like Microsoft, Amazon, Adobe, Facebook, Google, etc., will guide you as you work through more than 250 code problems.",
         "content": [
           {
             "chap": {
               "title": "",
               "desc": [
-                "Array basics, Problem solving techniques with example",
+                "Array basics, Problem-solving techniques with example",
                 "Time Complexity & Bit manipulations",
                 "Sorting, Searching & String Algorithms",
                 "Linked list",
                 "Two pointer techniques",
-                "Stack & Queue - Implementation & Problems.",
-                "Tree, Trie, Ternary Search tree",
-                "Recursion & Greedy Algorithms",
-                "Combinatorial problems with backtracking",
-                "Hashing",
-                "Graph Theory",
-                "Dynamic Programming"
+                "Stack & Queue - Implementation & Problems",
+                "Tree, Trie, Ternary Search tree"
               ]
             }
           },
           {
             "chap": {
-              "title": "Note",
-              "desc": [
-                "Programming Language Used: C/C++, Java",
-                "Total Number of problems to be solved in live class: 120+",
-                "Total coding problems in assignment: 100"
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
-        "id": 1,
+        "id": 6,
         "open": false
       }
     },
     {
       "Module0": {
-        "title": "Module 9 - TOOLS",
+        "title": "Module 9 - Tools",
         "content": [
           {
             "chap": {
               "title": "Chapter 1: Excel Fundamentals",
               "desc": [
-                "Introduction to Excel interface.",
-                "Customizing Excel Quick Access Toolbar.",
-                "Structure of Excel Workbook.",
-                "Excel Menus.",
-                "Excel Toolbars: Hiding, Displaying, and Moving Toolbars.",
-                "Switching Between Sheets in a Workbook.",
-                "Inserting and Deleting Worksheets.",
-                "Renaming and Moving Worksheets.",
-                "Protecting a Workbook.",
-                "Hiding and Unhiding Columns, Rows and Sheets.",
-                "Splitting and Freezing a Window.",
-                "Inserting Page Breaks.",
-                "Advanced Printing Options.",
-                "Opening, saving and closing Excel document.",
-                "Common Excel Shortcut Keys.",
-                "Quiz."
+                "Introduction to Excel interface",
+                "Customizing Excel Quick Access Toolbar",
+                "Structure of Excel Workbook",
+                "Excel Menus",
+                "Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
+                "Switching Between Sheets in a Workbook",
+                "Inserting and Deleting Worksheets",
+                "Renaming and Moving Worksheets",
+                "Protecting a Workbook",
+                "Hiding and Unhiding Columns, Rows and Sheets",
+                "Splitting and Freezing a Window",
+                "Inserting Page Breaks",
+                "Advanced Printing Options",
+                "Opening, saving, and closing Excel document",
+                "Common Excel Shortcut Keys",
+                "Quiz"
               ]
             }
           },
@@ -712,472 +457,22 @@
             "chap": {
               "title": "Chapter 2: Worksheet Customization",
               "desc": [
-                "Adjusting Page Margins and Orientation.",
-                "Creating Headers, Footers, and Page Numbers.",
-                "Adding Print Titles and Gridlines.",
-                "Formatting Fonts & Values.",
-                "Adjusting Row Height and Column Width.",
-                "Changing Cell Alignment.",
-                "Adding Borders.",
-                "Applying Colours and Patterns.",
-                "Using the Format Painter.",
-                "Formatting Data as Currency Values.",
-                "Formatting Percentages.",
-                "Merging Cells, Rotating Text.",
-                "Using Auto Fill.",
-                "Moving and Copying Data in an Excel Worksheet.",
-                "Inserting and Deleting Rows and Columns."
+                "Adjusting Page Margins and Orientation",
+                "Creating Headers, Footers, and Page Numbers",
+                "Adding Print Titles and Gridlines",
+                "Formatting Fonts & Values",
+                "Adjusting Row Height and Column Width",
+                "Changing Cell Alignment",
+                "Adding Borders",
+                "Applying Colours and Patterns",
+                "Using the Format Painter"
               ]
             }
           },
           {
             "chap": {
-              "title": "Chapter 3: Images and Shapes into Excel Worksheet ",
-              "desc": [
-                "Inserting Excel Shapes.",
-                "Formatting Excel Shapes.",
-                "Inserting Images.",
-                "Working with Excel SmartArt."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 4: Basic work on Excel",
-              "desc": [
-                "Entering and selecting values. Using numeric data in excel",
-                "Working with forms menu, cell references, conditional",
-                "Formatting and data validation",
-                "Finding and replacing information from worksheet",
-                "Inserting & deleting cells, rows and columns."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 5: Excel Formulae",
-              "desc": [
-                "Creating basic formulae in excel",
-                "Im plementing excel formulae in worksheet",
-                "Relative cell referencing",
-                "Absolute cell referencing",
-                "Relative vs Absol ute cell references in formulae",
-                "Understanding the order of operation",
-                "Entering and Editing text, Fixing errors in your formulae",
-                "Formulae with several operators, Formulae with cell ranges",
-                "Quiz."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 6: Excel Functions",
-              "desc": [
-                "Working with functions like SUM(), AVERAGE() etc",
-                "Adjacent cells error in excel calculations",
-                "Use of AutoSum & autofill command",
-                "Quiz"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 7: Working with Charts and Graphs",
-              "desc": [
-                "Creating a column chart.",
-                "Working with the excel chart ribbon.",
-                "Adding and modifying data on an Excel chart.",
-                "Formatting an excel chart.",
-                "Moving a chart to another worksheet.",
-                "Resizing a chart.",
-                "Changing a chart’s source data.",
-                "Adding titles, gridlines and a data table.",
-                "Formatting a data series and chart axis.",
-                "Using fill effects.",
-                "Changing a chart type and working with pie charts.",
-                "Quiz."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 8: Support Vector Machines",
-              "desc": [
-                "Intro to Pivot Tables",
-                "Structuring Source Data for Analysis in Excel",
-                "Creating a PivotTable",
-                "Exploring Pivot Ta ble Analyse & Desig n Options",
-                "Working with and on pivot tables",
-                "Dealing with Growing Source Data",
-                "Enriching data with Pivot table calculated values & fields",
-                "Formatting and charting a PivotTable",
-                "Pivot Table Case Study",
-                "Quiz"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 9: Basic Macros",
-              "desc": [
-                "Introduction to macros",
-                "Automating Tasks with Macros",
-                "Recording a Macro",
-                "Playing a Macro",
-                "Assigning a Macro a Shortcut Key."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 10: Introduction to SQL",
-              "desc": [
-                "What is a Database?",
-                "Why SQL?",
-                "All about SQL Difference between SQL & MongoDB.",
-                "Different Structured Query languages Why MySQL?",
-                "Installation of MySQL.",
-                "DDL.",
-                "SQL Keywords.",
-                "DCL.",
-                "TCL.",
-                "Database Vs Excel Sheets.",
-                "Relational and database schema.",
-                "Foreign and Primary Keys.",
-                "Database manipulation, management, and administration."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 11: No SQL Databases",
-              "desc": [
-                "Topics - What is HBase?",
-                "HBase Architecture.",
-                "HBase Components.",
-                "Storage Model of HBase.",
-                "HBase vs RDBMS.",
-                "Introduction to Mongo DB, CRUD.",
-                "Advantages of MongoDB over RDBMS.",
-                "Use cases.",
-                "First Step in SQL Database.",
-                "Creating Database.",
-                "Dropping Database.",
-                "Using Database.",
-                "Introduction to Tables.",
-                "Data types in SQL.",
-                "Creating a table.",
-                "Dropping table.",
-                "Coding best practices in SQL."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 12: SQL Databases",
-              "desc": [
-                "Introduction to database",
-                "Creating Data base, Dropping Database",
-                "Using Database",
-                "Introduction to Tables",
-                "Data types in SQL",
-                "Use case of different data",
-                "Working with tables",
-                "Coding best practices in SQL"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 13: SQL Fundamantel Statement",
-              "desc": [
-                "SELECT Statement.",
-                "COUNT.",
-                "SELECT WHERE.",
-                "ORDER BY.",
-                "IN, NOT IN.",
-                "NULL and NOT_NULL.",
-                "Comparison Operators (=, >, >=, <=).",
-                "MySQL Warnings (Understand and Debug)."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 14: Refining Selection",
-              "desc": [
-                "SELECT DISTINCT.",
-                "LIKE, NOT LIKE, ILIKE.",
-                "LIMIT.",
-                "BETWEEN.",
-                "BETWEEN – AND"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 15: SQL Statements & Functions",
-              "desc": [
-                "Multiple INSERT.",
-                "INSERT INTO.",
-                "GROUP BY.",
-                "HAVING.",
-                "WHERE vs HAVING.",
-                "UPDATE.",
-                "DELETE.",
-                "AS.",
-                "EXISTS-NOT EXISTS.",
-                "Aggregator functions.",
-                "Application of group by.",
-                "Count function.",
-                "MIN and MAX.",
-                "Sum Function.",
-                "Avg Function."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 16: JOINS & Functions",
-              "desc": [
-                "Introduction to JOINs",
-                "Types of JOINS",
-                "Usage of different types of JOINS",
-                "Loading Data",
-                "Usage of string functions like; CONCAT, SUBSTRING etc",
-                "INNER join,",
-                "OUTER join, Full join, Left Join, Right Join, UNION."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 17: Advance SQL",
-              "desc": [
-                "Local, Session, Global Variables",
-                "Timestamps and Extract, CURRENT DATE & TIME, EXTRACT",
-                "AGE, TO_CHAR, Mathematical Functions and Operators",
-                "CEIL & FLOOR, POWER, RANDOM,",
-                "ROUND, SETSEED, Operators and their precedence."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 18: Basics and CRUD Operation",
-              "desc": [
-                "Data bases",
-                "Collection & Documents",
-                "Shell & MongoDB drivers",
-                "What is JSON Data",
-                "Create, Read, Update, Delete",
-                "Working with Arrays",
-                "Understanding Schemas and Relations."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 19: Mongo DB",
-              "desc": [
-                "What is MongoDB?",
-                "Characteristics, Structure and Features.",
-                "MongoDB Ecosystem.",
-                "Installation process.",
-                "Connecting to MongoDB database.",
-                "What are Object Ids in MongoDb.",
-                "Data Formats in MongoDB.",
-                "MongoDB Aggregation Framework.",
-                "Aggregating Documents.",
-                "What are MongoDB Drivers?",
-                "Finding, Deleting, Updating, Inserting Elements."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 20: Introduction To Tableau",
-              "desc": [
-                "What is TABLEAU?",
-                "Why to use TABLEAU?",
-                "Installation of TABLEAU.",
-                "Connecting to data source.",
-                "Navigating Tableau.",
-                "Creating Calculated Fields.",
-                "Adding Colours",
-                "Adding Labels and Formatting.",
-                "Exporting Your Worksheet.",
-                "Creating dashboard pages.",
-                "Different charts on TABLEAU (Bar graphs, Line graphs, Scatter graphs, Crosstabs, Histogram, Heatmap, Tree maps, Bullet graphs, etc.)",
-                "Dashboard Tricks.",
-                "Hands on exercises."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 21: Data Types in Tableau",
-              "desc": [
-                "Pre-attentive processing.",
-                "Length and position.",
-                "Reference Lines.",
-                "Parameters.",
-                "Tooltips.",
-                "Data over time.",
-                "Implementation.",
-                "Advance table calculations.",
-                "Creating multiple joins in Tableau.",
-                "Relationships vs Joins.",
-                "Calculated Fields vs Table calculations.",
-                "Creating advanced table calculations.",
-                "Saving a Quick table calculation.",
-                "Writing your own Table calculations.",
-                "Adding a second layer moving average.",
-                "Trendlines for power-insights."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 22: Mapping and Analytics",
-              "desc": [
-                "Getting started with visual analytics.",
-                "Geospatial data.",
-                "Mapping workspace.",
-                "Map layers.",
-                "Custom territories.",
-                "Common mapping issues.",
-                "Creating a map, working with hierarchies.",
-                "Coordinate points.",
-                "Plotting latitude and longitude.",
-                "Custom geocoding.",
-                "Polygon Maps.",
-                "WMS and Background.",
-                "Image Creating a Scatter Plot, Applying Filters to Multiple Worksheets."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 23: Calculations",
-              "desc": [
-                "Aggregation and its types",
-                "level of detail common calculation functions",
-                "creating parameters"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 24: Dashboard and Stories",
-              "desc": [
-                "Tiled vs Floating",
-                "Working in views with Dashboard and stories",
-                "Legends, Quick filters."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 25: Introducation To Power BI",
-              "desc": [
-                "Why Power BI?",
-                "Account Types.",
-                "Installing Power BI.",
-                "Understanding the Power BI Desktop Workflow.",
-                "Exploring the Interface of the Data Model.",
-                "Understanding the Query Editor Interface."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 26: Query Editor",
-              "desc": [
-                "Connecting Power BI Desktop to Source Files.",
-                "Keeping & Removing Rows.",
-                "Removing Empty Rows.",
-                "Create calculate columns.",
-                "Make first row as headers.",
-                "Change Data type.",
-                "Rearrange the columns.",
-                "Remove duplicates.",
-                "Unpivot columns and split columns.",
-                "Working with filters.",
-                "Appending queries.",
-                "Working with columns.",
-                "Replacing values.",
-                "Splitting columns.",
-                "Formatting data & handling formatting errors.",
-                "Pivoting & unpivoting data.",
-                "Query duplicates vs references"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 27: Power BI",
-              "desc": [
-                "Power BI",
-                "Working with Time series Understanding aggregation and granularity",
-                "Filters and Slicers in Power BI",
-                "Maps, Scatterplots and BI Reports",
-                "Creating a Customer Seq mentation."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 28: Data Models",
-              "desc": [
-                "Understanding Relationships.",
-                "Many-to-One & One-to-One.",
-                "Cross Filter Direction & Many-to-Many.",
-                "M-Language vs DAX (Data Analysis Expressions).",
-                "Basics of DAX.",
-                "DAX Data Types.",
-                "DAX Operators and Syntax.",
-                "Importing Data for DAX Learning.",
-                "Resources for DAX Learning.",
-                "M vs DAX.",
-                "Understanding IF & RELATED.",
-                "Create a Column.",
-                "Rules to Create Measures.",
-                "Calculated Columns vs Calculated Measures.",
-                "Understanding CALCULATE & FILTER.",
-                "Understanding Data Category",
-                "SUM, AVERAGE, MIN, MAX, SUMX, COUNT, DIVIDE, COUNT, COUNTROOMS, CALCULATE, FILTER, ALL",
-                "Time Intelligence.",
-                "Create date table in M.",
-                "Create date table in DAX.",
-                "Display last refresh date.",
-                "SAMEPERIODLASTYEAR.",
-                "TOTALYTD.",
-                "DATEADD.",
-                "PREVIOUSMONTH."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 29: Time Intelligence",
-              "desc": [
-                "Create data table in M and DAX, Display last refresh Date."
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 30: Modelling",
-              "desc": [
-                "Create your first report.",
-                "Modelling basics to advance.",
-                "Modelling and relationship.",
-                "Ways of creating relationship.",
-                "Normalisation – De-normalisation.",
-                "OLTP vs OLAP.",
-                "Star schema vs Snowflake schema."
-              ]
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
             }
           }
         ],
@@ -1186,20 +481,23 @@
       }
     }
   ],
+
   "Review": {
-    "title": "Why should you enroll in our Data Science course?",
-    "desc": " The  Data Science course from Skillslash includes real-world experience and is tailored for creative minds. Experience the future age of education by enrolling in our Data Science training institutes in Bangalore."
+    "title": "Why get enrolled in our Data Science?",
+    "desc": "Skillslash’s Data Science course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education."
   },
+
   "Fee": {
-    "FullStack": true,
-    "desc": " The Data science course fees in Bangalore start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-    "desc1": "Skillslash's data science training in Bangalore are designed giving importance to affordability. The Data Science course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-    "BasicPrice": "₹ 59,999 + GST",
-    "BasicDesc": "3% cashback on credit card payment",
-    "ProPrice": "₹ 109,999 + GST",
-    "ProDesc": "5% cashback on credit card payment",
-    "ProMaxPrice": "₹ 1,49,999 + GST",
-    "ProMaxDesc": "Guaranteed job referral"
+    "FullStack": false,
+    "desc": "Skillslash offers Data Science course, starting at INR 59,999 (without GST). We aim to provide the relevant course qualification with high-quality education attaining career growth",
+    "desc1": "",
+    "ProPrice": "₹ 59,000 + GST",
+    "emi": "₹ 5,801/month",
+    "proPrice1": "₹ 109,999 + GST",
+    "emi1": "₹ 10,816/month",
+    "ProDesc": " Learn data science from industry experts",
+    "ProMaxPrice": "₹ 109,999 + GST",
+    "ProMaxDesc": "Learn data science with real work experience "
   },
   "BatchDates": [
     {
@@ -1226,134 +524,60 @@
     }
   ],
   "AboutCourseHeading": {
-    "heading": "About Data Science",
-    "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth."
+    "heading": "Why is the Data Science course in Bangalore popular?",
+    "para": "Being a rapidly growing field, Data Science has impacted nearly every industry. Since large amounts of data are being collected, processed, and analyzed, the demand for Data Science professionals has been increasing enormously. Furthermore, the combination of statistics and probability with the mathematical data for technical analysis in order to extract data insights. This requires a set of skilled professionals to be on board with adequate technological knowledge, decision-making, and programming skills. Get a certification to be a significant candidate.  "
   },
-  "AboutCourse": [
-    {
-      "data": {
-        "heading": "What is Data Science? And, who is a Data Scientist?",
-        "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth. Enrolling in our Data Science Course Training in Bangalore is the perfect first step towards a career in data science. Our program is designed to provide you with a comprehensive understanding of the principles of data science, as well as the hands-on experience you'll need to succeed in the field. During the data science course, you'll learn from industry professionals in live-interactive sessions, giving you the opportunity to ask questions and get personalized feedback. This will allow you to fully understand the concepts and techniques you're learning and to apply them to real-world problems.",
-        "list": [],
-        "para1": "Additionally, our data science program includes a unique opportunity to work on projects with top-tier industry collaborators. This will give you the chance to gain valuable experience working on real-world projects, which will be highly beneficial when applying for jobs. And, to top it off, we guarantee a job referral to all our successful graduates, giving you the best Data Science training institute in Bangalore.",
-        "listActive": false,
-        "extraPara": true
-      }
-    },
-    {
-      "data": {
-        "heading": "How does Skillslash offer the best Data Science training in Bangalore?  ",
-        "para": "If you're looking for top-notch Data Science training in Bangalore, Skillslash is an excellent choice.One of the biggest advantages of choosing Skillslash’s data science course is that all of our classes are 100% live and interactive. This means that you'll be able to get your doubts cleared in real-time by industry experts who are mentoring you through the data science course, having more than a decade of experience. These mentors come from top companies like Google, Microsoft, TCS, Amazon, Flipkart, Myntra and Capegemini and have proven their mettle in their respective fields. Another advantage of choosing Skillslash’s data science course is that you'll have the opportunity to work with AI companies as an intern. This will give you real-world experience by working on 8+ industry-specific projects. And upon completion of the data science program, you'll even receive project certification from the company to boost your CV.",
-        "list": [],
-        "para1": "Skillslash also makes it easy and affordable for you to finance your education. We offer easy financing options including an EMI system, so you don't have to worry about the financial burden of the data science course. Finally, our team provides resume preparation training and mock interviews, and we also provide job referrals to help you get placed in a top company after completing the data science course. We offer a comprehensive, industry-relevant training program that will give you the skills and experience you need to excel in the field of data science. With live interactive classes, industry expert mentors, real-world experience, easy financing options, and job placement assistance, Skillslash is an excellent choice for anyone looking to start a career in data science.",
-        "listActive": false,
-        "extraPara": true
-      }
-    },
-    {
-      "data": {
-        "heading": "Is 3 months enough to complete Data science training or certification?",
-        "para": "We could say that it is hard to become a Data Scientist, especially in three months. For someone who has never coded before and has no expertise in mathematics, it typically takes 7 to 12 months of intense study to become an entry-level data scientist. It is crucial to keep in mind that simply understanding the theoretical underpinnings of data science may not make you a professional data scientist. Your knowledge and experience are the only factors that matter. But enrolling in a certificate programme will hasten the process",
-        "listActive": false,
-        "extraPara": false
-      }
-    },
-    {
-      "data": {
-        "heading": "Is 3 months enough to complete Data science training or certification?",
-        "para": "We could say that it is hard to become a Data Scientist, especially in three months. For someone who has never coded before and has no expertise in mathematics, it typically takes 7 to 12 months of intense study to become an entry-level data scientist. It is crucial to keep in mind that simply understanding the theoretical underpinnings of data science may not make you a professional data scientist. Your knowledge and experience are the only factors that matter. But enrolling in a certificate programme will hasten the process",
-        "listActive": false,
-        "extraPara": false
-      }
-    },
-    {
-      "data": {
-        "heading": "What qualification required for data scientist?",
-        "para": "The only prerequisite is that you must have a graduation degree to enrol in a regular or part-time data science course. You don't need coding experience to take a data science course. Additionally, being from a STEM background gives you an edge over others.",
-        "listActive": false,
-        "extraPara": false
-      }
-    },
-    {
-      "data": {
-        "heading": "Why One Should Take The Data Science Course? Is Data Science certification being worth pursuing as a career?",
-        "para": "Data science is a highly valuable and in-demand field, and taking a Data science Course can help individuals gain the skills and knowledge needed to pursue a career in this field. The course would provide an introduction to the key concepts and tools used in data science, such as programming languages, statistical analysis, and machine learning, as well as hands-on experience working with data. The course could also help individuals understand the business applications of data science and how data can be used to inform decision making.",
-        "list": [],
-        "para1": "Regarding Data Science certification online training in Bangalore, it depends on the individual's career goals and the specific certification program. Generally, a data science certification can demonstrate that an individual has a certain level of knowledge and skills in the field, which can be helpful for job applicants or those looking to advance their careers. However, it's important to note that a certification alone may not guarantee a job or a promotion, and employers will also look at an individual's experience and portfolio of work. Therefore, it's worth pursuing a data science certification if it aligns with your career goals and you are willing to put in the time and effort to earn it.",
-        "listActive": false,
-        "extraPara": true
-      }
-    }
-  ],
+
   "FAQ": {
-    "desc": "Go through the FAQ’s to know more about our Data Science course in Bangalore with unlimited job referrals, course fees and project details."
+    "desc": "Check out the FAQs on Skillslash’s Data Science course in Bangalore for better clarity on the program features, fees, lectures, and much more to a successful career ahead."
   },
   "FaqDATA": [
     {
       "id": 0,
-      "ques": " What are the different learning alternatives available for Data Science course ? ",
+      "ques": "What are the various learning options offered under the Advanced Data science course in Bangalore?",
 
-      "ans": "Most crucially, for the",
-      "linkText": "Data Science course in Pune",
-      "ansAfter": "One of the most important features of our data science course is the emphasis on real-world experience. We provide a live interactive learning option including blended learning curriculum tailored to the needs of working professionals. In addition, the data science course includes live online sessions in hybrid learning mode and hands-on work on industrial projects. This allows for real-time communication with instructors, as well as practical sessions in data science, artificial intelligence, and machine learning.",
-      "linkURL": "https://skillslash.com/data-science-course-in-pune",
-      "link": true,
+      "ans": "Our Data science course in Bangalore provides both offline and online learning options, enabling learners to gain practical work experience. We also provide a blended learning course with a job assistance program. Additionally, you are advised to participate in real-time, online classes that use a hybrid learning approach.  Because of the pandemic situation, our Data Science course in Bangalore can only provide fully online through live interactive sessions. This helps you in such a way that you can interact with your instructor in real time, just as you would in a conventional face-to-face session. Nowadays, gaining an advanced certification in Data Science and AI is highly beneficial for career progression. For reference, Our Data Science course in Bangalore has its course pricing starting at INR 59,999 excluding GST. If you have any further queries regarding the course syllabus or the course fee, don’t hesitate to call us to get clarification. ",
       "open": false
     },
     {
       "id": 1,
-      "ques": "If I have to miss a lesson in data science training due to an emergency, would there be a make-up class available to cover our data science syllabus?",
+      "ques": "Will a make-up class be available if I miss a session due to an emergency?",
 
-      "ans": "For starters, their Data Science course in Bangalore includes live online sessions. Additionally, all of their students have access to video recordings of those classes. Furthermore, they provide you with unrestricted access to these recorded sessions so that you may refer to them anytime you need theoretical assistance in your AI and ML career. As a consequence, you won't be disappointed if you miss any of our artificial intelligence and machine learning training's live sessions. They do, however, strongly suggest you attend all live sessions.",
+      "ans": "Through live online sessions, Skillslash provides a Data Science course in Bangalore with a placement assistance program. Our learners are given access to recorded lectures and courses. We also provide you unrestricted access to these recordings so you may check them anytime whenever you need some theoretical support for your studies. You can also attend the next live session without worrying if you miss any of the classes. We don’t demand any additional fee than the mentioned fees for the Data Science course in Bangalore. However, we advise you to attend all of the live lectures possible.",
       "open": false
     },
     {
       "id": 2,
-      "ques": " What is the Data Science Course Scholarship Program at Skillslash?",
+      "ques": "Is class repetition possible in Skilslash’s Data Science course in Bangalore? ",
 
-      "ans": "In",
-      "linkText": "Data Science",
-      "ansAfter": "Course Scholarship Program at Skillslash offers students the opportunity to earn a reduced course fee. Each candidate will have the chance to complete a 20-minute online aptitude test. If a candidate scores more than 65 percent on the aptitude exam, they will be eligible for a 10% reduction in data science course costs. Furthermore, applicants who lost their employment as a result of the COVID scenario, as well as mothers who wish to start a profession, may be eligible for a scholarship of up to 100% based on their exam score. This  data science program is designed to make our Data Science course more accessible and affordable for a diverse range of students.",
-      "linkURL": "https://en.wikipedia.org/wiki/Data_science",
-      "link": true,
+      "ans": "If you don't fully understand a concept in any of our classes, Skillslash gives you the chance to attend the upcoming classes on the Data Science course in Bangalore. This takes away the chance of misunderstanding or confusion that occurs in learning courses. If you get confused by any case in our course syllabus, connect with our experienced tutors throughout the program with no additional charges on Skillslash’s Data Science course in Bangalore. ",
       "open": false
     },
     {
       "id": 3,
-      "ques": "Will the data scientist certification in Bangalore take place online or in a classroom?",
-
-      "ans": "At present, Skillslash offering online data science certification programs with 100% live interactive sessions to make your learning journey truly unforgettable. Our live sessions provide real-time doubt clearance, so you won't miss out on the benefits of a physical setting where you can communicate and get your questions answered quickly.",
+      "ques": "What does Skillslash’s scholarship program for the Advanced Data Science course in Bangalore provide?",
+      "ans": "The scholarship program is applicable not only for Skillslash’s Data Science course in Bangalore but also for other courses. Each applicant must pass a 20-minute online aptitude test as part of the scholarship program offered by Skillslash. If you score with a grade of at least 65%, you will receive a 10% discount on Skillslash’s course fees for the Data Science course in Bangalore. Candidates who lost their employment as a result of the COVID crisis and moms who wish to start their careers after a break may also be eligible for up to a 100% scholarship, according to the exam results, for this advanced data science and AI certification course. ",
       "open": false
     },
     {
       "id": 4,
-      "ques": "What is Skillslash’s Data Science scholarship program in Bangalore?",
+      "ques": " Are there any course fee discounts available with Skillslash’s Data Science course in Bangalore?",
 
-      "ans": "Skillslash's Data Science scholarship program in Bangalore is designed to provide financial assistance for students who want to take our Data Science course but may face financial barriers. Candidates who pass the aptitude test with a score of more than 65 percent will be eligible for a 30 percent discount on the data science course fees. Additionally, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. This data science program is an excellent opportunity for students who are looking to gain knowledge and skills in the field of Data Science.",
+      "ans": "If you pass the online exam to qualify for the scholarship, you will receive a discount of up to 10% on the course fees of Skillslash’s Data Science course in Bangalore and also for the AI and ML courses. Additionally, we offer scholarships to COVID applicants, unemployed people, and women returning to the profession after maternity leave. With no further delay, get enrolled in Skillslash through scholarships at our Data Science course in Bangalore.",
       "open": false
     },
     {
       "id": 5,
-      "ques": " Are there any fee discounts available for Data Science training in Bangalore?",
-      "ans": "Yes, we offer fee discounts for our Data Science training in Bangalore. Eligible students can save up to 30% on their data science course fees. Additionally, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation. These discounts and scholarships are designed to make our data science course more accessible and affordable for a diverse range of students.",
+      "ques": "What certification does the Data Science course in Bangalore provide?",
+
+      "ans": "You won't only obtain a standard certification or academic degree if you enroll in Skillslash’s Data Science course in Bangalore. Instead, we provide a globally recognized project management qualification. Direct certificates for projects from the firms are also advantageous, therefore we provide certification from the businesses you worked with on your industrial project. If you have any doubts regarding the course, reach out to our counselors for better clarification on the Data Science course in Bangalore.",
       "open": false
     },
     {
       "id": 6,
-      "ques": "How much can I expect to earn as a data scientist?",
-      "ans": "The sky is the limit when it comes to earning potential as a data scientist. Being said that, your experience is a major factor in the package you'll receive - so make sure it counts! Leverage your expertise to get the best offer possible. But here are some figures that show what is the average salary for data science professionals as per their experience level: Entry level - Up to 5 Lakhs, Intermediate, Level - Up to 8 Lakhs, Experienced Level - Up to 12.5 Lakhs,  Advanced Level - Up to 18 Lakhs,      Expert Level - More than 25 Lakhs",
-      "open": false
-    },
-    {
-      "id": 7,
-      "ques": "Are your data science course training sessions live or pre-recorded?",
-      "ans": "All of our data science course training sessions are conducted live, in real-time, with an experienced instructor leading the way. These data science sessions are designed to be interactive, allowing participants to engage with the material and ask questions as they arise.You'll log in at a specific time and join a virtual classroom where you'll be able to connect with other participants and our data science trainers. This allows for a collaborative learning environment where everyone can share their experiences and insights.And don't worry if you miss a data science session or need to review the material again, we understand that everyone learns at a different pace. That's why we record all of our data sience sessions and make them available to you after the fact. This way, you'll have the opportunity to revisit the material, reinforce your understanding, and make sure you're keeping up with the rest of the data science class. So, whether you're a visual, auditory, or kinesthetic learner, we've got you covered.",
-      "open": false
-    },
-    {
-      "id": 8,
-      "ques": " What kind of certification does the Data Science course in Bangalore provide?",
-      "ans": "The Data Science course in Bangalore provides a globally recognized project management certification. Upon completion of the data science course, students will not only gain a solid understanding of data science, artificial intelligence, and machine learning but also receive a globally recognized project management certificate. Furthermore, the company with which you completed your industrial project can also give you direct certification, which is a valuable asset in the job market. This certification is a testament to the quality of our course and the skills and knowledge that students will gain during the course.",
+      "ques": "Does Skillslash have refund policies?",
+
+      "ans": "Yes, Skillslash provides a complete refund for all of its courses including the Data Science course in Bangalore with respect to the terms and conditions. Also, we have no-cost EMI procedures for a maximum of 12 months duration. Yet, refund policies are considered until 15 days after the start date of Skillslash’s Data Science course in Bangalore.",
       "open": false
     }
   ]

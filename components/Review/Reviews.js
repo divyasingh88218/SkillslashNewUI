@@ -537,7 +537,7 @@ const Reviews = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.ReviewBox} key="13" id="13">
                   <div className={styles.nameWrap}>
-                    <h5>Muralikrishna Alichetty</h5>
+                    <h5>Muralikrishna</h5>
                   </div>
                   <div className={styles.rating}>
                     <BsFillStarFill className={styles.star} />
@@ -577,7 +577,7 @@ const Reviews = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.ReviewBox} key="7" id="7">
                   <div className={styles.nameWrap}>
-                    <h5>GIRISH BALLAMPALLI</h5>
+                    <h5>Girisih</h5>
                   </div>
                   <div className={styles.rating}>
                     <BsFillStarFill className={styles.star} />
@@ -589,13 +589,13 @@ const Reviews = ({
                   <p>
                     I think Dhaval has clear understanding of whatever he teach,
                     wheher it is Data Structures, Algorithms, Dynamic
-                    Programming, he explains
+                    Programming,
                     {readMore[3].open ? (
                       <span>
-                        with such ease that even hard problem seems easy. Hats
-                        off to his teaching and Dhaval keep on motivating and
-                        helping othersh really gave my preparation a solid
-                        boost.
+                        he explains with such ease that even hard problem seems
+                        easy. Hats off to his teaching and Dhaval keep on
+                        motivating and helping othersh really gave my
+                        preparation a solid boost.
                       </span>
                     ) : (
                       ""
@@ -637,12 +637,10 @@ const Reviews = ({
                   </div>
                   <p>
                     I have taken data structures and algorithms course taught by
-                    Dhaval, he is very accessible and does
+                    Dhaval, he is very accessible and does an amazing job at
+                    making
                     {readMore[4].open ? (
-                      <span>
-                        an amazing job at making difficult concepts easily
-                        understandable.
-                      </span>
+                      <span>difficult concepts easily understandable.</span>
                     ) : (
                       ""
                     )}
@@ -704,12 +702,13 @@ const Reviews = ({
                   <p>
                     The course structure was really good and covered most of the
                     topics like Linked list, trees , graphs, recursion, dynamic
-                    programming etc. Dhaval Sir did
+                    programming etc.
                     {readMore[6].open ? (
                       <span>
-                        a great job taking each topic to a great clarity level.
-                        Rather than remembering the solution to the problem, he
-                        taught me how to approach problem and solve it.
+                        Dhaval Sir did a great job taking each topic to a great
+                        clarity level. Rather than remembering the solution to
+                        the problem, he taught me how to approach problem and
+                        solve it.
                       </span>
                     ) : (
                       ""
