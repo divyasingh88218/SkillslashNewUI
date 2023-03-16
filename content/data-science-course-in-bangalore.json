@@ -40,8 +40,9 @@
     "spanTitleText": "Course with Real Work Experience",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
     "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-course-background.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-cover-image.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ai-image-ds.webp",
+
     "width": "398",
     "height": "391"
   },
