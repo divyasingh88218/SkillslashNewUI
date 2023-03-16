@@ -186,7 +186,8 @@ button {
   flex-flow: column;
   background-color: white;
   margin-left: 40px;
-
+  border-radius: 10px;
+  padding: 10px 0;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -515,15 +516,15 @@ button {
 /* --------------------three dot animation --------------------*/
 
 @media (max-width: 1281px) {
-.whiteP {
-  background-color: transparent;
-  height: 450px;
-  width: 350px;
-}
-.RightPopup {
-  padding: 10px 0px;
-  border-radius: 10px;
-}
+  .whiteP {
+    background-color: transparent;
+    height: 450px;
+    width: 350px;
+  }
+  .RightPopup {
+    padding: 10px 0px;
+    border-radius: 10px;
+  }
 }
 @media (max-width: 1100px) {
   .whiteP {
