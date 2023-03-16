@@ -2,7 +2,7 @@
   .feature {
     width: 100%;
     margin-top: -0px;
-    background-color: #fafafa;
+    background-color: white;
   }
   .feature .container {
     display: grid;
@@ -40,7 +40,6 @@
     padding: 10px;
     align-items: center;
   }
-  
 }
 @media (max-width: 1280px) {
   .feature {
@@ -59,7 +58,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 40px;
-  
+
     gap: 20px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     border-radius: 7px;
@@ -88,7 +87,6 @@
     align-items: center;
     justify-content: center;
   }
-  
 }
 @media (max-width: 961px) {
   .feature .container {

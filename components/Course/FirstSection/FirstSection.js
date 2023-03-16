@@ -20,10 +20,12 @@ const FirstSection = ({
   redirectBa,
   redirectBl,
   redirectDSA,
+  redirectWeb,
   width,
   height,
   mainHeaderImg,
   backgroundImg,
+  iconImg,
 }) => {
   const [mobile, setMobile] = useState(false);
 
@@ -38,6 +40,12 @@ const FirstSection = ({
 
   return (
     <section className={styles.wrapper}>
+      <Image
+        src={backgroundImg}
+        layout="fill"
+        alt="background"
+        objectFit="cover"
+      />
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
@@ -46,10 +54,10 @@ const FirstSection = ({
           {changeHeading ? (
             <h5>Download Program Handbook</h5>
           ) : (
-            <h4>
+            <h5>
               Get a chance to experience our live-interactive class before
               enrolling
-            </h4>
+            </h5>
           )}
           <p>Fill the below Details to get started</p>
           <Form
@@ -96,21 +104,28 @@ const FirstSection = ({
         </div>
       </div>
       <div className={styles.right}>
-        {redirectBa || redirectBl || redirectFs ? (
-          <img
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstsecRimg.webp"
-            alt="business-analytics-course"
-          />
+        {redirectDs || redirectFs || redirectDSA ? (
+          <div className={styles.imgWrapper}>
+            <Image
+              src={mainHeaderImg}
+              alt="data-science-course"
+              layout="intrinsic"
+              objectFit="contain"
+              width={width}
+              height={height}
+            />
+          </div>
         ) : (
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstsecRimg.webp"
+            src={mainHeaderImg}
             alt="data-science-course"
             layout="intrinsic"
             objectFit="contain"
-            width={900}
-            height={607}
+            width={width}
+            height={height}
           />
         )}
+        {redirectWeb ? "" : <img src={iconImg} className={styles.iconImg} />}
       </div>
     </section>
   );

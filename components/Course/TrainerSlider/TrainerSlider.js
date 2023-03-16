@@ -22,7 +22,7 @@ const TrainerSlider = ({
 }) => {
   const [mobile, setMobile] = useState(false);
   const [slidesPerView, setSlidesPerView] = useState(3);
-  const [spaceBetween, setSpaceBetween] = useState(70);
+  const [spaceBetween, setSpaceBetween] = useState(60);
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -45,7 +45,7 @@ const TrainerSlider = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h4>Complete trainers background and experience</h4>
+          <h5>Complete trainers background and experience</h5>
           <p>Fill the below Details to get started</p>
           <Form
             popup={true}
@@ -119,8 +119,8 @@ const TrainerSlider = ({
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/GoogleM.webp"
-                        width="65"
-                        height="21"
+                        width="83"
+                        height="27"
                         alt="Google"
                         layout="intrinsic"
                         objectFit="contain"
@@ -151,8 +151,10 @@ const TrainerSlider = ({
                     )}
                   </div>
                   <div className={style.transition}>
-                    <h5>Chirag Goel</h5>
-                    <p>Sr. Software Engineer</p>
+                    <h5 style={{ marginTop: "25px" }}>Chirag Goel</h5>
+                    <p style={{ marginBottom: "-10px" }}>
+                      Sr. Software Engineer
+                    </p>
 
                     {mobile ? (
                       <Image
@@ -167,8 +169,8 @@ const TrainerSlider = ({
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Micro.png"
-                        width="79"
-                        height="32"
+                        width="150"
+                        height="68"
                         alt="Microsoft"
                         layout="intrinsic"
                         objectFit="contain"
@@ -199,8 +201,8 @@ const TrainerSlider = ({
                     )}
                   </div>
                   <div className={style.transition}>
-                    <h5>Amit Kumar</h5>
-                    <p>Software Engineer</p>
+                    <h5 style={{ marginTop: "25px" }}>Amit Kumar</h5>
+                    <p style={{ marginBottom: "-10px" }}>Software Engineer</p>
 
                     {mobile ? (
                       <Image
@@ -215,8 +217,8 @@ const TrainerSlider = ({
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoftM.webp"
-                        width="79"
-                        height="32"
+                        width="150"
+                        height="68"
                         alt="Microsoft"
                         layout="intrinsic"
                         objectFit="contain"
@@ -261,9 +263,9 @@ const TrainerSlider = ({
                       />
                     ) : (
                       <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/image+230.png"
-                        width="32"
-                        height="24"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/image%2B230.png"
+                        width="112"
+                        height="32"
                         alt="Walmart"
                         layout="intrinsic"
                         objectFit="contain"
@@ -309,8 +311,8 @@ const TrainerSlider = ({
                     ) : (
                       <Image
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png"
-                        width="72"
-                        height="22"
+                        width="90"
+                        height="27"
                         alt="Amazon"
                         layout="intrinsic"
                         objectFit="contain"
@@ -356,9 +358,9 @@ const TrainerSlider = ({
                       />
                     ) : (
                       <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/PngItem_7189867+1.png"
-                        width="36"
-                        height="32"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/PngItem_7189867%2B1.png"
+                        width="110"
+                        height="14"
                         alt="Oracle"
                         layout="intrinsic"
                         objectFit="contain"
@@ -403,9 +405,9 @@ const TrainerSlider = ({
                       />
                     ) : (
                       <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/paypal.webp"
-                        width="27"
-                        height="27"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/paypal-de.png"
+                        width="110"
+                        height="31"
                         alt="paypal"
                         layout="intrinsic"
                         objectFit="contain"

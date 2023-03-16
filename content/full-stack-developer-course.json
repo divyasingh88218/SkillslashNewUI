@@ -1,456 +1,24 @@
 {
   "metaInfo": {
-    "title": "Full Stack software program with Real-Work Experience | Skillslash",
-    "desc": "Learn from industry experts by signing in our Full Stack software program. Get live training on artificial intelligence and machine learning.",
-    "keyword": "full stack developer course, full stack course with placement guarantee",
-    "canonical": "https://skillslash.com/full-stack-developer-course",
+    "title": "Skillslash - Best Full Stack Development Course",
+    "desc": "Best Full Stack Development Course",
+    "keyword": "Best Full Stack Development Course",
+    "canonical": "https://program.skillslash.com/Best-full-stack-development-course",
     "ReviewSchema": {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "full stack developer course",
-      "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Data+science+course.webp",
+      "name": "Best Full Stack Development Course",
       "brand": {
         "@type": "Brand",
         "name": "Skillslash"
       },
-      "offers": {
-        "@type": "AggregateOffer",
-        "url": "https://skillslash.com/full-stack-developer-course",
-        "priceCurrency": "INR",
-        "lowPrice": "95000",
-        "highPrice": "135000",
-        "offerCount": "1"
-      },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "9.8",
+        "ratingValue": "9.6",
         "bestRating": "10",
         "worstRating": "1",
-        "ratingCount": "30",
-        "reviewCount": "30"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "name": "Best full stack developer course",
-          "reviewBody": "Skillslash offers the best full stack developer course. It includes a guide and syllabus to help you learn. Skillslash also provides top certifications for full stack like R, Python, Tableau, and Machine learning.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "10",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-26",
-          "author": { "@type": "Person", "name": "rahulsinghhh1211" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course with placement guarantee",
-          "reviewBody": "It is an perfect online course academy to learn about all the areas in full stack & analytics. They start from the basics and it is an perfect learning for freshers. I attended two days of python session and it was the first step for me to learn python and the session was very useful.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-12-06",
-          "author": { "@type": "Person", "name": "Bavya Keerti" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course fees",
-          "reviewBody": "I have attended the python for full stack  session conducted by Priyanka mam.The way maam taught each session is very clear and easy to understand. Thank you skillslash for providing this wonderful opportunity.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.5",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-12-28",
-          "author": { "@type": "Person", "name": "Jincy KP" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "best full stack institute in bangalore",
-          "reviewBody": "AI and ML course that is specially for working professionals has helped me to learn full stack which I though I could never do due to work pressure and tight schedule. But the course of skillslash is very helpful, I could able to manage between my work and also studying full stack. Features that I loved at Skillslash: 1. Live classes 100%    2. Project certification     3. Great aching by industry professional trainers   4. Live projects along with 3 different industry projects    5. In-depth course curriculum I have come across and heard of many other full stack course providing institutes, but I am glad that I chose Skillslash. I recommend this course for every person that want study full stack under professional and expert guidance.ReplyLike",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-22",
-          "author": { "@type": "Person", "name": "Mehek Rai" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course online",
-          "reviewBody": "As a part of the Full stack course in full stack i had a great learning experience. I was able to successfully move into a full stack role in 7 months , which was amazing. All this would not have been possible without the consistent efforts of the Skillslash team. They have very good instructors and a very engaging classroom which is why i was able to learn the important skills very quickly. They also have a very systematic career guidance track with which i was able to get a lot of interviews before i landed a role but i had consistent support. The best part of my learning was in some of the projects that i did with them. My interviews were all about my projects and i was well prepared for that. Kudos to the team and i wish my best for Skillslash. This is definitely a great place to learn for working professionals. One simple conversation with their counsellor and i was convinced that they are honest people with great interest and experience in the field. You must consider this if you are looking to build a career in full stack.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "10",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-25",
-          "author": { "@type": "Person", "name": "Pragyan Prakash" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course fee",
-          "reviewBody": "This session is Python full stack,   This session is awesome.thanks for skillslach. Good and nice explanation. More useful for looking job for freshers. And better useful to students. Thank you and looking for more",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-02",
-          "author": { "@type": "Person", "name": "Arunachalam Govindhu" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course with placement",
-          "reviewBody": "I have enrolled myself for the dsml ( full stack and machine learning) course here in skillslash. I really appreciate the professional assistance as well as the course instructors. The faculty were prompt and clarifies doubts immediately . every penny invested here for the purpose of learning is far more than being just worth it . Before enrolling myself i researched alot about all the online learning systems and found skillslash to be more feasible and  economically more viable. I appreciate the assistance given to me by Mr.Chandra , who happened to be my course counsellor . Overall the experience was damn good and i feel skillslash is far better than the other big players like upgrad and great learning.The main advantage of skillslash over other learning platforms is that in skillslash every class is a live class. recordings are provided after the class live class. So yeah it is more like a classroom program. Thank you Skillslash",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.7",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-28",
-          "author": { "@type": "Person", "name": "Aditya Tumuluru" },
-          "publisher": { "@type": "Organization", "name": "Aditya Tumuluru" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course marathahalli",
-          "reviewBody": "Skillslash Academy is amazing Platform for freshers as well experience candidates to get hands on learning and developing IT skills related to full stack and AI .    The sessions are very interactive and well organised.Thanks for the wonderful opportunity i had with them",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-18",
-          "author": { "@type": "Person", "name": "Biki Dey" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "best full stack course with placement guarantee",
-          "reviewBody": "The session which I attended was Python for full stack. It was a very good experience. I learnt many new things it was totally different, the way they teach was awesome and easy to understand. Thank you SkillSlash for providing me this opportunity and so waiting for more good sessions",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.6",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-30",
-          "author": { "@type": "Person", "name": "Pavithra Ramkumar" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack certificate programs online",
-          "reviewBody": "I attended the session, Python for full stack.  It was very structured, good content and very good instructor.  The session organised by skillslash was amazing.It covered almost every possible topic a beginner needs to learn and was very helpful.The mentors were excellent. Overall session was great.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.7",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-12",
-          "author": { "@type": "Person", "name": "Pradnya Nibrad" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course fees in bangalore",
-          "reviewBody": "Great teaching from priyanka mam, the way she explains is cristal clear and thanks to the platform skillslash for providing this wonderful sessions on python for full stack from priyanka mam.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-12-06",
-          "author": { "@type": "Person", "name": "pravallika devi" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course colleges",
-          "reviewBody": "First of all a very big thanks to SkillSlash Academy for providing an opportunity to attend courses. It was a great sessions by SkillSlash. It helped me a lot to improve my knowledge about python and full stack. The way they explained the concepts was clean!!! The interaction & solving the doubts of the students are really nice!! I'm very happy . Hope I get more opportunities to attend more n more sessions. Once again thank you SkillSlash Academy!!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-22",
-          "author": { "@type": "Person", "name": "Khushi khush" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course quora",
-          "reviewBody": "I attained  two day's webinar taken by skillslash, and it's really very helpful for me to understand basics of python language, it's coding and I get good idea regarding to the upcoming opportunities in full stack field. Here mentor is also very much active towards clearing doubts of students and are guides very well. thank you",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-28",
-          "author": { "@type": "Person", "name": "Krushana Desai" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack online course in bangalore",
-          "reviewBody": "I had attended the Python for full stack, and trust me it was worth it! Abhishek sir was really great! and It was a very good experience. I learnt many new things it was totally different, the way they teach was awesome and easy to understand. Thank you SkillSlash for providing me this opportunity and so waiting for more good sessions",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-24",
-          "author": { "@type": "Person", "name": "Raj Bhatia" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course institutes in bangalore",
-          "reviewBody": "Good thing that I attended their webinars that are usually conducted at weekends, now I am happy for choosing the 'full stack course with internship'. I wasted 5 months after completing my graduation to plan to get into the full stack field, I suggest all the new graduates to quickly act up and I recommend you this course.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "10",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-04",
-          "author": { "@type": "Person", "name": "Pallavi Sai" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "best course institute for full stack in bangalore",
-          "reviewBody": "I have attended the sessions on Python for full stack. It helped me a lot because right now I'm learning python so attending the sessions from the experts it used me a lot more and known about how full stack use python. full stack programme with detailed python sessions which helped me to understand the concepts in depth,  looking forward for more..",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.6",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-03",
-          "author": { "@type": "Person", "name": "YELUBANDI VEERENDRA SAI" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack online courses in bangalore",
-          "reviewBody": "I have learned how python works on full stack and how to code it in something interesting way,the recorded session help me revise everything,thanks to skillslash",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.5",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-12-01",
-          "author": { "@type": "Person", "name": "MT_IV_5003_Ajay.A" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "top full stack developer course",
-          "reviewBody": "It's Really nice ,Informative session .. I got lot of knowledge about python full stack. Awesome session🤩",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-05",
-          "author": { "@type": "Person", "name": "Rashmi Wankhede" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack and machine learning course in bangalore",
-          "reviewBody": "I've attended a workshop on full stack with python so it was really so good and helpful, and mainly the way they've explained the things.. I'm looking forward to attend more workshops and learn things",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-24",
-          "author": { "@type": "Person", "name": "vishnu bharathwaj" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "best full stack certification in bangalore",
-          "reviewBody": "Skillslash is great platform to learn full stack, as a non tech guy they made full stack a cake walk for me.  Kudos Skillslash!!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-23",
-          "author": { "@type": "Person", "name": "Vibhor Baj" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course with Projects",
-          "reviewBody": "I can see their sessions are very  usefull and the  course started from the very basics that i didnt got anywhere. The sesion was very interactive. All the doubts in that topics were cleared. And these know what they are talking about. And i have tried talking to many institutions regarding full stack course  but these guys made me clear regarding the career paths and they were honest in thier opinions. I would like to attend further sessions. And I want you to continue the python course as i found it was very helpful to understand the basics.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-29",
-          "author": { "@type": "Person", "name": "Iniyavan S" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack developer course with real time projects",
-          "reviewBody": "Skillslash is the best platform for learning experience. They provide very good opportunities in trending technologies like python,data analytics ,full stack,  ML,AI and many more....it was an awesome learning and hands-on experience from skill slash.Very helpful webinar for me and they also provide certificates to the attendees. Looking forward for more opportunities from Skillslash.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-12",
-          "author": { "@type": "Person", "name": "Rajeev kumar Singh" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "professional full stack developer course",
-          "reviewBody": "Nice  experience from Skillslash. The way of teaching  Python for full stack was good. It was useful.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-15",
-          "author": { "@type": "Person", "name": "shravani shravs" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course and ai program",
-          "reviewBody": "I have attended the session on Python for full stack. Basic concept of Python with live example was explained, I would like to attend more sessions like this. I would recommend this to newbies in Python as it's very productive and very helpful.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-31",
-          "author": { "@type": "Person", "name": "aman kundu" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course with Guaranteed job referral",
-          "reviewBody": "I have attended sessions on full stack with skillslash and they were so informative and understandable for a beginner like me, it was amazing experience with skillslash.    Looking forward for more learning.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.6",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-13",
-          "author": { "@type": "Person", "name": "Rashmitha" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "Pro-level full stack course",
-          "reviewBody": "Very informative session .. I attended Python and statistics for full stack.. Both are beneficial for me..   It was interesting and explanation was detailed. Thank you SkillSlash's team ..   Keep conducting this type of sessions ..",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-16",
-          "author": { "@type": "Person", "name": "Naveen" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "Advanced level full stack course",
-          "reviewBody": "I have attended the webinar on Python for full stack. Instructor have conveyed the basic concept of Python with live example, I would like to attend more session like this. I would recommend this to newbies in Python.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-29",
-          "author": { "@type": "Person", "name": "Sweta Parmar" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "Get foundational full stack course",
-          "reviewBody": "It is glad to be Participate in the  python through full stack classes , it is good and very helpful and  python through full stack is more helpful",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.7",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-04",
-          "author": { "@type": "Person", "name": "Vamshi Katta" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "full stack course with job assured",
-          "reviewBody": "I attended the session, Python for full stack.  It was very structured, good content and very good instructor . We want some more session like this.. I would recommend to attend the session.   Thank You SKILLSLASH",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.8",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-24",
-          "author": { "@type": "Person", "name": "DEEPAK GAURAV" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        },
-        {
-          "@type": "Review",
-          "name": "one of the best full stack developer course",
-          "reviewBody": "I attended sessions on python for full stack,  And it was excellent and I learned more then I expected , was a great platform for learning ,looking forward for more sessions",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "9.9",
-            "bestRating": "10",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-29",
-          "author": { "@type": "Person", "name": "Swathi Skumar" },
-          "publisher": { "@type": "Organization", "name": "Skillslash" }
-        }
-      ]
+        "ratingCount": "22657"
+      }
     }
   },
   "form": {
@@ -460,60 +28,99 @@
     "BusinessAnalytics": false,
     "FullStack": true,
     "dsa": false,
+    "thankyou": false,
+    "AboutCourse": true,
     "webDevelopment": false,
-    "AboutCourse": false
+    "ai": false
   },
   "FirstSection": {
-    "deskTopPara": "Software development course",
-    "mTopPara": "Software development course",
-    "title": "Full stack developer course to",
-    "spanTitleText": "crack interview at FAANG",
-    "desc": "Learn from mentors in live online classes. Work on Full Stack development projects directly with companies and get real work experience.",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Full-stack-header-image-new.webp",
-    "width": "450",
-    "height": "293"
+    "deskTopPara": "Build your career skills",
+    "mTopPara": "Build your career skills",
+    "title": "Full stack Web Development ",
+    "spanTitleText": "Course with Real Work Experience",
+    "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
+    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-background-image.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
+    "width": "900",
+    "height": "607",
+    "redirectFs": true
+  },
+
+  "MFirstSection": {
+    "heading": "India’s 1st",
+    "spanHeading": "Interviews based learning program",
+    "desc": "Full Stack Development Course",
+    "usp1": " FAANG Instructor led",
+    "usp2": "Solve 500+",
+    "usp3": " EMI @",
+    "usp4": " 100% Interview",
+    "usp1Span": "Live session",
+    "usp2Span": "FAANG problems",
+    "usp3Span": "5,664/month",
+    "usp4Span": "Guarantee"
+  },
+  "MRealWorkExp": {
+    "desc": "While doing this data analytics course, you will get the opportunity to work with a tech company on their live analytics project. For which you will receive project experience letter directly from that tech- company. Now when you go for interview recruiters won’t treat you as a fresher in Data analytics which in turn will help you to get your dream job.   ",
+    "sDesc1": " relevant skills",
+    "sDesc2": " live project experience",
+    "sDesc3": "  industry demands",
+    "sDesc1Span": "Learn",
+    "sDesc2Span": "Gain",
+    "sDesc3Span": "Understand"
   },
   "ProgramInfo": {
-    "BatchDate": "22 January 2023",
+    "BatchDate": "22nd January, 2023",
     "BatchDuration": "11 Months",
-    "Placement": "Guaranteed job referral"
+    "Placement": "100% Job Assistance"
   },
   "BoxShape": {
-    "title": "Why Join this Program?",
-    "Box1h5": "Real Work Experience",
+    "stitle": "Key Program Features",
+    "title": "Full Stack Software Development Program",
+    "Box1h5": "Real Work experience",
     "box1desc": "Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.",
-    "Box2h5": "Guaranteed job referral",
-    "box2desc": " Our program seeks to eliminate financial risk in the upskilling journey with our guaranteed Job referrals option",
+    "Box2h5": "100% Job Assistance",
+    "box2desc": "  Our program seeks to eliminate financial risk in the upskilling journey with our Job Assistance or complete money back option.",
     "Box3h5": "Crack FAANG Interview",
     "box3desc": " Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
     "Box4h5": "Designed For Professionals",
     "box4desc": "Curriculum designed for Software developers looking to transition into product-based roles in top tech companies."
   },
   "TopCTA": {
-    "title": "Having Doubts? Talk with our Experts",
-    "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " For career transition in Full Stack"
+    "title": "Check your eligibility",
+    "BeforeBR": "  Contact our academic counselor if you need a career transition",
+    "AfterBR": ""
   },
   "Benefits": {
-    "desc": " Learn Advanced DSA, system design with multiple domain specialization and become a full stack developer with our Guaranteed job referral program.",
-    "InterviewT": "Become Full Stack Developer With Top Companies",
+    "subheading": "Learn with Mentors from top Tech Companies",
+    "heading": "The benefits of Skillslash",
+    "desc": "Learn Advanced DSA, system design with multiple domain specialization and become a full stack developer with our 100% job assistance program.",
+    "InterviewT": "Nail interviews with top Tech MNCs",
     "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    "CertificateT": " Get Real Work Experience From Companies",
-    "CertificateD": "Work as a Full Stack Developer on live projects directly with companies to gain real work experience.",
-    "JobT": "Guaranteed job referral",
-    "JobD": "Receive unlimited job referrals and crack top-tier interviews head-on!"
+    "CertificateT": " Get real work experience from companies",
+    "CertificateD": "Work as a full stack developer on live projects directly with companies to gain real software development experience.",
+    "JobT": "Unlimited job referral",
+    "JobD": "Get assured job referrals that can help you get placed in MNC's."
+  },
+  "GetHired": {
+    "heading1": "Get Hired",
+    "heading": "Work on live projects to get hired at:"
   },
   "Certificate": {
+    "subheading": "certificate from one of the tech companies",
     "popupHead": "Download Full Stack Brochure",
-    "title": "Get Certificate directly from product based companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best Full Stack institute in India and crack interviews with confidence.",
+    "title": "Get Certificate directly from startups companies",
+    "desc": "Get Real software development project experience and certifications from leading tech startups and unicorns.",
     "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-(Full-stack).webp"
   },
   "RealWork": {
-    "desc": "Our Advanced Full Stack Software Development course with Guaranteed job referral follows a project-based learning approach. Further, it focuses on helping learners build relevant experience in the technologies to land your super dream job."
+    "subtitle": "Learn and Work",
+    "titlt": "Why Real Work Experience?",
+    "desc": "Our Best Best Full Stack Development Course with 100% job assistance follows a project-based learning approach. Further, it focuses on helping learners build relevant experience in the technologies to land your super dream job."
   },
+  "syllabusDesc": "With effective skilled mentors from MAANG and other MNCs, we provide a top-notch course curriculum through live, interactive lectures and real-time projects. Furthermore, our learners will obtain in-demand domain-specific knowledge with certifications from the collaborated companies by improving their academic strength.",
   "popupHead": "Download Full stack Course Brochure",
-  "syllabusDesc": "The Full stack software development course with a Guaranteed job referral is curated by leading faculties and industry leaders. Especially, with the aim to provide practical learning experience with live interactive classes and projects.",
+
   "syllabus": [
     {
       "Module0": {
@@ -522,7 +129,7 @@
         "content": [
           {
             "chap": {
-              "title": "Chapter 1: Programming Fundamentals(2 week )",
+              "title": " Chapter 1: Programming Fundamentals",
               "desc": [
                 "Programming Basics, Variables, Conditional statements",
                 "Strings, Lists, Loops and Functions",
@@ -544,7 +151,7 @@
     },
     {
       "Module0": {
-        "title": " Module 1 - Data Structures and Algorithms ",
+        "title": "Module 1 - Data Structures and Algorithms ",
         "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
         "content": [
           {
@@ -580,7 +187,7 @@
     },
     {
       "Module0": {
-        "title": "Module 2 - System Design in Depth",
+        "title": "Module 2 - System Design in Depth ",
         "desc": "",
         "content": [
           {
@@ -644,7 +251,7 @@
     },
     {
       "Module0": {
-        "title": "Module 3 - Advance Data Structures & Algorithms",
+        "title": "Module 3 - Advance Data Structures & Algorithms ",
         "desc": "",
         "content": [
           {
@@ -789,19 +396,21 @@
       }
     }
   ],
+
   "Review": {
-    "title": "Why get enrolled in our Full Stack Software Development course?",
-    "desc": " Skillslash’s Advanced Full Stack Software Development with real-work experience is designed for creative minds and made for everyone. Take our Full stack training and experience the new era of education."
+    "title": "Why get enrolled in our Best Best Full Stack Development Course?",
+    "desc": " Skillslash’s Best Best Full Stack Development Course with real-work experience is designed for creative minds and made for everyone. Take our Full stack training and experience the new era of education."
   },
+
   "Fee": {
     "FullStack": false,
-    "desc": " The Advanced Full Stack Software Development fee start from INR 95,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your Advanced Full Stack Software Development fees.",
+    "desc": " The Best Best Full Stack Development Course fee start from INR 95,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
+    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your Best Best Full Stack Development Course fees.",
     "ProPrice": "₹ 99,000 + GST",
     "emi": "₹ 5,664/month",
-    "ProDesc": " Get Full Stack training with real work Experience",
+    "ProDesc": "  Get Full Stack training with real work Experience",
     "ProMaxPrice": "₹ 1,35,000 + GST",
-    "ProMaxDesc": " Get Full Stack training with Guaranteed job referral"
+    "ProMaxDesc": " Get Full Stack training with 100% Job assistance"
   },
   "BatchDates": [
     {
@@ -822,13 +431,12 @@
       "batchStatus": "new",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
-      "batchDesc": "2 seats are available",
+      "batchDesc": "7 seats are available",
       "batchDescSpan": "Hurry!",
       "batchWeek": "weekend batch (Sat - Sun)",
       "batchMsg": "Seats are almost filled",
       "activeBatch": true
     },
-
     {
       "batchDate": "24",
       "batchMonth": "DEC",
@@ -841,43 +449,49 @@
       "activeBatch": false
     }
   ],
+  "AboutCourseHeading": {
+    "heading": "Why Best Best Full Stack Development Course?",
+    "para": "Recent technological developments indicate that investments are mostly in design and development. Over a number of years, it has become the standard. Additionally, it makes use of its influence to inspire developers to pursue technological opportunities and advance their academic credentials. Professional developers are considered for planning, creating, testing, delivering, and maintaining software or application using a variety of techniques. Meanwhile, learning Best Best Full Stack Development Course courses turns out to be significant for pursuing a career in such fields."
+  },
+
   "FAQ": {
-    "desc": "Learn from experts in live-interactive classes under Advanced Full stack Software Development course with Guaranteed job referral."
+    "desc": "Learn from experts in live-interactive classes under Best Best Full Stack Development Course with 100% job assistance."
   },
   "FaqDATA": [
     {
       "id": 0,
-      "ques": " What are the various learning options offered under the Advanced Full Stack Software Development?",
+      "ques": " What are the various learning options offered under the Best Best Full Stack Development Course?",
 
-      "ans": "Most importantly, we offer online learning choices for our Advanced Full Stack Software Development with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online sessions in hybrid learning mode under our Full Stack Software Development. Besides, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Additionally, at this time, all practical sessions of our artificial intelligence and machine learning course will be conducted using cloud-based services",
+      "ans": "Most importantly, we offer online learning choices for our Best Best Full Stack Development Course with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online sessions in hybrid learning mode under our Full Stack Software Development. Besides, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Additionally, at this time, all practical sessions of our artificial intelligence and machine learning course will be conducted using cloud-based services",
       "open": false
     },
     {
       "id": 1,
-      "ques": "Will there be a make-up class available if I have to miss a full stack class due to an emergency?",
+      "ques": "Will there be a make-up class available if I have to miss a Best Best Full Stack Development Course due to an emergency?",
 
-      "ans": "Firstly, we offer live online classes for our Advanced Full Stack Software Development. Also, all of our students have access to recorded versions of those classes. In addition, we also give you unlimited access to these recorded sessions, so you can go back to them whenever you need theoretical help in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Full stack development training. However, we strongly advise you to participate in all live classes.",
+      "ans": "Firstly, we offer live online classes for our Best Best Full Stack Development Course. Also, all of our students have access to recorded versions of those classes. In addition, we also give you unlimited access to these recorded sessions, so you can go back to them whenever you need theoretical help in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Full stack development training. However, we strongly advise you to participate in all live classes.",
       "open": false
     },
     {
       "id": 2,
       "ques": "What if I did not understand an entire module? Will I be able to repeat the class?",
 
-      "ans": "Most importantly, if you do not understand an entire module under the Advanced Full Stack Software Development, you can repeat the same class with another batch. Thus, leaving no chance for you to remain in confusion about the learning modules.",
+      "ans": "Most importantly, if you do not understand an entire module under the Best Best Full Stack Development Course, you can repeat the same class with another batch. Thus, leaving no chance for you to remain in confusion about the learning modules.",
       "open": false
     },
 
     {
       "id": 4,
-      "ques": " Are there any course fee discounts available with Skillslash’s Full stack development course?",
-      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 10% on your fees for Advanced Full Stack Software Development. Moreover, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation",
+      "ques": "Are there any course fee discounts available with Skillslash’s Best Full Stack Development Course?",
+
+      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 10% on your fees for Best Best Full Stack Development Course. Moreover, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does the Full stack Software Development course provide?",
+      "ques": "What kind of certification does the Best Full Stack Development Course provide?",
 
-      "ans": "The hitch is that if you take the Full stack development course, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give your direct certification",
+      "ans": "The hitch is that if you take the Best Full Stack Development Course, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give your direct certification",
       "open": false
     }
   ]

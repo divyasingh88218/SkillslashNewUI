@@ -250,6 +250,7 @@ export default function Home({ DataScienceCourseData }) {
           redirectFs={DataScienceCourseData.data.form.FullStack}
           redirectDe={DataScienceCourseData.data.form.DataEngineering}
           redirectBl={DataScienceCourseData.data.form.blockchain}
+          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
           deskTopPara={DataScienceCourseData.data.FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData.data.FirstSection.mTopPara}
@@ -258,6 +259,8 @@ export default function Home({ DataScienceCourseData }) {
           spanTitleText={DataScienceCourseData.data.FirstSection.spanTitleText}
           desc={DataScienceCourseData.data.FirstSection.desc}
           mainHeaderImg={DataScienceCourseData.data.FirstSection.mainHeaderImg}
+          backgroundImg={DataScienceCourseData.data.FirstSection.backgroundImg}
+          iconImg={DataScienceCourseData.data.FirstSection.iconImg}
           width={DataScienceCourseData.data.FirstSection.width}
           height={DataScienceCourseData.data.FirstSection.height}
         />

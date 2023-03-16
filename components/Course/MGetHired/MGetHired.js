@@ -21,7 +21,7 @@ const MGetHired = ({
 }) => {
   const [mobile, setMobile] = useState(false);
   const [slidesPerView, setSlidesPerView] = useState(4);
-  const [spaceBetween, setSpaceBetween] = useState(70);
+  const [spaceBetween, setSpaceBetween] = useState(90);
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -46,7 +46,7 @@ const MGetHired = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h4>Detail placement report with students background</h4>
+          <h5>Detail placement report with students background</h5>
           <p>Fill the below Details to get started</p>
           <Form
             popup={true}
@@ -89,8 +89,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava-big.webp"
                   }
-                  width={mobile ? 60 : 70}
-                  height={mobile ? 60 : 70}
+                  width={mobile ? 60 : 85}
+                  height={mobile ? 60 : 85}
                   alt="akarsh-srivastava"
                   layout="intrinsic"
                   loading="lazy"
@@ -105,8 +105,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-big.webp"
                   }
-                  width={mobile ? 86 : 107}
-                  height={mobile ? 21 : 23}
+                  width={mobile ? 86 : 135}
+                  height={mobile ? 21 : 30}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -121,15 +121,15 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon-big.webp"
                   }
-                  width={mobile ? 60 : 70}
-                  height={mobile ? 60 : 70}
+                  width={mobile ? 60 : 85}
+                  height={mobile ? 60 : 85}
                   alt="rishabh-jaiswal"
                   layout="intrinsic"
                   loading="lazy"
                 />
               </div>
-              <div className={style.transition}>
-                <p>Credit Risk Analyst</p>
+              <div className={style.transition} style={{ marginTop: "40px" }}>
+                <p style={{ marginBottom: "-5px" }}>Credit Risk Analyst</p>
 
                 <Image
                   src={
@@ -137,8 +137,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dharva-icon.png"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dvara.webp"
                   }
-                  width={mobile ? 86 : 60}
-                  height={mobile ? 21 : 43}
+                  width={mobile ? 86 : 80}
+                  height={mobile ? 21 : 58}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -153,15 +153,17 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana.webp"
                   }
-                  width={mobile ? 60 : 70}
-                  height={mobile ? 60 : 70}
+                  width={mobile ? 60 : 85}
+                  height={mobile ? 60 : 85}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"
                 />
               </div>
               <div className={style.transition}>
-                <p>{redirectBa ? "Sr. Data Analyst" : "Data Scientist"}</p>
+                <p style={{ marginBottom: "-5px" }}>
+                  {redirectBa ? "Sr. Data Analyst" : "Data Scientist"}
+                </p>
 
                 <Image
                   src={
@@ -169,8 +171,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tech-mahindra.png"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tech-mahindra-big.webp"
                   }
-                  width={mobile ? 60 : 100}
-                  height={mobile ? 40 : 28}
+                  width={mobile ? 60 : 130}
+                  height={mobile ? 40 : 38}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -185,15 +187,17 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Pragyan_Prakash.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
                   }
-                  width={mobile ? 60 : 70}
-                  height={mobile ? 60 : 70}
+                  width={mobile ? 60 : 85}
+                  height={mobile ? 60 : 85}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"
                 />
               </div>
               <div className={style.transition}>
-                <p>{redirectBa ? "Business Analyst" : "Data Scientist"}</p>
+                <p style={{ marginBottom: "-5px" }}>
+                  {redirectBa ? "Business Analyst" : "Data Scientist"}
+                </p>
 
                 <Image
                   src={
@@ -201,8 +205,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accenture.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accenture-big.webp"
                   }
-                  width={mobile ? 86 : 100}
-                  height={mobile ? 40 : 29}
+                  width={mobile ? 86 : 130}
+                  height={mobile ? 40 : 39}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"

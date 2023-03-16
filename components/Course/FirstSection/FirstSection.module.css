@@ -7,20 +7,24 @@
     grid-template-columns: 49% 49%;
     padding: 20px 100px;
     height: max-content;
-    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
+
   .backImg {
     z-index: 0;
+  }
+  .iconImg {
+    position: absolute;
+    width: 89px;
+    height: 80px;
+    bottom: -40px;
+    right: 60px;
   }
   .left {
     display: flex;
     position: relative;
     z-index: 1;
     flex-flow: column;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0;
   }
   .mobileDivWrapper {
     display: flex;
@@ -42,6 +46,7 @@
   }
   .btn1:hover,
   .btn2:hover {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     background-color: white !important;
   }
   .pTop {
@@ -67,43 +72,12 @@
     color: #4f419a;
     background-color: white;
     border-radius: 6px;
-    padding: 18px 25px;
+    padding: 15px 25px;
     width: max-content;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     margin-right: 20px;
   }
-  .btnWrapper button:hover {
-    background-color: #c4bbff;
-  }
-  .playIcon {
-    font-size: 50px;
-    border: 3px solid #c4bbff;
-    border-radius: 50%;
-    color: white;
-    padding: 5px;
-    cursor: pointer;
-    position: relative;
-    margin-right: 10px;
-    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-      rgba(22, 71, 98, 0.149) 0px 8px 32px;
-  }
-  .playIcon:hover {
-    font-size: 50px;
-    border: 3px solid #c4bbff;
-    border-radius: 50%;
-    color: #c4bbff;
-    padding: 5px;
-    cursor: pointer;
-    position: relative;
-    margin-right: 10px;
-    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-      rgba(22, 71, 98, 0.149) 0px 8px 32px;
-  }
 
-  .btnWrapper p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #c4bbff;
-  }
   .hPara {
     font-weight: 600;
     margin-top: 20px;
@@ -119,60 +93,12 @@
     margin-top: 10px;
     width: 100%;
   }
-  .bottom {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    height: 80px;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  .gIcon {
-    background-color: #0d4a9b;
-    font-size: 30px;
-    color: white;
-    padding: 5px;
-    flex-basis: 1;
-    border-radius: 50%;
-  }
-  .gIcon1 {
-    background-color: #f28705;
-    font-size: 30px;
-    color: white;
-    padding: 5px;
-    flex-basis: 1;
-    border-radius: 50%;
-  }
-  .gIcon2 {
-    background-color: #f14d5d;
-    font-size: 30px;
-    color: white;
-    padding: 5px;
-    flex-basis: 1;
-    border-radius: 50%;
-  }
-  .gIcon3 {
-    background-color: #6294d6;
-    font-size: 30px;
-    color: white;
-    padding: 5px;
-    flex-basis: 1;
-    border-radius: 50%;
-  }
-  .gIcon4 {
-    background-color: #fad933;
-    font-size: 30px;
-    color: black;
-    padding: 5px;
-    flex-basis: 1;
-    border-radius: 50%;
-  }
-  .sText {
-    font-size: 12px;
-    color: rgb(99, 99, 99);
-  }
-  .right img {
-    margin-top: -0px;
-    width: 848px;
-    height: 563px;
+  .imgWrapper {
+    margin-bottom: -25px;
+    display: flex;
+    width: max-content;
+    align-self: start;
+    justify-content: flex-start;
   }
 }
 @media (max-width: 1281px) {
@@ -180,9 +106,7 @@
     display: grid;
     align-items: center;
     gap: 10px;
-    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
+    position: relative;
     background-size: cover;
     grid-template-columns: 49% 49%;
     padding: 30px 40px 14px 40px;
@@ -255,19 +179,9 @@
     margin-top: 20px;
     z-index: 0;
   }
-  .bottom {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    height: 80px;
-    padding-top: 10px;
-    border-radius: 20px;
-  }
 
-  .sText {
-    font-size: 12px;
-    color: rgb(99, 99, 99);
-  }
   .right img {
-    margin-top: -30px;
+    position: absolute;
     width: 100%;
     height: auto;
   }
