@@ -150,8 +150,7 @@ const ProjectSlider = ({
                   <p>
                     Chatbots are computer programmes that mimic spoken or
                     written language. So these mimic communication or contact
-                    with a real person. Chatbots are used by businesses to
-                    converse with their clients.
+                    with a real person.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -203,8 +202,7 @@ const ProjectSlider = ({
                   <p>
                     Contains information about both administrator and user
                     functions, including office registration, creating users,
-                    viewing suggestions and complaints of users, adding new
-                    cities and states, and viewing the status of consignments.
+                    viewing suggestions and complaints of users.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -282,10 +280,8 @@ const ProjectSlider = ({
                 <div className={styles.desc}>
                   <p>
                     The online examination system, which is adopted by an
-                    increasing number of schools, certification agencies, and
-                    training organisations, not only shows the validity and
-                    impartiality of examinations but also relieves teachers of
-                    some of their workload.
+                    increasing number of schools not only shows the validity and
+                    impartiality of examinations of some of their workload.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -332,7 +328,7 @@ const ProjectSlider = ({
                     One of the best returns on the market may be found with
                     stock investments. Although they are volatile in nature,
                     share prices and other statistical indicators may be
-                    visualised
+                    visualised by developing this application.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -358,7 +354,8 @@ const ProjectSlider = ({
                   <p>
                     Build a food delivery app from scratch using your knowledge
                     of the Spring framework, web services, and MySQL with a
-                    strong back-end to support operations.
+                    strong back-end to support operations. Learn to use latest
+                    frameworks
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -383,7 +380,8 @@ const ProjectSlider = ({
                 <div className={styles.desc}>
                   <p>
                     Immersing yourself in the field of socializing, hanging out
-                    with friends and chilling.
+                    with friends and chilling. Build a full stack application
+                    like instagram and facebook.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -434,8 +432,8 @@ const ProjectSlider = ({
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/sql.webp"
                     layout="intrinsic"
-                    width={194}
-                    height={40}
+                    width={170}
+                    height={35}
                     loading="lazy"
                   />
                 </div>
@@ -456,12 +454,12 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Video Conferencing Application</h5>
+                  <h5>Video Conferencing App</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/gmeet.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={280}
+                    height={35}
                     loading="lazy"
                   />
                 </div>
@@ -483,10 +481,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>API Integration</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/webfx.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/accuweather.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={230}
+                    height={37}
                     loading="lazy"
                   />
                 </div>
@@ -509,10 +507,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Travel Booking Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/accuweather.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/happay.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={234}
+                    height={427}
                     loading="lazy"
                   />
                 </div>
@@ -534,10 +532,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Payment Gateway</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/gpay.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={212}
+                    height={33}
                     loading="lazy"
                   />
                 </div>
@@ -560,10 +558,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Workout Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trx.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={135}
+                    height={25}
                     loading="lazy"
                   />
                 </div>
@@ -586,10 +584,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Blog Site</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/wix.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={50}
+                    height={19}
                     loading="lazy"
                   />
                 </div>
@@ -613,10 +611,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Home Service Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/codiant.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={250}
+                    height={36}
                     loading="lazy"
                   />
                 </div>
@@ -639,10 +637,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>VR Based Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cryengine.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={277}
+                    height={36}
                     loading="lazy"
                   />
                 </div>
@@ -665,7 +663,7 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>To-Do List Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/task.webp"
                     layout="intrinsic"
                     width={200}
                     height={34}
@@ -691,7 +689,7 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Food Delivery Application</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/swiggy.webp"
                     layout="intrinsic"
                     width={200}
                     height={34}
@@ -715,12 +713,12 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Chatting/Messaging Applications</h5>
+                  <h5>Chatting/Messaging App</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/telegram.png"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={113}
+                    height={33}
                     loading="lazy"
                   />
                 </div>
@@ -744,10 +742,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Stock Investment App</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/centra.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={169}
+                    height={29}
                     loading="lazy"
                   />
                 </div>
@@ -770,7 +768,7 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Online Code Editor</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/leetcode.webp"
                     layout="intrinsic"
                     width={200}
                     height={34}

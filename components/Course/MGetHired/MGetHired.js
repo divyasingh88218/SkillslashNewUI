@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsDownload } from "react-icons/bs";
-import { CgArrowLongDown } from "react-icons/cg";
+
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
@@ -89,8 +89,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava-big.webp"
                   }
-                  width={mobile ? 60 : 120}
-                  height={mobile ? 60 : 120}
+                  width={mobile ? 60 : 70}
+                  height={mobile ? 60 : 70}
                   alt="akarsh-srivastava"
                   layout="intrinsic"
                   loading="lazy"
@@ -98,14 +98,14 @@ const MGetHired = ({
               </div>
               <div className={style.transition}>
                 <p>Data Analyst</p>
-                <CgArrowLongDown className={style.downArrow} />
+
                 <Image
                   src={
                     mobile
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-big.webp"
                   }
-                  width={mobile ? 86 : 100}
+                  width={mobile ? 86 : 107}
                   height={mobile ? 21 : 23}
                   alt="trueblue"
                   layout="intrinsic"
@@ -121,8 +121,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon-big.webp"
                   }
-                  width={mobile ? 60 : 120}
-                  height={mobile ? 60 : 120}
+                  width={mobile ? 60 : 70}
+                  height={mobile ? 60 : 70}
                   alt="rishabh-jaiswal"
                   layout="intrinsic"
                   loading="lazy"
@@ -130,15 +130,15 @@ const MGetHired = ({
               </div>
               <div className={style.transition}>
                 <p>Credit Risk Analyst</p>
-                <CgArrowLongDown className={style.downArrow} />
+
                 <Image
                   src={
                     mobile
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dharva-icon.png"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dvara.webp"
                   }
-                  width={mobile ? 86 : 100}
-                  height={mobile ? 21 : 73}
+                  width={mobile ? 86 : 60}
+                  height={mobile ? 21 : 43}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -153,8 +153,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana-icon.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana.webp"
                   }
-                  width={mobile ? 60 : 120}
-                  height={mobile ? 60 : 120}
+                  width={mobile ? 60 : 70}
+                  height={mobile ? 60 : 70}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"
@@ -162,7 +162,7 @@ const MGetHired = ({
               </div>
               <div className={style.transition}>
                 <p>{redirectBa ? "Sr. Data Analyst" : "Data Scientist"}</p>
-                <CgArrowLongDown className={style.downArrow} />
+
                 <Image
                   src={
                     mobile
@@ -185,8 +185,8 @@ const MGetHired = ({
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Pragyan_Prakash.webp"
                       : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
                   }
-                  width={mobile ? 60 : 120}
-                  height={mobile ? 60 : 120}
+                  width={mobile ? 60 : 70}
+                  height={mobile ? 60 : 70}
                   alt="Pragyan_prakash_review"
                   layout="intrinsic"
                   loading="lazy"
@@ -194,7 +194,7 @@ const MGetHired = ({
               </div>
               <div className={style.transition}>
                 <p>{redirectBa ? "Business Analyst" : "Data Scientist"}</p>
-                <CgArrowLongDown className={style.downArrow} />
+
                 <Image
                   src={
                     mobile

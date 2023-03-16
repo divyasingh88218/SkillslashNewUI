@@ -1,23 +1,23 @@
 {
   "metaInfo": {
-    "title": "Full Stack Developer course in Bangalore -Skillslash",
-    "desc": "Enroll in the Full Stack Developer course in Bangalore and get certified. Learn core programming with industry exposure.",
-    "keyword": "full stack developer course in Bangalore, full stack developer course, full stack development course in Bangalore, full stack training in Bangalore, , full stack developer course fee",
-    "canonical": "https://skillslash.com/full-stack-developer-course-in-bangalore",
+    "title": "Skillslash - Full Stack Development Course Fees",
+    "desc": " Receive high-level certification through practical learning. Learn with Full Stack Development institute and become a certified professional.  ",
+    "keyword": " full stack developer course",
+    "canonical": "https://program.skillslash.com/Full-stack-development-course/full-stack-developer",
     "ReviewSchema": {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Full stack developer course in Bangalore",
+      "name": "Full Stack Development Course fees",
       "brand": {
         "@type": "Brand",
         "name": "Skillslash"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "9.9",
+        "ratingValue": "9.6",
         "bestRating": "10",
         "worstRating": "1",
-        "ratingCount": "24957"
+        "ratingCount": "22657"
       }
     }
   },
@@ -28,61 +28,93 @@
     "BusinessAnalytics": false,
     "FullStack": true,
     "dsa": false,
-    "webDevelopment": false,
-    "AboutCourse": false
+    "thankyou": false,
+    "AboutCourse": true,
+    "webDevelopment": false
   },
   "FirstSection": {
-    "deskTopPara": "Project Based Certification Platform For Professionals ",
-    "mTopPara": "Project Based Certification Platform For Professionals",
-    "title": "Full Stack Developer Course In Bangalore",
-    "spanTitleText": " to crack interviews at FAANG",
-    "desc": "Learn from experts in live-interactive classes under our full stack developer course in Bangalore. In addition, get the chance to customize your learning tracks and build relevant work experience by working with top product based companies and startups.",
+    "deskTopPara": "Progress your career skills",
+    "mTopPara": "Progress your career skills",
+    "title": "Full Stack Software Developer Program ",
+    "spanTitleText": "to crack FAANG interviews ",
+    "desc": "Get real work experience in Full Stack Developer online course through learning practically with online interactive lectures",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Full-stack-header-image-new.webp",
     "width": "450",
-    "height": "576"
+    "height": "293",
+    "redirectFs": true
+  },
+  "MFirstSection": {
+    "heading": "India’s 1st",
+    "spanHeading": "Interviews based learning program",
+    "desc": "Full Stack Developer Course",
+    "usp1": " FAANG Instructor led",
+    "usp2": "Solve 500+",
+    "usp3": " EMI @",
+    "usp4": " 100% Interview",
+    "usp1Span": "Live session",
+    "usp2Span": "FAANG problems",
+    "usp3Span": "5,664/month",
+    "usp4Span": "Guarantee"
+  },
+  "MRealWorkExp": {
+    "desc": "While doing this data analytics course, you will get the opportunity to work with a tech company on their live analytics project. For which you will receive project experience letter directly from that tech- company. Now when you go for interview recruiters won’t treat you as a fresher in Data analytics which in turn will help you to get your dream job.   ",
+    "sDesc1": " relevant skills",
+    "sDesc2": " live project experience",
+    "sDesc3": "  industry demands",
+    "sDesc1Span": "Learn",
+    "sDesc2Span": "Gain",
+    "sDesc3Span": "Understand"
   },
   "ProgramInfo": {
-    "BatchDate": "22 January 2023",
+    "BatchDate": "22nd January, 2023",
     "BatchDuration": "11 Months",
-    "Placement": "Guaranteed job referral"
+    "Placement": "100% Job Assistance"
   },
   "BoxShape": {
-    "title": "Why Join this Program?",
-    "Box1h5": "Real Work Experience",
-    "box1desc": "Don’t just learn, apply your learning. Under our Full Stack course in Bangalore, work directly with companies and build relevant industry experience.",
-    "Box2h5": "Build Your Own Course",
-    "box2desc": " Design personalized learning tracks with Full Stack courses in Bangalore. Cater your professional background and career goals under a counselor's supervision.",
-    "Box3h5": "Guaranteed job referral",
-    "box3desc": " Get Guaranteed job referral in top companies and startups. Also, receive guidance on resume building and interview preparation.",
-    "Box4h5": "Eligibility Criteria",
-    "box4desc": "This Full Stack course in Bangalore is recommended for professionals with 1 year of work experience. No prior programming experience is required."
+    "stitle": "What does Skillslash provide?",
+    "title": "Program traits",
+    "Box1h5": "Ace F(M)AANG Interviews",
+    "box1desc": "Mentor guidance for transition from service-based to product-based firms",
+    "Box2h5": "Crafted for Professionals",
+    "box2desc": "Improve professional knowledge through learning advanced coding skills",
+    "Box3h5": "Real Work Experience",
+    "box3desc": "Gain industrial work knowledge by working on real-time projects",
+    "Box4h5": "Job assistance      ",
+    "box4desc": "Build your resume and get hired by prestigious companies and start-ups"
   },
   "TopCTA": {
-    "title": "Having Doubts? Talk with our Experts",
-    "BeforeBR": " Talk to our expert counsellor to know if your profile is suitable",
-    "AfterBR": " For career transition in Full stack developer course."
+    "title": "Reach us",
+    "BeforeBR": "Enroll in our Full Stack Development training for better career development. If you are aiming for a career transition, check your eligibility. ",
+    "AfterBR": ""
   },
   "Benefits": {
-    "desc": " Learn Full stack developer course with multiple domain specialization and become a Full Stack developer with our Guaranteed job referral program.",
-    "InterviewT": "Become Full stack developer With Top Companies",
-    "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    "CertificateT": " Get Real Work Experience From Companies",
-    "CertificateD": "Work as a Full stack developer on live projects directly with companies to gain real work experience.",
-    "JobT": "Guaranteed job referral",
-    "JobD": " Recieve unlimited job referrals and crack top-tier interviews head-on!"
+    "subheading": "Designed for development",
+    "heading": "Skillslash’s Unique Training",
+    "desc": "Through the Full Stack Developer course, our learners concentrate on the betterment of coding skills that business firms demand. Our Full Stack online training will help you attain domain-oriented android development skills. ",
+    "InterviewT": "Top MNC Opportunities ",
+    "InterviewD": "Raise your skillset and get hired by MNCs with mentor guidance",
+    "CertificateT": "Industry-led projects",
+    "CertificateD": "Experience hands-on practices by working on live real projects      ",
+    "JobT": " Unlimited job referrals",
+    "JobD": " Strengthen your career with unlimited job opportunities   "
+  },
+  "GetHired": {
+    "heading1": "Prosper with Skillslash",
+    "heading": "Collaborate with real-time projects and land on jobs at"
   },
   "Certificate": {
-    "popupHead": "Download Full stack course Brochure",
-    "title": "Get Certificate Directly From Product based Companies",
-    "desc": "Get Guaranteed job referral and real-work experience by learning from the best full stack developer institute in India and crack interviews with confidence.",
+    "subheading": "Project certifications from business firms",
+    "popupHead": "Download Fullstack Brochure",
+    "title": "Learn Full Stack Course Online   ",
+    "desc": "Our Full Stack Development institute provides an excellent curriculum as per industry standards and demands. Get to learn our best Full Stack Developer course through hands-on programming languages and become a certified professional through real work experience. ",
     "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-(Full-stack).webp"
   },
   "RealWork": {
-    "desc": "Our Full Stack course in Bangalore follows an application-based learning approach, Further, it focuses on helping learners build relevant experience in the technologies they upskill to demonstrate expertise."
+    "subtitle": "How Skillslash stands forth?      ",
+    "titlt": "Real Work Experience",
+    "desc": "Based on the industrial sector demands, we strive to provide Full Stack Development training with plenty of specified job referrals. Furthermore, we emphasize the development of excellent coding skills through enriched project-based learning."
   },
-  "syllabusDesc": "The Full stack software development course with a Guaranteed job referral is curated by leading faculties and industry leaders. Especially, with the aim to provide practical learning experience with live interactive classes and projects.",
-  "popupHead": "Download Full stack Course Brochure",
-
+  "syllabusDesc": "Our Full Stack Developer online course by leading academicians and industry experts offers hands-on coding practices. With live, interactive sessions and projects, you’ll also get certified by companies. We assist our learners in gaining real work experience in industries. ",
   "syllabus": [
     {
       "Module0": {
@@ -91,7 +123,7 @@
         "content": [
           {
             "chap": {
-              "title": "Chapter 1: Programming Fundamentals(2 week )",
+              "title": " Chapter 1: Programming Fundamentals",
               "desc": [
                 "Programming Basics, Variables, Conditional statements",
                 "Strings, Lists, Loops and Functions",
@@ -113,7 +145,7 @@
     },
     {
       "Module0": {
-        "title": " Module 1 - Data Structures and Algorithms",
+        "title": "Module 1 - Data Structures and Algorithms ",
         "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
         "content": [
           {
@@ -149,7 +181,7 @@
     },
     {
       "Module0": {
-        "title": "Module 2 - System Design in Depth",
+        "title": "Module 2 - System Design in Depth ",
         "desc": "",
         "content": [
           {
@@ -213,7 +245,7 @@
     },
     {
       "Module0": {
-        "title": "Module 3 - Advance Data Structures & Algorithms",
+        "title": "Module 3 - Advance Data Structures & Algorithms ",
         "desc": "",
         "content": [
           {
@@ -360,19 +392,19 @@
   ],
 
   "Review": {
-    "title": "Why pratical learning experience is vital?",
-    "desc": " Skillslash’s Full Stack courses in Bangalore are designed for creative minds and made for everyone. Take our Full Stack course in Bangalore and experience the new era of education."
+    "title": "Why should we enroll in Full Stack Developer course?",
+    "desc": "Our Full Stack Development training is specialized for professionals to upskill growth guided by experienced tutors. We also assist you with real work experience while learning our Full Stack course online by practical live sessions including C++ and other programming languages.  "
   },
 
   "Fee": {
     "FullStack": false,
-    "desc": " The Full Stack developer course costs INR 99,000 (Excluding GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the expenses of your full stack developer course fees in Bangalore.",
+    "desc": "The course fee of our Full Stack Developer course starts at INR 95,000 (Excluding GST). Considering practicalities and industry specializations, we strive to provide you with high-quality professional education.",
+    "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the course expenses. Because we believe in fair reachability and access to all our carefully curated programs. Therefore, you get options such as EMI to pay the business analytics course fees.",
     "ProPrice": "₹ 99,000 + GST",
     "emi": "₹ 5,664/month",
-    "ProDesc": " Get Full Stack training with real work Experience",
+    "ProDesc": "Learn Full Stack with real work experience",
     "ProMaxPrice": "₹ 1,35,000 + GST",
-    "ProMaxDesc": " Get Full Stack training with Guaranteed job referral"
+    "ProMaxDesc": "Learn Full Stack with unlimited job referrals"
   },
   "BatchDates": [
     {
@@ -393,7 +425,7 @@
       "batchStatus": "new",
       "batchType": "Morning Batch, ",
       "batchTime": "09:00 to 12:00",
-      "batchDesc": "2 seats are available",
+      "batchDesc": "7 seats are available",
       "batchDescSpan": "Hurry!",
       "batchWeek": "weekend batch (Sat - Sun)",
       "batchMsg": "Seats are almost filled",
@@ -411,44 +443,112 @@
       "activeBatch": false
     }
   ],
+  "AboutCourseHeading": {
+    "heading": "Is Full stack development course Fees Worth?",
+    "para": "Recent technological developments indicate that investments are mostly in design and development. Over a number of years, it has become the standard. Additionally, it makes use of its influence to inspire developers to pursue technological opportunities and advance their academic credentials. Professional developers are considered for planning, creating, testing, delivering, and maintaining software or application using a variety of techniques. Meanwhile, learning Full Stack Developer course turns out to be significant for pursuing a career in such fields."
+  },
+
   "FAQ": {
-    "desc": "Go through the FAQ’s to know more about our Full Stack developer course, fees and project details."
+    "desc": "Here’s a list of FAQ's like Skillslash’s Full stack development course fees, program details, and others that bring understanding to enrich an effective career ahead. "
   },
   "FaqDATA": [
     {
       "id": 0,
-      "ques": "What are the various learning options offered under the Full Stack developer course ? ",
+      "ques": "Who is Skillslash? What do they do?",
 
-      "ans": "Most importantly, we offer online learning choices for our full stack developer course in Bangalore. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online sessions in hybrid learning mode under our Full Stack developer course. Besides, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Additionally, at this time, all practical sessions of our Full stack developer course  will be conducted using cloud-based services.",
+      "ans": "Skillslash is an Ed-tech company that offers higher career opportunities for coders and professionals in various domains including Data Science, Full Stack, Business Analytics, and Blockchain. We encourage our learners to acquire high-level certification through industrial real work experience. Based on the company demands and requirement reviews, we have crafted an excellent course curriculum for all of our courses at variable affordable course fees. For your reference, our Full Stack Development course fees starts at INR 99,000 excluding GST. ",
       "open": false
     },
     {
       "id": 1,
-      "ques": "Will there be a make-up session available if I have to miss a class of Full Stack developer course in Bangalore?",
+      "ques": "How will I benefit from industry mentors?",
 
-      "ans": "Firstly, we offer live online classes for full stack developer courses in Bangalore. Also, all of our students have access to recorded versions of those classes. In addition, we also give you unlimited access to these recorded sessions, so you can go back to them whenever you need theoretical help in your full stack career. As a result, you need not be disappointed if you miss any of the live classes under our full stack developer training in Bangalore. However, we strongly advise you to participate in all live classes.",
+      "ans": "Our industry experts have experienced the professional environment by working with top prestigious companies like Google, Amazon, Meta, etc. They help you with industrial coding metrics and reviews. Through Full Stack Development training and technical coding knowledge, you will be given the opportunity to work in companies to gain experience from live projects. Being the best Full Stack Developer course provider, we help you to ace various MNC interviews at ease through guided mentoring from our experts. This Full Stack Developer course assists in such a way of letting learners gain enhanced professional knowledge over practical learning. We also provide scholarships on our Full stack development course fees with EMI procedures too, sign up today for a better future.  ",
       "open": false
     },
     {
       "id": 2,
-      "ques": "What if I did not understand an entire module? Will I be able to repeat the class?",
+      "ques": "Is any academic degree necessary to apply for Full Stack Developer course?",
 
-      "ans": "Most importantly, if you do not understand an entire module under the Full Stack developer course in Bangalore, you can repeat the same class with another batch. Thus, leaving no chance for you to remain in confusion about the learning modules.",
+      "ans": "Our Full Stack Developer online course is crafted for professionals and recent graduates. Also, freshers who have fundamental coding skills can attempt to apply for our Full Stack Developer course. In our Full Stack Development institute, the eligibility criteria fall down to a minimum of 1-year work experience for professionals. If you hold an academic degree in the required field of the domain, it will be advantageous. For your reference, our Full Stack Development course fees start at INR 95,000 excluding GST.  ",
       "open": false
     },
 
     {
-      "id": 4,
-      "ques": "Are there any fee discounts available for full stack developer course ?",
+      "id": 3,
+      "ques": "What does Skillslash’s Full Stack Developer course provide?",
 
-      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 10% on your fees for full stack developer course in Bangalore. Moreover, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation.",
+      "ans": "Skillslash provides real-work experience providing both offline and online learning options. Furthermore, live online sessions are available for hybrid learning in our Full Stack Development institute. Being the best Full Stack Developer course provider, we wil assist you in working directly on the industrial coding projects that the firms are offering. Due to the pandemic situation, we are able to offer only online through real-time, interactive live sessions. Our specialized Full Stack online training covers all the core concepts at the affordable Full Stack development course fees starting at INR 99,000 without GST. We also provide scholarships concessions. According to the scholarship test score, you’ll be given discounts on Full Stack Development course fees. Reach our consultants to know more about the program and others. In recent days, obtaining certification in Full Stack has become significantly higher.",
+      "open": false
+    },
+    {
+      "id": 4,
+      "ques": " When can I start the course? What if I miss any of the sessions in Full Stack Developer course?",
+
+      "ans": "You can start your course at any time according to the availability of the upcoming cohorts. Our classes are always recorded and you will be given access to refer to the recordings whenever you want to. Being the best Full Stack Developer course provider, we concentrate on your flexibility so that you can cover up the recorded sessions. You can take up the recorded sessions in your flexible timings if you want to assist yourself with further reference of the coding concepts. You need not worry if you miss any of the class sessions, you can always take up the upcoming live sessions without losing the continuity. For a better conceptual clearance on coding skillset, taking up a course will be helpful. For coping with the upcoming session, you won’t be needed to provide any other additional fee other than the Full Stack Development course fees stated in the program features.   ",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does the Full Stack developer course provide?",
+      "ques": "What kind of certification do Skillslash’s Full Stack Development training provide?",
 
-      "ans": "The hitch is that if you take the full stack developer course in Bangalore, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certification.",
+      "ans": "Learners who join our Full Stack course online won't only receive an academic certification or degree. Instead, we give project management certifications that would be globally recognized. You will also be given direct certifications from the business corporations by working on live industrial projects. In our Full Stack Developer online course, you will be provided with certification from our institute as well as the companies you collaborate with their live projects.",
+      "open": false
+    },
+    {
+      "id": 6,
+      "ques": "How does Skillslash provide scholarships?",
+
+      "ans": "The simplest approach to get scholarships is to apply in our Full Stack Development institute and be eligible with at least 65% of the possible points. Candidates who met the qualifying score requirements have received scholarships with a 10% discount on the Full Stack Development course fees. In addition to these, we also offer scholarships to COVID-affected applicants and to mothers who decide to return to the workforce post maternity leave. Our Full Stack Developer online course is been offered to the enthusiasts to bring forth the better career prospects. To learn more about the terms and conditions of the scholarship, speak with our academic counsellor.  ",
+      "open": false
+    },
+    {
+      "id": 7,
+      "ques": "How many mock interviews and job referrals will I have throughout the Full Stack online training? ",
+
+      "ans": "By enrolling in Full Stack Development training, we are able to secure a respectable placement with MNCs. Our main objective will be to work as a full stack developer for a firm that focuses on products. Being the best Full Stack Developer course provider, we offer limitless job referrals and mentor support to help you get ready for ace interviews with leading product-based firms. Until and unless you are fully prepared to present yourself with highlighted projects and a presentation of your experience, we will help you in the process by performing innumerable mock interviews. Our instructors, who are experienced experts, will examine you as well and concentrate on your areas of weakness. ",
+      "open": false
+    },
+    {
+      "id": 8,
+      "ques": " Which role will I be eligible for after completing Full Stack online training? ",
+
+      "ans": "Once you complete Full Stack Developer online course, you will be able to present your stronger portfolio in accordance with the need of industries. You will get placed in companies for Full Stack Developer, Front End Developer, Back End Developer and SDE roles respectively. In our Full Stack Development institute, we assist you with the mentor guidance to crack interviews of higher MNCs. ",
+      "open": false
+    },
+    {
+      "id": 9,
+      "ques": "How will the doubts get resolved? ",
+
+      "ans": "Due to the fact that our Full Stack Developer course incorporates weekend cohorts, we offer a special doubt-clearing session every Wednesday as well as during class hours. Our 250+ problem-solving challenges will aid in your understanding and make fixing mistakes simple. Our compact class strengthen in our Full Stack online training makes it easy for our instructors to review your performance. Being the best Full Stack Developer course provider, we keep a track of industry metrics with the on-demand features. For instance, if you are uncertain about how to solve a Java code, the mentor will assist you. You won’t be asked for additional fees at extra classes other than the Fulls stack development course fees in the program features. ",
+      "open": false
+    },
+    {
+      "id": 10,
+      "ques": "What is the program duration for Full Stack Developer course? ",
+
+      "ans": "With Skillslash, you will get 11-month Full Stack online training for the learners to get clear with the concepts and get assistance for acing interviews at top companies like MAANG. You will be guided throughout the Full Stack Developer course by our experienced tutors from scratch to master level. ",
+      "open": false
+    },
+    {
+      "id": 11,
+      "ques": "Is EMI payment acceptable in this Full Stack Development institute?",
+
+      "ans": "Yes, Skillslash offers offers EMI with *T&C applied. That is, there will be no interest throughout the payment getting processed completely. We have the intervals of payment process till 12 months during the Full Stack course online. You can also customize the amount to be paid accordingly. ",
+      "open": false
+    },
+    {
+      "id": 12,
+      "ques": " How will the classes be conducted? What are the course timings for Full Stack Developer course?",
+
+      "ans": "All the classes will be conducted live through online learning platforms by our experienced mentors. In our Full Stack Developer course, we will record the live classes for future reference of our learners. The course timings fall according to the availability of the cohorts and most probably, our Full Stack Developer course is on weekends.  ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": " What is the refund policy for Skillslash’s Full Stack development course fees?",
+
+      "ans": "As per the policies concerned, your refund request will be processed till 15 days from the start of the course. If in case, you haven’t attended the course and requesting refund for Full stack development course fee, your request will be considered accordingly.  ",
       "open": false
     }
   ]
