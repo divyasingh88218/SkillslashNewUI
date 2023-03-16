@@ -510,7 +510,7 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/happay.webp"
                     layout="intrinsic"
                     width={234}
-                    height={427}
+                    height={42}
                     loading="lazy"
                   />
                 </div>
