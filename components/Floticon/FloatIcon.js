@@ -15,13 +15,17 @@ const FloatIcon = () => {
       {show ? (
         <div className={styles.show}>
           <p className={styles.callText}>call Me back</p>
-          <div className={styles.callWrapBack}>
-            <MdCall className={styles.call} />
-          </div>
+          <a href="tel:+91-8391-911-911">
+            <div className={styles.callWrapBack}>
+              <MdCall className={styles.call} />
+            </div>
+          </a>
           <p className={styles.whatsText}>Chat with us</p>
-          <div className={styles.callWrapBack}>
-            <IoLogoWhatsapp className={styles.whatsapp} />
-          </div>
+          <a href="https://wa.me/+918391911911?text=ChatWithUs">
+            <div className={styles.callWrapBack}>
+              <IoLogoWhatsapp className={styles.whatsapp} />
+            </div>
+          </a>
         </div>
       ) : (
         ""

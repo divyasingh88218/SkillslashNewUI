@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 1500;
     overflow: hidden;
     .outerLine {
       max-width: 70%;
@@ -115,7 +115,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 1500;
     .outerLine {
       max-width: 80%;
       border-radius: 12px;

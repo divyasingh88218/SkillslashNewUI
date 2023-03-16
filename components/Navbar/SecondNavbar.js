@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./SecondNavbar.module.css";
 import { FiDownload } from "react-icons/fi";
+import Popup from "../Popup/Popup";
+import ContactForm from "../ContactusForm/ContactusForm";
 
 const SecondNavbar = ({
+  course,
   getHired,
   cta,
   faq,
@@ -15,6 +18,7 @@ const SecondNavbar = ({
   benefits,
   trainer,
 }) => {
+  const [popups, setPopups] = useState(false);
   const [secondNavbar, setSecondNavbar] = useState(false);
   const [activeState, setActiveState] = useState({
     alumni: false,
@@ -29,6 +33,9 @@ const SecondNavbar = ({
     faq: false,
   });
 
+  const popupShow = () => {
+    setPopups(true);
+  };
   const first = useRef();
   const second = useRef();
   const third = useRef();
@@ -269,81 +276,109 @@ const SecondNavbar = ({
     };
   }, [activeState]);
   return secondNavbar ? (
-    <div className={styles.navWrap}>
-      <nav>
-        <div className={styles.left} ref={parent}>
-          <div
-            className={activeState.alumni ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(getHired.current)}
-            ref={first}
-          >
-            <p> Alumni</p>
-          </div>
-          <div
-            className={activeState.trainer ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(trainer.current)}
-            ref={second}
-          >
-            <p> Trainer</p>
-          </div>
-          <div
-            className={activeState.benefits ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(benefits.current)}
-            ref={third}
-          >
-            <p> Benefits</p>
-          </div>
-          <div
-            className={activeState.certificate ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(certificate.current)}
-          >
-            <p> Certificate</p>
-          </div>
-          <div
-            className={activeState.syllabus ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(syllabus.current)}
-          >
-            <p> Syllabus</p>
-          </div>
-          <div
-            className={activeState.project ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(project.current)}
-          >
-            <p> Projects</p>
-          </div>
-          <div
-            className={activeState.review ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(review.current)}
-          >
-            <p> Reviews</p>
-          </div>
-          <div
-            className={activeState.fee ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(fee.current)}
-          >
-            <p> Fee</p>
-          </div>
-          <div
-            className={activeState.batchDate ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(batchDate.current)}
-          >
-            <p> Batch Date</p>
-          </div>
-          <div
-            className={activeState.faq ? styles.activeDiv : styles.div}
-            onClick={() => handleScrollToElement(faq.current)}
-          >
-            <p> Faq</p>
-          </div>
+    <div>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
         </div>
-        <div className={styles.right}>
-          <button className={styles.outline}>
-            <FiDownload className={styles.icon} />
-            Brochure
-          </button>
-          <button>Apply Now</button>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <p>Fill the below Details to get started</p>
+          {course ? (
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              dataScience={dataScience}
+              redirectDs={redirectDs}
+              redirectFs={redirectFs}
+              redirectBa={redirectBa}
+              redirectBl={redirectBl}
+              redirectDe={redirectDe}
+            />
+          ) : (
+            <ContactForm setTrigger={setPopups} popup={true} />
+          )}
         </div>
-      </nav>
+      </Popup>
+
+      <div className={styles.navWrap}>
+        <nav>
+          <div className={styles.left} ref={parent}>
+            <div
+              className={activeState.alumni ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(getHired.current)}
+              ref={first}
+            >
+              <p> Alumni</p>
+            </div>
+            <div
+              className={activeState.trainer ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(trainer.current)}
+              ref={second}
+            >
+              <p> Trainer</p>
+            </div>
+            <div
+              className={activeState.benefits ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(benefits.current)}
+              ref={third}
+            >
+              <p> Benefits</p>
+            </div>
+            <div
+              className={
+                activeState.certificate ? styles.activeDiv : styles.div
+              }
+              onClick={() => handleScrollToElement(certificate.current)}
+            >
+              <p> Certificate</p>
+            </div>
+            <div
+              className={activeState.syllabus ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(syllabus.current)}
+            >
+              <p> Syllabus</p>
+            </div>
+            <div
+              className={activeState.project ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(project.current)}
+            >
+              <p> Projects</p>
+            </div>
+            <div
+              className={activeState.review ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(review.current)}
+            >
+              <p> Reviews</p>
+            </div>
+            <div
+              className={activeState.fee ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(fee.current)}
+            >
+              <p> Fee</p>
+            </div>
+            <div
+              className={activeState.batchDate ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(batchDate.current)}
+            >
+              <p> Batch Date</p>
+            </div>
+            <div
+              className={activeState.faq ? styles.activeDiv : styles.div}
+              onClick={() => handleScrollToElement(faq.current)}
+            >
+              <p> Faq</p>
+            </div>
+          </div>
+          <div className={styles.right}>
+            <button className={styles.outline} onClick={popupShow}>
+              <FiDownload className={styles.icon} />
+              Brochure
+            </button>
+            <button onClick={popupShow}>Apply Now</button>
+          </div>
+        </nav>
+      </div>
     </div>
   ) : (
     ""
