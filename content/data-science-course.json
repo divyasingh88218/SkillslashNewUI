@@ -32,14 +32,15 @@
     "AboutCourse": false
   },
   "FirstSection": {
-    "deskTopPara": "Master Data Science With Expert Help",
-    "mTopPara": "Master Data Science With Expert Help",
-    "title": "Data Science Course",
-    "spanTitleText": "With Guaranteed job referral",
-    "desc": "Experience 100% live training with industry experts. Sign up in Skillslash’s Data Science course, work in real-time projects and gain globally acknowledged certifications.",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/adavance-data-science-header-image.webp",
-    "width": "563",
-    "height": "568"
+    "deskTopPara": "Build your career skills",
+    "mTopPara": "Build your career skills",
+    "title": "Full stack Web Development ",
+    "spanTitleText": "Course with Real Work Experience",
+    "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
+    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstSecBackgroundImg.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/FirstsecRimg.webp",
+    "width": "900",
+    "height": "607"
   },
   "ProgramInfo": {
     "BatchDate": "29 January 2023",

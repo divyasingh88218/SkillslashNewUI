@@ -800,7 +800,13 @@ const ProjectSlider = ({
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
                   <h5>Predict credit default</h5>
-                  <FaUniversity />
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Moodys-Project.webp"
+                    layout="intrinsic"
+                    width={107}
+                    height={60}
+                    loading="lazy"
+                  />
                 </div>
                 <div className={styles.desc}>
                   <p>
@@ -821,10 +827,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Google Mobility data</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
@@ -848,10 +854,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Uber - fare prediction</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
@@ -874,94 +880,12 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Telecom customer prediction</h5>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
-                    layout="intrinsic"
-                    width={200}
-                    height={34}
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.desc}>
-                  <p>
-                    {" "}
-                    The telecom company wants to predict the customer’s
-                    behaviour to predict and retain the customer before churning
-                    off. You will have to predict the group of people who are
-                    highly probable of churning off.
-                  </p>
-                </div>
-                <p className={styles.tools}>
-                  Tools:
-                  <FaReact className={styles.react} />
-                  <SiMongodb className={styles.mongo} />
-                  <SiMicrosoftexcel className={styles.database} />
-                  <AiOutlineRobot className={styles.node} />
-                </p>
-              </SwiperSlide>
-              <SwiperSlide className={styles.ReviewBox}>
-                <div className={styles.header}>
-                  <h5>Amazon Food Reviews </h5>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
-                    layout="intrinsic"
-                    width={200}
-                    height={34}
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.desc}>
-                  <p>
-                    {" "}
-                    Classify food reviews based on customer feedback. You will
-                    perform sentiment analysis on each product on the list. Here
-                    you will use NLP to identify the sentiment of customers.
-                  </p>
-                </div>
-                <p className={styles.tools}>
-                  Tools:
-                  <FaReact className={styles.react} />
-                  <SiMongodb className={styles.mongo} />
-                  <SiMicrosoftexcel className={styles.database} />
-                  <AiOutlineRobot className={styles.node} />
-                </p>
-              </SwiperSlide>
-              <SwiperSlide className={styles.ReviewBox}>
-                <div className={styles.header}>
-                  <h5>Olist store – Marketing Funnel </h5>
-                  <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
-                    layout="intrinsic"
-                    width={200}
-                    height={34}
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.desc}>
-                  <p>
-                    {" "}
-                    Predict the deals that will be closed.The list generates
-                    data from lead generation to the closure of the lead as a
-                    customer.
-                  </p>
-                </div>
-                <p className={styles.tools}>
-                  Tools:
-                  <FaReact className={styles.react} />
-                  <SiMongodb className={styles.mongo} />
-                  <SiMicrosoftexcel className={styles.database} />
-                  <AiOutlineRobot className={styles.node} />
-                </p>
-              </SwiperSlide>
-              <SwiperSlide className={styles.ReviewBox}>
-                <div className={styles.header}>
                   <h5>Predict heart failure</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/proscia.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
@@ -987,10 +911,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>YouTube trending video analytics</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
@@ -1014,21 +938,20 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Vehicle type recognition from image</h5>
+                  <h5>Analyze exchange rates</h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bloombreg.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
                     {" "}
-                    Determine the vehicle type. You are going to train a model
-                    with training data such that it predicts a new image of the
-                    vehicle accurately.
+                    Determine the forecast. Model a program to forecast value of
+                    a currency in global market.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -1041,22 +964,19 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Machine Translation</h5>
+                  <h5>Understand mobile banking usage </h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon-flipkart-ecommerce-project.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp"
                     layout="intrinsic"
-                    width={200}
-                    height={34}
+                    width={107}
+                    height={60}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
                     {" "}
-                    Perform text translation, text parsing and summary of the
-                    books. This dataset can be used for tasks like Machine
-                    Translation, Text Generation, Text Parsing and Sematic
-                    Understanding of Natural Language.
+                    Analyze customers usage of mobile banking like at Razorpay
                   </p>
                 </div>
                 <p className={styles.tools}>
