@@ -68,7 +68,7 @@
   padding: 30px 20px;
   display: flex;
   flex-flow: column;
-  background-color: #f28705;
+  background-color: #4f419a;
   border-radius: 20px;
   height: 100%;
   box-shadow: rgba(242, 135, 5, 0.1) 10px -0px 100px -1px,
@@ -169,9 +169,6 @@
   border-radius: 8px;
   align-items: center;
   justify-content: center;
-}
-.button:hover {
-  background-color: #f28705;
 }
 @media (max-width: 1281px) {
   .FeeS {
