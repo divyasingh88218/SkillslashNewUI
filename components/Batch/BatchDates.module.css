@@ -209,14 +209,15 @@
   }
 }
 @media (max-width: 1239px) {
-  .batchDateWrap {grid-template-columns: 12% 34% 21% 19%;}
-  .batchDateWrapActive {
-      display: grid;
-  grid-template-columns: 12% 34% 21% 19%;
-  gap: 0px;
- 
+  .batchDateWrap {
+    grid-template-columns: 12% 34% 21% 19%;
   }
-    .batchDetails h5 {
+  .batchDateWrapActive {
+    display: grid;
+    grid-template-columns: 12% 34% 21% 19%;
+    gap: 0px;
+  }
+  .batchDetails h5 {
     font-size: 20px;
     line-height: 25px;
   }
@@ -297,10 +298,10 @@
     margin: 20px 10px;
   }
   .batchDateWrap {
-    border-left: 4px solid #f28705;
+    border-left: 4px solid #4f419a;
   }
   .batchDateWrapActive {
-    border-left: 4px solid #4f419a;
+    border-left: 4px solid #ecf3fe;
   }
   .batchFilledMobile {
     display: none;
@@ -312,16 +313,16 @@
     padding: 0;
   }
   .month {
-    color: #f28705;
+    color: #4f419a;
   }
   .date p {
-    color: #f28705;
+    color: #4f419a;
   }
   .dateActive p {
-    color: #4f419a;
+    color: white;
   }
   .dateActive .month {
-    color: #4f419a;
+    color: white;
   }
   .dateActive .tag {
     background-color: #ecf3fe;

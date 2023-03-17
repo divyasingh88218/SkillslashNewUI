@@ -166,14 +166,43 @@
     margin-top: 10px;
     align-items: center;
   }
+  .pTop {
+    background-color: #c4bbff;
+    font-size: 32px;
+    color: #4f419a;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0;
+    width: max-content;
+  }
+  .paraWrap {
+    display: flex;
+    flex-flow: column;
+
+    gap: 20px;
+  }
+  .sidePara {
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
   .pBot {
     margin-top: 0px;
     margin-bottom: 17px;
     font-size: 16px;
     color: #e0e0e0;
   }
-  .pTop {
-    margin-bottom: 10px !important;
+  .iconImgD {
+    position: absolute;
+    width: 89px;
+    height: 80px;
+    bottom: -60px;
+    right: 100%;
   }
 
   .btnWrapper button {
@@ -217,8 +246,8 @@
   .imgWrapper {
     display: flex;
     position: absolute;
-    bottom: -35px;
-    left: -134px;
+    bottom: -34px;
+    left: -110px;
     align-self: start;
     justify-content: flex-start;
   }
@@ -226,8 +255,8 @@
     position: absolute;
     width: 89px;
     height: 80px;
-    bottom: -40px;
-    right: 50%;
+    bottom: -55px;
+    right: 42%;
   }
 }
 @media (max-width: 961px) {

@@ -171,7 +171,7 @@
 
 @media (max-width: 481px) {
   .ReviewSlider {
-    padding: 50px 10px;
+    padding: 20px 20px;
     margin-top: 0px;
   }
   .ReviewBox {
@@ -195,7 +195,7 @@
     text-align: center;
   }
   .ReviewBox h5 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .ReviewRight p {
     font-size: 15px;
@@ -220,10 +220,6 @@
   .nameWrap {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px 10px 50px;
-    border: 1px solid gray;
-    margin-left: -170px;
-    border-radius: 0px 40px 40px 0px;
+    justify-content: flex-start;
   }
 }
