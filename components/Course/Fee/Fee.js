@@ -79,7 +79,7 @@ const Fee = ({
 
       {changeFee ? (
         <div className={styles.priceTableData}>
-          <div>
+          <div className={styles.fourth}>
             <p className="pTop"> Finance</p>
             <h4>Program Fees & Financing</h4>
             <div className={styles.feeWrapperTop}>
