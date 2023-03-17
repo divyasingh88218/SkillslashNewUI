@@ -110,7 +110,7 @@ const Fee = ({
                           <Image
                             src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp"
                             alt="liqiloans"
-                            width={mobile ? "90" : "150"}
+                            width={mobile ? "90" : "70"}
                             height="40"
                           />
                         </SwiperSlide>
@@ -301,6 +301,93 @@ const Fee = ({
         </div>
       ) : (
         <div className={styles.priceTableData}>
+          <div className={styles.fourth}>
+            {/* <p className="pTop"> Finance</p> */}
+            <h4>Program Fees</h4>
+            <div className={styles.feeWrapperTop}>
+              <span>
+                <p className="pBotS">{desc}</p>
+
+                <h5>Payment Partners</h5>
+                <div className={styles.bottom}>
+                  <Swiper
+                    spaceBetween={mobile ? 30 : spaceBetween}
+                    centeredSlides={true}
+                    slidesPerView={mobile ? 3 : slidesPerView}
+                    slidesPerGroup={1}
+                    loop={true}
+                    loopFillGroupWithBlank={true}
+                    autoplay={{
+                      delay: 1000,
+                      disableOnInteraction: false,
+                    }}
+                    grabCursor={true}
+                    modules={[Autoplay]}
+                    className="mySwiper"
+                  >
+                    {mobile ? (
+                      <>
+                        {" "}
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp"
+                            alt="liqiloans"
+                            width={mobile ? "90" : "70"}
+                            height="40"
+                          />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/propelld.webp"
+                            alt="Propelled"
+                            width="120"
+                            height="40"
+                          />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/zest-logo.webp"
+                            alt="zest"
+                            width="80"
+                            height="20"
+                          />
+                        </SwiperSlide>
+                      </>
+                    ) : (
+                      <>
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp"
+                            alt="liqiLoans"
+                            width="300"
+                            height="120"
+                          />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/propelld.webp"
+                            alt="propelld"
+                            width="500"
+                            height="200"
+                            layout="intrinsic"
+                          />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                          <Image
+                            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/zest-logo.webp"
+                            alt="Zest"
+                            width="200"
+                            height="58"
+                          />
+                        </SwiperSlide>
+                      </>
+                    )}
+                  </Swiper>
+                </div>
+              </span>
+              <span></span>
+            </div>
+          </div>
           <div className={styles.first}>
             <span className={styles.Price}>Program Features</span>
             <span className={styles.PFeatures}>Job Assistance</span>

@@ -13,7 +13,7 @@
   color: #f28705;
 }
 .feeWrapperTop {
-  background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Fee-and-finance.webp");
+  /* background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Fee-and-finance.webp"); */
   background-position: center;
   padding: 45px 90px;
   background-repeat: no-repeat;
@@ -111,6 +111,8 @@
 .priceTableData div {
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 .sub {
   font-size: 14px;

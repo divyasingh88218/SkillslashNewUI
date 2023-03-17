@@ -457,6 +457,9 @@ export default function Home({ DataScienceCourseData }) {
               ProDesc={DataScienceCourseData.data.Fee.ProDesc}
               ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
               ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
+              web={DataScienceCourseData.data.form.webDevelopment}
+              price={DataScienceCourseData.data.Fee.ProPrice}
+              emi={DataScienceCourseData.data.Fee.emi}
             />
           </div>
         )}
