@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./SecondNavbar.module.css";
 import { FiDownload } from "react-icons/fi";
 import Popup from "../Popup/Popup";
+import Form from "../Form/Form";
 import ContactForm from "../ContactusForm/ContactusForm";
 
 const SecondNavbar = ({
@@ -11,12 +12,19 @@ const SecondNavbar = ({
   faq,
   batchDate,
   fee,
+  dataScience,
   review,
   project,
   syllabus,
   certificate,
   benefits,
   trainer,
+  redirectDs,
+  redirectFs,
+  redirectDe,
+  redirectBa,
+  redirectBl,
+  redirectWeb,
 }) => {
   const [popups, setPopups] = useState(false);
   const [secondNavbar, setSecondNavbar] = useState(false);
@@ -33,9 +41,14 @@ const SecondNavbar = ({
     faq: false,
   });
 
-  const popupShow = () => {
+  const [changeHeading, setChangeHeading] = useState(false);
+  const [changeText, setChangeText] = useState(false);
+  const popupShow = (demoClass, changeText) => {
+    setChangeHeading(demoClass);
+    setChangeText(changeText);
     setPopups(true);
   };
+
   const first = useRef();
   const second = useRef();
   const third = useRef();
@@ -282,7 +295,11 @@ const SecondNavbar = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          {changeHeading ? (
+            <h5>Download Program Handbook</h5>
+          ) : (
+            <h5>Apply For Counselling</h5>
+          )}
           <p>Fill the below Details to get started</p>
           {course ? (
             <Form
@@ -294,6 +311,7 @@ const SecondNavbar = ({
               redirectBa={redirectBa}
               redirectBl={redirectBl}
               redirectDe={redirectDe}
+              redirectWd={redirectWeb}
             />
           ) : (
             <ContactForm setTrigger={setPopups} popup={true} />
@@ -371,11 +389,14 @@ const SecondNavbar = ({
             </div>
           </div>
           <div className={styles.right}>
-            <button className={styles.outline} onClick={popupShow}>
+            <button
+              className={styles.outline}
+              onClick={() => popupShow(true, false)}
+            >
               <FiDownload className={styles.icon} />
               Brochure
             </button>
-            <button onClick={popupShow}>Apply Now</button>
+            <button onClick={() => popupShow(false, true)}>Apply Now</button>
           </div>
         </nav>
       </div>

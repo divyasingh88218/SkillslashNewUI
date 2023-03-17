@@ -10,7 +10,8 @@ import { FaStarHalf } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper";
+import "swiper/css/navigation";
+import { Pagination, Navigation, FreeMode } from "swiper";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
@@ -130,8 +131,11 @@ const Reviews = ({
           spaceBetween={mobile ? 10 : spaceBetween}
           freeMode={true}
           pagination={{
+            dynamicBullets: true,
             clickable: true,
           }}
+          loopFillGroupWithBlank={true}
+          grabCursor={true}
           modules={[FreeMode, Pagination]}
           className="mySwiper"
         >

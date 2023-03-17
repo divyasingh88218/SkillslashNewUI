@@ -4,7 +4,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-
+import { FaAward } from "react-icons/fa";
 import TextAnimation from "../../Animation/TextAnimation";
 
 const FirstSection = ({
@@ -76,15 +76,18 @@ const FirstSection = ({
 
       <div className={styles.left}>
         {mobile ? (
-          <p className="pTop">{mTopPara}</p>
+          <p className={styles.pTop}>{mTopPara}</p>
         ) : (
-          <p className="pTop">{deskTopPara}</p>
+          <div className={styles.paraWrap}>
+            <p className={styles.pTop}>{deskTopPara}</p>
+            <p className={styles.sidePara}>
+              <FaAward />
+              {spanTitleText}
+            </p>
+          </div>
         )}
 
-        <h1>
-          {title}
-          <span> {spanTitleText}</span>
-        </h1>
+        <h1>{title}</h1>
         <p className={styles.pBot}>{desc}</p>
         <TextAnimation />
         <div className={styles.btnWrapper}>
@@ -125,7 +128,14 @@ const FirstSection = ({
             height={height}
           />
         )}
-        {redirectWeb ? "" : <img src={iconImg} className={styles.iconImg} />}
+        {redirectWeb ? (
+          ""
+        ) : (
+          <img
+            src={iconImg}
+            className={redirectDs ? styles.iconImgD : styles.iconImg}
+          />
+        )}
       </div>
     </section>
   );

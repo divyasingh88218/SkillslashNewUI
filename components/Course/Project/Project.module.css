@@ -160,3 +160,42 @@
     width: 95%;
   }
 }
+@media (max-width: 481px) {
+  .projectHeader {
+    padding: 20px;
+    flex-flow: column;
+  }
+  .projectWrap h4 {
+    text-align: center;
+    width: max-content;
+  }
+  .leftWrap {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .iconBox {
+    width: 130px;
+  }
+  .line {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-flow: column;
+  }
+  .line div {
+    width: 230px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header h5 {
+    font-size: 22px;
+  }
+  .ReviewBox {
+    height: 360px;
+    justify-content: flex-start;
+  }
+  .desc p {
+    width: 98%;
+  }
+}

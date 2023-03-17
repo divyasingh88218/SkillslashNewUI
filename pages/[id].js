@@ -165,15 +165,23 @@ export default function Home({ DataScienceCourseData }) {
       <SecondNavbar
         getHired={getHired}
         trainer={trainer}
+        dataScience={false}
         benefits={benefits}
         certificate={certificate}
         syllabus={syllabus}
         project={project}
         review={review}
         fee={fee}
+        course={true}
         batchDate={batchDate}
         faq={faq}
         cta={cta}
+        redirectDs={DataScienceCourseData.data.form.dataScience}
+        redirectFs={DataScienceCourseData.data.form.FullStack}
+        redirectDe={DataScienceCourseData.data.form.DataEngineering}
+        redirectBl={DataScienceCourseData.data.form.blockchain}
+        redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+        redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
       />
       {popupData != [] ? (
         today >= popupDate.startDate && today <= popupDate.endDate ? (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./Project.module.css";
 import "swiper/css";
@@ -26,6 +26,22 @@ const ProjectSlider = ({
   redirectBl,
   redirectDSA,
 }) => {
+  const [mobile, setMobile] = useState(false);
+  const [slidesPerView, setSlidesPerView] = useState(5);
+  const [spaceBetween, setSpaceBetween] = useState(70);
+  useEffect(() => {
+    let width = window.innerWidth;
+
+    if (width < 801) {
+      setSlidesPerView(3);
+      setSpaceBetween(20);
+    }
+    if (width < 481) {
+      setSlidesPerView(1.1);
+      setSpaceBetween(10);
+      setMobile(true);
+    }
+  });
   return (
     <div className={styles.projectWrap}>
       <div className={styles.projectHeader}>
@@ -92,8 +108,8 @@ const ProjectSlider = ({
       </div>
       <div className={styles.sliderWrap}>
         <Swiper
-          spaceBetween={30}
-          slidesPerView={3}
+          spaceBetween={mobile ? spaceBetween : 30}
+          slidesPerView={mobile ? slidesPerView : 3}
           loop={true}
           pagination={{
             dynamicBullets: true,
@@ -412,10 +428,8 @@ const ProjectSlider = ({
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    Create authentication technology that controls system access
-                    by determining if a user's credentials correspond to those
-                    stored in a database of authorized users or in a data
-                    authentication server.
+                    Create authentication technology to give access, Correspond
+                    to those stored in a database of authorized users.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -491,8 +505,7 @@ const ProjectSlider = ({
                 <div className={styles.desc}>
                   <p>
                     To connect two or more applications using their APIs so that
-                    those systems can exchange data, learn advanced API
-                    integration.
+                    those systems can exchange data.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -569,7 +582,7 @@ const ProjectSlider = ({
                   <p>
                     Modern fitness monitors go much beyond the standard
                     pedometer. Users' heart rates and run times are tracked and
-                    stored by exercise trackers like Strava and FitBit.
+                    stored.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -593,10 +606,8 @@ const ProjectSlider = ({
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    This is merely the creation of a fundamental content
-                    management system. Such a website or application has to have
-                    greater content optimization features as well as visuals
-                    optimization features.
+                    Create a CMS website or application which has a better
+                    content optimization and visuals optimization.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -614,7 +625,7 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/codiant.webp"
                     layout="intrinsic"
                     width={250}
-                    height={36}
+                    height={26}
                     loading="lazy"
                   />
                 </div>
@@ -640,15 +651,15 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cryengine.webp"
                     layout="intrinsic"
                     width={277}
-                    height={36}
+                    height={26}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    Make a VR programme of your own with enhanced audiovisual
-                    capabilities. Learn how to use VR applications to relieve
-                    anxiety and tension.
+                    Make a VR programme with enhanced audiovisual capabilities.
+                    Learn how to use VR applications to relieve anxiety and
+                    tension.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -666,15 +677,14 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/task.webp"
                     layout="intrinsic"
                     width={200}
-                    height={34}
+                    height={24}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
                     You will get knowledge about creating and improving
-                    multi-use panels and components through this project. In
-                    this case, you should focus primarily on the front end.
+                    multi-use panels and components through this project.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -692,15 +702,15 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/swiggy.webp"
                     layout="intrinsic"
                     width={200}
-                    height={34}
+                    height={24}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    You will learn how to create a sizable, feature-rich meal
-                    delivery website through this project. You'll build a
-                    backend framework for restaurant registration.
+                    Create a sizable, feature-rich meal delivery website through
+                    this project. Build a backend framework for restaurant
+                    registration.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -717,17 +727,16 @@ const ProjectSlider = ({
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/telegram.png"
                     layout="intrinsic"
-                    width={113}
-                    height={33}
+                    width={85}
+                    height={23}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    You will learn how to create a decent- looking and
-                    incredibly functional front- end. This project focuses on
-                    the finest methods for creating incredibly user- friendly
-                    chat applications.
+                    Create a decent- looking and incredibly functional front-
+                    end. This project focuses on creating a user- friendly chat
+                    applications.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -745,15 +754,14 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/centra.webp"
                     layout="intrinsic"
                     width={169}
-                    height={29}
+                    height={24}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
                     You will get knowledge about creating and improving
-                    multi-use panels and components through this project. In
-                    this case, you should focus primarily on the front end.
+                    multi-use panels and components through this project.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -771,15 +779,14 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/leetcode.webp"
                     layout="intrinsic"
                     width={200}
-                    height={34}
+                    height={24}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    This web application development project is at the advanced
-                    level. Your attention will be drawn to prototyping, quick
-                    hosting of newly published apps, and seamless collaboration.
+                    Your attention will be drawn to prototyping, quick hosting
+                    of newly published apps, and seamless collaboration.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -796,7 +803,6 @@ const ProjectSlider = ({
           )}
           {redirectDs ? (
             <>
-              {" "}
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
                   <h5>Predict credit default</h5>
@@ -804,7 +810,7 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Moodys-Project.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
@@ -827,10 +833,10 @@ const ProjectSlider = ({
                 <div className={styles.header}>
                   <h5>Google Mobility data </h5>
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp"
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Google_logo.webp"
                     layout="intrinsic"
-                    width={107}
-                    height={60}
+                    width={95}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
@@ -857,17 +863,15 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    {" "}
-                    Predicting fare price based on demand and supply, weather
-                    and other factors.You will have to analyse the data of the
-                    ride sharing applications to identify the factors that are
-                    driving the demand.
+                    Predicting fare price based on demand and supply.You will
+                    have to analyse the data of the ride sharing applications to
+                    identify the factors that are driving the demand.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -885,18 +889,15 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/proscia.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    {" "}
                     Cardiovascular diseases (CVDs) are the number 1 cause of
-                    death globally and heart failure is the most common event
-                    caused. So here have to create a model that could predict
-                    heart failure before its occurrence that could help the
-                    society.
+                    death globally. So here have to create a model that could
+                    predict heart failure before its occurrence.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -909,23 +910,20 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>YouTube trending video analytics</h5>
+                  <h5>YouTube video analytics</h5>
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
-                    {" "}
-                    Video analytics is a daily record of data on videos trending
-                    on YouTube. You are required to analyze the data to predict
-                    the sentiment of the videos, study the comments by
-                    categorizing the videos and analyze the factors that affect
-                    the popularity of the video.
+                    Collect record of data on videos trending on YouTube.
+                    Analyze the data to predict the sentiment of the videos,
+                    study the comments by categorizing the videos.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -943,7 +941,7 @@ const ProjectSlider = ({
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bloombreg.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
@@ -951,7 +949,8 @@ const ProjectSlider = ({
                   <p>
                     {" "}
                     Determine the forecast. Model a program to forecast value of
-                    a currency in global market.
+                    a currency in global market. Study and analyse the data to
+                    predict exchange rates in global markets.
                   </p>
                 </div>
                 <p className={styles.tools}>
@@ -964,19 +963,150 @@ const ProjectSlider = ({
               </SwiperSlide>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>
-                  <h5>Understand mobile banking usage </h5>
+                  <h5>Understand mobile banking</h5>
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp"
                     layout="intrinsic"
                     width={107}
-                    height={60}
+                    height={40}
                     loading="lazy"
                   />
                 </div>
                 <div className={styles.desc}>
                   <p>
                     {" "}
-                    Analyze customers usage of mobile banking like at Razorpay
+                    Analyze customers usage of mobile banking like at Razorpay.
+                    Use the dummy data to create a model like razorpay.
+                  </p>
+                </div>
+                <p className={styles.tools}>
+                  Tools:
+                  <FaReact className={styles.react} />
+                  <SiMongodb className={styles.mongo} />
+                  <SiMicrosoftexcel className={styles.database} />
+                  <AiOutlineRobot className={styles.node} />
+                </p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.ReviewBox}>
+                <div className={styles.header}>
+                  <h5>Mercedes-Benz – Reduce time</h5>
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mercedez.webp"
+                    layout="intrinsic"
+                    width={72}
+                    height={40}
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.desc}>
+                  <p>
+                    Reduce the time for a Mercedes-Benz to reach the market by
+                    optimizing the testing time. Elimination of bench time would
+                    reduce the total testing duration.
+                  </p>
+                </div>
+                <p className={styles.tools}>
+                  Tools:
+                  <FaReact className={styles.react} />
+                  <SiMongodb className={styles.mongo} />
+                  <SiMicrosoftexcel className={styles.database} />
+                  <AiOutlineRobot className={styles.node} />
+                </p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.ReviewBox}>
+                <div className={styles.header}>
+                  <h5>Amazon Food Reviews</h5>
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png"
+                    width={133}
+                    height={40}
+                    layout="intrinsic"
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.desc}>
+                  <p>
+                    Classify food reviews based on customer feedback. You will
+                    perform sentiment analysis on each product on the list. use
+                    NLP to identify the sentiment of customers.
+                  </p>
+                </div>
+                <p className={styles.tools}>
+                  Tools:
+                  <FaReact className={styles.react} />
+                  <SiMongodb className={styles.mongo} />
+                  <SiMicrosoftexcel className={styles.database} />
+                  <AiOutlineRobot className={styles.node} />
+                </p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.ReviewBox}>
+                <div className={styles.header}>
+                  <h5>Predict Machine Maintenance</h5>
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/lyft.webp"
+                    width={110}
+                    height={40}
+                    layout="intrinsic"
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.desc}>
+                  <p>
+                    Classify food reviews based on customer feedback. You will
+                    perform sentiment analysis on each product on the list. use
+                    NLP to identify the sentiment of customers.
+                  </p>
+                </div>
+                <p className={styles.tools}>
+                  Tools:
+                  <FaReact className={styles.react} />
+                  <SiMongodb className={styles.mongo} />
+                  <SiMicrosoftexcel className={styles.database} />
+                  <AiOutlineRobot className={styles.node} />
+                </p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.ReviewBox}>
+                <div className={styles.header}>
+                  <h5>Google Playstore analytics</h5>
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google-play.webp"
+                    width={110}
+                    height={40}
+                    layout="intrinsic"
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.desc}>
+                  <p>
+                    Predict the factors that contribute to the success of an
+                    application. store. Your task will be to draw actionable
+                    insights for developers to work on.
+                  </p>
+                </div>
+                <p className={styles.tools}>
+                  Tools:
+                  <FaReact className={styles.react} />
+                  <SiMongodb className={styles.mongo} />
+                  <SiMicrosoftexcel className={styles.database} />
+                  <AiOutlineRobot className={styles.node} />
+                </p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.ReviewBox}>
+                <div className={styles.header}>
+                  <h5>Recommend Music- Spotify</h5>
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/soptify-logo.webp"
+                    width={110}
+                    height={40}
+                    layout="intrinsic"
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.desc}>
+                  <p>
+                    work on the dataset and Find a Geographical connection with
+                    popular songs. Analyze and identify the geographical
+                    connection with the popular songs.
                   </p>
                 </div>
                 <p className={styles.tools}>
