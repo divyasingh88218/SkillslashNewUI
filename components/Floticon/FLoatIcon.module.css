@@ -55,3 +55,16 @@
   color: #4f419a;
   font-size: 35px;
 }
+@media (max-width: 481px) {
+  .callWrap {
+    position: sticky;
+    bottom: 70px;
+    left: 92%;
+    width: max-content;
+
+    z-index: 999;
+  }
+  .callWrapBack {
+    border-radius: 50%;
+  }
+}

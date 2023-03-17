@@ -68,7 +68,7 @@
   .transition img {
     object-fit: contain;
   }
-  .profile {
+  /* .profile {
     position: absolute;
     height: 223px;
     left: 0px;
@@ -77,6 +77,14 @@
     width: 100%;
     overflow: hidden;
     z-index: -1;
+  } */
+  .profile {
+    position: absolute;
+    height: 263px;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
   }
   .ReviewBox {
     display: flex;
@@ -85,7 +93,8 @@
     justify-content: center;
     padding: 20px 0px;
     position: relative;
-    height: 390px;
+    height: 420px;
+    border-left: 0;
     border-radius: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
@@ -100,18 +109,15 @@
     justify-content: center;
   }
   .button button {
-    background-color: #f28705;
+    background-color: #4f419a;
     border-radius: 4px;
     color: white;
     padding: 10px 35px;
   }
-  .downArrow {
-    color: #f28705;
-    font-size: 34px;
-  }
+
   .transition {
     display: flex;
-    margin-top: 200px;
+    margin-top: 280px;
     flex-flow: column;
     align-items: center;
     justify-content: center;
@@ -133,77 +139,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .wrapper h4 span {
-    font-weight: 700;
-  }
-
-  .hike {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 40px;
-
-    justify-content: center;
-  }
-
-  .left,
-  .right {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  .right {
-    padding-left: 35px;
-  }
-  .hike1,
-  .hike2 {
-    display: flex;
-    flex-flow: column;
-    align-items: left;
-    gap: 10px;
-    width: 100%;
-    justify-content: left;
-  }
-
-  .hike1 p,
-  .hike2 p {
-    font-weight: 700;
-    color: rgb(18, 17, 17);
-    line-height: 18px;
-    font-size: 14px;
-    display: flex;
-    width: 100%;
-    flex-flow: column;
-  }
-
-  .hike1 span,
-  .hike2 span {
-    font-weight: 400;
-    color: #6d6d6d;
-    line-height: 18px;
-    font-size: 14px;
-  }
-  .bottom {
-    margin-top: 20px;
-    padding: 20px;
-    width: 100%;
-    border: 1px solid rgb(158, 157, 157);
-    border-radius: 10px;
-    position: relative;
-  }
-
-  .bottom p {
-    position: absolute;
-    background-color: white;
-    width: max-content;
-    top: -18px;
-    left: 70px;
-    font-size: 14px;
-    margin: 0;
-    padding: 5px 40px;
   }
 }

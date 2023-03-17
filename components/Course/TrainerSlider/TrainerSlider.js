@@ -67,7 +67,7 @@ const TrainerSlider = ({
         <div className={style.slider}>
           <Swiper
             spaceBetween={mobile ? 20 : spaceBetween}
-            slidesPerView={mobile ? 1.6 : slidesPerView}
+            slidesPerView={mobile ? 1.3 : slidesPerView}
             loop={true}
             loopFillGroupWithBlank={true}
             pagination={{
@@ -106,27 +106,15 @@ const TrainerSlider = ({
                     <h5>Sanket Singh</h5>
                     <p>Software Engineer II</p>
 
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/GoogleLogo.webp"
-                        width="65"
-                        height="21"
-                        alt="Google"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/GoogleM.webp"
-                        width="83"
-                        height="27"
-                        alt="Google"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/GoogleM.webp"
+                      width="83"
+                      height="27"
+                      alt="Google"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={style.ReviewBox}>
@@ -156,27 +144,15 @@ const TrainerSlider = ({
                       Sr. Software Engineer
                     </p>
 
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Microsoft.webp"
-                        width="41"
-                        height="29"
-                        alt="Microsoft"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Micro.png"
-                        width="150"
-                        height="68"
-                        alt="Microsoft"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Micro.png"
+                      width="150"
+                      height="68"
+                      alt="Microsoft"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={style.ReviewBox}>
@@ -204,27 +180,15 @@ const TrainerSlider = ({
                     <h5 style={{ marginTop: "25px" }}>Amit Kumar</h5>
                     <p style={{ marginBottom: "-10px" }}>Software Engineer</p>
 
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Microsoft.webp"
-                        width="41"
-                        height="29"
-                        alt="Microsoft"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoftM.webp"
-                        width="150"
-                        height="68"
-                        alt="Microsoft"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoftM.webp"
+                      width="150"
+                      height="68"
+                      alt="Microsoft"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={style.ReviewBox}>
@@ -251,27 +215,16 @@ const TrainerSlider = ({
                   <div className={style.transition}>
                     <h5>Dhaval Dave</h5>
                     <p>Staff Software Engineer</p>
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/walmart-icon.png"
-                        width="49"
-                        height="26"
-                        alt="Walmart"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/image%2B230.png"
-                        width="112"
-                        height="32"
-                        alt="Walmart"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/image%2B230.png"
+                      width="112"
+                      height="32"
+                      alt="Walmart"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={style.ReviewBox}>
@@ -298,27 +251,16 @@ const TrainerSlider = ({
                   <div className={style.transition}>
                     <h5>Aman Garg</h5>
                     <p>Software Engineer II</p>
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amaz.webp"
-                        width="54"
-                        height="21"
-                        alt="Amazon"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png"
-                        width="90"
-                        height="27"
-                        alt="Amazon"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png"
+                      width="90"
+                      height="27"
+                      alt="Amazon"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
 
@@ -346,27 +288,16 @@ const TrainerSlider = ({
                   <div className={style.transition}>
                     <h5>Naveen Yadav</h5>
                     <p>Software Engineer II</p>
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/oracle.webp"
-                        width="45"
-                        height="27"
-                        alt="Oracle"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/PngItem_7189867%2B1.png"
-                        width="110"
-                        height="14"
-                        alt="Oracle"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/PngItem_7189867%2B1.png"
+                      width="110"
+                      height="14"
+                      alt="Oracle"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className={style.ReviewBox}>
@@ -393,27 +324,16 @@ const TrainerSlider = ({
                   <div className={style.transition}>
                     <h5>Soumya S. Mangaraj</h5>
                     <p>Sr. Software Engineer</p>
-                    {mobile ? (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/paypal.webp"
-                        width="27"
-                        height="27"
-                        alt="paypal"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/paypal-de.png"
-                        width="110"
-                        height="31"
-                        alt="paypal"
-                        layout="intrinsic"
-                        objectFit="contain"
-                        loading="lazy"
-                      />
-                    )}
+
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/paypal-de.png"
+                      width="110"
+                      height="31"
+                      alt="paypal"
+                      layout="intrinsic"
+                      objectFit="contain"
+                      loading="lazy"
+                    />
                   </div>
                 </SwiperSlide>
               </>

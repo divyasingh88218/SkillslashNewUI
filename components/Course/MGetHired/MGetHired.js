@@ -72,22 +72,20 @@ const MGetHired = ({
             slidesPerGroup={2}
             loop={true}
             loopFillGroupWithBlank={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 3000,
+            //   disableOnInteraction: false,
+            // }}
             style={{ width: "100%" }}
             grabCursor={true}
-            modules={[Autoplay]}
+            // modules={[Autoplay]}
             className="mySwiper"
           >
             <SwiperSlide className={style.ReviewBox} id="1">
               <div className={style.profile}>
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/akarsh-srivastava-big.webp"
                   }
                   width={85}
                   height={85}
@@ -101,12 +99,10 @@ const MGetHired = ({
 
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-icon.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/trueblue-big.webp"
                   }
-                  width={mobile ? 86 : 135}
-                  height={mobile ? 21 : 30}
+                  width={135}
+                  height={30}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -117,9 +113,7 @@ const MGetHired = ({
               <div className={style.profile}>
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/rishabh-jaiswal-icon-big.webp"
                   }
                   width={85}
                   height={85}
@@ -133,12 +127,10 @@ const MGetHired = ({
 
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dharva-icon.png"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dvara.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/dvara.webp"
                   }
-                  width={mobile ? 86 : 80}
-                  height={mobile ? 21 : 58}
+                  width={80}
+                  height={58}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -149,9 +141,7 @@ const MGetHired = ({
               <div className={style.profile}>
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana-icon.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Madhuparana.webp"
                   }
                   width={85}
                   height={85}
@@ -167,12 +157,10 @@ const MGetHired = ({
 
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tech-mahindra.png"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tech-mahindra-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tech-mahindra-big.webp"
                   }
-                  width={mobile ? 70 : 130}
-                  height={mobile ? 40 : 38}
+                  width={130}
+                  height={38}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"
@@ -183,9 +171,7 @@ const MGetHired = ({
               <div className={style.profile}>
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pragyan-prakash-big.webp"
                   }
                   width={85}
                   height={85}
@@ -201,12 +187,10 @@ const MGetHired = ({
 
                 <Image
                   src={
-                    mobile
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accenture.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accenture-big.webp"
+                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accenture-big.webp"
                   }
-                  width={mobile ? 86 : 130}
-                  height={mobile ? 40 : 39}
+                  width={130}
+                  height={39}
                   alt="trueblue"
                   layout="intrinsic"
                   loading="lazy"

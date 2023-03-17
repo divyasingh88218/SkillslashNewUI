@@ -65,7 +65,7 @@ const SecondNavbar = ({
   // useEffect(() => {
   //   const scrollHandler = () => {
   //     if (activeState.certificate) {
-  //       parent.current.style.transform = `translateX(${-140}px)`;
+  //       parent.current.style.transform = `translateX(${-100}%)`;
   //     }
   //     if (activeState.syllabus) {
   //       console.log(parent.current.getBoundingClientRect());

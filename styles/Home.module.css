@@ -618,6 +618,9 @@
   }
 }
 @media (max-width: 481px) {
+  .ctaWrap {
+    display: none;
+  }
   .cta {
     display: flex;
     flex-flow: column;

@@ -10,6 +10,7 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import { RiWhatsappFill } from "react-icons/ri";
 import MegaMenu from "../MegaMenu/MegaMenu";
 import ContactForm from "../ContactusForm/ContactusForm";
 
