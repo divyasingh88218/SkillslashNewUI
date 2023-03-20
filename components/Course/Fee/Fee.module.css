@@ -8,37 +8,30 @@
 .FeeS h5 {
   font-size: 20px;
   margin: 0;
-
   font-weight: 600;
   color: #f28705;
 }
 .feeWrapperTop {
   /* background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Fee-and-finance.webp"); */
-  background-position: center;
-  padding: 45px 90px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-
-  grid-template-columns: 60% 40%;
-  gap: 10px;
-}
-.feeWrapperTop span {
-  padding-top: 10px;
-  gap: 10px;
   display: flex;
-  justify-content: center;
   flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
+.feeWrapperTop h6{
+margin: 0;
+width: 100%;
+color: #646464;
+font-size: 16px;
+text-align: left;
+  }
 .bottom {
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
 }
-.feeWrapperTop span button {
-  width: max-content;
-  gap: 10px;
-  font-size: 18px;
-}
+
 .priceTable {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -69,7 +62,7 @@
   display: flex;
   flex-flow: column;
   background-color: #4f419a;
-  border-radius: 20px;
+  border-radius: 4px;
   height: 100%;
   box-shadow: rgba(242, 135, 5, 0.1) 10px -0px 100px -1px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
@@ -110,9 +103,10 @@
 .priceTable div,
 .priceTableData div {
   display: flex;
-  flex-flow: column;
+  /* flex-flow: column; */
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .sub {
   font-size: 14px;
@@ -149,14 +143,25 @@
 
 .third,
 .fourth {
-  padding: 30px 20px;
+  padding: 30px 10px;
   display: flex;
   flex-flow: column;
-  border-radius: 20px;
-  box-shadow: rgba(4, 135, 217, 0.1) 50px -0px 100px -1px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+  border-radius: 4px;
+ background-color: #F9F8FF;
 }
 
+.fourth1 {
+  padding: 30px 0px;
+  margin-bottom: 69px;
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  border-radius: 4px;
+  
+}
+.fourth1 h4{
+  text-align: left;
+}
 .third {
   background-color: #eaf4fe;
   border-radius: 12px;
@@ -167,16 +172,18 @@
   padding: 15px 25px;
   width: 100%;
   display: flex;
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 16px;
+  border-radius: 4px;
   align-items: center;
   justify-content: center;
 }
 @media (max-width: 1281px) {
   .FeeS {
-    padding: 0 20px;
+    padding: 0 40px;
   }
   .FeeS h4 {
+    width: 100%;
+    text-align: left;
     font-size: 30px;
   }
   .priceTable {
@@ -185,18 +192,25 @@
   }
   .priceTableData {
     padding: 0 px;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 0;
+    grid-template-columns: 24% 24% 24% 24%;
+     gap: 20px;
   }
   .feeWrapperTop {
     grid-template-columns: 70% 30%;
-    padding: 20px 30px;
+    padding: 10px 0px;
+  }
+  .feeWrapperTop h6{
+margin: 0;
+width: 100%;
+font-size: 16px;
+text-align: left;
   }
   .feeWrapperTop p {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
+    text-align: left;
   }
 }
 @media (max-width: 801px) {
