@@ -126,7 +126,7 @@ const Navbar = ({
               <MdKeyboardArrowDown className={styles.bIcon} />
             )}
           </button> */}
-          {icon ? (
+          {/* {icon ? (
             <div
               className="megaMenu"
               onMouseOver={() => setIcon(true)}
@@ -136,7 +136,7 @@ const Navbar = ({
             </div>
           ) : (
             ""
-          )}
+          )} */}
         </div>
         <div className={styles.right}>
           {event ? (

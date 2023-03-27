@@ -6,13 +6,18 @@
   display: inline-block;
   width: max-content;
   font-size: 30px;
-  color: #C4BBFF;
+  color: #c4bbff;
   font-weight: 700;
   opacity: 1;
 }
-@media (max-width: 961px) {
+@media (max-width: 1024px) {
   .span span {
     font-size: 27px;
+  }
+}
+@media (max-width: 961px) {
+  .span span {
+    font-size: 22px;
   }
 }
 
