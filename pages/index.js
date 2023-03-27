@@ -18,6 +18,7 @@ import ProgramInfo from "../components/Course/ProgramInfo/ProgramInfo";
 import Hiring from "../components/Hiring/Hiring";
 import OurEvents from "../components/OurEvents/OurEvents";
 import NewCTA from "../components/NewCTA/NewCTA";
+import NewPricingTable from "../components/Course/NewPricingTable/NewPricingTable";
 
 export default function Home() {
   const [popupData, setPopupData] = useState([]);
@@ -91,6 +92,7 @@ export default function Home() {
           desc="Our courses are designed for both students and working professionals. Hear from our students to know more."
         />
         <OurEvents />
+        <NewPricingTable />
         <Footer />
       </div>
     </>

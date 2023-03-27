@@ -70,65 +70,10 @@
 }
 @media (max-width: 961px) {
   .CtaWrapper {
-    padding: 30px;
-  }
-  .pTop {
-    font-size: 14px;
-    margin: 0;
-  }
-  .leftCta h4 {
-    font-size: 24px;
-  }
-  .desc {
-    font-size: 16px;
-    margin: 0;
-    margin-bottom: 5px;
-  }
-  .leftCta button {
-    padding: 10px 15px;
-  }
-}
-@media (max-width: 481px) {
-  .CtaWrapper {
-    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mobile_CTA.webp");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 10px;
-    height: 702px;
-    display: flex;
-    flex-flow: column-reverse;
-  }
-  .leftCta {
-    margin-top: 0px;
-    gap: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
-    height: 320px;
-  }
+  display: none;
 
-  .leftCta button {
-    width: max-content;
-    padding: 15px 20px;
-    gap: 10px;
   }
-  .leftCta h4 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2em;
-  }
-  .pTop {
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-  }
-  .desc {
-    font-size: 14px;
-    line-height: 19px;
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-  }
+  
 }
+
+
