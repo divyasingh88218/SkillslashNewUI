@@ -26,9 +26,17 @@ const FirstSection = ({
   mainHeaderImg,
   backgroundImg,
   iconImg,
+  usp1,
+  usp2,
+  usp3,
+  usp4,
+  usp1Span,
+  usp2Span,
+  usp3Span,
+  usp4Span,
 }) => {
   const [mobile, setMobile] = useState(false);
-
+  const [tablet, setTablet] = useState(false);
   const [popups, setPopups] = useState(false);
   const [changeHeading, setChangeHeading] = useState(false);
   const [changeText, setChangeText] = useState(false);
@@ -37,15 +45,31 @@ const FirstSection = ({
     setChangeText(changeText);
     setPopups(true);
   };
-
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width > 642) {
+      setTablet(false);
+    }
+    if (width < 642) {
+      setTablet(true);
+    }
+    if (width < 481) {
+      setMobile(true);
+    }
+  });
   return (
     <section className={styles.wrapper}>
-      <Image
-        src={backgroundImg}
-        layout="fill"
-        alt="background"
-        objectFit="cover"
-      />
+      {tablet ? (
+        ""
+      ) : (
+        <Image
+          src={backgroundImg}
+          layout="fill"
+          alt="background"
+          objectFit="cover"
+        />
+      )}
+
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
@@ -75,21 +99,35 @@ const FirstSection = ({
       </Popup>
 
       <div className={styles.left}>
-        {mobile ? (
-          <p className={styles.pTop}>{mTopPara}</p>
-        ) : (
-          <div className={styles.paraWrap}>
-            <p className={styles.pTop}>{deskTopPara}</p>
-            <p className={styles.sidePara}>
-              <FaAward />
-              {spanTitleText}
-            </p>
-          </div>
-        )}
+        <div className={styles.imgWrap}>
+          <Image
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
+            height={90}
+            width={90}
+            layout="intrinsic"
+          />
+        </div>
+        <div className={styles.paraWrap}>
+          <p className={styles.pTop}>{deskTopPara}</p>
+          <p className={styles.sidePara}>
+            {mobile ? "" : <FaAward />}
+
+            {spanTitleText}
+          </p>
+        </div>
 
         <h1>{title}</h1>
+        <p className={styles.powered}>
+          Powered by{" "}
+          <Image
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white.webp"
+            height={21}
+            width={94}
+            layout="intrinsic"
+          />
+        </p>
         <p className={styles.pBot}>{desc}</p>
-        <TextAnimation />
+        {tablet ? "" : <TextAnimation />}
         <div className={styles.btnWrapper}>
           <button
             onClick={() => popupShow(true, false)}
@@ -105,8 +143,78 @@ const FirstSection = ({
             Demo Class
           </button>
         </div>
+        <div className={styles.uspFeatures}>
+          <div className={styles.left}>
+            <div className={styles.uspFeatures1}>
+              <div>
+                <Image
+                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/liveTV.webp"
+                  alt="feature-1"
+                  layout="intrinsic"
+                  width={32}
+                  height={34}
+                />
+              </div>
+              <p>
+                {usp1} <span>{usp1Span}</span>
+              </p>
+            </div>
+            <div className={styles.uspFeatures2}>
+              <div>
+                <Image
+                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cracck.webp"
+                  alt="feature-2"
+                  layout="intrinsic"
+                  width="32"
+                  height="34"
+                />
+              </div>
+              <p>
+                {usp2} <span>{usp2Span}</span>
+              </p>
+            </div>
+          </div>
+          <div className={styles.right}>
+            <div className={styles.uspFeatures3}>
+              <div>
+                <Image
+                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/emi-icon.webp"
+                  alt="feature-3"
+                  layout="intrinsic"
+                  width="30"
+                  height="30"
+                />
+              </div>
+              <p>
+                {usp3} <span>{usp3Span}</span>
+              </p>
+            </div>
+            <div className={styles.uspFeatures4}>
+              <div>
+                <Image
+                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/like.webp"
+                  alt="feature-4"
+                  layout="intrinsic"
+                  width="32"
+                  height="34"
+                />
+              </div>
+              <p>
+                {usp4} <span>{usp4Span}</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles.right}>
+        <div className={styles.imgWrap}>
+          <Image
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
+            height={90}
+            width={90}
+            layout="intrinsic"
+          />
+        </div>
         {redirectDs || redirectFs || redirectDSA ? (
           <div className={styles.imgWrapper}>
             <Image

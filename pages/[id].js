@@ -271,6 +271,14 @@ export default function Home({ DataScienceCourseData }) {
           iconImg={DataScienceCourseData.data.FirstSection.iconImg}
           width={DataScienceCourseData.data.FirstSection.width}
           height={DataScienceCourseData.data.FirstSection.height}
+          usp1={DataScienceCourseData.data.FirstSection.usp1}
+          usp2={DataScienceCourseData.data.FirstSection.usp2}
+          usp3={DataScienceCourseData.data.FirstSection.usp3}
+          usp4={DataScienceCourseData.data.FirstSection.usp4}
+          usp1Span={DataScienceCourseData.data.FirstSection.usp1Span}
+          usp2Span={DataScienceCourseData.data.FirstSection.usp2Span}
+          usp3Span={DataScienceCourseData.data.FirstSection.usp3Span}
+          usp4Span={DataScienceCourseData.data.FirstSection.usp4Span}
         />
         <div className={styles.program}>
           <ProgramInfo

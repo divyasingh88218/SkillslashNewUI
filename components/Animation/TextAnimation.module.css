@@ -20,6 +20,11 @@
     font-size: 22px;
   }
 }
+@media (max-width: 801px) {
+  .span span {
+    font-size: 20px;
+  }
+}
 
 @keyframes animation {
   0% {
