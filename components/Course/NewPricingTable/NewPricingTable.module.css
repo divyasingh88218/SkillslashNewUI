@@ -1,0 +1,69 @@
+.wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    padding: 10px 40px;
+    color: #000000;
+}
+.wrapper h4{
+  margin-bottom: 0px;
+}
+.wrapperPara{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+.wrapperCard{
+    box-shadow: #cac4ea 0px 1px 4px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.wrapperCard > span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px 10px;
+    background-color: #cac4ea;
+    color: #4f419a;
+    border-radius: 5px 0px 5px 0px;
+    
+}
+
+.Fee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.Apply .Fee{
+margin-top: 0px;
+}
+.Fee p{
+    display: flex;
+    flex-flow: column;
+    color: #535252;
+}
+.btn{
+    margin: 16px;
+    padding: 10px 17px;
+    font-size: 14px;
+}
+.btnBottom{
+    color: white;
+    background-color: #4f419a;
+    margin: auto;
+}
+
+.wrapper hr{
+    width: 90%;
+    color: #A7A7A7;
+    height: 1px;
+    background-color: #A7A7A7;
+}

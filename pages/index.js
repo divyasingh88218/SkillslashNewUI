@@ -18,6 +18,7 @@ import ProgramInfo from "../components/Course/ProgramInfo/ProgramInfo";
 import Hiring from "../components/Hiring/Hiring";
 import OurEvents from "../components/OurEvents/OurEvents";
 import NewCTA from "../components/NewCTA/NewCTA";
+import NewPricingTable from "../components/Course/NewPricingTable/NewPricingTable";
 
 export default function Home() {
   const [popupData, setPopupData] = useState([]);
@@ -91,6 +92,7 @@ export default function Home() {
         <div className={styles.advantage}>
           <NewCTA />
         </div>
+        <NewPricingTable />
         <Footer />
       </div>
     </>
