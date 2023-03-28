@@ -137,6 +137,9 @@ const Navbar = ({
           ) : (
             ""
           )}
+          <button onClick={popupShow} className={styles.mbtn}>
+            Apply Now
+          </button>
         </div>
         <div className={styles.right}>
           {event ? (

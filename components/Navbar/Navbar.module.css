@@ -13,6 +13,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.mbtn{
+  display: none !important;
+}
 .bIcon {
   font-size: 20px;
   margin-left: 5px;
@@ -192,6 +195,9 @@
     padding: 0 20px;
     gap: 20px;
   }
+  .mbtn{
+  display: none !important;
+}
   .left {
     gap: 10px;
   }
@@ -300,7 +306,7 @@
   .left {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:space-between;
 
     gap: 0px;
   }
@@ -336,9 +342,7 @@
 
     font-size: 14px;
   }
-  .right button:hover {
-    background-color: #f14d5d;
-  }
+  
 
   .white {
     background-color: transparent;
@@ -375,5 +379,8 @@
   .mobileWrapper .mobileMenu span:hover {
     color: #4f419a;
     background-color: #ebf1f8;
+  }
+  .MegaBtn{
+    display: none !important;
   }
 }
