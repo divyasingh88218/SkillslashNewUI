@@ -10,7 +10,7 @@ function NewCTA() {
     <section className={style.mainBlock}>
       <div className={style.mainHeading}>
         <div className={style.heading}>
-          <h4>CTA </h4>
+          <h4>24*7 Help Line </h4>
           <hr />
         </div>
 
@@ -80,12 +80,12 @@ function NewCTA() {
                   />
                 </div>
 
-                <p>Maximum Salary Hike</p>
+                <p>Average Salary Hike</p>
               </div>
 
               <div className={style.bottomRise}>
                 <div>
-                  <p>350%</p>
+                  <p>170 %</p>
                 </div>
                 <div>
                   <button>
@@ -108,11 +108,11 @@ function NewCTA() {
                   />
                 </div>
 
-                <p>Maximum Salary Hike</p>
+                <p>Hiring Partners</p>
               </div>
               <div className={style.bottomRise}>
                 <div>
-                  <p>350%</p>
+                  <p>400+</p>
                 </div>
                 <div>
                   <button>

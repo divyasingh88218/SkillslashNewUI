@@ -106,11 +106,11 @@ const Navbar = ({
               alt="Skillslash"
               quality={100}
               objectFit="contain"
-              width={mobile ? "140px" : "190px"}
+              width={mobile ? "140px" : "230px"}
               height="60px"
             />
           </a>
-          {/* <button
+          <button
             onMouseEnter={() => setIcon(true)}
             onMouseOver={() => setIcon(true)}
             onClick={() => {
@@ -125,8 +125,8 @@ const Navbar = ({
             ) : (
               <MdKeyboardArrowDown className={styles.bIcon} />
             )}
-          </button> */}
-          {/* {icon ? (
+          </button>
+          {icon ? (
             <div
               className="megaMenu"
               onMouseOver={() => setIcon(true)}
@@ -136,7 +136,7 @@ const Navbar = ({
             </div>
           ) : (
             ""
-          )} */}
+          )}
         </div>
         <div className={styles.right}>
           {event ? (
@@ -167,7 +167,9 @@ const Navbar = ({
               <span>
                 <a href="https://blog.skillslash.com/">Blog</a>
               </span>
-              <button onClick={popupShow}>Apply Now</button>
+              <button onClick={popupShow}>
+                Apply Now <MdOutlineArrowForward />
+              </button>
             </>
           )}
         </div>

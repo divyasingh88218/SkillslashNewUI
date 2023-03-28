@@ -7,7 +7,7 @@ const AnimateHeading = () => {
       <div className={styles.box}>
         <div className={styles.title}>
           <span className={styles.block}></span>
-          <h4>Advantages of Skillslash</h4>
+          <h4>Get Hired in 3 Simple Steps</h4>
         </div>
       </div>
     </div>

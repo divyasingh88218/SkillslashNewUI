@@ -2,16 +2,27 @@
   margin: 30px 100px;
   display: flex;
   padding: 30px 60px;
+  position: relative;
   flex-flow: column;
   align-items: center;
-  background: linear-gradient(267.43deg, #4f419a 2.26%, #705ded 99.67%);
+  background: linear-gradient(77.43deg, #4f419a 2.26%, #705ded 99.67%);
   border-radius: 40px;
+  overflow: hidden;
+}
+.imgWrap {
+  position: absolute;
+  left: -50px;
 }
 .contentGrid {
+  position: relative;
   display: grid;
   grid-template-columns: 27% 27% 27%;
   gap: 100px;
   margin-top: 50px;
+}
+.lineWrap {
+  position: absolute;
+  left: 16%;
 }
 .contentGrid div {
   display: flex;
@@ -34,55 +45,51 @@
   color: white;
   text-align: center;
 }
-.iconWrap{
+.iconWrap {
   padding: 0;
   margin: 0;
   display: flex;
 }
-.iconWrap li{
- 
+.iconWrap li {
   width: 60px;
   height: 60px;
   border-radius: 50%;
- display: flex;
+  display: flex;
   list-style: none;
   transition: all 0.5s;
   position: relative;
   align-items: center;
   justify-content: center;
 }
-.contentGrid div:nth-child(1) .iconWrap li{
-  color: #f18350;
- 
-  border: 3px solid #f18350;
-}
-.contentGrid div:nth-child(1) .iconWrap li::before{
-  background-color: #ffece3;
-  border-radius: 50%;
-  z-index: 0;
-  opacity: 1;
-  transform: scale(0.7);
-  
-}
-.contentGrid div:nth-child(3) .iconWrap li{
+.contentGrid div:nth-child(4) .iconWrap li {
   color: #705ded;
- 
-  border: 3px solid #705ded;
 }
-.contentGrid div:nth-child(3) .iconWrap li::before{
+.contentGrid div:nth-child(4) .iconWrap li::before {
   background-color: #edeaff;
   border-radius: 50%;
   z-index: 0;
   opacity: 1;
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
-.contentGrid div:nth-child(2) .iconWrap li{
+.contentGrid div:nth-child(3) .iconWrap li {
   color: #00aa50;
- 
+
   border: 3px solid #00aa50;
 }
-.contentGrid div:nth-child(2) .iconWrap li::before{
+.contentGrid div:nth-child(3) .iconWrap li::before {
   background-color: #eafff4;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 1;
+  transform: scale(0.9);
+}
+.contentGrid div:nth-child(2) .iconWrap li {
+  color: white;
+
+  border: 4px solid white;
+}
+.contentGrid div:nth-child(2) .iconWrap li::before {
+  background-color: transparent;
   border-radius: 50%;
   z-index: 0;
   opacity: 1;
@@ -95,17 +102,17 @@
   z-index: 1;
 }
 
-.iconWrap li:before{
-  content: '';
+.iconWrap li:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: all 0.5s; 
+  transform: all 0.5s;
 }
-.iconWrap li:after{
-  content: '';
+.iconWrap li:after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -113,23 +120,22 @@
   height: 100%;
   opacity: 0;
   border-radius: 50%;
-  transform: all 0.5s; 
-  border:  2px dashed white;
+  transform: all 0.5s;
+  border: 2px dashed white;
   box-sizing: border-box;
-  
 }
 
 @keyframes rotating {
-  0%{
+  0% {
     transform: scale(0.92) rotate(0deg);
   }
 
-  100%{
+  100% {
     transform: scale(0.92) rotate(360deg);
   }
 }
 
-.iconWrap li:after{
+.iconWrap li:after {
   opacity: 1;
   animation: rotating 10s linear infinite;
 }

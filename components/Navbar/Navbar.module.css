@@ -8,6 +8,8 @@
   height: 70px;
   padding: 0px 50px;
   display: flex;
+  z-index: 999;
+  position: sticky;
   align-items: center;
   justify-content: space-between;
 }
@@ -302,16 +304,7 @@
 
     gap: 0px;
   }
-  .ham {
-    display: inline;
-    justify-self: flex-start;
-    color: #4f419a;
-    cursor: pointer;
-    font-size: 24px;
-    margin-right: 10px;
-    margin-left: 5px;
-    margin-top: -5px;
-  }
+
   .left button {
     padding: 8px 10px;
     outline: none;

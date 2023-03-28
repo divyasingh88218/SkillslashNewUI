@@ -35,17 +35,17 @@
   padding: 20px;
 }
 .imageWrapper {
-  z-index: 0;
+  z-index: -0 !important;
 }
 .infoSection {
   padding: 20px;
-  margin-top: -8px;
+  margin-top: -10px;
   padding-top: 35px;
   display: flex;
   flex-flow: column;
   gap: 7px;
   width: 99%;
-  z-index: 1;
+  z-index: 99 !important;
   box-shadow: 0px 0px 17px -2px rgba(4, 135, 217, 0.25);
 }
 
@@ -57,7 +57,7 @@
 }
 
 .infoSection h4 {
-  color: #f18350 !important;
+  color: #4f419a !important;
   font-size: 29px;
 }
 
@@ -175,13 +175,13 @@
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .rise1 {
-  background-color: #00aa50;
+  background-color: #c4bbff;
 }
 .rise2 {
-  background-color: #f18350;
+  background-color: #c4bbff;
 }
 .rise3 {
-  background-color: #705ded;
+  background-color: #c4bbff;
 }
 .rise1 .top,
 .rise2 .top,
@@ -193,31 +193,30 @@
   justify-content: space-between;
 }
 
-.rise1 p,
 .rise2 p,
+.rise1 p,
 .rise3 p {
   font-size: 24px;
   font-weight: 500;
-  color: white;
+  color: #4f419a;
 }
-
 .rise1 .imgWrapper,
 .rise2 .imgWrapper,
 .rise3 .imgWrapper {
   width: max-content;
   height: max-content;
 
-  padding: 5px;
+  padding: 5px 8px;
   border-radius: 3px;
 }
 .rise1 .imgWrapper {
-  background-color: #029346;
+  background-color: #4f419a;
 }
 .rise2 .imgWrapper {
-  background-color: #d36532;
+  background-color: #4f419a;
 }
 .rise3 .imgWrapper {
-  background-color: #604fcf;
+  background-color: #4f419a;
 }
 .bottomRise {
   display: flex;
@@ -243,10 +242,10 @@
   color: #00aa50;
 }
 .rise2 .bottomRise button {
-  color: #d36532;
+  color: #00aa50;
 }
 .rise3 .bottomRise button {
-  color: #705ded;
+  color: #00aa50;
 }
 
 .triIcon {

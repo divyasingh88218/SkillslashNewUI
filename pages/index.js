@@ -77,9 +77,6 @@ export default function Home() {
           <h4 className={styles.ExploreH}>Explore Our Courses</h4>
           <Tabs />
         </div>
-        <div className={styles.advantage}>
-          <NewCTA />
-        </div>
 
         <div className={styles.advantage}>
           <Hiring />
@@ -91,6 +88,9 @@ export default function Home() {
           desc="Our courses are designed for both students and working professionals. Hear from our students to know more."
         />
         <OurEvents />
+        <div className={styles.advantage}>
+          <NewCTA />
+        </div>
         <Footer />
       </div>
     </>

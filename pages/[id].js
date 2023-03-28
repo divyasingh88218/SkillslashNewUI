@@ -36,6 +36,7 @@ import FloatIcon from "../components/Floticon/FloatIcon";
 
 export default function Home({ DataScienceCourseData }) {
   const [popups, setPopups] = useState(false);
+  const [mobile, setMobile] = useState(false);
   const redirectDs = DataScienceCourseData.data.form.dataScience;
   const redirectFs = DataScienceCourseData.data.form.FullStack;
   const redirectDSA = DataScienceCourseData.data.form.dsa;
@@ -58,7 +59,13 @@ export default function Home({ DataScienceCourseData }) {
   const cta = useRef();
   const today = new Date();
   //active navbar state useEffect
+  useEffect(() => {
+    let width = window.innerWidth;
 
+    if (width < 481) {
+      setMobile(true);
+    }
+  });
   useEffect(() => {
     const fetchPopup = async () => {
       const data = await fetch("/api/v1/fetchPopup", {
@@ -162,27 +169,32 @@ export default function Home({ DataScienceCourseData }) {
         redirectBl={DataScienceCourseData.data.form.blockchain}
         redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
       />
-      <SecondNavbar
-        getHired={getHired}
-        trainer={trainer}
-        dataScience={false}
-        benefits={benefits}
-        certificate={certificate}
-        syllabus={syllabus}
-        project={project}
-        review={review}
-        fee={fee}
-        course={true}
-        batchDate={batchDate}
-        faq={faq}
-        cta={cta}
-        redirectDs={DataScienceCourseData.data.form.dataScience}
-        redirectFs={DataScienceCourseData.data.form.FullStack}
-        redirectDe={DataScienceCourseData.data.form.DataEngineering}
-        redirectBl={DataScienceCourseData.data.form.blockchain}
-        redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-        redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-      />
+      {mobile ? (
+        ""
+      ) : (
+        <SecondNavbar
+          getHired={getHired}
+          trainer={trainer}
+          dataScience={false}
+          benefits={benefits}
+          certificate={certificate}
+          syllabus={syllabus}
+          project={project}
+          review={review}
+          fee={fee}
+          course={true}
+          batchDate={batchDate}
+          faq={faq}
+          cta={cta}
+          redirectDs={DataScienceCourseData.data.form.dataScience}
+          redirectFs={DataScienceCourseData.data.form.FullStack}
+          redirectDe={DataScienceCourseData.data.form.DataEngineering}
+          redirectBl={DataScienceCourseData.data.form.blockchain}
+          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+        />
+      )}
+
       {popupData != [] ? (
         today >= popupDate.startDate && today <= popupDate.endDate ? (
           <OfferPopup popupData={popupData} />
@@ -280,13 +292,20 @@ export default function Home({ DataScienceCourseData }) {
           usp3Span={DataScienceCourseData.data.FirstSection.usp3Span}
           usp4Span={DataScienceCourseData.data.FirstSection.usp4Span}
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            BatchDate={DataScienceCourseData.data.ProgramInfo.BatchDate}
-            BatchDuration={DataScienceCourseData.data.ProgramInfo.BatchDuration}
-            Placement={DataScienceCourseData.data.ProgramInfo.Placement}
-          />
-        </div>
+        {mobile ? (
+          ""
+        ) : (
+          <div className={styles.program}>
+            <ProgramInfo
+              BatchDate={DataScienceCourseData.data.ProgramInfo.BatchDate}
+              BatchDuration={
+                DataScienceCourseData.data.ProgramInfo.BatchDuration
+              }
+              Placement={DataScienceCourseData.data.ProgramInfo.Placement}
+            />
+          </div>
+        )}
+
         <div id="hired" ref={getHired}>
           <MGetHired
             heading1={DataScienceCourseData.data.GetHired.heading1}
@@ -314,27 +333,32 @@ export default function Home({ DataScienceCourseData }) {
             redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           />
         </div>
-        <div className="Feature" id="Feature" ref={benefits}>
-          <BoxShape
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBl={DataScienceCourseData.data.form.blockchain}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWd={DataScienceCourseData.data.form.webDevelopment}
-            title={DataScienceCourseData.data.BoxShape.title}
-            Box1h5={DataScienceCourseData.data.BoxShape.Box1h5}
-            box1desc={DataScienceCourseData.data.BoxShape.box1desc}
-            Box2h5={DataScienceCourseData.data.BoxShape.Box2h5}
-            box2desc={DataScienceCourseData.data.BoxShape.box2desc}
-            Box3h5={DataScienceCourseData.data.BoxShape.Box3h5}
-            box3desc={DataScienceCourseData.data.BoxShape.box3desc}
-            Box4h5={DataScienceCourseData.data.BoxShape.Box4h5}
-            box4desc={DataScienceCourseData.data.BoxShape.box4desc}
-          />
-        </div>
+        {mobile ? (
+          ""
+        ) : (
+          <div className="Feature" id="Feature" ref={benefits}>
+            <BoxShape
+              dataScience={false}
+              redirectDs={DataScienceCourseData.data.form.dataScience}
+              redirectFs={DataScienceCourseData.data.form.FullStack}
+              redirectDe={DataScienceCourseData.data.form.DataEngineering}
+              redirectBl={DataScienceCourseData.data.form.blockchain}
+              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+              redirectDSA={DataScienceCourseData.data.form.dsa}
+              redirectWd={DataScienceCourseData.data.form.webDevelopment}
+              title={DataScienceCourseData.data.BoxShape.title}
+              Box1h5={DataScienceCourseData.data.BoxShape.Box1h5}
+              box1desc={DataScienceCourseData.data.BoxShape.box1desc}
+              Box2h5={DataScienceCourseData.data.BoxShape.Box2h5}
+              box2desc={DataScienceCourseData.data.BoxShape.box2desc}
+              Box3h5={DataScienceCourseData.data.BoxShape.Box3h5}
+              box3desc={DataScienceCourseData.data.BoxShape.box3desc}
+              Box4h5={DataScienceCourseData.data.BoxShape.Box4h5}
+              box4desc={DataScienceCourseData.data.BoxShape.box4desc}
+            />
+          </div>
+        )}
+
         <div className={styles.ctaWrap}>
           <div className="bgWrap">
             <Image
@@ -491,9 +515,13 @@ export default function Home({ DataScienceCourseData }) {
         </div>
         <FloatIcon />
         <BottomBar changeBottom={true} />
-        <div className="cta" id="cta" ref={cta}>
-          <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
-        </div>
+        {mobile ? (
+          ""
+        ) : (
+          <div className="cta" id="cta" ref={cta}>
+            <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
+          </div>
+        )}
         <Footer />
       </div>
     </>

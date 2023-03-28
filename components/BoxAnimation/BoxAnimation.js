@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AnimateHeading from "../Animation/Text/AnimateHeading";
 import styles from "./BoxAnimation.module.css";
+import Image from "next/image";
 import { RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 const BoxAnimation = () => {
   const [animateHeader, setAnimateHeader] = useState(false);
@@ -17,9 +18,27 @@ const BoxAnimation = () => {
   }, []);
   return (
     <div className={styles.Wrapper}>
+      <div className={styles.imgWrap}>
+        <Image
+          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/skillslash-logo-faded.png"
+          width={198}
+          height={182}
+          layout="intrinsic"
+          alt="logo"
+        />
+      </div>
       {animateHeader ? <AnimateHeading /> : ""}
 
       <div className={styles.contentGrid}>
+        <div className={styles.lineWrap}>
+          <Image
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/line-home.png"
+            width={800}
+            height={69}
+            layout="intrinsic"
+            alt="logo"
+          />
+        </div>
         <div className={styles.first}>
           <ul className={styles.iconWrap}>
             <li>
