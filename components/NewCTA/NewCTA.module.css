@@ -2,17 +2,23 @@
   display: grid;
   grid-template-columns: 60% 38%;
   padding: 20px;
+  gap: 17px;
 }
 
 .mainHeading {
   display: flex;
   flex-flow: column;
-  gap: 15px;
+  gap: 18px;
 }
 .heading {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 11px;
+}
+
+.heading h4{
+  font-size: 30px;
+  line-height: 10px;
 }
 
 .mainHeading hr {
@@ -32,7 +38,7 @@
   /* display: flex;
  /* grid-template-columns: 40% 50%; */
   /* border: 2px solid black;  */
-  padding: 20px;
+  padding: 20px 0px;
 }
 .imageWrapper {
   z-index: -0 !important;
@@ -88,47 +94,7 @@
   }
 }
 
-.infoSection > button {
-  font-weight: 500;
-  font-size: 16px;
-  background-color: transparent;
-  color: #4f419a;
 
-  padding: 8px;
-  position: relative;
-  transition: all 0.2s;
-  overflow: hidden;
-  margin-bottom: 5px;
-}
-
-.infoSection button span {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  border: 2px solid black;
-  z-index: -1;
-}
-.infoSection button span:before {
-  content: "";
-  position: absolute;
-  width: 8%;
-  height: 500%;
-  background-color: red;
-  top: 50%;
-  left: 50%;
-  transition: all 0.2s;
-  transform: translate(-50%, -50%) rotate(-60%);
-}
-.infoSection button:hover span:before {
-  width: 100%;
-  background-color: black;
-}
-.infoSection button:hover {
-  color: white;
-}
 
 .infoSection img {
   width: 14px;
@@ -205,7 +171,6 @@
 .rise3 .imgWrapper {
   width: max-content;
   height: max-content;
-
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -239,15 +204,58 @@
   padding: 4px 8px;
 }
 .rise1 .bottomRise button {
-  color: #00aa50;
+  color: #4f419a;
 }
 .rise2 .bottomRise button {
-  color: #00aa50;
+  color: #4f419a;
 }
 .rise3 .bottomRise button {
-  color: #00aa50;
+  color: #4f419a;
 }
 
 .triIcon {
   font-size: 10px;
+}
+
+@media (max-width: 801px) {
+  
+  .mainHeading hr {
+  width: 214px;
+}
+.heading h4{
+  font-size: 25px;
+}
+.mainBlock {
+  display: flex;
+  flex-flow: column;
+  gap: 17px;
+}
+.rightBlock {
+  display: none;
+}
+.Content h4{
+  font-size: 28px;
+}
+.Content p{
+  font-size: 15px;
+}
+.top p{
+  font-size: 11px;
+}
+.rise1 .top,
+.rise2 .top,
+.rise3 .top {
+  gap: 19px;
+  justify-content:flex-start;
+}
+.bottomRise{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.bottomRise p{
+  margin: 5px 10px;
+  display: flex;
+  font-size: 15px;
+}
 }

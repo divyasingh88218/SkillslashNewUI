@@ -86,7 +86,7 @@ export default function Home() {
         <div className={styles.advantage}>
           <NewCTA />
         </div>
-        <NewPricingTable />
+
         <Footer />
       </div>
     </>
