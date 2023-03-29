@@ -7,7 +7,7 @@ const Hiring = () => {
     <div className={styles.HiringWrapper}>
       <div className="wrapperHeading">
         <hr />
-        <h4>Work on Live Projects to Get Hired at</h4>
+        <h4>Get Hired at</h4>
         <hr />
       </div>
       <div className={styles.imgWrapper}>

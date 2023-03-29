@@ -576,6 +576,22 @@ button {
     font-size: 24px;
   }
 }
+@media (max-width: 641px) {
+  h4 {
+    font-size: 22px;
+  }
+  .wrapperHeading h4 {
+    font-size: 24px;
+  }
+  .wrapperHeading hr {
+    min-width: 100px;
+    width: 134px;
+    height: 0;
+    background-color: #e2e2e2;
+    border: 1.5px solid #e2e2e2;
+    margin: 0;
+  }
+}
 @media (max-width: 481px) {
   h4 {
     font-size: 26px;
@@ -591,7 +607,13 @@ button {
   .pBot {
     font-size: 16px;
   }
-
+  .wrapperHeading h4 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .wrapperHeading hr {
+    width: 100px;
+  }
   h5 {
     font-size: 30px;
     margin: 0;

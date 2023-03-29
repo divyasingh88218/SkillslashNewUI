@@ -625,6 +625,16 @@
     align-items: center;
     color: white;
   }
+  .ExploreH {
+    font-size: 22px;
+  }
+  .secondSection,
+  .Explore,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 20px;
+  }
 }
 @media (max-width: 481px) {
   .ctaWrap {

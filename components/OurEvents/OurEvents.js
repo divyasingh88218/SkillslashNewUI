@@ -7,7 +7,7 @@ import Link from "next/link";
 const OurEvents = () => {
   return (
     <div className={style.wrapper}>
-      <div className={style.wrapperHeading}>
+      <div className="wrapperHeading">
         <hr />
         <h4>Our Events</h4>
         <hr />
