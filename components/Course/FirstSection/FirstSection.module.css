@@ -15,7 +15,8 @@
     color: white;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    font-size: 18px;
     font-weight: 500;
   }
   .uspFeatures {
@@ -59,13 +60,14 @@
     margin-top: 10px;
     font-weight: bold;
     padding: 0;
-    margin-bottom: 10px;
+
     color: #ffffff;
   }
   .pBot {
     margin-bottom: 22px;
     margin-top: 0px;
     font-size: 16px;
+    margin-right: 60px;
     color: #e0e0e0;
   }
   .btn1:hover,
@@ -571,6 +573,10 @@
 
     align-items: center;
     justify-content: space-evenly;
+  }
+  .left .imgWrap {
+    display: flex;
+    right: 7px;
   }
 
   .btnWrapper button {

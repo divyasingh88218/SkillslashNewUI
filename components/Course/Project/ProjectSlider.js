@@ -862,8 +862,8 @@ const ProjectSlider = ({
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp"
                     layout="intrinsic"
-                    width={107}
-                    height={40}
+                    width={70}
+                    height={26}
                     loading="lazy"
                   />
                 </div>
@@ -1018,8 +1018,8 @@ const ProjectSlider = ({
                   <h5>Amazon Food Reviews</h5>
                   <Image
                     src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png"
-                    width={133}
-                    height={40}
+                    width={93}
+                    height={28}
                     layout="intrinsic"
                     loading="lazy"
                   />

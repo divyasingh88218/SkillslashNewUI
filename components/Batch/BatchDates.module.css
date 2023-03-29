@@ -328,6 +328,9 @@
     background-color: #ecf3fe;
     color: #4f419a;
   }
+  .spanIcon {
+    color: white;
+  }
   .button,
   .activeButton {
     padding: 8px 15px;

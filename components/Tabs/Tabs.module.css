@@ -91,17 +91,17 @@
 
   border-radius: 19px;
 }
-.gridBox:hover{
+.gridBox:hover {
   transition: all 0.8s;
   transform: scale(1.05);
 }
-.gridBox:hover > .gridBtn{
-  color: #06AF56;
+.gridBox:hover > .gridBtn {
+  color: #06af56;
 }
-.gridInnerBox:hover .gridIcon{
+.gridInnerBox:hover .gridIcon {
   transition: all 0.5s;
   font-size: 32px;
-  color: #06AF56;
+  color: #06af56;
 }
 .gridImg {
   padding: 0;
@@ -120,7 +120,7 @@
 }
 .gridInnerBox {
   background: #ffffff;
-transition: all 0.5s;
+  transition: all 0.5s;
   border-radius: 19px;
   padding: 0px 15px 15px 15px;
   width: 100%;
@@ -153,7 +153,7 @@ transition: all 0.5s;
 .lines {
   border: 0.1px solid rgba(175, 175, 175, 0.118);
 }
-.btnWrap{
+.btnWrap {
   width: 100%;
   display: none;
 }
@@ -171,8 +171,8 @@ transition: all 0.5s;
   padding: 0;
   padding-top: 10px;
 }
-.gridBtn:hover{
-  color: #06AF56;
+.gridBtn:hover {
+  color: #06af56;
 }
 .gridIcon {
   color: #4f419a;
@@ -196,10 +196,8 @@ transition: all 0.5s;
     padding: 10px 20px;
   }
   .span:hover {
-
-  width: 250px;
-  
-}
+    width: 250px;
+  }
 
   .wrapper {
     margin-left: 15px;
@@ -219,6 +217,23 @@ transition: all 0.5s;
   }
   .gridInnerBox button {
     font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .span,
+  .spanActive {
+    width: 220px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .MenuTabs {
+    gap: 10px;
+  }
+  .gridWrap {
+    gap: 10px;
+  }
+  .span:hover {
+    width: 220px;
   }
 }
 @media (max-width: 961px) {

@@ -468,7 +468,7 @@
   .advantage,
   .stepsWrapper,
   .CWrap {
-    padding: 30px 0px;
+    padding: 30px 40px;
   }
   .cta {
     grid-template-columns: 49% 67%;
@@ -532,6 +532,15 @@
     font-size: 32px;
   }
 }
+@media (max-width: 1024px) {
+  .secondSection,
+  .Explore,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 30px;
+  }
+}
 @media (max-width: 961px) {
   .cta {
     background-size: cover;
@@ -552,7 +561,7 @@
     padding: 30px 20px;
   }
   .ExploreH {
-    font-size: 30px;
+    font-size: 27px;
   }
   .secondSection h4,
   .stepsWrapper h4 {

@@ -101,9 +101,9 @@ const FirstSection = ({
       <div className={styles.left}>
         <div className={styles.imgWrap}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
-            height={90}
-            width={90}
+            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mobile-white-microst-icon.png"
+            height={80}
+            width={80}
             layout="intrinsic"
           />
         </div>
@@ -121,8 +121,8 @@ const FirstSection = ({
           Powered by{" "}
           <Image
             src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white.webp"
-            height={21}
-            width={94}
+            height={26}
+            width={114}
             layout="intrinsic"
           />
         </p>

@@ -1,11 +1,11 @@
 .MegaMenu {
   display: grid;
-  position: relative;
-  grid-template-columns: 28% 47% 25%;
-  padding-left: 100px;
+  grid-template-columns: 28% 45% 25%;
+  padding: 0 100px;
   gap: 10px;
+  width: 100%;
   background-color: #f8f6ff;
-  padding-right: 100px;
+
   z-index: 999;
 }
 .leftSideMenu {
@@ -84,7 +84,8 @@
   align-items: center;
   cursor: pointer;
   position: relative;
-  box-shadow: 0px 0px 9px 2px rgba(79, 65, 154, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .mInnerBox:before {
@@ -99,6 +100,7 @@
   border-top: 2px solid #4f419a;
   border-left: 2px solid #4f419a;
   transition: all 1s;
+
   border-radius: 10px 0px 0px 0px;
 }
 
@@ -113,7 +115,7 @@
   font-size: 16px;
 }
 .mInnerBox h5:hover {
-  color: #f28705;
+  color: #4f419a;
 }
 .mInnerBox span {
   display: flex;
@@ -147,7 +149,7 @@
 }
 .rightSideMenu {
   padding-top: 35px;
-  padding-left: 20px;
+
   margin-bottom: 40px;
 }
 .flagB {

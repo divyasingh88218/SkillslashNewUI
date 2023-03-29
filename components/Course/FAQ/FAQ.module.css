@@ -84,40 +84,37 @@
 }
 @media (max-width: 1281px) {
   .FAQ {
-    margin: 0px ;
+    margin: 0px;
   }
   .FAQ h4 {
     font-size: 30px;
-
-
   }
 }
 
 @media (max-width: 1024px) {
   .headWrap {
-  padding: 20px 40px;
+    padding: 20px 40px;
   }
   .quesWrap {
-  margin: 0px 60px;
-
-}
+    margin: 0px 60px;
+  }
 }
 @media (max-width: 641px) {
   .FAQ h4 {
     font-size: 24px;
-    margin-bottom:0px !important;
+    margin-bottom: 0px !important;
   }
-
 }
 @media (max-width: 481px) {
-   .FAQ {
-    margin: 30px ;
+  .FAQ {
+    margin: 30px;
   }
   .headWrap {
-  padding: 20px 30px;}
+    padding: 20px 30px;
+  }
   .quesWrap {
-  margin: 0px 0px;
-}
+    margin: 0px 0px;
+  }
   .ans {
     margin-bottom: 20px;
   }
@@ -132,5 +129,13 @@
   }
   .quesO {
     height: max-content;
+  }
+  .ques h2,
+  .quesO h2 {
+    font-size: 16px;
+    margin: 0;
+
+    font-weight: 400;
+    color: 000;
   }
 }
