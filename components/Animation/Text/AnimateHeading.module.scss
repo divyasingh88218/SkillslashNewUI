@@ -67,3 +67,14 @@
     opacity: 1;
   }
 }
+@media (max-width: 1281px) {
+  .container {
+    .box {
+      .title {
+        h4 {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+}

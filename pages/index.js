@@ -11,8 +11,9 @@ import BoxAnimation from "../components/BoxAnimation/BoxAnimation";
 import ProgramInfo from "../components/Course/ProgramInfo/ProgramInfo";
 import Hiring from "../components/Hiring/Hiring";
 import OurEvents from "../components/OurEvents/OurEvents";
-import NewCTA from "../components/NewCTA/NewCTA";
-import NewPricingTable from "../components/Course/NewPricingTable/NewPricingTable";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import Image from "next/image";
+import CTA from "../components/CTA/CTA";
 
 export default function Home() {
   const [popupData, setPopupData] = useState([]);
@@ -20,6 +21,7 @@ export default function Home() {
     startDate: "",
     endDate: "",
   });
+  const [popups, setPopups] = useState(false);
   const today = new Date();
   useEffect(() => {
     const fetchPopup = async () => {
@@ -45,6 +47,9 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <>
       <Navbar course={false} />
@@ -83,10 +88,41 @@ export default function Home() {
           desc="Our courses are designed for both students and working professionals. Hear from our students to know more."
         />
         <OurEvents />
-        <div className={styles.advantage}>
-          <NewCTA />
+        <div className={styles.ctaWrap}>
+          <div className="bgWrap">
+            <Image
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/New-cta-background-section.webp"
+              layout="fill"
+              loading="lazy"
+            />
+          </div>
+          <div className={styles.cta}>
+            <div></div>
+            <div className={styles.left}>
+              <Image
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/CTAimg.webp"
+                layout="intrinsic"
+                width={410}
+                height={333}
+                loading="lazy"
+              />
+            </div>
+            <div className={styles.right}>
+              <h5>
+                Having Doubts? <br />
+                Talk with our Experts
+              </h5>
+              <p>
+                Enroll in our software development course to cope with the
+                advancements in Web Development training. If you are
+                concentrating on a career transition, check your eligibility.
+              </p>
+              <button onClick={popupShow}>
+                Enquire Now <BsFillArrowRightCircleFill />
+              </button>
+            </div>
+          </div>
         </div>
-
         <Footer />
       </div>
     </>

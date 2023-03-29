@@ -96,12 +96,12 @@
   transform: scale(1.05);
 }
 .gridBox:hover > .gridBtn {
-  color: #06af56;
+  color: black;
 }
 .gridInnerBox:hover .gridIcon {
   transition: all 0.5s;
   font-size: 32px;
-  color: #06af56;
+  color: black;
 }
 .gridImg {
   padding: 0;
@@ -172,7 +172,7 @@
   padding-top: 10px;
 }
 .gridBtn:hover {
-  color: #06af56;
+  color: black;
 }
 .gridIcon {
   color: #4f419a;

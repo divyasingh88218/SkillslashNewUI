@@ -26,8 +26,7 @@ const OurEvents = () => {
           <div className={style.bottomBtn}>
             <Link href="/">
               <div className={style.LearnMore}>
-                <IoCallSharp />
-                <p>Learn More</p>
+                <p>Register Now</p>
               </div>
             </Link>
             {/* <p>Register</p> */}
@@ -45,8 +44,7 @@ const OurEvents = () => {
           <div className={style.bottomBtn}>
             <Link href="/">
               <div className={style.LearnMore}>
-                <IoCallSharp />
-                <p>Learn More</p>
+                <p>Register Now</p>
               </div>
             </Link>
             {/* <p>Register</p> */}
@@ -64,8 +62,7 @@ const OurEvents = () => {
           <div className={style.bottomBtn}>
             <Link href="/">
               <div className={style.LearnMore}>
-                <IoCallSharp />
-                <p>Learn More</p>
+                <p>Register Now</p>
               </div>
             </Link>
             {/* <p>Register</p> */}

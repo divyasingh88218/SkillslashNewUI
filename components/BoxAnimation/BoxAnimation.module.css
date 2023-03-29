@@ -22,7 +22,14 @@
 }
 .lineWrap {
   position: absolute;
-  left: 16%;
+  height: 50px;
+  left: 0%;
+  margin: 0px 90px;
+  top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
 }
 .contentGrid div {
   display: flex;
@@ -140,4 +147,26 @@
   animation: rotating 10s linear infinite;
 }
 @media (max-width: 1281px) {
+  .Wrapper {
+    margin: 30px 70px;
+    display: flex;
+    padding: 30px 40px;
+    position: relative;
+    flex-flow: column;
+    align-items: center;
+    background: linear-gradient(77.43deg, #4f419a 2.26%, #705ded 99.67%);
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  .contentGrid {
+    gap: 70px;
+    grid-template-columns: 29% 29% 29%;
+  }
+  .contentGrid div h5 {
+    font-size: 18px;
+  }
+  .lineWrap {
+    width: 100%;
+    top: 30px;
+  }
 }

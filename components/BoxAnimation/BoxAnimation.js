@@ -33,9 +33,7 @@ const BoxAnimation = () => {
         <div className={styles.lineWrap}>
           <Image
             src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/line-home.png"
-            width={800}
-            height={69}
-            layout="intrinsic"
+            layout="fill"
             alt="logo"
           />
         </div>
