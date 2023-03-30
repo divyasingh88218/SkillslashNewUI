@@ -4,9 +4,12 @@
   align-items: center;
   justify-content: center;
   margin: 0px 0px;
-  padding: 0px 40px;
+  padding: 40px 40px 0px;
 }
-
+.LearnMore p{
+  cursor: pointer;
+  color: #4f4194;
+}
 .wrapperHeading {
   display: flex;
   align-items: center;
@@ -80,21 +83,22 @@
   .wrapperBlock1,
   .wrapperBlock2,
   .wrapperBlock3 {
-    padding: 30px 30px 10px 30px;
+    padding: 20px 20px 10px 20px;
   }
 }
 
 @media (max-width: 481px) {
   .wrapperBlock {
-    gap: 7px;
+    gap: 30px;
     display: flex;
+margin-bottom: 30px;
     flex-flow: column;
   }
 
   .wrapperBlock1,
   .wrapperBlock2,
   .wrapperBlock3 {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 10px 20px;
   }
   .wrapperHeading h4 {
     font-size: 14px;

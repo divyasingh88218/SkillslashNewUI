@@ -50,7 +50,7 @@
   box-shadow: -14px 0px 40px -14px rgba(242, 136, 32, 0.25);
   border-radius: 12px;
   padding: 20px;
-  border-left: 4px solid #f28705;
+  border-left: 4px solid #4F419A;
 }
 .infoRightSide h5 {
   font-size: 20px;
@@ -58,7 +58,7 @@
   margin: 0;
 }
 .info:nth-child(2) .infoRightSide h5 {
-  color: #f28705;
+  color: #4F419A;
 }
 .infoRightSide p {
   margin: 0;
@@ -82,7 +82,7 @@
 .MailIcon {
   font-size: 60px;
   margin-right: 10px;
-  background-color: #f28705;
+  background-color: #4F419A;
   color: #ffffff;
   border-radius: 50%;
   padding: 10px;
@@ -153,16 +153,16 @@
   border-radius: 25px;
 }
 .LocationBox:nth-child(2) {
-  border-bottom: 5px solid #f28705;
+  border-bottom: 5px solid #4F419A;
   box-shadow: 12px 12px 24px -1px rgba(242, 135, 5, 0.1);
   border-radius: 25px;
 }
 .LocationBox:nth-child(2) .top {
-  background-color: #fef9f4;
+  background-color: #f9f8ff;
 }
 
 .top {
-  background-color: #f2f9fd;
+  background-color: #f9f8ff;
   height: 150px;
   border-radius: 25px 25px 0px 0px;
   display: flex;
@@ -190,11 +190,11 @@
   cursor: pointer;
 }
 .IconPara:hover {
-  color: #f28705;
+  color: #4F419A;
 }
 .LocationBox:nth-child(2) .bottom h5 {
-  color: #f28705;
-  border-bottom: 3px solid #f2870546;
+  color: #4F419A;
+  border-bottom: 3px solid #4F419A46;
 }
 @media (max-width: 1281px) {
   .Contact {

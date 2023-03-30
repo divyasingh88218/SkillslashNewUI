@@ -6,10 +6,12 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import { FaAward } from "react-icons/fa";
 import TextAnimation from "../../Animation/TextAnimation";
-
+import { BsArrowRightShort, BsPlayFill } from "react-icons/bs";
+import VideoPopup from "../../VideoPopup/VideoPopup";
 const FirstSection = ({
   deskTopPara,
   title,
+  homePage,
   spanTitleText,
   desc,
   dataScience,
@@ -57,8 +59,19 @@ const FirstSection = ({
       setMobile(true);
     }
   });
+  const [video, setVideo] = useState(false);
+
+  const videoSHow = () => {
+    setVideo(true);
+  };
   return (
     <section className={styles.wrapper}>
+      {homePage ? (
+        <VideoPopup triggers={video} setTriggers={setVideo} ids="512xWUs9uXs" />
+      ) : (
+        ""
+      )}
+
       {tablet ? (
         ""
       ) : (
@@ -109,40 +122,80 @@ const FirstSection = ({
         </div>
         <div className={styles.paraWrap}>
           <p className={styles.pTop}>{deskTopPara}</p>
-          <p className={styles.sidePara}>
-            {mobile ? "" : <FaAward />}
+          {homePage ? (
+            ""
+          ) : (
+            <p className={styles.sidePara}>
+              {mobile ? "" : <FaAward />}
 
-            {spanTitleText}
+              {spanTitleText}
+            </p>
+          )}
+        </div>
+
+        {homePage ? (
+          <h1 className={styles.homeH1}>
+            Project Based Experiential
+            <br /> Learning Platform
+          </h1>
+        ) : (
+          <h1>{title}</h1>
+        )}
+        {homePage ? (
+          ""
+        ) : (
+          <p className={styles.powered}>
+            Powered by{" "}
+            <Image
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white.webp"
+              height={26}
+              width={114}
+              layout="intrinsic"
+            />
           </p>
-        </div>
+        )}
 
-        <h1>{title}</h1>
-        <p className={styles.powered}>
-          Powered by{" "}
-          <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white.webp"
-            height={26}
-            width={114}
-            layout="intrinsic"
-          />
-        </p>
-        <p className={styles.pBot}>{desc}</p>
+        {homePage ? (
+          <p className={styles.pBotM}>
+            Get real work experience and certifications. Learn from industry
+            experts and get placed in top product companies!
+          </p>
+        ) : (
+          <p className={styles.pBot}>{desc}</p>
+        )}
+
         {tablet ? "" : <TextAnimation />}
-        <div className={styles.btnWrapper}>
-          <button
-            onClick={() => popupShow(true, false)}
-            className={styles.btn2}
-          >
-            <AiOutlineDownload className={styles.download} />
-            Program Handbook
-          </button>
-          <button
-            onClick={() => popupShow(false, true)}
-            className={styles.btn1}
-          >
-            Demo Class
-          </button>
-        </div>
+        {homePage ? (
+          <div className={styles.btnWrapper}>
+            <a href="#explore">
+              <button>
+                Explore Courses
+                <BsArrowRightShort className="bIconS" />
+              </button>
+            </a>
+            <span>
+              <BsPlayFill className={styles.playIcon} onClick={videoSHow} />
+              <p onClick={videoSHow}>Intro Video</p>
+            </span>
+          </div>
+        ) : (
+          <div className={styles.btnWrapper}>
+            <button
+              onClick={() => popupShow(true, false)}
+              className={styles.btn2}
+            >
+              <AiOutlineDownload className={styles.download} />
+              Program Handbook
+            </button>
+            <button
+              onClick={() => popupShow(false, true)}
+              className={styles.btn1}
+            >
+              Demo Class
+            </button>
+          </div>
+        )}
+
         <div className={styles.uspFeatures}>
           <div className={styles.left}>
             <div className={styles.uspFeatures1}>
@@ -207,15 +260,20 @@ const FirstSection = ({
         </div>
       </div>
       <div className={styles.right}>
-        <div className={styles.imgWrap}>
-          <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
-            height={90}
-            width={90}
-            layout="intrinsic"
-          />
-        </div>
-        {redirectDs || redirectFs || redirectDSA ? (
+        {homePage ? (
+          ""
+        ) : (
+          <div className={styles.imgWrap}>
+            <Image
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
+              height={90}
+              width={90}
+              layout="intrinsic"
+            />
+          </div>
+        )}
+
+        {redirectDs || redirectFs || redirectDSA || homePage ? (
           <div className={styles.imgWrapper}>
             <Image
               src={mainHeaderImg}
@@ -236,7 +294,7 @@ const FirstSection = ({
             height={height}
           />
         )}
-        {redirectWeb ? (
+        {redirectWeb || homePage ? (
           ""
         ) : (
           <img

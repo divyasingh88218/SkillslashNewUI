@@ -2,7 +2,7 @@ import React from "react";
 import style from "./NewCTA.module.css";
 import Image from "next/image";
 import { TiTick } from "react-icons/ti";
-import { BsFillTriangleFill } from "react-icons/bs";
+import { BsFillTriangleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 import { IoMdCall } from "react-icons/io";
 
 function NewCTA() {
@@ -37,6 +37,7 @@ function NewCTA() {
               <TiTick />
               Implement what you Learn.
             </p>
+            <BsFillArrowRightCircleFill className={style.arrow} />
           </div>
 
           <div className={style.subContent}>

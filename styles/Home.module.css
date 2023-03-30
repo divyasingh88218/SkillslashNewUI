@@ -464,11 +464,14 @@
 /* -----------------------FORM ANIMATION END-------------------------------*/
 @media (max-width: 1281px) {
   .secondSection,
-  .Explore,
+  
   .advantage,
   .stepsWrapper,
   .CWrap {
     padding: 30px 40px;
+  }
+  .Explore{
+    padding: 30px 40px 0px 40px;
   }
   .cta {
     grid-template-columns: 49% 67%;
@@ -544,6 +547,11 @@
 @media (max-width: 961px) {
   .cta {
     background-size: cover;
+    display: grid;
+    grid-template-columns: 100% ;}
+    
+   .cta .left {
+    display: none !important;
   }
   .cta h6 {
     font-size: 18px;
@@ -578,6 +586,13 @@
     gap: 30px;
     flex-wrap: wrap;
   }
+   .cta {
+    display: grid;
+    grid-template-columns: 100% ;}
+   .cta .left {
+    display: none !important;
+  }
+
   .cta button {
     font-size: 14px;
     padding: 10px 18px;
@@ -588,19 +603,11 @@
 }
 @media (max-width: 641px) {
   .cta {
-    display: flex;
-    flex-flow: column;
-    border-radius: 25px;
-    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/CTA_section.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    gap: 10px;
-    background-size: contain;
-    padding: 60px 70px;
-    align-items: flex-start;
-    margin: 0;
-    margin: 70px 10px;
+    display: grid;
+    grid-template-columns: 100% ;}
+   .cta .left {
+    display: none !important;
+  
   }
   .cta h6 {
     font-size: 22px;
@@ -635,25 +642,27 @@
   .CWrap {
     padding: 20px;
   }
+   .cta .right h5 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .cta p {
+    font-size: 15px;
+    padding-left: 0px;
+    
+  }
 }
 @media (max-width: 481px) {
   .ctaWrap {
-    display: none;
+    display: flex;
+    margin: 30px;
   }
   .cta {
-    display: flex;
-    flex-flow: column;
-    border-radius: 25px;
-    background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/CTA_section.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    gap: 10px;
-    background-size: cover;
-    padding: 60px 10px;
-    align-items: center;
-    margin: 0;
-    margin: 70px 10px;
+    display: grid;
+    grid-template-columns: 100% ;}
+   .cta .left {
+    display: none !important;
+  
   }
   .cta h6 {
     font-size: 22px;
@@ -662,9 +671,9 @@
     margin-right: 120px;
   }
   .cta p {
-    font-size: 18px;
-    padding-left: 10px;
-    line-height: 25px;
+    font-size: 12px;
+    
+    line-height: 16px;
   }
   .ctaBot {
     margin-bottom: 20px;
