@@ -32,6 +32,10 @@ const ProjectSlider = ({
   useEffect(() => {
     let width = window.innerWidth;
 
+    if (width < 1281) {
+      setSlidesPerView(4);
+      setSpaceBetween(20);
+    }
     if (width < 801) {
       setSlidesPerView(2);
       setSpaceBetween(20);

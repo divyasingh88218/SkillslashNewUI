@@ -571,6 +571,7 @@ const Tabs = () => {
             ) : (
               ""
             )}
+
             {nonTech ? (
               <div className={styles.gridWrap}>
                 <Link href="/full-stack-developer-course">

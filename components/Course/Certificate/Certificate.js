@@ -174,18 +174,18 @@ const Certificate = ({
             <div className={styles.btRight}>
               <div className={styles.desc}>
                 <h4>Microsoft Certification</h4>
-                <p>Get certificate directly from Microsoft</p>
+                <p>Be in demand with Microsoft certification</p>
                 <p className={styles.point}>
-                  <BsCheck2Circle className={styles.check} /> Become a
-                  Microsoft-certified professional
+                  <BsCheck2Circle className={styles.check} />
+                  Be certified in Azure AI Fundamentals
                 </p>
                 <p className={styles.point}>
                   <BsCheck2Circle className={styles.check} />
-                  Receive real-work certification to prove credibility
+                  Be ahead of those who don’t have one
                 </p>
                 <p className={styles.point}>
-                  <BsCheck2Circle className={styles.check} /> World-class
-                  training from top-notch faculties
+                  <BsCheck2Circle className={styles.check} /> Earn the
+                  credibility of a true professional
                 </p>
               </div>
             </div>
@@ -193,18 +193,18 @@ const Certificate = ({
           <div className={styles.bottom}>
             <div className={styles.desc}>
               <h4>Real Work Experience Certificate</h4>
-              <p>Get real work experience certificate from tech companies</p>
+              <p>Real work experience gives you the Real edge</p>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} /> Become a
-                Microsoft-certified professional
+                <BsCheck2Circle className={styles.check} /> Project
+                certification from top MNCs to gain that edge
               </p>
               <p className={styles.point}>
                 <BsCheck2Circle className={styles.check} />
-                Receive real-work certification to prove credibility
+                Practical experience to tackle real-world problems
               </p>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} /> World-class training
-                from top-notch faculties
+                <BsCheck2Circle className={styles.check} />
+                Edge over all those with just course certifications
               </p>
             </div>
             <div className={styles.btRight}>

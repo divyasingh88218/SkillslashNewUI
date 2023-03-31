@@ -135,7 +135,7 @@ const FirstSection = ({
 
         {homePage ? (
           <h1 className={styles.homeH1}>
-            Project Based Experiential
+            Experiential Project-Based
             <br /> Learning Platform
           </h1>
         ) : (
@@ -157,8 +157,9 @@ const FirstSection = ({
 
         {homePage ? (
           <p className={styles.pBotM}>
-            Get real work experience and certifications. Learn from industry
-            experts and get placed in top product companies!
+            Enjoy the benefits of dual certification. Become Microsoft-certified
+            with our program and also receive real-work certification from
+            another top MNC/Startups
           </p>
         ) : (
           <p className={styles.pBot}>{desc}</p>

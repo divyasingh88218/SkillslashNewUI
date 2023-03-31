@@ -45,8 +45,8 @@ const BoxAnimation = () => {
           </ul>
           <h5>Acquire Expertise</h5>
           <p>
-            Attend our live interactive sessions led by industry veterans to
-            enjoy an immersive learning experience
+            Attend live sessions led by industry veterans for an immersive
+            experience that builds your expertise.
           </p>
         </div>
         <div className={styles.second}>
@@ -57,8 +57,8 @@ const BoxAnimation = () => {
           </ul>
           <h5>Build Relevant Experience</h5>
           <p>
-            Our mentors will guide you to select relevant domains based on your
-            prior experience and work on live projects to build expertise
+            Mentors help you select the domain and guide you through live
+            projects to build relevant expertise.
           </p>
         </div>
         <div className={styles.third}>
@@ -69,8 +69,8 @@ const BoxAnimation = () => {
           </ul>
           <h5> Get Hired</h5>
           <p>
-            Leverage the acquired expertise and experience to interview for your
-            targeted roles and clear them with confidence
+            Build confidence to ace major interviews by attending sessions and
+            working on real-work projects.
           </p>
         </div>
       </div>

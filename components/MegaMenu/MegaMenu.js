@@ -431,7 +431,7 @@ const MegaMenu = ({ handleIcon }) => {
       </div>
 
       <div className={styles.rightSideMenu}>
-        <h6>Our Flagship Program</h6>
+        <h6>Microsoft Certified Program</h6>
         <a href="/advanced-data-science-and-ai-course-with-real-work-experience">
           <div className={styles.flagB} onClick={() => handleIcon(false)}>
             <div className={styles.left}>
@@ -457,7 +457,7 @@ const MegaMenu = ({ handleIcon }) => {
             layout="intrinsic"
             loading="lazy"
           />
-          <button className={styles.NavBtn}>START FOR FREE</button>
+          {/* <button className={styles.NavBtn}>START FOR FREE</button> */}
         </div>
       </div>
     </div>

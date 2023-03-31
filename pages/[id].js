@@ -395,9 +395,10 @@ export default function Home({ DataScienceCourseData }) {
                 Talk with our Experts
               </h5>
               <p>
-                Enroll in our software development course to cope with the
-                advancements in Web Development training. If you are
-                concentrating on a career transition, check your eligibility.
+                Elevate your career with our courses - gain the skills and
+                knowledge that will set you apart and propel you toward success.
+                Check your eligibility now and enroll today. Let's make your
+                career dreams a reality.
               </p>
               <button onClick={popupShow}>
                 Enquire Now <BsFillArrowRightCircleFill />
