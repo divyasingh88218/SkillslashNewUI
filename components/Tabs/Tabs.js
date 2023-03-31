@@ -374,89 +374,6 @@ const Tabs = () => {
             ) : (
               ""
             )}
-            {mobile ? (
-              <span
-                key={TabData[3].id}
-                id="2"
-                onClick={() => {
-                  setOneYear(false);
-                  setViewAll(false);
-                  setManager(true);
-                  setNonTech(false);
-                }}
-                className={manager ? styles.spanActive : styles.span}
-              >
-                <span>
-                  <SiChainlink
-                    className={
-                      manager ? styles.ActiveSpanIcon : styles.spanIcon
-                    }
-                  />
-                  {TabData[3].title}
-                </span>
-
-                <IoIosArrowDown />
-              </span>
-            ) : (
-              <span
-                key={TabData[3].id}
-                id="2"
-                onClick={() => {
-                  setOneYear(false);
-                  setViewAll(false);
-                  setManager(true);
-                  setNonTech(false);
-                }}
-                className={manager ? styles.spanActive : styles.span}
-              >
-                <span>
-                  <SiChainlink
-                    className={
-                      manager ? styles.ActiveSpanIcon : styles.spanIcon
-                    }
-                  />
-                  {TabData[3].title}
-                </span>
-                <IoIosArrowForward />
-              </span>
-            )}
-            {manager ? (
-              <div className={styles.gridWrap}>
-                <Link href="/block-chain-course">
-                  <div className={styles.gridBox}>
-                    <div className={styles.gridImg}>
-                      <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Block_chain_course-Banner.webp"
-                        className={styles.gridBanner}
-                      />
-                    </div>
-                    <div className={styles.gridInnerBox}>
-                      <h4>Blockchain program and certification</h4>
-                      <div className={styles.lines}></div>
-                      <span>
-                        <BsCheck className={styles.gridIcon} />5 Months
-                      </span>
-                      <span>
-                        <BsCheck className={styles.gridIcon} />
-                        8+ Industry Projects
-                      </span>
-                      <span>
-                        <BsCheck className={styles.gridIcon} />
-                        EMI @INR 5801/month
-                      </span>
-                      <div className={styles.line}></div>
-                      <Link href="/block-chain-course">
-                        <button className={styles.gridBtn}>View Program</button>
-                      </Link>
-                    </div>
-                  </div>
-                </Link>
-                <div className={styles.gridBox}></div>
-                <div className={styles.gridBox}></div>
-              </div>
-            ) : (
-              ""
-            )}
           </>
         </div>
         {mobile ? (
@@ -469,11 +386,10 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ds.webp"
                         className={styles.gridBanner}
                       />
                     </div>
-
                     <div className={styles.gridInnerBox}>
                       <h4>Advanced Data Science and AI Course</h4>
                       <div className={styles.lines}></div>
@@ -499,7 +415,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -529,7 +445,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Full-stack-course-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -566,7 +482,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ds.webp"
                         className={styles.gridBanner}
                       />
                     </div>
@@ -632,7 +548,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Full-stack-course-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -659,43 +575,43 @@ const Tabs = () => {
                     </div>
                   </div>
                 </Link>
-              </div>
-            ) : (
-              ""
-            )}
-            {manager ? (
-              <div className={styles.gridWrap}>
-                <Link href="/block-chain-course">
+                <div
+                  className={styles.gridBox}
+                  style={{ display: "none" }}
+                ></div>
+                <Link href="/full-stack-developer-course">
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Block_chain_course-Banner.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
                         className={styles.gridBanner}
+                        loading="lazy"
                       />
                     </div>
                     <div className={styles.gridInnerBox}>
-                      <h4>Blockchain program and certification</h4>
+                      <h4>
+                        Full Stack Web Development Course With Certification
+                      </h4>
                       <div className={styles.lines}></div>
                       <span>
-                        <BsCheck className={styles.gridIcon} />5 Months
+                        <BsCheck className={styles.gridIcon} />
+                        10 Months
                       </span>
                       <span>
                         <BsCheck className={styles.gridIcon} />
-                        8+ Industry Projects
+                        5+ Industry Projects
                       </span>
                       <span>
                         <BsCheck className={styles.gridIcon} />
-                        EMI @INR 5801/month
+                        EMI @INR 4916/month
                       </span>
                       <div className={styles.line}></div>
-                      <Link href="/block-chain-course">
+                      <Link href="/full-stack-developer-course">
                         <button className={styles.gridBtn}>View Program</button>
                       </Link>
                     </div>
                   </div>
                 </Link>
-                <div className={styles.gridBox}></div>
-                <div className={styles.gridBox}></div>
               </div>
             ) : (
               ""

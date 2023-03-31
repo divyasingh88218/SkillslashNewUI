@@ -134,6 +134,7 @@ const Reviews = ({
             dynamicBullets: true,
             clickable: true,
           }}
+          style={{ "--swiper-theme-color": "#4f419a" }}
           loopFillGroupWithBlank={true}
           grabCursor={true}
           modules={[FreeMode, Pagination]}

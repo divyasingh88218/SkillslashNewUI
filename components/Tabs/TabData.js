@@ -59,6 +59,12 @@ const TabData = [
         time: "10 Months",
         mode: "online live class",
       },
+      {
+        id: 2,
+        name: "Web Development Course With Certification",
+        time: "10 Months",
+        mode: "online live class",
+      },
     ],
   },
   {
