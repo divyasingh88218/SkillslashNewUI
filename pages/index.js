@@ -1,5 +1,5 @@
 import Head from "next/head";
-import FirstSection from "../components/FirstSection/FirstSection";
+import FirstSection from "../components/Course/FirstSection/FirstSection";
 import Tabs from "../components/Tabs/Tabs";
 import styles from "../styles/Home.module.css";
 import Reviews from "../components/Review/Reviews";
@@ -22,6 +22,22 @@ export default function Home() {
     endDate: "",
   });
   const [popups, setPopups] = useState(false);
+  const [mobile, setMobile] = useState(false);
+  const [tablet, setTablet] = useState(false);
+
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width > 642) {
+      setTablet(false);
+    }
+    if (width < 642) {
+      setTablet(true);
+    }
+    if (width < 481) {
+      setMobile(true);
+    }
+  });
+
   const today = new Date();
   useEffect(() => {
     const fetchPopup = async () => {
@@ -70,8 +86,29 @@ export default function Home() {
         ) : (
           ""
         )}
-        <FirstSection />
-        <ProgramInfo />
+
+        <FirstSection
+          deskTopPara="India’s 1st"
+          mTopPara="India’s 1st"
+          title="Project Based Experiential Learning Platform"
+          spanTitleText=""
+          homePage={true}
+          desc="Get real work experience and certifications. Learn from industry experts and get placed in top product companies!"
+          backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Homepagefirstsection.webp"
+          mainHeaderImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/homepageGirl.webp"
+          iconImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp"
+          usp1=" Live Interactive "
+          usp2=" Direct Company "
+          usp3=" EMI @"
+          usp4=" 100% Interview"
+          usp1Span="Classroom"
+          usp2Span="Exp Certifications"
+          usp3Span="4899/month"
+          usp4Span="Guarantee"
+          width="296"
+          height="350"
+        />
+        {tablet ? "" : <ProgramInfo />}
 
         <div className={styles.Explore} id="explore">
           <h4 className={styles.ExploreH}>Explore Our Courses</h4>

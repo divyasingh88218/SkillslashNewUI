@@ -6,7 +6,6 @@
   margin: 0px 0px;
   padding: 0px 100px;
 }
-
 .wrapperHeading {
   display: flex;
   align-items: center;
@@ -83,21 +82,22 @@
   .wrapperBlock1,
   .wrapperBlock2,
   .wrapperBlock3 {
-    padding: 30px 30px 10px 30px;
+    padding: 20px 20px 10px 20px;
   }
 }
 
 @media (max-width: 481px) {
   .wrapperBlock {
-    gap: 7px;
+    gap: 30px;
     display: flex;
+    margin-bottom: 30px;
     flex-flow: column;
   }
 
   .wrapperBlock1,
   .wrapperBlock2,
   .wrapperBlock3 {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 10px 20px;
   }
   .wrapperHeading h4 {
     font-size: 14px;

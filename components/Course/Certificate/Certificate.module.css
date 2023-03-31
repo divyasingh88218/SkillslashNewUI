@@ -1,12 +1,31 @@
-.Certifcate {
+.top{
   display: grid;
+  grid-template-columns:  49% 49%;
+}
+.top .desc{
+  justify-content: center;
+    padding: 60px;
+}
+.bottom{
+  display: grid;
+  grid-template-columns:  49% 49%;
+}
+.bottom .desc{
+  justify-content: center;
+    padding: 60px;
+}
+
+.Certifcate {
+  display: flex;
+  flex-flow: column;
+  /* display: grid;
   align-items: center;
   grid-template-columns: 27% 40% 30%;
   margin: 70px 0px 70px 0px;
   gap: 20px;
   background-color: #f9f8ff;
   padding: 40px 100px;
-  border-radius: 15px;
+  border-radius: 15px; */
 }
 
 .left h5 {

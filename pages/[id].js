@@ -271,11 +271,11 @@ export default function Home({ DataScienceCourseData }) {
           redirectFs={DataScienceCourseData.data.form.FullStack}
           redirectDe={DataScienceCourseData.data.form.DataEngineering}
           redirectBl={DataScienceCourseData.data.form.blockchain}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
           deskTopPara={DataScienceCourseData.data.FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData.data.FirstSection.mTopPara}
           redirectDSA={DataScienceCourseData.data.form.dsa}
+          redirectAI={DataScienceCourseData.data.form.ai}
           title={DataScienceCourseData.data.FirstSection.title}
           spanTitleText={DataScienceCourseData.data.FirstSection.spanTitleText}
           desc={DataScienceCourseData.data.FirstSection.desc}
@@ -284,6 +284,7 @@ export default function Home({ DataScienceCourseData }) {
           iconImg={DataScienceCourseData.data.FirstSection.iconImg}
           width={DataScienceCourseData.data.FirstSection.width}
           height={DataScienceCourseData.data.FirstSection.height}
+          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           usp1={DataScienceCourseData.data.FirstSection.usp1}
           usp2={DataScienceCourseData.data.FirstSection.usp2}
           usp3={DataScienceCourseData.data.FirstSection.usp3}
@@ -407,6 +408,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectDSA={DataScienceCourseData.data.form.dsa}
             redirectWd={DataScienceCourseData.data.form.webDevelopment}
             popupHead={DataScienceCourseData.data.Certificate.popupHead}
+            subheading={DataScienceCourseData.data.Certificate.subheading}
             title={DataScienceCourseData.data.Certificate.title}
             desc={DataScienceCourseData.data.Certificate.desc}
             src={DataScienceCourseData.data.Certificate.src}

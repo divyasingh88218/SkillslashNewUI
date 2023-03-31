@@ -1,10 +1,13 @@
 .mainBlock {
   display: grid;
   grid-template-columns: 60% 38%;
-  padding: 20px;
+  padding: 20px ;
   gap: 17px;
+  
 }
-
+.arrow{
+  position: absolute;
+}
 .mainHeading {
   display: flex;
   flex-flow: column;
@@ -133,7 +136,6 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: #00aa50;
   border-radius: 10px;
   padding: 10px 20px;
   width: 100%;
@@ -217,6 +219,25 @@
   font-size: 10px;
 }
 
+@media (max-width: 1281px) {
+  .Content h4 {
+  font-size: 24px;
+}
+ .Content p {
+  font-size: 14px;
+}
+.rise1,
+.rise2,
+.rise3 {
+    padding: 7px 25px;;
+}
+.rise2 p,
+.rise1 p,
+.rise3 p {
+font-size: 18px;
+line-height: 18px;
+}
+}
 @media (max-width: 801px) {
   
   .mainHeading hr {
@@ -257,5 +278,46 @@
   margin: 5px 10px;
   display: flex;
   font-size: 15px;
+}
+}
+
+@media (max-width: 481px) {
+  .Content {
+  padding: 5px 20px;
+}
+.Content h4 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.Content p {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.rise1,
+.rise2,
+.rise3 {
+    padding: 9px 7px;
+}
+.rise1 .imgWrapper,
+.rise2 .imgWrapper,
+.rise3 .imgWrapper {
+  padding: 0px;
+}
+.rise2 p,
+.rise1 p,
+.rise3 p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.bottomRise p{
+  margin: 4px 4px;
+}
+.rise1 .bottomRise button,
+.rise2 .bottomRise button,
+.rise3 .bottomRise button {
+  padding: 4px 8px;
+  font-size: 10px;
 }
 }

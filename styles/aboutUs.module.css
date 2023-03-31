@@ -4,7 +4,7 @@
 .aboutUs {
   margin-top: 70px;
   padding: 40px 100px 0px 100px;
-  background-color: #f4fbff;
+  background-color: #f9f8ff;
 }
 .aboutHeader {
   display: grid;
@@ -80,7 +80,7 @@
   z-index: 1;
 }
 .leftAbout h5 span {
-  color: #f28705;
+  color: #4F419A;
 }
 .btn {
   display: flex;

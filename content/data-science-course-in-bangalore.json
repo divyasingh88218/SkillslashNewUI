@@ -41,7 +41,7 @@
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
     "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-course-background.webp",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-cover-image.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ai-image-ds.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp",
 
     "usp1": " Live Interactive ",
     "usp2": " Direct Company ",
@@ -114,11 +114,11 @@
     "heading": "Work on live projects to get hired at:"
   },
   "Certificate": {
-    "subheading": "certificate from one of the tech companies",
+    "subheading": "Dual Certification",
     "popupHead": "Download Data science Brochure",
-    "title": "Get certified directly from tech companies ",
-    "desc": "Enrolling in the best data science course with job assistance allows you to work on real-world industry projects while also receiving a certification. We help you acquire practical technical skills.",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Business-analytics-course-certificate-26th-October-2022-new.webp"
+    "title": "Double the credibility: MSFT + another tech leader",
+    "desc": "Our all-encompassing and meticulously crafted curriculum, coupled with our live and interactive learning sessions, undoubtedly sets us apart as the epitome of excellence in career development.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-certificate-26th-October-2022-new.webp"
   },
   "RealWork": {
     "subtitle": "What makes Skillslash stand out?",

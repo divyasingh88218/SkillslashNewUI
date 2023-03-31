@@ -3,7 +3,7 @@ import { useInterval } from "react-use";
 import styles from "./TextAnimation.module.css";
 
 const TextAnimation = () => {
-  const reactArray = "50K + Learners".split("");
+  const reactArray = "Dual Certification".split("");
   const swiftArray = "Guaranteed job referral".split("");
 
   const [items, setItems] = useState(reactArray);
