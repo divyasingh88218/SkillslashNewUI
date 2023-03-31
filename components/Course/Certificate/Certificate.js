@@ -31,8 +31,11 @@ const Certificate = ({
 
   useEffect(() => {
     let width = window.innerWidth;
-    if (width < 481) {
+    if (width < 801) {
       setMobile(true);
+    }
+    if (width > 801) {
+      setMobile(false);
     }
   });
 
@@ -68,147 +71,159 @@ const Certificate = ({
           />
         </div>
       </Popup>
-
-      {/* <div className={styles.right}>
-        <div className={styles.imgWrap}>
-          <Image
-            className="shadow"
-            src={src}
-            alt="Certificate of FUllstack Course"
-            quality={100}
-            layout="intrinsic"
-            width={327}
-            loading="lazy"
-            height={451}
-          />
-        </div>
-      </div>
-      <div className={styles.left}>
-        <p className={styles.pTop}>Certification</p>
-        <h5>{title}</h5>
-        <p>
-          Our comprehensive curriculum, Live interactive sessions , excellent
-          placement assistance and more makes us the ideal choice for your
-          career development.
-        </p>
-        <p className={styles.point}>
-          <BsCheck2Circle className={styles.check} /> Get High value Microsoft
-          certification.
-        </p>
-        <p className={styles.point}>
-          <BsCheck2Circle className={styles.check} /> Get Real work experience
-          certification.
-        </p>
-        <p className={styles.point}>
-          <BsCheck2Circle className={styles.check} /> World class training from
-          top-notch faculties.
-        </p>
-
-        <div className={styles.btnWrapper}>
-          <button onClick={popupShow} className={styles.buttonDownload}>
-            Download Brochure
-          </button>
-        </div>
-      </div>
-      <div className={styles.mobileCertificateWrap}>
-        <div className={styles.rightS}>
-          <div className={styles.imgWrapper}>
-            <Image
-              className="shadow"
-              src={
-                redirectBa
-                  ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
-                  : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
-              }
-              alt="Certificate of FUllstack Course"
-              quality={100}
-              layout="intrinsic"
-              width={450}
-              loading="lazy"
-              height={300}
-            />
+      {mobile ? (
+        <>
+          <div className={styles.right}>
+            <div className={styles.imgWrap}>
+              <Image
+                className="shadow"
+                src={src}
+                alt="Certificate of FUllstack Course"
+                quality={100}
+                layout="intrinsic"
+                width={327}
+                loading="lazy"
+                height={451}
+              />
+            </div>
           </div>
-        </div>
-        <div className={styles.mCertificate}>
-          <div className={styles.imgWrap}>
-            <Image
-              className="shadow"
-              src={src}
-              alt="Certificate of FUllstack Course"
-              quality={100}
-              layout="intrinsic"
-              width={327}
-              loading="lazy"
-              height={451}
-            />
+          <div className={styles.left}>
+            <p className={styles.pTop}>Certification</p>
+            <h5>{title}</h5>
+            <p>
+              Our comprehensive curriculum, Live interactive sessions ,
+              excellent placement assistance and more makes us the ideal choice
+              for your career development.
+            </p>
+            <p className={styles.point}>
+              <BsCheck2Circle className={styles.check} /> Get High value
+              Microsoft certification.
+            </p>
+            <p className={styles.point}>
+              <BsCheck2Circle className={styles.check} /> Get Real work
+              experience certification.
+            </p>
+            <p className={styles.point}>
+              <BsCheck2Circle className={styles.check} /> World class training
+              from top-notch faculties.
+            </p>
+
+            <div className={styles.btnWrapper}>
+              <button onClick={popupShow} className={styles.buttonDownload}>
+                Download Brochure
+              </button>
+            </div>
           </div>
-        </div>
-      </div> */}
-
-      <div className={styles.top}>
-        <div className={styles.imgWrapper}>
-          <Image
-            className="shadow"
-            src={
-              redirectBa
-                ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
-                : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
-            }
-            alt="Certificate of FUllstack Course"
-            quality={100}
-            layout="intrinsic"
-            width={450}
-            loading="lazy"
-            height={300}
-          />
-        </div>
-        <div className={styles.desc}>
-          <h2>{subheading}</h2>
+          <div className={styles.mobileCertificateWrap}>
+            <div className={styles.rightS}>
+              <div className={styles.imgWrapper}>
+                <Image
+                  className="shadow"
+                  src={
+                    redirectBa
+                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
+                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
+                  }
+                  alt="Certificate of FUllstack Course"
+                  quality={100}
+                  layout="intrinsic"
+                  width={450}
+                  loading="lazy"
+                  height={300}
+                />
+              </div>
+            </div>
+            <div className={styles.mCertificate}>
+              <div className={styles.imgWrap}>
+                <Image
+                  className="shadow"
+                  src={src}
+                  alt="Certificate of FUllstack Course"
+                  quality={100}
+                  layout="intrinsic"
+                  width={327}
+                  loading="lazy"
+                  height={451}
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          {" "}
+          <h4>{subheading}</h4>
           <h5>{title}</h5>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} /> Become a
-            Microsoft-certified professional
-          </p>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} />
-            Receive real-work certification to prove credibility
-          </p>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} /> World-class training
-            from top-notch faculties
-          </p>
-        </div>
-      </div>
-      <div className={styles.bottom}>
-        <div className={styles.desc}>
-          <h5>{title}</h5>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} /> Become a
-            Microsoft-certified professional
-          </p>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} />
-            Receive real-work certification to prove credibility
-          </p>
-          <p className={styles.point}>
-            <BsCheck2Circle className={styles.check} /> World-class training
-            from top-notch faculties
-          </p>
-        </div>
-
-        <div className={styles.imgWrap}>
-          <Image
-            className="shadow"
-            src={src}
-            alt="Certificate of FUllstack Course"
-            quality={100}
-            layout="intrinsic"
-            width={327}
-            loading="lazy"
-            height={451}
-          />
-        </div>
-      </div>
+          <div className={styles.top}>
+            <div className={styles.imgWrapper}>
+              <Image
+                className="shadow"
+                src={
+                  redirectBa
+                    ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
+                    : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
+                }
+                alt="Certificate of FUllstack Course"
+                quality={100}
+                layout="intrinsic"
+                width={450}
+                loading="lazy"
+                height={300}
+              />
+            </div>
+            <div className={styles.btRight}>
+              <div className={styles.desc}>
+                <h4>Microsoft Certification</h4>
+                <p>Get certificate directly from Microsoft</p>
+                <p className={styles.point}>
+                  <BsCheck2Circle className={styles.check} /> Become a
+                  Microsoft-certified professional
+                </p>
+                <p className={styles.point}>
+                  <BsCheck2Circle className={styles.check} />
+                  Receive real-work certification to prove credibility
+                </p>
+                <p className={styles.point}>
+                  <BsCheck2Circle className={styles.check} /> World-class
+                  training from top-notch faculties
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.bottom}>
+            <div className={styles.desc}>
+              <h4>Real Work Experience Certificate</h4>
+              <p>Get real work experience certificate from tech companies</p>
+              <p className={styles.point}>
+                <BsCheck2Circle className={styles.check} /> Become a
+                Microsoft-certified professional
+              </p>
+              <p className={styles.point}>
+                <BsCheck2Circle className={styles.check} />
+                Receive real-work certification to prove credibility
+              </p>
+              <p className={styles.point}>
+                <BsCheck2Circle className={styles.check} /> World-class training
+                from top-notch faculties
+              </p>
+            </div>
+            <div className={styles.btRight}>
+              <div className={styles.imgWrap}>
+                <Image
+                  className="shadow"
+                  src={src}
+                  alt="Certificate of FUllstack Course"
+                  quality={100}
+                  layout="intrinsic"
+                  width={327}
+                  loading="lazy"
+                  height={451}
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </section>
   );
 };

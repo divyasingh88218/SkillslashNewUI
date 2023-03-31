@@ -23,25 +23,25 @@
     display: none;
   }
   .playIcon {
-  font-size: 50px;
-  border: 3px solid white;
-  border-radius: 50%;
-  color: white;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
-.btnWrapper span{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.btnWrapper p{
-  color: white;
-}
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
+  .btnWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .btnWrapper p {
+    color: white;
+  }
   .imgWrap {
     position: absolute;
     top: 0px;
@@ -50,7 +50,7 @@
   .backImg {
     z-index: 0;
   }
-  .pBotM{
+  .pBotM {
     color: white;
     width: 80%;
   }
@@ -183,33 +183,33 @@
   .left .imgWrap {
     display: none;
   }
-   .pBotM{
+  .pBotM {
     color: white;
     width: 80%;
   }
   .uspFeatures {
     display: none;
   }
-    .playIcon {
-  font-size: 50px;
-  border: 3px solid white;
-  border-radius: 50%;
-  color: white;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
-    rgba(22, 71, 98, 0.149) 0px 8px 32px;
-}
-.btnWrapper span{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.btnWrapper p{
-  color: white;
-}
+  .playIcon {
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: rgba(140, 192, 235, 0.326) 0px 4px 16px,
+      rgba(22, 71, 98, 0.149) 0px 8px 32px;
+  }
+  .btnWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .btnWrapper p {
+    color: white;
+  }
   .imgWrap {
     position: absolute;
     top: 0px;
@@ -227,9 +227,9 @@
     z-index: 1;
     gap: 20px;
   }
-.homeH1{
-  margin: 10px 0px !important;
-}
+  .homeH1 {
+    margin: 10px 0px !important;
+  }
   .left h1 {
     font-size: 36px;
     margin: 0;
@@ -391,7 +391,7 @@
   .imgWrap {
     position: absolute;
     top: 0px;
-    right: -34px;
+    right: -26px;
   }
   .iconImg {
     position: absolute;
@@ -463,7 +463,7 @@
   .left h1 {
     font-size: 22px;
   }
- 
+
   .mobileDivWrapper {
     width: 100%;
     justify-content: space-evenly;
@@ -476,11 +476,11 @@
   .bottom {
     display: none;
   }
-  .btnWrapper{
+  .btnWrapper {
     display: flex;
     align-items: center;
   }
-  .btnWrapper p{
+  .btnWrapper p {
     font-size: 14px;
   }
   .btnWrapper button {
@@ -489,7 +489,7 @@
   .iconImgD {
     right: 99%;
   }
-  .playIcon{
+  .playIcon {
     font-size: 40px;
   }
 }
@@ -620,7 +620,7 @@
     padding: 0;
     text-align: center;
   }
-  .pBotM{
+  .pBotM {
     text-align: center;
     margin: 0;
   }

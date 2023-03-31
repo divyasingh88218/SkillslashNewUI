@@ -160,6 +160,12 @@
     width: 95%;
   }
 }
+@media (max-width: 801px) {
+  .line {
+    padding: 10px 40px;
+  }
+}
+
 @media (max-width: 481px) {
   .projectHeader {
     padding: 20px;

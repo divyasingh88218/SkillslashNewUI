@@ -33,7 +33,7 @@ const ProjectSlider = ({
     let width = window.innerWidth;
 
     if (width < 801) {
-      setSlidesPerView(3);
+      setSlidesPerView(2);
       setSpaceBetween(20);
     }
     if (width < 481) {
@@ -108,8 +108,8 @@ const ProjectSlider = ({
       </div>
       <div className={styles.sliderWrap}>
         <Swiper
-          spaceBetween={mobile ? spaceBetween : 30}
-          slidesPerView={mobile ? slidesPerView : 3}
+          spaceBetween={mobile ? 10 : spaceBetween}
+          slidesPerView={mobile ? 1 : slidesPerView}
           loop={true}
           pagination={{
             dynamicBullets: true,

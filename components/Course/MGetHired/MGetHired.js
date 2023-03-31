@@ -3,7 +3,8 @@ import style from "./MGetHired.module.css";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, FreeMode } from "swiper";
+import "swiper/css/pagination";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsDownload } from "react-icons/bs";
 
@@ -36,6 +37,14 @@ const MGetHired = ({
     }
     if (width < 481) {
       setMobile(true);
+    }
+    if (width < 961) {
+      setSlidesPerView(3);
+      setSpaceBetween(20);
+    }
+    if (width < 641) {
+      setSlidesPerView(2);
+      setSpaceBetween(20);
     }
   });
 
@@ -76,9 +85,13 @@ const MGetHired = ({
             //   delay: 3000,
             //   disableOnInteraction: false,
             // }}
+            pagination={{
+              dynamicBullets: true,
+              clickable: true,
+            }}
             style={{ width: "100%" }}
             grabCursor={true}
-            // modules={[Autoplay]}
+            modules={[Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide className={style.ReviewBox} id="1">

@@ -38,6 +38,7 @@ import NewPricingTable from "../components/Course/NewPricingTable/NewPricingTabl
 export default function Home({ DataScienceCourseData }) {
   const [popups, setPopups] = useState(false);
   const [mobile, setMobile] = useState(false);
+  const [tablet, setTablet] = useState(false);
   const redirectDs = DataScienceCourseData.data.form.dataScience;
   const redirectFs = DataScienceCourseData.data.form.FullStack;
   const redirectDSA = DataScienceCourseData.data.form.dsa;
@@ -65,6 +66,14 @@ export default function Home({ DataScienceCourseData }) {
 
     if (width < 481) {
       setMobile(true);
+    }
+    if (width < 641) {
+      setMobile(true);
+      setTablet(true);
+    }
+    if (width > 641) {
+      setMobile(false);
+      setTablet(false);
     }
   });
   useEffect(() => {
@@ -170,7 +179,7 @@ export default function Home({ DataScienceCourseData }) {
         redirectBl={DataScienceCourseData.data.form.blockchain}
         redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
       />
-      {mobile ? (
+      {tablet ? (
         ""
       ) : (
         <SecondNavbar
@@ -294,7 +303,7 @@ export default function Home({ DataScienceCourseData }) {
           usp3Span={DataScienceCourseData.data.FirstSection.usp3Span}
           usp4Span={DataScienceCourseData.data.FirstSection.usp4Span}
         />
-        {mobile ? (
+        {tablet ? (
           ""
         ) : (
           <div className={styles.program}>
