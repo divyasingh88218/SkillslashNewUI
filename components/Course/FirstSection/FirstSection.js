@@ -273,7 +273,7 @@ const FirstSection = ({
           </div>
         )}
 
-        {redirectDs || redirectFs || redirectDSA || homePage ? (
+        {redirectDs || redirectFs || redirectDSA || homePage || redirectBa ? (
           <div className={styles.imgWrapper}>
             <Image
               src={mainHeaderImg}
@@ -299,7 +299,11 @@ const FirstSection = ({
         ) : (
           <img
             src={iconImg}
-            className={redirectDs ? styles.iconImgD : styles.iconImg}
+            className={
+              redirectDs || redirectBa || redirectDSA || redirectFs
+                ? styles.iconImgD
+                : styles.iconImg
+            }
           />
         )}
       </div>

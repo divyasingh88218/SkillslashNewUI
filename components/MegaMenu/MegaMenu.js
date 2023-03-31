@@ -444,7 +444,7 @@ const MegaMenu = ({ handleIcon }) => {
               />
             </div>
             <div className={styles.right}>
-              <h5>AI and ML program</h5>
+              <h5>Data Science program</h5>
               <p>Get a detailed overview</p>
             </div>
           </div>

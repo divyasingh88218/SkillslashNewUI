@@ -179,6 +179,15 @@
 .banner {
   position: relative;
 }
+.flagB {
+  cursor: pointer;
+}
+.flagB:hover {
+  background-color: white;
+  border-radius: 4px;
+  width: max-content;
+  padding: 10px 20px;
+}
 @media (max-width: 1281px) {
   .MegaMenu {
     padding-left: 20px;
