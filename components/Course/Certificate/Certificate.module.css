@@ -1,20 +1,29 @@
-.top{
+.top {
   display: grid;
-  grid-template-columns:  49% 49%;
-}
-.top .desc{
+  margin-top: 30px;
+  align-items: center;
   justify-content: center;
-    padding: 60px;
+  margin-bottom: 30px;
+  grid-template-columns: 49% 49%;
 }
-.bottom{
+.desc {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: center;
+}
+.bottom {
   display: grid;
-  grid-template-columns:  49% 49%;
-}
-.bottom .desc{
+  align-items: center;
   justify-content: center;
-    padding: 60px;
+  grid-template-columns: 49% 49%;
 }
 
+.btRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .Certifcate {
   display: flex;
   flex-flow: column;
@@ -22,12 +31,21 @@
   align-items: center;
   grid-template-columns: 27% 40% 30%;
   margin: 70px 0px 70px 0px;
-  gap: 20px;
+  gap: 20px;*/
   background-color: #f9f8ff;
   padding: 40px 100px;
-  border-radius: 15px; */
+  border-radius: 15px;
 }
-
+.Certifcate h4 {
+  width: max-content;
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+  border-radius: 0px 0px 8px 8px;
+}
+.Certifcate h5 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+}
 .left h5 {
   font-size: 27px;
   margin: 0;
@@ -225,6 +243,10 @@
   .left button {
     font-size: 14px;
     padding: 15px;
+  }
+  .top .bottom {
+    display: flex;
+    flex-flow: column;
   }
 }
 @media (max-width: 641px) {

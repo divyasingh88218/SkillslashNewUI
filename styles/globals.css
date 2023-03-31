@@ -8,6 +8,9 @@ body {
 .element::-webkit-scrollbar {
   width: 0 !important;
 }
+:root {
+  --swiper-theme-color: #4f419a !important;
+}
 a {
   color: inherit;
   text-decoration: none;

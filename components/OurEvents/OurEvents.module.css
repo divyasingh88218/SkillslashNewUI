@@ -4,11 +4,7 @@
   align-items: center;
   justify-content: center;
   margin: 0px 0px;
-  padding: 40px 40px 0px;
-}
-.LearnMore p{
-  cursor: pointer;
-  color: #4f4194;
+  padding: 0px 100px;
 }
 .wrapperHeading {
   display: flex;
@@ -65,6 +61,9 @@
 }
 
 @media (max-width: 1281px) {
+  .wrapper {
+    padding: 0px 40px;
+  }
   .wrapperBlock {
     gap: 18px;
   }
@@ -91,7 +90,7 @@
   .wrapperBlock {
     gap: 30px;
     display: flex;
-margin-bottom: 30px;
+    margin-bottom: 30px;
     flex-flow: column;
   }
 

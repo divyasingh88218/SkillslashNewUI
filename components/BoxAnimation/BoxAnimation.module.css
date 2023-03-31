@@ -23,11 +23,11 @@
 .lineWrap {
   position: absolute;
   height: 50px;
-  left: 0%;
+  left: 8%;
   margin: 0px 90px;
   top: 20px;
   border-radius: 10px;
-  width: 100%;
+  width: 800px;
   overflow: hidden;
   z-index: 0;
 }
@@ -148,7 +148,7 @@
 }
 @media (max-width: 1281px) {
   .Wrapper {
-    margin:10px 70px 45px 70px;
+    margin: 10px 70px 45px 70px;
     display: flex;
     padding: 30px 40px;
     position: relative;
@@ -171,35 +171,34 @@
     top: 8px;
     left: 9%;
   }
-   .iconWrap li {
+  .iconWrap li {
     top: -21px;
-   } 
-
+  }
 }
 @media (max-width: 1024px) {
-   .contentGrid {
+  .contentGrid {
     gap: 52px;
     grid-template-columns: 29% 29% 29%;
-        margin-top: 20px;
+    margin-top: 20px;
   }
-  .lineWrap{
+  .lineWrap {
     left: 7%;
   }
 }
 
 @media (max-width: 962px) {
-   .lineWrap {
-   display: none !important;
+  .lineWrap {
+    display: none !important;
   }
-.Wrapper {
-      /* padding: 8px 45px 1px 12px; */
-      padding: 20px 40px;
-}
-.contentGrid {
-  margin-top: 20px;
-      margin-top: 30px;
-}
- .contentGrid div h5 {
+  .Wrapper {
+    /* padding: 8px 45px 1px 12px; */
+    padding: 20px 40px;
+  }
+  .contentGrid {
+    margin-top: 20px;
+    margin-top: 30px;
+  }
+  .contentGrid div h5 {
     font-size: 15px;
     margin-top: 0px;
   }
@@ -207,37 +206,37 @@
     font-size: 12px;
     margin-top: 7px;
   }
-   .contentGrid {
-    gap: 48px;}
+  .contentGrid {
+    gap: 48px;
+  }
 }
 
 @media (max-width: 801px) {
-   .contentGrid {
+  .contentGrid {
     gap: 22px;
     grid-template-columns: 31% 31% 31%;
   }
   .contentGrid {
-  margin-top: 10px;
-}
+    margin-top: 10px;
+  }
 }
 @media (max-width: 641px) {
-  .Wrapper{
+  .Wrapper {
     padding: 20px 50px;
   }
-   .contentGrid div h5 {
+  .contentGrid div h5 {
     font-size: 20px;
   }
-   .contentGrid div p {
+  .contentGrid div p {
     font-size: 16px;
-
   }
   .contentGrid {
     display: flex;
     flex-flow: column;
-    }
+  }
 }
 @media (max-width: 481px) {
-   .Wrapper{
+  .Wrapper {
     margin: 30px 20px 30px 20px;
     padding: 20px 30px;
   }

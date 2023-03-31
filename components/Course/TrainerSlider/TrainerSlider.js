@@ -37,6 +37,14 @@ const TrainerSlider = ({
     if (width < 481) {
       setMobile(true);
     }
+    if (width < 961) {
+      setSlidesPerView(2);
+      setSpaceBetween(20);
+    }
+    if (width < 641) {
+      setSlidesPerView(1.4);
+      setSpaceBetween(20);
+    }
   });
   return (
     <div className={style.wrapper}>

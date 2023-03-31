@@ -464,13 +464,12 @@
 /* -----------------------FORM ANIMATION END-------------------------------*/
 @media (max-width: 1281px) {
   .secondSection,
-  
   .advantage,
   .stepsWrapper,
   .CWrap {
     padding: 30px 40px;
   }
-  .Explore{
+  .Explore {
     padding: 30px 40px 0px 40px;
   }
   .cta {
@@ -548,9 +547,10 @@
   .cta {
     background-size: cover;
     display: grid;
-    grid-template-columns: 100% ;}
-    
-   .cta .left {
+    grid-template-columns: 100%;
+  }
+
+  .cta .left {
     display: none !important;
   }
   .cta h6 {
@@ -586,10 +586,11 @@
     gap: 30px;
     flex-wrap: wrap;
   }
-   .cta {
+  .cta {
     display: grid;
-    grid-template-columns: 100% ;}
-   .cta .left {
+    grid-template-columns: 100%;
+  }
+  .cta .left {
     display: none !important;
   }
 
@@ -604,10 +605,13 @@
 @media (max-width: 641px) {
   .cta {
     display: grid;
-    grid-template-columns: 100% ;}
-   .cta .left {
+    grid-template-columns: 100%;
+  }
+  .cta .left {
     display: none !important;
-  
+  }
+  .ctaWrap {
+    margin: 40px;
   }
   .cta h6 {
     font-size: 22px;
@@ -642,14 +646,13 @@
   .CWrap {
     padding: 20px;
   }
-   .cta .right h5 {
+  .cta .right h5 {
     font-size: 26px;
     margin-bottom: 10px;
   }
   .cta p {
     font-size: 15px;
     padding-left: 0px;
-    
   }
 }
 @media (max-width: 481px) {
@@ -659,10 +662,10 @@
   }
   .cta {
     display: grid;
-    grid-template-columns: 100% ;}
-   .cta .left {
+    grid-template-columns: 100%;
+  }
+  .cta .left {
     display: none !important;
-  
   }
   .cta h6 {
     font-size: 22px;
@@ -672,7 +675,7 @@
   }
   .cta p {
     font-size: 12px;
-    
+
     line-height: 16px;
   }
   .ctaBot {

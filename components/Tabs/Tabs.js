@@ -145,7 +145,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Full-stack-course-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -341,7 +341,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Full-stack-course-tab-header.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -369,7 +369,36 @@ const Tabs = () => {
                   </div>
                 </Link>
 
-                <div className={styles.gridBox}></div>
+                <Link href="/web-development-course">
+                  <div className={styles.gridBox}>
+                    <div className={styles.gridImg}>
+                      <img
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
+                        className={styles.gridBanner}
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className={styles.gridInnerBox}>
+                      <h4>Web Development Course With Certification</h4>
+                      <div className={styles.lines}></div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />7 Months
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        15+ Industry Projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        EMI @INR 3,500/month
+                      </span>
+                      <div className={styles.line}></div>
+                      <Link href="/web-development-course">
+                        <button className={styles.gridBtn}>View Program</button>
+                      </Link>
+                    </div>
+                  </div>
+                </Link>
               </div>
             ) : (
               ""
@@ -575,11 +604,43 @@ const Tabs = () => {
                     </div>
                   </div>
                 </Link>
-                <div
-                  className={styles.gridBox}
-                  style={{ display: "none" }}
-                ></div>
-                <Link href="/full-stack-developer-course">
+                <Link href="/web-development-course">
+                  <div className={styles.gridBox}>
+                    <div className={styles.gridImg}>
+                      <img
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
+                        className={styles.gridBanner}
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className={styles.gridInnerBox}>
+                      <h4>Web Development Course With Certification</h4>
+                      <div className={styles.lines}></div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />7 Months
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        15+ Industry Projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        EMI @INR 3,500/month
+                      </span>
+                      <div className={styles.line}></div>
+                      <Link href="/web-development-course">
+                        <button className={styles.gridBtn}>View Program</button>
+                      </Link>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ) : (
+              ""
+            )}
+            {manager ? (
+              <div className={styles.gridWrap}>
+                <Link href="/block-chain-course">
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
