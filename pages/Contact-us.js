@@ -109,7 +109,7 @@ const Contact = () => {
           <div className={styles.LocationBox}>
             <div className={styles.top}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mumbai.svg"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Mumbai.png"
                 width="110"
                 height="110"
                 alt="Bangalore_icon"
