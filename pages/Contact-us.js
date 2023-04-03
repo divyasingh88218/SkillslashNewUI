@@ -83,7 +83,7 @@ const Contact = () => {
           <div className={styles.LocationBox}>
             <div className={styles.top}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bengaluru.svg"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bangalore+icon-02-01.png"
                 width="90"
                 height="90"
                 alt="Bangalore_icon"
@@ -135,7 +135,7 @@ const Contact = () => {
           <div className={styles.LocationBox}>
             <div className={styles.top}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Hyderabad.svg"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Hyderabad+icon-01.png"
                 width="90"
                 height="90"
                 alt="Hyderabad_icon"
@@ -161,7 +161,7 @@ const Contact = () => {
           <div className={styles.LocationBox}>
             <div className={styles.top}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Austin.svg"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Austin+icon-02-01.png"
                 width="90"
                 height="90"
                 alt="Austin_icon"
@@ -187,7 +187,7 @@ const Contact = () => {
           <div className={styles.LocationBox}>
             <div className={styles.top}>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gurugram.svg"
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Gurgaon+icon-02-01.png"
                 width="90"
                 height="90"
                 alt="Gurugram_icon"
