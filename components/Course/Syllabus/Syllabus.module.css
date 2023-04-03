@@ -270,7 +270,9 @@
     height: 70px;
     bottom: -38px;
   }
-
+.syllabusLeft p {
+  font-size: 16px;
+}
   .PProgramInner p {
     display: flex;
     align-items: center;
