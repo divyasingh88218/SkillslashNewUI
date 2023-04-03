@@ -27,8 +27,8 @@ const ProjectSlider = ({
   redirectDSA,
 }) => {
   const [mobile, setMobile] = useState(false);
-  const [slidesPerView, setSlidesPerView] = useState(5);
-  const [spaceBetween, setSpaceBetween] = useState(70);
+  const [slidesPerView, setSlidesPerView] = useState(3.2);
+  const [spaceBetween, setSpaceBetween] = useState(20);
   useEffect(() => {
     let width = window.innerWidth;
 
@@ -38,6 +38,10 @@ const ProjectSlider = ({
     }
     if (width < 801) {
       setSlidesPerView(2);
+      setSpaceBetween(20);
+    }
+    if (width < 641) {
+      setSlidesPerView(1.3);
       setSpaceBetween(20);
     }
     if (width < 481) {
@@ -416,7 +420,7 @@ const ProjectSlider = ({
           ) : (
             ""
           )}
-          {redirectFs ? (
+          {redirectFs || redirectDSA ? (
             <>
               {" "}
               <SwiperSlide className={styles.ReviewBox}>
@@ -805,7 +809,7 @@ const ProjectSlider = ({
           ) : (
             ""
           )}
-          {redirectDs ? (
+          {redirectDs || redirectBa || redirectDe ? (
             <>
               <SwiperSlide className={styles.ReviewBox}>
                 <div className={styles.header}>

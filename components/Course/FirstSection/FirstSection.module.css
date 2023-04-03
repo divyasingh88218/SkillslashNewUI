@@ -57,16 +57,16 @@
   .iconImg {
     position: absolute;
     width: 89px;
-    height: 80px;
+
     bottom: -40px;
     right: 40%;
   }
   .iconImgD {
     position: absolute;
     width: 89px;
-    height: 80px;
-    bottom: -40px;
-    right: 98%;
+    height: auto;
+    bottom: -60px;
+    right: 97%;
   }
   .left {
     display: flex;
@@ -164,7 +164,7 @@
     display: flex;
     position: absolute;
     width: max-content;
-    left: -75px;
+    left: -125px;
     bottom: -15px;
     align-self: start;
     justify-content: flex-start;
@@ -282,7 +282,7 @@
   .iconImgD {
     position: absolute;
     width: 89px;
-    height: 80px;
+    height: auto;
     bottom: -60px;
     right: 100%;
   }
@@ -650,5 +650,13 @@
 
     justify-content: center;
     border-radius: 4px;
+  }
+  .certIcon {
+    font-size: 30px;
+    color: #c4bbff;
+  }
+  .realWorkIcon {
+    font-size: 32px;
+    color: #c4bbff;
   }
 }

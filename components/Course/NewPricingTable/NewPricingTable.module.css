@@ -1,75 +1,74 @@
-
-.wrapper{
-    display: flex;
-    /* text-align: center; */
-    justify-content: center;
-    flex-flow: column;
-    width: 100%;
-    padding: 10px 40px;
-    color: #000000;
+.wrapper {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+  padding: 10px 40px;
+  color: #000000;
 }
-.wrapper h5{
-    width: 100%;
-    text-align: center;
+.wrapper h5 {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
   margin-bottom: 0px;
   line-height: 33px !important;
 }
-.wrapperPara p{
-    display: flex;
+.wrapperPara p {
+  display: flex;
   align-items: center;
   text-align: center;
-    justify-content: center; 
+  justify-content: center;
 }
 
-.wrapperCard{
-    box-shadow: #cac4ea 0px 1px 4px;
-    margin-bottom: 20px;
-    position: relative;
-    border-radius: 5px;
+.wrapperCard {
+  box-shadow: #cac4ea 0px 1px 4px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 5px;
 }
 
-.wrapperCard > span{
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 5px 10px;
-    background-color: #cac4ea;
-    color: #4f419a;
-    border-radius: 5px 0px 5px 0px;
-
+.wrapperCard > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px 10px;
+  background-color: #cac4ea;
+  color: #4f419a;
+  border-radius: 5px 0px 5px 0px;
 }
 
-.Fee{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    margin-top: 20px;
-    padding: 10px 20px 0px 20px;
+.Fee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px 20px 0px 20px;
 }
-.Apply .Fee{
-margin-top: 0px;
-padding: 0px 20px 0px 20px;
+.Apply .Fee {
+  margin-top: 0px;
+  padding: 0px 20px 0px 20px;
 }
-.Fee p{
-    display: flex;
-    flex-flow: column;
-    color: #535252;
+.Fee p {
+  display: flex;
+  flex-flow: column;
+  color: #535252;
 }
-.btn{
-    margin: 16px;
-    padding: 10px 17px;
-    font-size: 14px;
+.btn {
+  margin: 16px;
+  padding: 10px 17px;
+  font-size: 14px;
 }
-.btnBottom{
-    color: white;
-    background-color: #4f419a;
-    margin: auto;
+.btnBottom {
+  color: white;
+  background-color: #4f419a;
+  margin: auto;
 }
 
-.wrapper hr{
-    width: 90%;
-    color: #A7A7A7;
-    height: 1px;
-    background-color: #A7A7A7;
+.wrapper hr {
+  width: 90%;
+  color: #a7a7a7;
+  height: 1px;
+  background-color: #a7a7a7;
 }

@@ -113,9 +113,9 @@ const AboutUs = () => {
           layout="intrinsic"
         />
       </div>
-      <div className={styles.Cta}>
-        <CTA />
-      </div>
+
+      <CTA />
+
       <Footer />
     </>
   );

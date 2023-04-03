@@ -658,10 +658,12 @@
 @media (max-width: 481px) {
   .ctaWrap {
     display: flex;
-    margin: 30px;
+    margin: 20px 30px;
+    background-color: #4f419a;
   }
   .cta {
     display: grid;
+
     grid-template-columns: 100%;
   }
   .cta .left {
@@ -720,7 +722,7 @@
   }
   .Explore {
     padding: 20px 10px;
-    height: 720px;
+    height: 640px;
   }
   .advantage {
     padding: 20px 10px;

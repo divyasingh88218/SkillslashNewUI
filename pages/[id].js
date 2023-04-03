@@ -416,7 +416,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBl={DataScienceCourseData.data.form.blockchain}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWd={DataScienceCourseData.data.form.webDevelopment}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
             popupHead={DataScienceCourseData.data.Certificate.popupHead}
             subheading={DataScienceCourseData.data.Certificate.subheading}
             title={DataScienceCourseData.data.Certificate.title}
@@ -482,28 +482,30 @@ export default function Home({ DataScienceCourseData }) {
             />
           </div>
         ) : mobile ? (
-          <NewPricingTable
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBl={DataScienceCourseData.data.form.blockchain}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            changeFee={DataScienceCourseData.data.Fee.FullStack}
-            desc={DataScienceCourseData.data.Fee.desc}
-            desc1={DataScienceCourseData.data.Fee.desc1}
-            BasicPrice={DataScienceCourseData.data.Fee.BasicPrice}
-            BasicDesc={DataScienceCourseData.data.Fee.BasicDesc}
-            ProPrice={DataScienceCourseData.data.Fee.ProPrice}
-            ProDesc={DataScienceCourseData.data.Fee.ProDesc}
-            ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
-            ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
-            web={DataScienceCourseData.data.form.webDevelopment}
-            price={DataScienceCourseData.data.Fee.ProPrice}
-            emi={DataScienceCourseData.data.Fee.emi}
-          />
+          <div id="fee" ref={fee}>
+            <NewPricingTable
+              dataScience={false}
+              redirectDs={DataScienceCourseData.data.form.dataScience}
+              redirectFs={DataScienceCourseData.data.form.FullStack}
+              redirectDe={DataScienceCourseData.data.form.DataEngineering}
+              redirectBl={DataScienceCourseData.data.form.blockchain}
+              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+              redirectDSA={DataScienceCourseData.data.form.dsa}
+              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              changeFee={DataScienceCourseData.data.Fee.FullStack}
+              desc={DataScienceCourseData.data.Fee.desc}
+              desc1={DataScienceCourseData.data.Fee.desc1}
+              BasicPrice={DataScienceCourseData.data.Fee.BasicPrice}
+              BasicDesc={DataScienceCourseData.data.Fee.BasicDesc}
+              ProPrice={DataScienceCourseData.data.Fee.ProPrice}
+              ProDesc={DataScienceCourseData.data.Fee.ProDesc}
+              ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
+              ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
+              web={DataScienceCourseData.data.form.webDevelopment}
+              price={DataScienceCourseData.data.Fee.ProPrice}
+              emi={DataScienceCourseData.data.Fee.emi}
+            />
+          </div>
         ) : (
           <div id="fee" ref={fee}>
             <Fee

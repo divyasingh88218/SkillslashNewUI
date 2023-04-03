@@ -37,9 +37,10 @@
     "title": "Business Analytics Course",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Update your data analytics skills through our comprehensive program that includes Case-based learning, Projects & certification, Domain Specialized Tracks and much more.",
-    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-course-background.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-science-cover-image.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ai-image-ds.webp",
+    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-background.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/business-analytics-mainHeader-girl.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp",
+
     "usp1": " Live Interactive ",
     "usp2": " Direct Company ",
     "usp3": " EMI @",
@@ -48,8 +49,8 @@
     "usp2Span": "Exp Certifications",
     "usp3Span": "4899/month",
     "usp4Span": "Guarantee",
-    "width": "398",
-    "height": "391"
+    "width": "546",
+    "height": "450"
   },
   "ProgramInfo": {
     "BatchDate": "29 January 2023",
@@ -86,6 +87,7 @@
     "heading": "Work on live projects to get hired at:"
   },
   "Certificate": {
+    "subheading": "Dual Certification",
     "popupHead": "Download Business Analytics Brochure",
     "title": "Get Certificate directly from empanelled Startups and MNCs",
     "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",

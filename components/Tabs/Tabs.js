@@ -147,7 +147,6 @@ const Tabs = () => {
                       <img
                         src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
                         className={styles.gridBanner}
-                        loading="lazy"
                       />
                     </div>
                     <div className={styles.gridInnerBox}>
@@ -415,7 +414,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ds.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
                         className={styles.gridBanner}
                       />
                     </div>
@@ -444,7 +443,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
                         className={styles.gridBanner}
                         loading="lazy"
                       />
@@ -511,7 +510,7 @@ const Tabs = () => {
                   <div className={styles.gridBox}>
                     <div className={styles.gridImg}>
                       <img
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/ds.webp"
+                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
                         className={styles.gridBanner}
                       />
                     </div>

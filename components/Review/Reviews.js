@@ -75,7 +75,10 @@ const Reviews = ({
       setSpaceBetween(10);
       setSlidePerView(2.5);
     }
-
+    if (width < 641) {
+      setSpaceBetween(10);
+      setSlidePerView(1.6);
+    }
     if (event) {
       setSlidePerView(3);
       setSpaceBetween(30);

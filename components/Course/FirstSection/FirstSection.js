@@ -7,6 +7,8 @@ import Form from "../../Form/Form";
 import { FaAward } from "react-icons/fa";
 import TextAnimation from "../../Animation/TextAnimation";
 import { BsArrowRightShort, BsPlayFill } from "react-icons/bs";
+import { TbFileCertificate } from "react-icons/tb";
+import { AiOutlineFileDone } from "react-icons/ai";
 import VideoPopup from "../../VideoPopup/VideoPopup";
 const FirstSection = ({
   deskTopPara,
@@ -76,6 +78,7 @@ const FirstSection = ({
         ""
       ) : (
         <Image
+          priority
           src={backgroundImg}
           layout="fill"
           alt="background"
@@ -117,6 +120,7 @@ const FirstSection = ({
             src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mobile-white-microst-icon.png"
             height={80}
             width={80}
+            priority
             layout="intrinsic"
           />
         </div>
@@ -141,7 +145,7 @@ const FirstSection = ({
         ) : (
           <h1>{title}</h1>
         )}
-        {homePage ? (
+        {homePage || redirectFs || redirectWeb ? (
           ""
         ) : (
           <p className={styles.powered}>
@@ -150,6 +154,7 @@ const FirstSection = ({
               src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white.webp"
               height={26}
               width={114}
+              priority
               layout="intrinsic"
             />
           </p>
@@ -158,8 +163,8 @@ const FirstSection = ({
         {homePage ? (
           <p className={styles.pBotM}>
             Enjoy the benefits of dual certification. Become Microsoft-certified
-            with our program and also receive real-work certification from
-            another top MNC/Startups
+            with our program and also receive real-work certification from top
+            MNC/Startups
           </p>
         ) : (
           <p className={styles.pBot}>{desc}</p>
@@ -203,6 +208,7 @@ const FirstSection = ({
               <div>
                 <Image
                   src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/liveTV.webp"
+                  priority
                   alt="feature-1"
                   layout="intrinsic"
                   width={32}
@@ -215,13 +221,7 @@ const FirstSection = ({
             </div>
             <div className={styles.uspFeatures2}>
               <div>
-                <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/cracck.webp"
-                  alt="feature-2"
-                  layout="intrinsic"
-                  width="32"
-                  height="34"
-                />
+                <AiOutlineFileDone className={styles.realWorkIcon} />
               </div>
               <p>
                 {usp2} <span>{usp2Span}</span>
@@ -231,13 +231,18 @@ const FirstSection = ({
           <div className={styles.right}>
             <div className={styles.uspFeatures3}>
               <div>
-                <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/emi-icon.webp"
-                  alt="feature-3"
-                  layout="intrinsic"
-                  width="30"
-                  height="30"
-                />
+                {homePage ? (
+                  <TbFileCertificate className={styles.certIcon} />
+                ) : (
+                  <Image
+                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/emi-icon.webp"
+                    alt="feature-3"
+                    priority
+                    layout="intrinsic"
+                    width="30"
+                    height="30"
+                  />
+                )}
               </div>
               <p>
                 {usp3} <span>{usp3Span}</span>
@@ -261,14 +266,14 @@ const FirstSection = ({
         </div>
       </div>
       <div className={styles.right}>
-        {homePage ? (
+        {homePage || redirectFs || redirectWeb ? (
           ""
         ) : (
           <div className={styles.imgWrap}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/associate-microsoft.png"
-              height={90}
-              width={90}
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mobile-white-microst-icon.png"
+              height={120}
+              width={120}
               layout="intrinsic"
             />
           </div>
@@ -305,6 +310,7 @@ const FirstSection = ({
                 ? styles.iconImgD
                 : styles.iconImg
             }
+            style={redirectBa ? { width: "150px" } : { width: "89px" }}
           />
         )}
       </div>

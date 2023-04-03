@@ -99,14 +99,14 @@ export default function Home() {
           iconImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp"
           usp1=" Live Interactive "
           usp2=" Direct Company "
-          usp3=" EMI @"
+          usp3=" Microsoft"
           usp4=" 100% Interview"
           usp1Span="Classroom"
           usp2Span="Exp Certifications"
-          usp3Span="4899/month"
+          usp3Span="Certification"
           usp4Span="Guarantee"
-          width="296"
-          height="350"
+          width="364"
+          height="430"
         />
         {tablet ? "" : <ProgramInfo />}
 
@@ -126,13 +126,18 @@ export default function Home() {
         />
         <OurEvents />
         <div className={styles.ctaWrap}>
-          <div className="bgWrap">
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/New-cta-background-section.webp"
-              layout="fill"
-              loading="lazy"
-            />
-          </div>
+          {mobile ? (
+            ""
+          ) : (
+            <div className="bgWrap">
+              <Image
+                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/New-cta-background-section.webp"
+                layout="fill"
+                loading="lazy"
+              />
+            </div>
+          )}
+
           <div className={styles.cta}>
             <div></div>
             <div className={styles.left}>
@@ -141,6 +146,7 @@ export default function Home() {
                 layout="intrinsic"
                 width={410}
                 height={333}
+                objectFit={mobile ? "contain" : "cover"}
                 loading="lazy"
               />
             </div>

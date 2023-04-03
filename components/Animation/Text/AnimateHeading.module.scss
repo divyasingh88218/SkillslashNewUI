@@ -22,7 +22,7 @@
       .block {
         width: 0%;
         height: inherit;
-        background: #ffb510;
+        background: #f9f8ff;
         position: absolute;
         animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
         display: flex;
@@ -95,8 +95,8 @@
     .box {
       .title {
         h4 {
-         justify-content: center;
-         text-align: center;
+          justify-content: center;
+          text-align: center;
         }
       }
     }

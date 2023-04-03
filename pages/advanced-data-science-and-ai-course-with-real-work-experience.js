@@ -13,7 +13,7 @@ import Fee from "../components/Course/Fee/Fee";
 import styles from "../styles/Home.module.css";
 import BoxShape from "../components/Course/Boxshape/BoxShape";
 import RealWork from "../components/Course/ReaWork/RealWork";
-import Project from "../components/Course/Project/Project";
+import ProjectSlider from "../components/Course/Project/ProjectSlider";
 import Reviews from "../components/Review/Reviews";
 import DataScienceSyllabus from "../components/Course/Syllabus/DataScienceSyllabs";
 import Footer from "../components/Footer/Footer";
@@ -194,7 +194,7 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].popupHead}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project ChangeProject={true} />
+          <ProjectSlider ChangeProject={true} />
         </div>
 
         <div className="review" id="review">

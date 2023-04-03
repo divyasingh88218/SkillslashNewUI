@@ -212,8 +212,8 @@
     justify-content: center;
   }
   .right {
-  gap: 5px;
-}
+    gap: 5px;
+  }
   .right span {
     margin-right: 15px;
     font-size: 14px;
@@ -284,6 +284,11 @@
   }
   .right {
     display: none;
+  }
+}
+@media (max-width: 641px) {
+  .nav {
+    position: fixed;
   }
 }
 @media (max-width: 481px) {

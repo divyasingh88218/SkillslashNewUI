@@ -1,6 +1,7 @@
 import styles from "./ProgramInfo.module.css";
 import React from "react";
 import Image from "next/image";
+import { TbFileCertificate } from "react-icons/tb";
 
 const ProgramInfo = ({ Emi }) => {
   return (
@@ -13,7 +14,7 @@ const ProgramInfo = ({ Emi }) => {
             height={40}
             alt="hiring"
           />
-          <p>170% Average Salary Hike</p>
+          <p>Microsoft Certification</p>
           {/* <h5>{BatchDate}</h5> */}
         </div>
         <div className={styles.middle}>

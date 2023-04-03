@@ -38,7 +38,7 @@ const Certificate = ({
       setMobile(false);
     }
   });
-
+  console.log(redirectWeb);
   return (
     <section className={styles.Certifcate}>
       <Popup
@@ -121,15 +121,15 @@ const Certificate = ({
                   className="shadow"
                   src={
                     redirectBa
-                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
+                      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
+                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).webp"
                   }
                   alt="Certificate of FUllstack Course"
                   quality={100}
                   layout="intrinsic"
                   width={450}
                   loading="lazy"
-                  height={300}
+                  height={306}
                 />
               </div>
             </div>
@@ -152,44 +152,50 @@ const Certificate = ({
       ) : (
         <>
           {" "}
-          <h4>{subheading}</h4>
-          <h5>{title}</h5>
-          <div className={styles.top}>
-            <div className={styles.imgWrapper}>
-              <Image
-                className="shadow"
-                src={
-                  redirectBa
-                    ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.jpg"
-                    : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
-                }
-                alt="Certificate of FUllstack Course"
-                quality={100}
-                layout="intrinsic"
-                width={450}
-                loading="lazy"
-                height={300}
-              />
-            </div>
-            <div className={styles.btRight}>
-              <div className={styles.desc}>
-                <h4>Microsoft Certification</h4>
-                <p>Be in demand with Microsoft certification</p>
-                <p className={styles.point}>
-                  <BsCheck2Circle className={styles.check} />
-                  Be certified in Azure AI Fundamentals
-                </p>
-                <p className={styles.point}>
-                  <BsCheck2Circle className={styles.check} />
-                  Be ahead of those who don’t have one
-                </p>
-                <p className={styles.point}>
-                  <BsCheck2Circle className={styles.check} /> Earn the
-                  credibility of a true professional
-                </p>
+          {redirectFs || redirectWeb || redirectDSA ? (
+            ""
+          ) : (
+            <>
+              <h4>{subheading}</h4>
+              <h5>{title}</h5>
+              <div className={styles.top}>
+                <div className={styles.imgWrapper}>
+                  <Image
+                    className="shadow"
+                    src={
+                      redirectBa
+                        ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
+                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
+                    }
+                    alt="Certificate of FUllstack Course"
+                    quality={100}
+                    layout="intrinsic"
+                    width={450}
+                    priority
+                    height={300}
+                  />
+                </div>
+                <div className={styles.btRight}>
+                  <div className={styles.desc}>
+                    <h4>Microsoft Certification</h4>
+                    <p>Be in demand with Microsoft certification</p>
+                    <p className={styles.point}>
+                      <BsCheck2Circle className={styles.check} />
+                      Be certified in Azure AI Fundamentals
+                    </p>
+                    <p className={styles.point}>
+                      <BsCheck2Circle className={styles.check} />
+                      Be ahead of those who don’t have one
+                    </p>
+                    <p className={styles.point}>
+                      <BsCheck2Circle className={styles.check} /> Earn the
+                      credibility of a true professional
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </>
+          )}
           <div className={styles.bottom}>
             <div className={styles.desc}>
               <h4>Real Work Experience Certificate</h4>
@@ -206,6 +212,9 @@ const Certificate = ({
                 <BsCheck2Circle className={styles.check} />
                 Edge over all those with just course certifications
               </p>
+              <button className={styles.buttonDownload} onClick={popupShow}>
+                Download Brochure
+              </button>
             </div>
             <div className={styles.btRight}>
               <div className={styles.imgWrap}>

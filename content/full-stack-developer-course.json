@@ -42,8 +42,8 @@
     "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-background-image.webp",
     "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
     "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
-    "width": "443",
-    "height": "382",
+    "width": "464",
+    "height": "400",
     "redirectFs": true
   },
 
