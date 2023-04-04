@@ -13,7 +13,9 @@ import Hiring from "../components/Hiring/Hiring";
 import OurEvents from "../components/OurEvents/OurEvents";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Image from "next/image";
-import CTA from "../components/CTA/CTA";
+
+import Popup from "../components/Popup/Popup";
+import ContactForm from "../components/ContactusForm/ContactusForm";
 
 export default function Home() {
   const [popupData, setPopupData] = useState([]);
@@ -77,6 +79,16 @@ export default function Home() {
             content="Learn latest blogs about Artificial Intelligence (AI), Python, Machine Learning, Data Science, NLP, Business Analysis, Data Science"
           />
         </Head>
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            <p>Fill the below Details to get started</p>
+            <ContactForm setTrigger={setPopups} popup={true} />
+          </div>
+        </Popup>
         {popupData != [] ? (
           today >= popupDate.startDate && today <= popupDate.endDate ? (
             <OfferPopup popupData={popupData} />
@@ -108,17 +120,17 @@ export default function Home() {
           width="364"
           height="430"
         />
-        {tablet ? "" : <ProgramInfo />}
+        {tablet ? "" : <ProgramInfo homePage={true} />}
 
         <div className={styles.Explore} id="explore">
           <h4 className={styles.ExploreH}>Explore Our Courses</h4>
           <Tabs />
         </div>
-
+        <BoxAnimation />
         <div className={styles.advantage}>
           <Hiring />
         </div>
-        <BoxAnimation />
+
         <Reviews
           home={true}
           title="Our Mission Is To Provide World-Class Education"

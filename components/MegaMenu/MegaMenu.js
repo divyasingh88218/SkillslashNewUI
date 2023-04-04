@@ -2,16 +2,13 @@ import React, { useState, useEffect } from "react";
 import styles from "./MegaMenu.module.css";
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import { MdOutlineLocalFireDepartment, MdDataSaverOff } from "react-icons/md";
-import Image from "next/image";
 import { BsLaptop, BsDot } from "react-icons/bs";
-
-import { SiChainlink } from "react-icons/si";
 
 const MegaMenu = ({ handleIcon }) => {
   const [popular, setPopular] = useState(true);
   const [DataScience, setDataScience] = useState(false);
   const [software, setSoftware] = useState(false);
-  const [blockchain, setBlockchain] = useState(false);
+
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -35,7 +32,6 @@ const MegaMenu = ({ handleIcon }) => {
                 setPopular(true);
                 setDataScience(false);
                 setSoftware(false);
-                setBlockchain(false);
               }}
             >
               <div className={styles.innerSpan}>
@@ -103,7 +99,6 @@ const MegaMenu = ({ handleIcon }) => {
               setPopular(true);
               setDataScience(false);
               setSoftware(false);
-              setBlockchain(false);
             }}
           >
             <div className={styles.innerSpan}>
@@ -121,7 +116,6 @@ const MegaMenu = ({ handleIcon }) => {
                 setPopular(false);
                 setDataScience(true);
                 setSoftware(false);
-                setBlockchain(false);
               }}
             >
               <div className={styles.innerSpan}>
@@ -174,7 +168,6 @@ const MegaMenu = ({ handleIcon }) => {
               setPopular(false);
               setDataScience(true);
               setSoftware(false);
-              setBlockchain(false);
             }}
           >
             <div className={styles.innerSpan}>
@@ -192,7 +185,6 @@ const MegaMenu = ({ handleIcon }) => {
                 setPopular(false);
                 setDataScience(false);
                 setSoftware(true);
-                setBlockchain(false);
               }}
             >
               <div className={styles.innerSpan}>
@@ -230,68 +222,11 @@ const MegaMenu = ({ handleIcon }) => {
               setPopular(false);
               setDataScience(false);
               setSoftware(true);
-              setBlockchain(false);
             }}
           >
             <div className={styles.innerSpan}>
               <BsLaptop className={styles.MenuIcon} />
               Software Development
-            </div>
-            <IoIosArrowForward />
-          </span>
-        )}
-        {mobile ? (
-          <>
-            <span
-              className={blockchain ? styles.activeSpan : styles.normalSpan}
-              onClick={() => {
-                setPopular(false);
-                setDataScience(false);
-                setSoftware(false);
-                setBlockchain(true);
-              }}
-            >
-              <div className={styles.innerSpan}>
-                <SiChainlink className={styles.MenuIcon} />
-                Block Chain
-              </div>
-              <IoIosArrowDown />
-            </span>
-            {blockchain ? (
-              <div className={styles.gridPanel}>
-                <a href="/block-chain-course">
-                  <div
-                    className={styles.mInnerBox}
-                    onClick={() => handleIcon(false)}
-                  >
-                    <div className={styles.mInnerBoxDiv}>
-                      <h5>Blockchain program and certification</h5>
-                      <span>
-                        <div>9 Months</div>
-                        <BsDot className={styles.dot} />
-                        <div>Live Classes</div>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            ) : (
-              ""
-            )}
-          </>
-        ) : (
-          <span
-            className={blockchain ? styles.activeSpan : styles.normalSpan}
-            onClick={() => {
-              setPopular(false);
-              setDataScience(false);
-              setSoftware(false);
-              setBlockchain(true);
-            }}
-          >
-            <div className={styles.innerSpan}>
-              <SiChainlink className={styles.MenuIcon} />
-              Block Chain
             </div>
             <IoIosArrowForward />
           </span>
@@ -407,30 +342,9 @@ const MegaMenu = ({ handleIcon }) => {
         ) : (
           ""
         )}
-        {blockchain ? (
-          <div className={styles.gridPanel}>
-            <a href="/block-chain-course">
-              <div
-                className={styles.mInnerBox}
-                onClick={() => handleIcon(false)}
-              >
-                <div className={styles.mInnerBoxDiv}>
-                  <h5>Blockchain program and certification</h5>
-                  <span>
-                    <div>9 Months</div>
-                    <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
-                  </span>
-                </div>
-              </div>
-            </a>
-          </div>
-        ) : (
-          ""
-        )}
       </div>
 
-      <div className={styles.rightSideMenu}>
+      {/* <div className={styles.rightSideMenu}>
         <h6>Microsoft Certified Program</h6>
         <a href="/advanced-data-science-and-ai-course-with-real-work-experience">
           <div className={styles.flagB} onClick={() => handleIcon(false)}>
@@ -458,8 +372,8 @@ const MegaMenu = ({ handleIcon }) => {
             loading="lazy"
           />
           {/* <button className={styles.NavBtn}>START FOR FREE</button> */}
-        </div>
-      </div>
+      {/* </div>
+      </div> */}
     </div>
   );
 };

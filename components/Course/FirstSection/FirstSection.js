@@ -109,6 +109,7 @@ const FirstSection = ({
             redirectBa={redirectBa}
             redirectBl={redirectBl}
             redirectDe={redirectDe}
+            redirectWeb={redirectWeb}
             redirectDSA={redirectDSA}
           />
         </div>
@@ -170,7 +171,16 @@ const FirstSection = ({
           <p className={styles.pBot}>{desc}</p>
         )}
 
-        {tablet ? "" : <TextAnimation />}
+        {tablet ? (
+          ""
+        ) : (
+          <TextAnimation
+            homePage={homePage}
+            redirectDSA={redirectDSA}
+            redirectFs={redirectFs}
+            redirectWeb={redirectWeb}
+          />
+        )}
         {homePage ? (
           <div className={styles.btnWrapper}>
             <a href="#explore">

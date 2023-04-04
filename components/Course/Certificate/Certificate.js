@@ -38,7 +38,7 @@ const Certificate = ({
       setMobile(false);
     }
   });
-  console.log(redirectWeb);
+
   return (
     <section className={styles.Certifcate}>
       <Popup

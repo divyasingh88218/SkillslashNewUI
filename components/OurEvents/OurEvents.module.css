@@ -88,10 +88,10 @@
 
 @media (max-width: 481px) {
   .wrapperBlock {
-    gap: 30px;
-    display: flex;
-    margin-bottom: 30px;
-    flex-flow: column;
+    display: grid;
+    padding: 20px 0px;
+    grid-template-columns: 85% 85% 85%;
+    overflow: scroll;
   }
 
   .wrapperBlock1,

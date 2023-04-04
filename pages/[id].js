@@ -312,6 +312,9 @@ export default function Home({ DataScienceCourseData }) {
               BatchDuration={
                 DataScienceCourseData.data.ProgramInfo.BatchDuration
               }
+              redirectDSA={redirectDSA}
+              redirectFs={redirectFs}
+              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
               Placement={DataScienceCourseData.data.ProgramInfo.Placement}
             />
           </div>

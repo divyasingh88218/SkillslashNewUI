@@ -2,9 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useInterval } from "react-use";
 import styles from "./TextAnimation.module.css";
 
-const TextAnimation = () => {
-  const reactArray = "Dual Certification".split("");
-  const swiftArray = "Guaranteed job referral".split("");
+const TextAnimation = ({ homePage, redirectWeb, redirectFs, redirectDSA }) => {
+  const reactArray =
+    homePage || redirectWeb || redirectFs || redirectDSA
+      ? "Real Work Experience"
+      : "Dual Certification";
+  const swiftArray = "Guaranteed job referral";
 
   const [items, setItems] = useState(reactArray);
   const [count, setCount] = useState(0);

@@ -84,8 +84,8 @@ const Footer = () => {
           <div>
             <h5>Bengaluru</h5>
             <p>
-              Skillslash Pvt Ltd, Level 8, Umiya Business Bay, Tower 1, Cessna
-              Business Bay, Marathahalli ORR, Bengaluru, 560103
+              No.255 2nd floor Skillslash above Airtel office ,17th cross road,
+              HSR Layout Sector 6 Bangalore, Karnataka -560102
             </p>
             <a href="https://www.google.com/maps/place/Skillslash/@12.934427,77.694266,13z/data=!4m5!3m4!1s0x0:0x454e4c9c26cfc3f8!8m2!3d12.9344271!4d77.6942656?hl=en">
               <Image
