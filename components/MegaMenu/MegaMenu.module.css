@@ -1,6 +1,6 @@
 .MegaMenu {
   display: grid;
-  grid-template-columns: 28% 45% 25%;
+  grid-template-columns: 28% 45% 2%;
   padding: 0 100px;
   gap: 10px;
   width: 100%;
