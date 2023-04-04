@@ -122,9 +122,9 @@ const Certificate = ({
                   src={
                     redirectBa
                       ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
-                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).webp"
+                      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample%2BCertificate%2B-%2B1%2B(1).webp"
                   }
-                  alt="Certificate of FUllstack Course"
+                  alt="Certificate of Course"
                   quality={100}
                   layout="intrinsic"
                   width={450}
@@ -165,7 +165,7 @@ const Certificate = ({
                     src={
                       redirectBa
                         ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
-                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample+Certificate+-+1+(1).jpeg"
+                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample%2BCertificate%2B-%2B1%2B(1).webp"
                     }
                     alt="Certificate of FUllstack Course"
                     quality={100}

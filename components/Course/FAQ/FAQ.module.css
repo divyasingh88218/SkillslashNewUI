@@ -11,7 +11,7 @@
   background-color: #f4f1ff;
 }
 .headWrap p {
-  margin: 0 !important;
+  margin: 0 ;
 }
 .quesWrap {
   margin: 0px 100px;
@@ -122,7 +122,7 @@
     margin-bottom: 20px;
   }
   .FAQ {
-    margin: 50px 10px 0px 0px;
+    margin: 30px 10px 0px 0px;
     justify-content: center;
     padding-bottom: 0px;
   }
@@ -135,10 +135,18 @@
   }
   .ques h2,
   .quesO h2 {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 
     font-weight: 400;
     color: 000;
   }
+    .ans p {
+    font-size: 14px;
+  }
+  .pBot {
+    margin-top: 10px !important;
+  font-size: 13px;
+  font-weight: 500;
+}
 }

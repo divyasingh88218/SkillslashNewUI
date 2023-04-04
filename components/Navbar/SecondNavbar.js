@@ -343,14 +343,19 @@ const SecondNavbar = ({
             >
               <p> Benefits</p>
             </div>
-            <div
-              className={
-                activeState.certificate ? styles.activeDiv : styles.div
-              }
-              onClick={() => handleScrollToElement(certificate.current)}
-            >
-              <p> Certificate</p>
-            </div>
+            {redirectFs ? (
+              ""
+            ) : (
+              <div
+                className={
+                  activeState.certificate ? styles.activeDiv : styles.div
+                }
+                onClick={() => handleScrollToElement(certificate.current)}
+              >
+                <p> Certificate</p>
+              </div>
+            )}
+
             <div
               className={activeState.syllabus ? styles.activeDiv : styles.div}
               onClick={() => handleScrollToElement(syllabus.current)}

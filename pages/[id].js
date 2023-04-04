@@ -411,21 +411,25 @@ export default function Home({ DataScienceCourseData }) {
         </div>
 
         <div id="certificate" ref={certificate}>
-          <Certificate
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBl={DataScienceCourseData.data.form.blockchain}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            popupHead={DataScienceCourseData.data.Certificate.popupHead}
-            subheading={DataScienceCourseData.data.Certificate.subheading}
-            title={DataScienceCourseData.data.Certificate.title}
-            desc={DataScienceCourseData.data.Certificate.desc}
-            src={DataScienceCourseData.data.Certificate.src}
-          />
+          {redirectFs ? (
+            ""
+          ) : (
+            <Certificate
+              dataScience={false}
+              redirectDs={DataScienceCourseData.data.form.dataScience}
+              redirectFs={DataScienceCourseData.data.form.FullStack}
+              redirectDe={DataScienceCourseData.data.form.DataEngineering}
+              redirectBl={DataScienceCourseData.data.form.blockchain}
+              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+              redirectDSA={DataScienceCourseData.data.form.dsa}
+              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              popupHead={DataScienceCourseData.data.Certificate.popupHead}
+              subheading={DataScienceCourseData.data.Certificate.subheading}
+              title={DataScienceCourseData.data.Certificate.title}
+              desc={DataScienceCourseData.data.Certificate.desc}
+              src={DataScienceCourseData.data.Certificate.src}
+            />
+          )}
         </div>
         <div id="syllabus" ref={syllabus}>
           <DataScienceSyllabus

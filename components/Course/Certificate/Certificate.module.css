@@ -260,9 +260,8 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-
     grid-template-columns: auto;
-    margin: 10px 0px 0px 0px;
+    margin: 50px 0px 35px 0px !important;
     background-color: #49419a;
     padding: 20px 20px 30px 20px;
     border-radius: 0;
