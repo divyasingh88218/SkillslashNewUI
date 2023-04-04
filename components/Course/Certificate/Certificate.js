@@ -155,9 +155,9 @@ const Certificate = ({
           {redirectFs || redirectWeb || redirectDSA ? (
             ""
           ) : (
-            <>
-              <h4>{subheading}</h4>
-              <h5>{title}</h5>
+            <div className={styles.topWrap}>
+              <h4 className={styles.dualHead}>{subheading}</h4>
+              {/* <h5>{title}</h5> */}
               <div className={styles.top}>
                 <div className={styles.imgWrapper}>
                   <Image
@@ -194,7 +194,7 @@ const Certificate = ({
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           )}
           <div className={styles.bottom}>
             <div className={styles.desc}>

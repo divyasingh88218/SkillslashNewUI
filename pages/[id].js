@@ -332,6 +332,7 @@ export default function Home({ DataScienceCourseData }) {
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDSA={DataScienceCourseData.data.form.dsa}
             redirectAI={DataScienceCourseData.data.form.ai}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
           />
         </div>
         <div id="trainer" ref={trainer}>

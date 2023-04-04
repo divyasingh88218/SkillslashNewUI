@@ -27,7 +27,7 @@ const MGetHired = ({
   const popupShow = () => {
     setPopups(true);
   };
-
+  console.log(redirectWeb, "web");
   useEffect(() => {
     let width = window.innerWidth;
 
@@ -94,6 +94,235 @@ const MGetHired = ({
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
+            {redirectFs || redirectDSA ? (
+              <>
+                <SwiperSlide className={style.ReviewBox} id="1">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/GIRISH_BALLAMPALLI.webp"
+                      width={85}
+                      height={85}
+                      alt="GIRISH_BALLAMPALLI"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div
+                    className={style.transition}
+                    style={{ marginTop: "50px" }}
+                  >
+                    <p>Software Developer</p>
+
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tessellation-logo.webp"
+                      width={50}
+                      height={50}
+                      alt="tessellation-logo"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="2">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Ankur_Singh.webp"
+                      width={85}
+                      height={85}
+                      alt="Ankur_Singh"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div
+                    className={style.transition}
+                    style={{ marginTop: "40px" }}
+                  >
+                    <p style={{ marginBottom: "-5px" }}>Software Engineer</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Nike-s.webp"
+                      }
+                      width={90}
+                      height={35}
+                      alt="nike"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="3">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anurag_Sinha.webp"
+                      width={85}
+                      height={85}
+                      alt="Anurag_Sinha"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <p style={{ marginBottom: "-5px" }}>Software Engineer</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/pega-logo.webp"
+                      }
+                      width={100}
+                      height={23}
+                      alt="pega-logo"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="4">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Muralikrishna_Alichetty.webp"
+                      alt="Muralikrishna_Alichetty"
+                      width={85}
+                      height={85}
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <p style={{ marginBottom: "-5px" }}>Database Consultant</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/itician.webp"
+                      }
+                      width={100}
+                      height={28}
+                      alt="itician"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+              </>
+            ) : (
+              ""
+            )}
+            {redirectWeb ? (
+              <>
+                <SwiperSlide className={style.ReviewBox} id="4">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Muralikrishna_Alichetty.webp"
+                      alt="Muralikrishna_Alichetty"
+                      width={85}
+                      height={85}
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <p style={{ marginBottom: "-5px" }}>Database Consultant</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/itician.webp"
+                      }
+                      width={100}
+                      height={28}
+                      alt="itician"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="2">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/suresh-kumar-alumi-web.webp"
+                      width={85}
+                      height={85}
+                      alt="suresh Kumar"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div
+                    className={style.transition}
+                    style={{ marginTop: "40px" }}
+                  >
+                    <p style={{ marginBottom: "-5px" }}>Dot Net Developer</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/infinte.webp"
+                      }
+                      width={50}
+                      height={49}
+                      alt="infinte"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="3">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Manisha_singh.webp"
+                      width={85}
+                      height={85}
+                      alt="Manisha_singh"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <p style={{ marginBottom: "-5px" }}>
+                      Sr. Software Engineer
+                    </p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tcs-lgo.webp"
+                      }
+                      width={90}
+                      height={36}
+                      alt="trueblue"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className={style.ReviewBox} id="4">
+                  <div className={style.profile}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PANKAJ_CHOWDHURY.webp"
+                      width={85}
+                      height={85}
+                      alt="PANKAJ_CHOWDHURY"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={style.transition}>
+                    <p style={{ marginBottom: "-5px" }}>Senior Analyst</p>
+
+                    <Image
+                      src={
+                        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/IBM.webp"
+                      }
+                      width={80}
+                      height={32}
+                      alt="trueblue"
+                      layout="intrinsic"
+                      loading="lazy"
+                    />
+                  </div>
+                </SwiperSlide>
+              </>
+            ) : (
+              ""
+            )}
             <SwiperSlide className={style.ReviewBox} id="1">
               <div className={style.profile}>
                 <Image
