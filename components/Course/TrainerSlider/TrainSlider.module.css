@@ -61,7 +61,7 @@
   .wrapper {
     display: flex;
     flex-flow: column;
-    padding: 10px;
+    padding: 30px 10px;
     background-color: transparent;
     width: 100%;
   }
@@ -132,8 +132,7 @@
     flex-flow: column;
     background-color: white;
     border-radius: 12px;
-
-    gap: 30px;
+    gap: 5px;
   }
   .heading {
     display: flex;
